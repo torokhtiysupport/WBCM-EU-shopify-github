@@ -124,6 +124,24 @@
 
   {% render 'shogun-head' %}
 {% render 'gp-head' %}
+<!--Gem_Page_Header_Script-->
+{% render 'gem-app-header-scripts' %}
+<!--End_Gem_Page_Header_Script-->
+  {% include 'geolocationredirect_snippet' %}
+  
+  <!-- Lucky Orange Script -->
+  <script async defer src="https://tools.luckyorange.com/core/lo.js?site-id=a5fc0922"></script>
+  <!-- Lucky Orange Script -->
+
+    <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+    <!-- Add the slick-theme.css if you want default styling -->
+        <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick-theme.css"/>
+  <!-- jquery for slick slider -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<!-- Slick Slider -->
+              <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- End Slick Slider -->
 </head>
 
 <body id="{{ page_title | handle }}" class="{% if customer %}customer-logged-in {% endif %}template-{{ template | replace: '.', ' ' | truncatewords: 1, '' | handle }}" data-anim-load="{{ settings.anim_load }}" data-anim-interval-style="{{ settings.anim_interval_style }}" data-anim-zoom="{{ settings.anim_zoom }}" data-anim-interval="{% if settings.anim_load_style == 'interval' %}true{% else %}false{% endif %}" data-editor-mode="{% if request.design_mode %}true{% else %}false{% endif %}" data-quick-shop-show-cart="{{ settings.quick_shop_show_cart }}">
@@ -143,9 +161,10 @@
 		{% section 'mobile-drawer' %}
 		{% section 'announcement' %}
 		{% section 'header' %}
+        <!-- {% include 'breadcrumbs' %} -->
 
 		<div class="main" id="main">
-			{{ content_for_layout }}
+			{% capture ICART_FULL_PAGE_LAYOUT %}{{ content_for_layout }}{% endcapture %}
 		</div>
 
 		
@@ -390,5 +409,12 @@
 	</script>
 	<!-- Creative theme by Safe As Milk - http://safeasmilk.co/ -->
 	<!-- Theme version 2.0.0 -->
+<!--Gem_Page_Footer_Script-->
+
+<!--End_Gem_Page_Footer_Script-->
+
+<!-- Slick Slider -->
+              <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- End Slick Slider -->
 </body>
 </html>
