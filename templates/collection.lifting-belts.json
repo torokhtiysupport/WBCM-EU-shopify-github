@@ -69,6 +69,9 @@
         "text_PhBJLV",
         "image_9k3x8B"
       ],
+      "custom_css": [
+        "{width: 100%;}"
+      ],
       "settings": {
         "section-bottom-margin": false
       }
