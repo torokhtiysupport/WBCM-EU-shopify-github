@@ -9439,25 +9439,67 @@ body.template-collection section.page--faq.faq details summary span {
   font-weight: 700;
 }
 
-/* Judge me */
-/* .jdgm-link,
-.jdgm-rev__author,
-.jdgm-sort-dropdown,
-.jdgm-sort-dropdown-arrow,
-.jdgm-rev__timestamp,
-.jdgm-histogram__frequency,
-.jdgm-sort-dropdown-wrapper {
-  color: #212121 !important;
-} */
+/* Перебивання стилів для Google Speed */
+body.template-product .product-single__box .product-form__swatch__title,
+body.template-product .product-single__box .quantity-selector,
+body.template-product .product-single__box .price__note {
+  color: #212121;
+}
 
-/* body#weightlifting-wrist-straps-v1-price-from-16 .recommended-products__nav li:not(:last-of-type) {
+body.template-product .jdgm-link,
+body.template-product .jdgm-rev__author,
+body.template-product .jdgm-sort-dropdown,
+body.template-product .jdgm-sort-dropdown-arrow,
+body.template-product .jdgm-rev__timestamp,
+body.template-product .jdgm-histogram__frequency,
+body.template-product .jdgm-sort-dropdown-wrapper {
+  color: #212121 !important;
+}
+
+body.template-product .jdgm-paginate__page {
+  padding: 10px 20px!important;
+}
+body.template-product .jdgm-paginate__page:not(:last-of-type) {
+  margin-right: 10px!important;
+}
+
+body.template-product .rating-count {
+  color: #212121 !important;
+}
+
+body.template-product .recommended-products__nav li:not(:last-of-type), body.template-product ul li.multi-column__nav--item:not(:last-of-type) {
   margin-right: 10px !important;
-} */
+}
+
+body.template-product div.media-gallery__nav {
+  padding: 0!important;
+}
+
+body.template-product div.media-gallery__nav > button {
+  padding: 10px!important;
+}
+
+body.template-product .product-form__qty-input {
+  max-height: auto!important;
+}
+
+body.template-product .product-form__qty-input .js-qty > * {
+  height: 48px!important;
+  width: 48px!important;
+}
+
+body.template-product strike.price__compare {
+  color: #212121!important;
+}
 
 /* Image Swatches Styles */
 
+.image-swatches_container {
+  margin-bottom: 10px;
+}
+
 .linked-products-swatches_title {
-  color: var(--color--text-lighter);
+  color: #212121;
   font-size: 13.6px;
   margin-bottom: 0!important;
 }
