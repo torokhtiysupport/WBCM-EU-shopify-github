@@ -70,14 +70,14 @@
         "section-slideshow-1": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/d.png",
-            "image_mobile": "shopify:\/\/shop_images\/dd.png",
+            "image": "shopify:\/\/shop_images\/happy-valentines-day-banner-desktop.webp",
+            "image_mobile": "shopify:\/\/shop_images\/happy-valentines-day-banner-mob.webp",
             "alignment": "bottom-center",
-            "title": "HELP UKRAINE 🇺🇦",
+            "title": "",
             "text": "",
             "link_style": "c-btn c-btn--primary",
-            "link_title": "Shop now",
-            "link": "https:\/\/eu.warmbody-coldmind.com\/blogs\/news\/help-ukraine",
+            "link_title": "Shop Now",
+            "link": "shopify:\/\/collections\/accessories",
             "link_style_2": "c-btn c-btn--primary",
             "link_title_2": "",
             "link_2": ""
