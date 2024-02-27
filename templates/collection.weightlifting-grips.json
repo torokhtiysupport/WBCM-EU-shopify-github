@@ -1,1 +1,268 @@
-{"sections":{"1700668388eaf8a8c2":{"type":"apps","blocks":{"f047a5b9-b2e0-4715-980d-1be845f6357d":{"type":"shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef","settings":{"home":"Home","home_link":"\/","menu":"main-menu","separator":"›","bb_show_hide":true,"unclickable":false,"enable_custom_feature":true,"bb_capitalize":false,"bb_font_size":13,"bb_padding":0,"bb_top_padding":20,"bb_margin":0,"bb_align":"left","bb_color":"#2a2a2a"}}},"block_order":["f047a5b9-b2e0-4715-980d-1be845f6357d"],"settings":{"include_margins":true}},"banner":{"type":"main-collection-banner","settings":{"center_title":true,"show_collection_image":true,"collection_image_height":"4:1","collection_image_mobile_height":true,"overlay_color":"#000000","overlay_strength":0}},"section_custom_aQDNM8":{"type":"section-custom","blocks":{"text_ByU3Uk":{"type":"text","settings":{"title":"","text":"<p>Enhance your weightlifting experience with premium lifting grips. Discover a range of durable and ergonomic gym grips for a secure grip. Shop now!<\/p>","link_title":"Learn more","link":"","align":"left","width":"1\/1"}}},"block_order":["text_ByU3Uk"],"settings":{"section-bottom-margin":false}},"product-grid":{"type":"main-collection-product-grid","blocks":{"filter":{"type":"filter","settings":{"title":"","count":true,"show_swatches":true,"filter_visibility":"three"}}},"block_order":["filter"],"settings":{"grid":4,"grid_mobile":"2","rows":5,"sort_enable":true,"show_sidebar":true}},"section_custom_rpVzKy":{"type":"section-custom","blocks":{"text_UEEph4":{"type":"text","settings":{"title":"What are weightlifting grips?","text":"<p>Weightlifting grips are an accessory that is a version of lifting straps, which is used to promote grip strength and control during lifting weights. These are small gloves or straps you wear to improve your grip and prevent slipping the weights.<\/p><p>Usually, they are made of durable materials that bring comfort and grip security when your hands are sweaty or tired. They expose the fingers for a better grip and natural feel. Usually, lifting grips consist of two key elements: a wrap that keeps your wrist in place and a padded strap that protects your skin and ensures a secure grip throughout the whole training.<\/p><p>Most lifting grips are made of leather or neoprene providing good cushioning and helping prevent slippage. <\/p><p>Weightlifting grips are useful specifically for cross-trainers as they allow athletes to focus on their form and performance lifting heavier weights. This tool can also help to prevent blisters and calluses.<\/p><p>Grips can be also called cross-training hand grips as they're used by cross-training athletes during WODs. Although, today grips are becoming popular due to their support while lifting.<\/p>","link_title":"Learn more","link":"","align":"left","width":"1\/1"}},"spacer_dXaDni":{"type":"spacer","settings":{"space":"none"}},"image_GBUPpi":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Push-Up-on-Rings-with-Grips.jpg","link":"","width":"2\/3"}}},"block_order":["text_UEEph4","spacer_dXaDni","image_GBUPpi"],"settings":{"section-bottom-margin":false}},"section_custom_TnmqKp":{"type":"section-custom","blocks":{"text_PA9iYd":{"type":"text","settings":{"title":"Why do you need lifting grips?","text":"<p>The benefits of using lifting grips include improved muscle mass while doing rows, pull-ups, deadlifts, shrugs, etc. Lifting grips work like lifting straps offering wrist support and palm protection.<\/p>","link_title":"Learn more","link":"","align":"left","width":"1\/1"}},"spacer_KXgwaQ":{"type":"spacer","settings":{"space":"none"}},"image_4XpfJa":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Exercise-Using-Hand-Grips.jpg","link":"","width":"2\/3"}}},"block_order":["text_PA9iYd","spacer_KXgwaQ","image_4XpfJa"],"settings":{"section-bottom-margin":false}},"section_liquid_Ux7tHy":{"type":"section-liquid","settings":{"custom_liquid":"<div class=\"container\">\n<h3>Promoting Grip Strength<\/h3>\n    <p>Wearing lifting hand grips, you'll get a secure and comfortable grip on the bar. So, you'll be able to perform more reps with more weight without worries about losing control.<\/p>\n\n    <h3>Hand Protection<\/h3>\n    <p>Gym grips will protect your hands from blisters and calluses that can set your training progress back. With grips, you'll be able to train longer with better comfort.<\/p>\n\n    <h3>Controlling the Weights<\/h3>\n    <p>You'll have more control over the barbell, so you can focus more on your form and technique, eliminating injury risks and enhancing your performance.<\/p>\n\n    <h3>Versatility in Use<\/h3>\n    <p>You can use grips not just for weightlifting, you can also wear them for such exercises as pull-ups, deadlifts, rows inside and outside the gym. Lifting grips also simplify your training routine without dealing with excessive material, providing a strong grip around the bar, and making your lifting experience smoother and efficient.<\/p>\n<\/div>"}},"section_custom_QbnFzR":{"type":"section-custom","blocks":{"text_e8qtXn":{"type":"text","settings":{"title":"How to pick weightlifting grips?","text":"<p>Choosing the right weightlifting bar grips is highly essential as it directly affects your training process and results. Proper grips will help you train effectively eliminating stress on your hands and wrists. <\/p>","link_title":"Learn more","link":"","align":"left","width":"1\/1"}},"spacer_dgxjr8":{"type":"spacer","settings":{"space":"none"}},"image_erxGEE":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Hand-Grips-in-Use.jpg","link":"","width":"2\/3"}}},"block_order":["text_e8qtXn","spacer_dgxjr8","image_erxGEE"],"settings":{"section-bottom-margin":false}},"section_liquid_JDVCMh":{"type":"section-liquid","settings":{"custom_liquid":"<div class=\"container\">\n<h3>Choose the Right Size<\/h3>\n    <p>To pick up the right size, measure the circumference of your wrist and the length of your palm. Then compare it with the sizing chart of the manufacturer.<\/p>\n\n    <h3>Material<\/h3>\n    <p>Choose grips for weightlifting that are made from high-quality durable materials, i.e., leather or synthetic materials like neoprene. These materials will bring ultimate protection and durability.<\/p>\n\n    <h3>Grip Style<\/h3>\n    <p>There are several styles of lifting grips you can choose for your workouts: fingerless or full-finger options. Moreover, there are gymnastic grips that are divided into dowel grips and non-dowel ones. The first has a small rod across the inside finger area of the grip that helps the gymnast hang on while using a looser grip. The latter option is palm guards which are widely used in other sports such as cross-training, which help recreational athletes rip less.<\/p>\n<\/div>"}},"section_custom_V6xfyJ":{"type":"section-custom","blocks":{"text_ajwXmy":{"type":"text","settings":{"title":"How to use weightlifting grips?","text":"<p>Weightlifting grips will improve your performance, especially if you want a secure grip on the weights, and also extra flexibility to do both pulling and pushing movements.<\/p><p>First, you need to position the grips properly by sliding them onto your hands. Gym hand grips should fit snugly, but not be too tight. The padded section should be against your palm, and the strap should wrap around your wrist well.<\/p><p>Adjust the fit and grip to make them moderately snug for better support. Place your hands around the bar to check whether the grips improve the contact between your hands and the bar itself for better hold.<\/p><p>When lifting and pulling, you'd better curve the grip portion into your palm as it wraps around the bar. This way you'll be able to release the bar quickly when you’re finished.<\/p><p>For pushing exercises, the grip pad should lay snugly against your palm for hand-enhanced support and protection.<\/p>","link_title":"Learn more","link":"","align":"left","width":"1\/1"}},"spacer_cdUxcA":{"type":"spacer","settings":{"space":"none"}},"image_LwRdD8":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Wrapping-Hand-Grips.jpg","link":"","width":"2\/3"}}},"block_order":["text_ajwXmy","spacer_cdUxcA","image_LwRdD8"],"settings":{"section-bottom-margin":false}}},"order":["1700668388eaf8a8c2","banner","section_custom_aQDNM8","product-grid","section_custom_rpVzKy","section_custom_TnmqKp","section_liquid_Ux7tHy","section_custom_QbnFzR","section_liquid_JDVCMh","section_custom_V6xfyJ"]}
+{
+  "sections": {
+    "1700668388eaf8a8c2": {
+      "type": "apps",
+      "blocks": {
+        "f047a5b9-b2e0-4715-980d-1be845f6357d": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "\/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "unclickable": false,
+            "enable_custom_feature": true,
+            "bb_capitalize": false,
+            "bb_font_size": 13,
+            "bb_padding": 0,
+            "bb_top_padding": 20,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#2a2a2a"
+          }
+        }
+      },
+      "block_order": [
+        "f047a5b9-b2e0-4715-980d-1be845f6357d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "center_title": true,
+        "show_collection_image": false,
+        "collection_image_height": "4:1",
+        "collection_image_mobile_height": true,
+        "overlay_color": "#000000",
+        "overlay_strength": 0
+      }
+    },
+    "section_custom_aQDNM8": {
+      "type": "section-custom",
+      "blocks": {
+        "text_ByU3Uk": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Enhance your weightlifting experience with premium lifting grips. Discover a range of durable and ergonomic gym grips for a secure grip. Shop now!<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        }
+      },
+      "block_order": [
+        "text_ByU3Uk"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "filter": {
+          "type": "filter",
+          "settings": {
+            "title": "",
+            "count": true,
+            "show_swatches": true,
+            "filter_visibility": "three"
+          }
+        }
+      },
+      "block_order": [
+        "filter"
+      ],
+      "settings": {
+        "grid": 4,
+        "grid_mobile": "2",
+        "rows": 5,
+        "sort_enable": true,
+        "show_sidebar": true
+      }
+    },
+    "section_custom_rpVzKy": {
+      "type": "section-custom",
+      "blocks": {
+        "text_UEEph4": {
+          "type": "text",
+          "settings": {
+            "title": "What are weightlifting grips?",
+            "text": "<p>Weightlifting grips are an accessory that is a version of lifting straps, which is used to promote grip strength and control during lifting weights. These are small gloves or straps you wear to improve your grip and prevent slipping the weights.<\/p><p>Usually, they are made of durable materials that bring comfort and grip security when your hands are sweaty or tired. They expose the fingers for a better grip and natural feel. Usually, lifting grips consist of two key elements: a wrap that keeps your wrist in place and a padded strap that protects your skin and ensures a secure grip throughout the whole training.<\/p><p>Most lifting grips are made of leather or neoprene providing good cushioning and helping prevent slippage. <\/p><p>Weightlifting grips are useful specifically for cross-trainers as they allow athletes to focus on their form and performance lifting heavier weights. This tool can also help to prevent blisters and calluses.<\/p><p>Grips can be also called cross-training hand grips as they're used by cross-training athletes during WODs. Although, today grips are becoming popular due to their support while lifting.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "spacer_dXaDni": {
+          "type": "spacer",
+          "settings": {
+            "space": "none"
+          }
+        },
+        "image_GBUPpi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Push-Up-on-Rings-with-Grips.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_UEEph4",
+        "spacer_dXaDni",
+        "image_GBUPpi"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_custom_TnmqKp": {
+      "type": "section-custom",
+      "blocks": {
+        "text_PA9iYd": {
+          "type": "text",
+          "settings": {
+            "title": "Why do you need lifting grips?",
+            "text": "<p>The benefits of using lifting grips include improved muscle mass while doing rows, pull-ups, deadlifts, shrugs, etc. Lifting grips work like lifting straps offering wrist support and palm protection.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "spacer_KXgwaQ": {
+          "type": "spacer",
+          "settings": {
+            "space": "none"
+          }
+        },
+        "image_4XpfJa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Exercise-Using-Hand-Grips.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_PA9iYd",
+        "spacer_KXgwaQ",
+        "image_4XpfJa"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_Ux7tHy": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\">\n<h3>Promoting Grip Strength<\/h3>\n    <p>Wearing lifting hand grips, you'll get a secure and comfortable grip on the bar. So, you'll be able to perform more reps with more weight without worries about losing control.<\/p>\n\n    <h3>Hand Protection<\/h3>\n    <p>Gym grips will protect your hands from blisters and calluses that can set your training progress back. With grips, you'll be able to train longer with better comfort.<\/p>\n\n    <h3>Controlling the Weights<\/h3>\n    <p>You'll have more control over the barbell, so you can focus more on your form and technique, eliminating injury risks and enhancing your performance.<\/p>\n\n    <h3>Versatility in Use<\/h3>\n    <p>You can use grips not just for weightlifting, you can also wear them for such exercises as pull-ups, deadlifts, rows inside and outside the gym. Lifting grips also simplify your training routine without dealing with excessive material, providing a strong grip around the bar, and making your lifting experience smoother and efficient.<\/p>\n<\/div>"
+      }
+    },
+    "section_custom_QbnFzR": {
+      "type": "section-custom",
+      "blocks": {
+        "text_e8qtXn": {
+          "type": "text",
+          "settings": {
+            "title": "How to pick weightlifting grips?",
+            "text": "<p>Choosing the right weightlifting bar grips is highly essential as it directly affects your training process and results. Proper grips will help you train effectively eliminating stress on your hands and wrists. <\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "spacer_dgxjr8": {
+          "type": "spacer",
+          "settings": {
+            "space": "none"
+          }
+        },
+        "image_erxGEE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Hand-Grips-in-Use.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_e8qtXn",
+        "spacer_dgxjr8",
+        "image_erxGEE"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_JDVCMh": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\">\n<h3>Choose the Right Size<\/h3>\n    <p>To pick up the right size, measure the circumference of your wrist and the length of your palm. Then compare it with the sizing chart of the manufacturer.<\/p>\n\n    <h3>Material<\/h3>\n    <p>Choose grips for weightlifting that are made from high-quality durable materials, i.e., leather or synthetic materials like neoprene. These materials will bring ultimate protection and durability.<\/p>\n\n    <h3>Grip Style<\/h3>\n    <p>There are several styles of lifting grips you can choose for your workouts: fingerless or full-finger options. Moreover, there are gymnastic grips that are divided into dowel grips and non-dowel ones. The first has a small rod across the inside finger area of the grip that helps the gymnast hang on while using a looser grip. The latter option is palm guards which are widely used in other sports such as cross-training, which help recreational athletes rip less.<\/p>\n<\/div>"
+      }
+    },
+    "section_custom_V6xfyJ": {
+      "type": "section-custom",
+      "blocks": {
+        "text_ajwXmy": {
+          "type": "text",
+          "settings": {
+            "title": "How to use weightlifting grips?",
+            "text": "<p>Weightlifting grips will improve your performance, especially if you want a secure grip on the weights, and also extra flexibility to do both pulling and pushing movements.<\/p><p>First, you need to position the grips properly by sliding them onto your hands. Gym hand grips should fit snugly, but not be too tight. The padded section should be against your palm, and the strap should wrap around your wrist well.<\/p><p>Adjust the fit and grip to make them moderately snug for better support. Place your hands around the bar to check whether the grips improve the contact between your hands and the bar itself for better hold.<\/p><p>When lifting and pulling, you'd better curve the grip portion into your palm as it wraps around the bar. This way you'll be able to release the bar quickly when you’re finished.<\/p><p>For pushing exercises, the grip pad should lay snugly against your palm for hand-enhanced support and protection.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "spacer_cdUxcA": {
+          "type": "spacer",
+          "settings": {
+            "space": "none"
+          }
+        },
+        "image_LwRdD8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Wrapping-Hand-Grips.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_ajwXmy",
+        "spacer_cdUxcA",
+        "image_LwRdD8"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    }
+  },
+  "order": [
+    "1700668388eaf8a8c2",
+    "banner",
+    "section_custom_aQDNM8",
+    "product-grid",
+    "section_custom_rpVzKy",
+    "section_custom_TnmqKp",
+    "section_liquid_Ux7tHy",
+    "section_custom_QbnFzR",
+    "section_liquid_JDVCMh",
+    "section_custom_V6xfyJ"
+  ]
+}
