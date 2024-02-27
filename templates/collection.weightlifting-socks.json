@@ -1,1 +1,211 @@
-{"sections":{"1700668388eaf8a8c2":{"type":"apps","blocks":{"f047a5b9-b2e0-4715-980d-1be845f6357d":{"type":"shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef","settings":{"home":"Home","home_link":"\/","menu":"main-menu","separator":"›","bb_show_hide":true,"unclickable":false,"enable_custom_feature":true,"bb_capitalize":false,"bb_font_size":13,"bb_padding":0,"bb_top_padding":20,"bb_margin":0,"bb_align":"left","bb_color":"#2a2a2a"}}},"block_order":["f047a5b9-b2e0-4715-980d-1be845f6357d"],"settings":{"include_margins":true}},"banner":{"type":"main-collection-banner","settings":{"center_title":true,"show_collection_image":true,"collection_image_height":"4:1","collection_image_mobile_height":true,"overlay_color":"#000000","overlay_strength":0}},"section_custom_X6GJrc":{"type":"section-custom","blocks":{"text_EhMEnH":{"type":"text","settings":{"title":"","text":"<p>Discover top-quality weightlifting socks for enhanced performance and comfort. Explore a variety of styles and materials designed for ultimate support. Shop now!<\/p>","link_title":"Learn more","link":"","align":"left","width":"1\/1"}}},"block_order":["text_EhMEnH"],"settings":{"section-bottom-margin":false}},"product-grid":{"type":"main-collection-product-grid","blocks":{"filter":{"type":"filter","settings":{"title":"","count":true,"show_swatches":true,"filter_visibility":"three"}}},"block_order":["filter"],"settings":{"grid":4,"grid_mobile":"2","rows":5,"sort_enable":true,"show_sidebar":true}},"section_custom_KYHDLy":{"type":"section-custom","blocks":{"text_n4U7ar":{"type":"text","settings":{"title":"What to Look for in Lifting Socks","text":"<p>When you're on the hunt for the perfect pair of weightlifting socks, you're not looking for a mere accessory. You could say you're looking for a product that will add performance, comfort, support, and style to your workout ensemble. We would like to provide you with some key elements that you should consider when looking for good lifting socks.<\/p>","link_title":"Learn more","link":"","align":"left","width":"1\/1"}},"spacer_6XJcVd":{"type":"spacer","settings":{"space":"none"}},"image_PeMzbw":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Stretching-in-WBCM-Socks.jpg","link":"","width":"2\/3"}}},"block_order":["text_n4U7ar","spacer_6XJcVd","image_PeMzbw"],"settings":{"section-bottom-margin":false}},"section_liquid_V63KNT":{"type":"section-liquid","settings":{"custom_liquid":"<div class=\"container\">\n<h3>Tip 1: Choose the Technical, Sweat-Wicking Material<\/h3>\n<p>\n  Pay attention to materials that remove sweat from your feet. It should keep your feet dry and comfortable while doing tough exercises. A blend of synthetic materials like polyester, nylon, spandex, or elastane will provide you with a comfortable fit, have quick-drying features, and maintain the sock shape over time. Cotton is a rather dubious option to buy, but it is simply ideal for comfort.\n<\/p>\n<p>\n  Despite cotton enabling your skin to breathe, it doesn't mean that the sweat will evaporate soon. The biggest disadvantage of cotton is that it gets wet quickly, doesn't absorb moisture well, and dries very slowly.\n<\/p>\n\n<h3>Tip 2: Ensure Good Grip<\/h3>\n<p>\n  You can achieve a better grip and more efficient power transfer. Such socks should provide a reliable grip on the surface and not slip off under any circumstances. Some products have a non-slip coating on the bottom, which can be helpful when doing sock raises. If your socks for weightlifting slip, practice on a slip-resistant surface.\n<\/p>\n\n<h3>Tip 3: Cushioning and Support — Your Feet's Best Friends<\/h3>\n<p>\n  Of course, sports equipment must provide comfort and stability. These properties help athletes avoid tired feet. Some lifting socks even provide targeted cushioning in certain areas, giving extra support where you need it most.\n<\/p>\n\n<\/div>"}},"section_custom_z8acEA":{"type":"section-custom","blocks":{"image_YEX9bX":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Deadlifting-in-WBCM-Long-Socks.jpg","link":"","width":"2\/3"}},"spacer_CiPrC6":{"type":"spacer","settings":{"space":"none"}},"text_kaTpYq":{"type":"text","settings":{"title":"Can You Lift in Socks Only?","text":"<p>There's nothing new in lifting in socks. It can help to improve balance, reduce the range of motion, engage muscles of the posterior chain, and support more efficient force transfer between you and the ground. Consequently, you'll be able to work with more weight.<\/p><p>When you lift in socks, you feel the balance, as no support from shoes keeps you stable. Lifting in socks can help develop and enhance your balance.<\/p><p>If you aim to lift heavy, lifting in socks will strengthen your feet grip strength. There is no barrier between your feet and the surface. As a result, you could increase the lifting weight. Your toes can be in direct contact with the ground which enhances stability, as your toes will be aligned in a position that vouches for greater stability.<\/p>","link_title":"Learn more","link":"","align":"left","width":"1\/1"}},"image_fTjtGH":{"type":"image","settings":{"image":"shopify:\/\/shop_images\/Short-Socks-WBCM.jpg","link":"","width":"2\/3"}},"spacer_Q3FTdb":{"type":"spacer","settings":{"space":"none"}},"text_ggYfdY":{"type":"text","settings":{"title":"","text":"<p>Additionally, lifting socks can add more protection for your shins as they feature padding in the shin region, which reduces the risk of bruises or abrasions while working with a barbell.<\/p><p>Wearing lifting socks means getting better compression which helps to eliminate foot fatigue. The compression effect improves blood circulation, so you'll feel less muscle soreness and will recover faster.<\/p><p>Lifting without shoes also increases strength in your feet and ankles. When you're wearing lifting shoes, they take on some of the impact from the weights. When you're lifting in socks, your feet and ankles bear the full weight, which can strengthen them gradually.<\/p>","link_title":"Learn more","link":"","align":"left","width":"1\/1"}}},"block_order":["image_YEX9bX","spacer_CiPrC6","text_kaTpYq","image_fTjtGH","spacer_Q3FTdb","text_ggYfdY"],"settings":{"section-bottom-margin":false}}},"order":["1700668388eaf8a8c2","banner","section_custom_X6GJrc","product-grid","section_custom_KYHDLy","section_liquid_V63KNT","section_custom_z8acEA"]}
+{
+  "sections": {
+    "1700668388eaf8a8c2": {
+      "type": "apps",
+      "blocks": {
+        "f047a5b9-b2e0-4715-980d-1be845f6357d": {
+          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "\/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "unclickable": false,
+            "enable_custom_feature": true,
+            "bb_capitalize": false,
+            "bb_font_size": 13,
+            "bb_padding": 0,
+            "bb_top_padding": 20,
+            "bb_margin": 0,
+            "bb_align": "left",
+            "bb_color": "#2a2a2a"
+          }
+        }
+      },
+      "block_order": [
+        "f047a5b9-b2e0-4715-980d-1be845f6357d"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "banner": {
+      "type": "main-collection-banner",
+      "settings": {
+        "center_title": true,
+        "show_collection_image": false,
+        "collection_image_height": "4:1",
+        "collection_image_mobile_height": true,
+        "overlay_color": "#000000",
+        "overlay_strength": 0
+      }
+    },
+    "section_custom_X6GJrc": {
+      "type": "section-custom",
+      "blocks": {
+        "text_EhMEnH": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Discover top-quality weightlifting socks for enhanced performance and comfort. Explore a variety of styles and materials designed for ultimate support. Shop now!<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        }
+      },
+      "block_order": [
+        "text_EhMEnH"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "product-grid": {
+      "type": "main-collection-product-grid",
+      "blocks": {
+        "filter": {
+          "type": "filter",
+          "settings": {
+            "title": "",
+            "count": true,
+            "show_swatches": true,
+            "filter_visibility": "three"
+          }
+        }
+      },
+      "block_order": [
+        "filter"
+      ],
+      "settings": {
+        "grid": 4,
+        "grid_mobile": "2",
+        "rows": 5,
+        "sort_enable": true,
+        "show_sidebar": true
+      }
+    },
+    "section_custom_KYHDLy": {
+      "type": "section-custom",
+      "blocks": {
+        "text_n4U7ar": {
+          "type": "text",
+          "settings": {
+            "title": "What to Look for in Lifting Socks",
+            "text": "<p>When you're on the hunt for the perfect pair of weightlifting socks, you're not looking for a mere accessory. You could say you're looking for a product that will add performance, comfort, support, and style to your workout ensemble. We would like to provide you with some key elements that you should consider when looking for good lifting socks.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "spacer_6XJcVd": {
+          "type": "spacer",
+          "settings": {
+            "space": "none"
+          }
+        },
+        "image_PeMzbw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Stretching-in-WBCM-Socks.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_n4U7ar",
+        "spacer_6XJcVd",
+        "image_PeMzbw"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_V63KNT": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\">\n<h3>Tip 1: Choose the Technical, Sweat-Wicking Material<\/h3>\n<p>\n  Pay attention to materials that remove sweat from your feet. It should keep your feet dry and comfortable while doing tough exercises. A blend of synthetic materials like polyester, nylon, spandex, or elastane will provide you with a comfortable fit, have quick-drying features, and maintain the sock shape over time. Cotton is a rather dubious option to buy, but it is simply ideal for comfort.\n<\/p>\n<p>\n  Despite cotton enabling your skin to breathe, it doesn't mean that the sweat will evaporate soon. The biggest disadvantage of cotton is that it gets wet quickly, doesn't absorb moisture well, and dries very slowly.\n<\/p>\n\n<h3>Tip 2: Ensure Good Grip<\/h3>\n<p>\n  You can achieve a better grip and more efficient power transfer. Such socks should provide a reliable grip on the surface and not slip off under any circumstances. Some products have a non-slip coating on the bottom, which can be helpful when doing sock raises. If your socks for weightlifting slip, practice on a slip-resistant surface.\n<\/p>\n\n<h3>Tip 3: Cushioning and Support — Your Feet's Best Friends<\/h3>\n<p>\n  Of course, sports equipment must provide comfort and stability. These properties help athletes avoid tired feet. Some lifting socks even provide targeted cushioning in certain areas, giving extra support where you need it most.\n<\/p>\n\n<\/div>"
+      }
+    },
+    "section_custom_z8acEA": {
+      "type": "section-custom",
+      "blocks": {
+        "image_YEX9bX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Deadlifting-in-WBCM-Long-Socks.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        },
+        "spacer_CiPrC6": {
+          "type": "spacer",
+          "settings": {
+            "space": "none"
+          }
+        },
+        "text_kaTpYq": {
+          "type": "text",
+          "settings": {
+            "title": "Can You Lift in Socks Only?",
+            "text": "<p>There's nothing new in lifting in socks. It can help to improve balance, reduce the range of motion, engage muscles of the posterior chain, and support more efficient force transfer between you and the ground. Consequently, you'll be able to work with more weight.<\/p><p>When you lift in socks, you feel the balance, as no support from shoes keeps you stable. Lifting in socks can help develop and enhance your balance.<\/p><p>If you aim to lift heavy, lifting in socks will strengthen your feet grip strength. There is no barrier between your feet and the surface. As a result, you could increase the lifting weight. Your toes can be in direct contact with the ground which enhances stability, as your toes will be aligned in a position that vouches for greater stability.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "image_fTjtGH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Short-Socks-WBCM.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        },
+        "spacer_Q3FTdb": {
+          "type": "spacer",
+          "settings": {
+            "space": "none"
+          }
+        },
+        "text_ggYfdY": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Additionally, lifting socks can add more protection for your shins as they feature padding in the shin region, which reduces the risk of bruises or abrasions while working with a barbell.<\/p><p>Wearing lifting socks means getting better compression which helps to eliminate foot fatigue. The compression effect improves blood circulation, so you'll feel less muscle soreness and will recover faster.<\/p><p>Lifting without shoes also increases strength in your feet and ankles. When you're wearing lifting shoes, they take on some of the impact from the weights. When you're lifting in socks, your feet and ankles bear the full weight, which can strengthen them gradually.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        }
+      },
+      "block_order": [
+        "image_YEX9bX",
+        "spacer_CiPrC6",
+        "text_kaTpYq",
+        "image_fTjtGH",
+        "spacer_Q3FTdb",
+        "text_ggYfdY"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    }
+  },
+  "order": [
+    "1700668388eaf8a8c2",
+    "banner",
+    "section_custom_X6GJrc",
+    "product-grid",
+    "section_custom_KYHDLy",
+    "section_liquid_V63KNT",
+    "section_custom_z8acEA"
+  ]
+}
