@@ -42,6 +42,28 @@
         "overlay_strength": 0
       }
     },
+    "section_custom_zpMiRW": {
+      "type": "section-custom",
+      "blocks": {
+        "text_TWzNVK": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Elevate your workout with our premium lifting straps. Discover unbeatable support and durability in our gym straps collection. Maximize gains, shop now!<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        }
+      },
+      "block_order": [
+        "text_TWzNVK"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
     "product-grid": {
       "type": "main-collection-product-grid",
       "blocks": {
@@ -70,6 +92,7 @@
   "order": [
     "1700668388eaf8a8c2",
     "banner",
+    "section_custom_zpMiRW",
     "product-grid"
   ]
 }
