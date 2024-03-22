@@ -176,7 +176,7 @@
         "image_qFHkFk": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/photo-lock_8d5c9a71-80cc-464d-b844-0592c2565817.png",
+            "image": "shopify:\/\/shop_images\/Weightlifting-Compression-Singlet-S-2-side-view.webp",
             "title": "BEST SINGLET FOR:",
             "desc": "<ul><li>weightlifting<\/li><li>powerlifting<\/li><li>bodybuilding sessions<\/li><\/ul>",
             "horizontal_align": "left",
@@ -196,7 +196,7 @@
         "container": "large",
         "block_spacing": 2,
         "section-bottom-margin": false,
-        "image_ratio": "4:3",
+        "image_ratio": "natural",
         "block_layout": "1\/2",
         "block_align": "left",
         "vertical_align": "middle",
@@ -210,7 +210,7 @@
         "image_TJzL4A": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/4-new.png",
+            "image": "shopify:\/\/shop_images\/Weightlifting-Compression-Singlet-S-2-back-view-close-up.webp",
             "title": "DESIGN BY OLYMPIC CHAMPION OLEKSIY TOROKHTIY",
             "desc": "<p>Designed to withstand rigorous training sessions, this singlet offers superior comfort and durability, empowering athletes to push their limits. Experience the difference of locally-made excellence in every stitch<\/p>",
             "horizontal_align": "left",
@@ -255,6 +255,7 @@
         "image_AWUQMn": {
           "type": "image",
           "settings": {
+            "image": "shopify:\/\/shop_images\/compression-singlet-sizes.webp",
             "link": "",
             "width": "2\/3"
           }
