@@ -255,7 +255,7 @@
         "image_AWUQMn": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/compression-singlet-sizes.webp",
+            "image": "shopify:\/\/shop_images\/singlet-sizes.webp",
             "link": "",
             "width": "2\/3"
           }
@@ -264,6 +264,9 @@
       "block_order": [
         "text_UyzgFw",
         "image_AWUQMn"
+      ],
+      "custom_css": [
+        "img {max-width: 600px;}"
       ],
       "settings": {
         "section-bottom-margin": false
