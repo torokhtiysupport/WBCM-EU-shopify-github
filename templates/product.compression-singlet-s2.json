@@ -257,7 +257,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/singlet-sizes.webp",
             "link": "",
-            "width": "1\/2"
+            "width": "2\/3"
           }
         }
       },
@@ -267,8 +267,7 @@
       ],
       "custom_css": [
         "img {max-width: 600px;}",
-        ".home-custom__img--cover {background-image: none !important;}",
-        "@media screen and (min-width: 768px) {.o-layout__item {width: 100%; }}"
+        ".home-custom__img--cover {background-image: none !important;}"
       ],
       "settings": {
         "section-bottom-margin": true
