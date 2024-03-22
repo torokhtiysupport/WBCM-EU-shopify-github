@@ -266,7 +266,8 @@
         "image_AWUQMn"
       ],
       "custom_css": [
-        "img {max-width: 600px;}"
+        "img {max-width: 600px;}",
+        ".home-custom__img--cover {background-image: none!important;}"
       ],
       "settings": {
         "section-bottom-margin": false
