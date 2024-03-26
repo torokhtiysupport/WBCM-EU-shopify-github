@@ -47,7 +47,7 @@
     "color_label_sold_out": "#f2f2f2",
     "product_grid_label_discount_type": "text",
     "color_label_discount": "#c00000",
-    "product_grid_label_new_days": 50,
+    "product_grid_label_new_days": 90,
     "product_grid_label_custom_1": true,
     "product_grid_label_collection_1": "",
     "swatches_enabled": true,
