@@ -19,9 +19,14 @@
 
 	{% render 'network' %}
 
-	{%- if canonical_url != blank  -%}
+	<!-- {%- if canonical_url != blank  -%}
   	<link rel="canonical" href="{{ canonical_url }}">
-	{%- endif -%}
+	{%- endif -%} -->
+
+    {%- if canonical_url != blank -%}
+    {% assign cleaned_url = canonical_url | remove_first: 'eu.' %}
+    <link rel="canonical" href="{{ cleaned_url }}">
+    {%- endif -%}
 
 	{% if settings.favicon != blank %}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
