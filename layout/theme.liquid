@@ -24,7 +24,7 @@
 	{%- endif -%} -->
 
     {%- if canonical_url != blank -%}
-    {% assign cleaned_url = canonical_url | remove_first: 'eu.' %}
+    {% assign cleaned_url = canonical_url | replace: 'https://eu.', 'https://' %}
     <link rel="canonical" href="{{ cleaned_url }}">
     {%- endif -%}
 
