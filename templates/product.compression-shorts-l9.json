@@ -177,8 +177,8 @@
         "image_qFHkFk": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/best-singlet-s2-for.jpg",
-            "title": "BEST SINGLET FOR:",
+            "image": "shopify:\/\/shop_images\/Compression-Shorts-L9-best-for.webp",
+            "title": "BEST SHORTS FOR:",
             "desc": "<ul><li>weightlifting<\/li><li>powerlifting<\/li><li>bodybuilding sessions<\/li><\/ul>",
             "horizontal_align": "left",
             "link_title": "",
@@ -197,7 +197,7 @@
         "container": "large",
         "block_spacing": 2,
         "section-bottom-margin": false,
-        "image_ratio": "natural",
+        "image_ratio": "3:4",
         "block_layout": "1\/2",
         "block_align": "left",
         "vertical_align": "middle",
