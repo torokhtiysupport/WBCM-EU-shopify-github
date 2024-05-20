@@ -211,7 +211,7 @@
         "image_TJzL4A": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/singlet-s2-designed-by.jpg",
+            "image": "shopify:\/\/shop_images\/Compression-Shorts-L9-Designed-by.webp",
             "title": "DESIGN BY OLYMPIC CHAMPION OLEKSIY TOROKHTIY",
             "desc": "<p>Designed to withstand rigorous training sessions, this shorts offers superior comfort and durability, empowering athletes to push their limits. Experience the difference of locally-made excellence in every stitch.<\/p>",
             "horizontal_align": "left",
@@ -245,7 +245,7 @@
         "image_Ux7WtH": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/singlet-s2-features.jpg",
+            "image": "shopify:\/\/shop_images\/Compression-Shorts-L9-Technical-Features.webp",
             "title": "",
             "desc": "",
             "horizontal_align": "left",
@@ -270,7 +270,7 @@
         "block_spacing": 2,
         "section-bottom-margin": false,
         "image_ratio": "natural",
-        "block_layout": "2\/3",
+        "block_layout": "3\/4",
         "block_align": "left",
         "vertical_align": "top",
         "heading_size": 3,
@@ -305,7 +305,7 @@
         "image_TMjMzp": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/singlet-s-2-sizes.webp",
+            "image": "shopify:\/\/shop_images\/Compression-Shorts-L9-Sizes.webp",
             "title": "",
             "desc": "",
             "horizontal_align": "left",
