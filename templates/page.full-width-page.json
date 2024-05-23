@@ -4,7 +4,7 @@
       "type": "main-page",
       "custom_css": [
         ".container--tiny {max-width: 1400px;}",
-        ".section__title {max-width: auto;}"
+        ".section__title {max-width: auto!important;}"
       ],
       "settings": {
       }
