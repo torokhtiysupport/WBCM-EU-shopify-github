@@ -9641,8 +9641,8 @@ section.description .container--tiny {
 .announcement__text:before {
   content: "";
   position: absolute;
-  width: 20px;
-  height: 11px;
+  width: 30px;
+  height: 15px;
   top: 50%;
   left: -20px;
   transform: translateY(-50%);
