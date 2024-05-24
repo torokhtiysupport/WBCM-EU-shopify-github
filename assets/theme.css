@@ -9644,7 +9644,7 @@ section.description .container--tiny {
   width: 20px;
   top: 50%;
   left: -20px;
-  transform: translate(-50%);
+  transform: translateY(-50%);
   background-image: url('https://cdn.shopify.com/s/files/1/0061/2142/2937/files/US-icon.jpg?v=1716531679');
   background-size: cover;
   background-position: center;
