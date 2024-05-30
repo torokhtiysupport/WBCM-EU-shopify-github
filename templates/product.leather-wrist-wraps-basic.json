@@ -10,15 +10,20 @@
             "home_link": "\/",
             "menu": "main-menu",
             "separator": "›",
+            "custom_class": "",
             "bb_show_hide": true,
             "unclickable": false,
             "bb_show_more": true,
             "enable_custom_feature": true,
+            "bb_custom_inheritance": true,
             "bb_capitalize": false,
             "bb_font_size": 13,
             "bb_padding": 0,
+            "bb_mobile_padding": 55,
             "bb_top_padding": 20,
+            "bb_mobile_top_padding": 55,
             "bb_margin": 0,
+            "bb_mobile_margin": 0,
             "bb_align": "left",
             "bb_color": "#2a2a2a",
             "truncator": 20
@@ -134,14 +139,14 @@
           "type": "article",
           "settings": {
             "title": "Specs",
-            "text": "<p><strong>Composition<\/strong>:<br\/>78% - microacrylic fiber;<br\/>22% - elastane<br\/><br\/><strong>Sizing<\/strong>:<br\/>S -  EU 36-38 \/ US 4,5-6;<br\/>M - EU 39-41 \/ US 6,5-8,5;<br\/>L -  EU 42-44 \/ US 9-11<\/p>"
+            "text": "<p><strong>Sizing:<\/strong> S, M, L<br\/><strong>Width:<\/strong> 1\"<br\/><strong>Material:<\/strong> leather<br\/><strong>Color:<\/strong> salat<\/p>"
           }
         },
         "article_gDRxH3": {
           "type": "article",
           "settings": {
             "title": "Intended Use",
-            "text": "<p>The socks are perfect for any kind of weight training, i.e., weightlifting, powerlifting, bodybuilding, cross-training, and other high-intensity training sessions.<\/p>"
+            "text": "<p>Perfect for various fitness activities, i.e., Olympic weightlifting, Powerlifting, bodybuilding, Strongman training, functional fitness, and kettlebell workouts.<\/p>"
           }
         },
         "article_j3FeUE": {
@@ -155,7 +160,7 @@
           "type": "article",
           "settings": {
             "title": "Care",
-            "text": "<p>It's recommended to machine wash in cold water at 30° C. Do not dry clean, tumble dry, and iron.<br\/>We also recommend to turn inside out your socks while machine washing.<\/p>"
+            "text": "<p>We recommend hand washing the wrist wraps with warm water and a mild detergent, then allow the wraps to air dry. Do not use the washing machine as it can damage the fabric of the wrist wrap and its closure system.<\/p>"
           }
         }
       },
