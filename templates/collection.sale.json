@@ -45,6 +45,9 @@
     },
     "banner": {
       "type": "main-collection-banner",
+      "custom_css": [
+        "h1 {display: none;}"
+      ],
       "settings": {
         "center_title": true,
         "show_collection_image": true,
