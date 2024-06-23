@@ -3859,7 +3859,7 @@ body:not(.header-stuck) [data-transparent-header=true].header:not(:hover) .heade
   padding-bottom: 62.5%; }
 
 .js-section__home-slider:first-child .home-carousel__item-wrapper--full-screen {
-  height: calc(var(--window-height) - var(--announcement-height) - var(--header-section-height));
+  height: var(--window-height);
   min-height: 400px; }
 
 .home-carousel-wrapper--full .home-carousel__item-wrapper--full-screen {
