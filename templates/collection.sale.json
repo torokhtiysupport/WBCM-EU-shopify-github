@@ -45,7 +45,6 @@
     },
     "banner": {
       "type": "main-collection-banner",
-      "disabled": true,
       "custom_css": [
         "h1 {display: none;}"
       ],
