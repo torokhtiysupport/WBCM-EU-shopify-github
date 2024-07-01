@@ -9644,7 +9644,7 @@ section.description .container--tiny {
   width: 30px;
   height: 15px;
   top: 50%;
-  left: -30px;
+  left: -25px;
   transform: translateY(-50%);
   background-image: url('https://cdn.shopify.com/s/files/1/0061/2142/2937/files/US-icon.jpg?v=1716531679');
   background-size: cover;
@@ -9658,7 +9658,7 @@ section.description .container--tiny {
   width: 30px;
   height: 15px;
   top: 50%;
-  right: -30px;
+  right: -25px;
   transform: translateY(-50%);
   background-image: url('https://cdn.shopify.com/s/files/1/0061/2142/2937/files/US-icon.jpg?v=1716531679');
   background-size: cover;
