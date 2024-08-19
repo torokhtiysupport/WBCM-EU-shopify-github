@@ -306,7 +306,6 @@
       "block_order": [
         "text_UyzgFw"
       ],
-      "disabled": true,
       "settings": {
         "section-bottom-margin": true
       }
@@ -317,7 +316,7 @@
         "image_TMjMzp": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Compression-Shorts-L9-Sizes.webp",
+            "image": "shopify:\/\/shop_images\/Shorts_SizeTable_V2.png",
             "title": "",
             "desc": "",
             "horizontal_align": "left",
@@ -333,7 +332,6 @@
       "block_order": [
         "image_TMjMzp"
       ],
-      "disabled": true,
       "custom_css": [
         ".o-layout {justify-content: center;}",
         ".o-layout .o-layout__item:last-of-type {display: none;}"
