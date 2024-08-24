@@ -9665,3 +9665,13 @@ section.description .container--tiny {
   background-position: center;
   background-repeat: no-repeat;
 }
+
+/* Collection Header Images */
+@media screen and (max-width: 767px) {
+  .collection__header-img {
+    object-fit: contain;
+  }
+  .collection__header-media--mobile-height.o-ratio--4\:1:before {
+    background: #fff;
+  }
+}
