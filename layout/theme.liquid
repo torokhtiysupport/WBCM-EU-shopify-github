@@ -28,6 +28,10 @@
     <link rel="canonical" href="{{ cleaned_url }}">
     {%- endif -%}
 
+    {% if request.path contains '/es/' %}
+      <meta name="robots" content="noindex">
+    {% endif %}
+
 	{% if settings.favicon != blank %}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
 	{% endif %}
