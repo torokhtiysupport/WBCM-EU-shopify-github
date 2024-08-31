@@ -1,10 +1,19 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1700668388eaf8a8c2": {
       "type": "apps",
       "blocks": {
         "f047a5b9-b2e0-4715-980d-1be845f6357d": {
-          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
             "home_link": "\/",
@@ -17,10 +26,15 @@
             "bb_capitalize": false,
             "bb_font_size": 13,
             "bb_padding": 0,
+            "bb_mobile_padding": 55,
             "bb_top_padding": 20,
+            "bb_mobile_top_padding": 55,
             "bb_margin": 0,
+            "bb_mobile_margin": 0,
             "bb_align": "left",
-            "bb_color": "#2a2a2a"
+            "bb_color": "#2a2a2a",
+            "bb_hover_color": "",
+            "bb_home_color": ""
           }
         }
       },
@@ -87,12 +101,365 @@
         "sort_enable": true,
         "show_sidebar": true
       }
+    },
+    "section_custom_mHgHxB": {
+      "type": "section-custom",
+      "blocks": {
+        "text_EFTbYf": {
+          "type": "text",
+          "settings": {
+            "title": "What Are Lifting Straps?",
+            "text": "<p>Lifting straps are an additional lifting accessory that aims to protect athletes' wrists during heavy weight lifts, especially in pulling exercises such as squats, deadlifts, lat pulldowns, rows, and bench presses, which target back and arm muscle groups. They also vouch for safety during free weight exercises and improve the lifter's grip strength.<\/p><p>Usually, lifting straps are made of cotton, nylon, leather, or other sturdy and flexible material that wraps around the wrist and the handle of the used equipment. As a result, weightlifters will be able to lift more weights with less effort and reduced risk of injury. <\/p><p>The mechanical advantage of your wrist is directly related to the amount of force you can lift. This is the reason why you can lift more weight when you're just starting weightlifting. It's vital to be careful and not overload the wrists when performing exercises that involve repetitions or movements that strain the wrists. <\/p><p>Overall, it's a universal training accessory that can be used both by beginners and advanced lifters, providing better grip control when doing heavy reps. However, it is important to choose the best type of weightlifting straps considering your fitness level and training goals.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        }
+      },
+      "block_order": [
+        "text_EFTbYf"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_446Fbp": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\"><h3>Lasso Lifting Straps<\/h3>\n<\/div>"
+      }
+    },
+    "section_custom_WfkprB": {
+      "type": "section-custom",
+      "blocks": {
+        "text_xNrh4q": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Lasso straps come with a loop at one side that attaches around your wrist and an extra piece wraps around the bar for a tighter grip. It's the most versatile type of straps that can fit conventional lifting to improve personal bests. For beginners and recreational lifters, lasso straps are a perfect fit, particularly with extended length for the part that wraps around the bar for a tighter grip and extra padding.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "image_PF9W9R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Laso-Straps_1_cd8fb01d-6b3c-4efb-a639-075994f76f78.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_xNrh4q",
+        "image_PF9W9R"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_WkLm9g": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\"><h3>Olympic Lifting Straps (Closed Loop)<\/h3><\/div>"
+      }
+    },
+    "section_custom_GKCVp4": {
+      "type": "section-custom",
+      "blocks": {
+        "text_acpLqi": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>The closed-loop lifting wrist straps, commonly referred to as Olympic straps, are particularly useful for Olympic lifts, where you need to release the bar to get it over your head. However, this feature renders them the least safe straps type, making them not suitable for deadlifts or rows. <\/p><p>They are looped upon themselves and stitched at the ends, creating a closed loop. They're primarily used by Olympic lifters, because their design enables them to release the bar quickly. These straps are usually shorter in length, so you won't get an overwrapped bar. The length can vary, but Olympic straps are typically 16-inch long.<\/p><p>You need to specifically place them in your hand and get that half twist with both hands before every lift, which makes them less convenient.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "image_XEYTPX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Olympic-Lifting-Straps_Closed_Loop_1_e8d54aa7-f773-4526-bafa-6d096d37cee9.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_acpLqi",
+        "image_XEYTPX"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_TYWWNg": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\"><h3>Open Loop Lifting Straps<\/h3><\/div>"
+      }
+    },
+    "section_custom_Tpb7b4": {
+      "type": "section-custom",
+      "blocks": {
+        "text_zLN7iW": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Open loop straps are the best option for lifters with little experience and practice. They look similar to the Olympic ones but without stitched ends. These grip straps are good for all pulling movements, such as deadlifts, rack pulls, rows, snatches, and cleans.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "spacer_9nEF9B": {
+          "type": "spacer",
+          "settings": {
+            "space": "none"
+          }
+        }
+      },
+      "block_order": [
+        "text_zLN7iW",
+        "spacer_9nEF9B"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_J6nNAz": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\"><h3>Figure 8 Lifting Straps<\/h3><\/div>"
+      }
+    },
+    "section_custom_d74pre": {
+      "type": "section-custom",
+      "blocks": {
+        "text_4r64e6": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Figure 8 lifting straps loop around the wrists, then under the barbell, and around your wrist again. Unlike the lasso ones, they can be wrapped around the bar only once. Nevertheless, it is the most secure type among other straps and serves best for performing deadlifts at your maximum.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "image_mUMctP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Figure-8_1_8feddb37-87d8-49a8-aab2-479eabc91aa3.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_4r64e6",
+        "image_mUMctP"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_8q7N8z": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\"><h3>Lifting Grips<\/h3><\/div>"
+      }
+    },
+    "section_custom_8neCAt": {
+      "type": "section-custom",
+      "blocks": {
+        "text_fwUzJd": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<p>Lifting grips, also called cross-training hand grips, are typically used by cross-training athletes during WODs to get extra support while lifting or using the pull-up bar. They are also common in gymnastics because they help with bar grip control. This accessory can facilitate the performance of such exercises as rows, pull-ups, deadlifts, and shrugs. <\/p><p>Lifting grips are made from a durable grip material (leather or rubber) that is worn flat against the palm or wrapped around the bar like a hook. The strap part is typically made of material such as heavy-duty nylon, with a Velcro loop.<\/p><p>They work like traditional powerlifting straps, which offer wrist support and palm protection. However, it's better to use them for lighter weightlifting.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "image_MbQMhV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lifting-Grips_1_09e1cf8f-ee8c-4552-ba30-528fa9d4be53.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_fwUzJd",
+        "image_MbQMhV"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_custom_gnGrRq": {
+      "type": "section-custom",
+      "blocks": {
+        "text_AV66kh": {
+          "type": "text",
+          "settings": {
+            "title": "Why Do You Need Lifting Straps?",
+            "text": "<p>If you’re just a starter in weightlifting, or already an experienced lifter, you’ll still benefit from wearing lifting straps for additional support to lift heavier weights.<\/p><p>Here's the list of positives you'll get when using this lifting accessory:<\/p><p>Lifting grips are made from a durable grip material (leather or rubber) that is worn flat against the palm or wrapped around the bar like a hook. The strap part is typically made of material such as heavy-duty nylon, with a Velcro loop.<\/p><p>They work like traditional powerlifting straps, which offer wrist support and palm protection. However, it's better to use them for lighter weightlifting.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "image_tjdRYj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Figure-8-Straps-Lifting-Torokhtiy_2_23f3794a-1334-415e-96ae-69230a07fce5.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_AV66kh",
+        "image_tjdRYj"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_ELmR4m": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\"><h3>1. Wrist Support<\/h3>\n<p>Hand straps support your wrists and mitigate the risk of injury by keeping your wrist in a proper position to the bar and preventing its occasional drop.<\/p>\n<h3>2. Improved Grip Strength<\/h3>\n<p>Wearing lifting straps mitigates the strain on your grip strength when lifting, so you'll be able to lift heavier weights for a longer time.<\/p>\n<h3>3. More Qualitative and Harder Strength Training Sessions<\/h3>\n<p>As lifting straps support your wrists, you can lift heavier weights with them. That's why bodybuilders and Olympic weightlifters prefer using lifting straps — to push their limits and achieve their personal best.<\/p>\n<h3>4. Proper Muscle Fatigue<\/h3>\n<p>Bodybuilding and weightlifting sports require total muscle fatigue to work out the muscles to their full exhaustion. With gym straps, an athlete will be able to prolong their intense workout to reach true muscle fatigue. You’ll be able to hit the largest muscle groups with an appropriate stimulus for their growth and strength gain.<\/p>\n<h3>5. Protection from Calluses<\/h3>\n<p>Lifters often face the problem of calluses’ occurrence from repeated gripping of barbells or dumbbells with aggressive knurling. If you tear a callus, you need some time for your hand to heal which can stop your regular training regime as it will be difficult and painful to grip anything without irritating the skin. Lifting straps can protect your palms from building calluses since your skin isn't in direct contact with the metal.<\/p>\n<p>It's recommended to wear gym wrist straps when performing lifting exercises with a loaded barbell with an aggressive knurl pattern.<\/p>\n<\/div>"
+      }
+    },
+    "section_custom_bbYmpD": {
+      "type": "section-custom",
+      "blocks": {
+        "text_RBmfC8": {
+          "type": "text",
+          "settings": {
+            "title": "Five Common Lifting Exercises Where You Need Lifting Straps",
+            "text": "",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "image_A3PzaX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Deadlift-With-Straps-Torokhtiy_2_5b8d69e1-3d6f-4a78-94bc-635b7f21bf1f.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_RBmfC8",
+        "image_A3PzaX"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_xxNy8H": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\">\n<h3>1. Deadlifts:<\/h3>\n<p>Holding a weighted barbell, you should fold at the hips and lower the bar down to the floor with your back straight. Using the power of legs, you should lift the bar back up, pushing your hips forward against the bar. Barbell straps will take the strain out of your wrists, allowing you to focus more on the technique. You can use closed-loop or figure-eight straps for this exercise.<\/p>\n<h3>2. Dumbbell or barbell rows:<\/h3>\n<p>Holding any lifting accessory in a bent-over position, move your elbows back, pulling the weight up to your sides, then return to the initial position. With proper wrist support, you can focus on your arms and upper back. It will be okay if you’ll use lasso straps for any type of rows, i.e., barbell or one-arm rows.<\/p>\n<h3>3. Snatches:<\/h3>\n<p>Holding a kettlebell or dumbbell in one hand, swing the weight in front of you till the above-head position, then swing the weight back down. Lifting straps will help to stabilize your wrist while swinging weights. Closed-loop straps will be good for this exercise, as well as for other Olympic lifts.<\/p>\n<h3>4. Lat pulldowns:<\/h3>\n<p>Working out on the lat pulldown machine, you grip the bar with an overhand grip and pull it down to the top of your chest, and return it to the starting position. With lifting grips, you'll be able to stabilize your wrist in the pull-down movement. Lasso straps will come in handy for such exercises thanks to its versatility and easiness of use, as well as applicability to common exercises.<\/p>\n<h3>5. Pull-ups and chin-ups:<\/h3>\n<p>While pulling yourself up on the horizontal bar until your hands are level with your shoulders, and lowering yourself back to the starting position, you get extra support for your wrists as you hang from the bar. Lasso lifting straps will fit these movements due to their sufficient length.<\/p>\n<\/div>"
+      }
+    },
+    "section_custom_BbikRH": {
+      "type": "section-custom",
+      "blocks": {
+        "text_CCcgfV": {
+          "type": "text",
+          "settings": {
+            "title": "How to Pick Lifting Straps?",
+            "text": "<p>Before buying lifting straps, you need to consider several factors that can influence your final choice. Firstly, you need to focus on a reputable brand that is popular among most lifters. Additionally, you can consider user reviews to assess its overall quality. Follow these points to pick the right lifting straps considering your preferences and fitness goals.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
+        },
+        "image_gXVbWa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lasso-Straps-In-Use-Torokhtiy_2_2c4f57cc-0a00-43ea-84bb-8ded77959cf6.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "text_CCcgfV",
+        "image_gXVbWa"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
+    "section_liquid_Ppy3em": {
+      "type": "section-liquid",
+      "settings": {
+        "custom_liquid": "<div class=\"container\">\n<h3>Choose the Proper Type of Lifting Straps<\/h3>\n<p>Lasso straps are the most popular since they’re versatile and are best for exercises that involve back muscles. However, if you plan to perform clean and jerk-type exercises, lasso straps are not perfect for that because you won’t be able to release the bar quickly.<\/p>\n<p>Single-loop straps are good for Olympic weightlifting since they offer minimal support and you’ll be able to release the bar instantly. The same features refer to the closed loop straps: they’re also a top choice for Oly weightlifters, but won’t work during deadlifts and rows.<\/p>\n<p>Figure 8 straps are a thicker option with two large loops to secure the bar to your wrist. They fit most strength-oriented training and heavy pulling exercises like deadlifts.<\/p>\n<h3>Select the Proper Material<\/h3>\n<p>Cotton straps feel the most comfortable for your skin as they have sweat-absorbent features. Nylon straps aren’t as good at moisture-absorbing as cotton, although they’ll work well for Olympic lifts due to their durability and an athlete can quickly release the bar. Leather straps are the most stable and are the easiest to roll into place. However, you need some time to make them break in and can feel harsh on the skin compared to the cotton and nylon ones.<\/p>\n<h3>Mind the Material Quality<\/h3>\n<p>To be sure of the overall quality of the lifting straps, check their stitching and whether the material is stretchy enough. In addition, consider features like padding and texture feel, which will improve grip and friction, so you won’t lose the bar occasionally. Some padding can add cushioning to avoid pain in wrists and forearms.<\/p>\n<\/div>"
+      }
+    },
+    "section_custom_gPUzJi": {
+      "type": "section-custom",
+      "blocks": {
+        "image_Lece8g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Closed-Loop-Torokhtiy_2_0dc6809e-a4c2-45d7-88a1-764737a9602e.jpg",
+            "link": "",
+            "width": "2\/3"
+          }
+        }
+      },
+      "block_order": [
+        "image_Lece8g"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
     }
   },
   "order": [
     "1700668388eaf8a8c2",
     "banner",
     "section_custom_zpMiRW",
-    "product-grid"
+    "product-grid",
+    "section_custom_mHgHxB",
+    "section_liquid_446Fbp",
+    "section_custom_WfkprB",
+    "section_liquid_WkLm9g",
+    "section_custom_GKCVp4",
+    "section_liquid_TYWWNg",
+    "section_custom_Tpb7b4",
+    "section_liquid_J6nNAz",
+    "section_custom_d74pre",
+    "section_liquid_8q7N8z",
+    "section_custom_8neCAt",
+    "section_custom_gnGrRq",
+    "section_liquid_ELmR4m",
+    "section_custom_bbYmpD",
+    "section_liquid_xxNy8H",
+    "section_custom_BbikRH",
+    "section_liquid_Ppy3em",
+    "section_custom_gPUzJi"
   ]
 }
