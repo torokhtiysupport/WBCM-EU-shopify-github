@@ -1,10 +1,19 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1700668388eaf8a8c2": {
       "type": "apps",
       "blocks": {
         "f047a5b9-b2e0-4715-980d-1be845f6357d": {
-          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
             "home_link": "\/",
@@ -17,10 +26,15 @@
             "bb_capitalize": false,
             "bb_font_size": 13,
             "bb_padding": 0,
+            "bb_mobile_padding": 55,
             "bb_top_padding": 20,
+            "bb_mobile_top_padding": 55,
             "bb_margin": 0,
+            "bb_mobile_margin": 0,
             "bb_align": "left",
-            "bb_color": "#2a2a2a"
+            "bb_color": "#2a2a2a",
+            "bb_hover_color": "",
+            "bb_home_color": ""
           }
         }
       },
@@ -110,12 +124,6 @@
         "section-bottom-margin": false
       }
     },
-    "section_liquid_VYw6Yh": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"container\"><h3>Powder<\/h3><\/div>"
-      }
-    },
     "section_custom_4F94Nz": {
       "type": "section-custom",
       "blocks": {
@@ -123,7 +131,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "text": "<p>The first in our lineup is powdered lifting chalk. As the name implies, this variant has been pulverized into fine dust, facilitating easy application and ensuring an equitable distribution across your hands. However, this form can be somewhat unruly, prone to creating a mess, and may not offer the longevity of its counterparts.<\/p>",
+            "text": "<h3>Powder<\/h3><p>The first in our lineup is powdered lifting chalk. As the name implies, this variant has been pulverized into fine dust, facilitating easy application and ensuring an equitable distribution across your hands. However, this form can be somewhat unruly, prone to creating a mess, and may not offer the longevity of its counterparts.<\/p>",
             "link_title": "Learn more",
             "link": "",
             "align": "left",
@@ -154,12 +162,6 @@
         "section-bottom-margin": false
       }
     },
-    "section_liquid_MH7zyf": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"container\"><h3>Block Chalk<\/h3><\/div>"
-      }
-    },
     "section_custom_6rYhtM": {
       "type": "section-custom",
       "blocks": {
@@ -167,7 +169,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "text": "<p>Next, we have block chalk. This is gym chalk in its most basic and unadulterated form — a solid block. It offers a cleaner user experience than powdered chalk for weightlifting and often outlasts it, as you can judiciously apply it as needed. However, it may fall short in providing uniform coverage compared to the powdered option.<\/p>",
+            "text": "<h3>Block Chalk<\/h3><p>Next, we have block chalk. This is gym chalk in its most basic and unadulterated form — a solid block. It offers a cleaner user experience than powdered chalk for weightlifting and often outlasts it, as you can judiciously apply it as needed. However, it may fall short in providing uniform coverage compared to the powdered option.<\/p>",
             "link_title": "Learn more",
             "link": "",
             "align": "left",
@@ -198,12 +200,6 @@
         "section-bottom-margin": false
       }
     },
-    "section_liquid_zjHEgD": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"container\"><h3>Liquid Chalk<\/h3><\/div>"
-      }
-    },
     "section_custom_e6etEC": {
       "type": "section-custom",
       "blocks": {
@@ -211,7 +207,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "text": "<p>The third variant is a relative newcomer to the chalk family — a liquid barbell chalk. This innovative concoction combines magnesium carbonate with a liquid, generally alcohol, resulting in a substance that dries quickly and can be effortlessly applied to the hands. Liquid chalk outranks both block and powdered forms in terms of cleanliness and endurance, making it an ideal choice for those who prefer not to reapply the powerlifting chalk frequently.<\/p>",
+            "text": "<h3>Liquid Chalk<\/h3><p>The third variant is a relative newcomer to the chalk family — a liquid barbell chalk. This innovative concoction combines magnesium carbonate with a liquid, generally alcohol, resulting in a substance that dries quickly and can be effortlessly applied to the hands. Liquid chalk outranks both block and powdered forms in terms of cleanliness and endurance, making it an ideal choice for those who prefer not to reapply the powerlifting chalk frequently.<\/p>",
             "link_title": "Learn more",
             "link": "",
             "align": "left",
@@ -242,12 +238,6 @@
         "section-bottom-margin": false
       }
     },
-    "section_liquid_fFi3Rw": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"container\"><h3>Chalk Balls<\/h3><\/div>"
-      }
-    },
     "section_custom_fwyydk": {
       "type": "section-custom",
       "blocks": {
@@ -255,7 +245,7 @@
           "type": "text",
           "settings": {
             "title": "",
-            "text": "<p>Chalk balls are essentially small sacks filled with powdered chalk. They offer the convenience of block chalk with the even coverage of powder lifting chalk. However, they may not provide the same longevity as block or liquid chalks.<\/p>",
+            "text": "<h3>Chalk Balls<\/h3><p>Chalk balls are essentially small sacks filled with powdered chalk. They offer the convenience of block chalk with the even coverage of powder lifting chalk. However, they may not provide the same longevity as block or liquid chalks.<\/p>",
             "link_title": "Learn more",
             "link": "",
             "align": "left",
@@ -313,21 +303,27 @@
             "link": "",
             "width": "2\/3"
           }
+        },
+        "text_4rdUjM": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<h3>Enhanced Grip<\/h3><p>The primary purpose of lifting chalk is to augment your grip. As you work out, your hands inevitably start to sweat. This can lead to your hands slipping off the equipment, potentially leading to injuries. By absorbing the sweat, a weightlifting chalk ensures that your grip remains firm and secure, thus enhancing your performance.<br\/><\/p><h3>Boosted Performance<\/h3><p>By providing a more secure grip, lifting sports chalk can amplify your performance. When you're not preoccupied with worrying about your grip, you can concentrate more on perfecting your form and the movement of the exercise. This focus can lead to more effective workouts and better results.<br\/><\/p><h3>Prevention of Blisters and Calluses<\/h3><p>Another advantage of lifting chalk is that it can help prevent blisters and calluses. These common gym injuries are often a result of friction between your hands and the equipment. By reducing this friction, gym chalk can protect your hands.<br\/><\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
         }
       },
       "block_order": [
         "text_3kffBY",
         "spacer_FMn4wK",
-        "image_zXQDxT"
+        "image_zXQDxT",
+        "text_4rdUjM"
       ],
       "settings": {
         "section-bottom-margin": false
-      }
-    },
-    "section_liquid_LwYUir": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"container\">\n<h3>Enhanced Grip<\/h3>\n<p>\n  The primary purpose of lifting chalk is to augment your grip. As you work out, your hands inevitably start to sweat. This can lead to your hands slipping off the equipment, potentially leading to injuries. By absorbing the sweat, a weightlifting chalk ensures that your grip remains firm and secure, thus enhancing your performance.\n<\/p>\n\n<h3>Boosted Performance<\/h3>\n<p>\n  By providing a more secure grip, lifting sports chalk can amplify your performance. When you're not preoccupied with worrying about your grip, you can concentrate more on perfecting your form and the movement of the exercise. This focus can lead to more effective workouts and better results.\n<\/p>\n\n<h3>Prevention of Blisters and Calluses<\/h3>\n<p>\n  Another advantage of lifting chalk is that it can help prevent blisters and calluses. These common gym injuries are often a result of friction between your hands and the equipment. By reducing this friction, gym chalk can protect your hands.\n<\/p>\n\n<\/div>"
       }
     },
     "section_custom_gmfc4R": {
@@ -357,21 +353,27 @@
             "link": "",
             "width": "2\/3"
           }
+        },
+        "text_36BCtx": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<h3>Identify Your Needs<\/h3><p>Consider the type of chalk that would best suit your needs. If you're in a gym that doesn't allow loose chalk due to the mess, a liquid lifting chalk or chalk balls might be your best option.<br\/><\/p><h3>Assess the Chalk's Grip and Absorption<\/h3><p>The primary purpose of the weightlifting chalk is to enhance your grip by absorbing sweat and moisture from your hands. Therefore, it's crucial to choose a chalk that provides a good grip and absorbs well. You should also ensure that the chalk doesn't cake on your hands, which can negatively affect your grip.<br\/><\/p><h3>Evaluate the Convenience Factor<\/h3><p>Liquid hand chalk for the gym often comes in a small, portable bottle that can easily be tossed in your gym bag. Powdered chalk, on the other hand, might require a separate container for transport. Think about your workout environment and choose a weightlifting chalk that is easy to carry and use.<br\/><\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
         }
       },
       "block_order": [
         "text_iEnteL",
         "spacer_FQXUnq",
-        "image_Cd8aHk"
+        "image_Cd8aHk",
+        "text_36BCtx"
       ],
       "settings": {
         "section-bottom-margin": false
-      }
-    },
-    "section_liquid_pntwey": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"container\">\n<h3>Identify Your Needs<\/h3>\n<p>\n  Consider the type of chalk that would best suit your needs. If you're in a gym that doesn't allow loose chalk due to the mess, a liquid lifting chalk or chalk balls might be your best option.\n<\/p>\n\n<h3>Assess the Chalk's Grip and Absorption<\/h3>\n<p>\n  The primary purpose of the weightlifting chalk is to enhance your grip by absorbing sweat and moisture from your hands. Therefore, it's crucial to choose a chalk that provides a good grip and absorbs well. You should also ensure that the chalk doesn't cake on your hands, which can negatively affect your grip.\n<\/p>\n\n<h3>Evaluate the Convenience Factor<\/h3>\n<p>\n  Liquid hand chalk for the gym often comes in a small, portable bottle that can easily be tossed in your gym bag. Powdered chalk, on the other hand, might require a separate container for transport. Think about your workout environment and choose a weightlifting chalk that is easy to carry and use.\n<\/p>\n\n<\/div>"
       }
     }
   },
@@ -381,17 +383,11 @@
     "section_custom_VaG6rm",
     "product-grid",
     "section_custom_CgzMkC",
-    "section_liquid_VYw6Yh",
     "section_custom_4F94Nz",
-    "section_liquid_MH7zyf",
     "section_custom_6rYhtM",
-    "section_liquid_zjHEgD",
     "section_custom_e6etEC",
-    "section_liquid_fFi3Rw",
     "section_custom_fwyydk",
     "section_custom_afMCr8",
-    "section_liquid_LwYUir",
-    "section_custom_gmfc4R",
-    "section_liquid_pntwey"
+    "section_custom_gmfc4R"
   ]
 }
