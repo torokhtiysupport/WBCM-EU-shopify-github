@@ -1,10 +1,19 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "1700668388eaf8a8c2": {
       "type": "apps",
       "blocks": {
         "f047a5b9-b2e0-4715-980d-1be845f6357d": {
-          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/collection-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
             "home_link": "\/",
@@ -17,10 +26,15 @@
             "bb_capitalize": false,
             "bb_font_size": 13,
             "bb_padding": 0,
+            "bb_mobile_padding": 55,
             "bb_top_padding": 20,
+            "bb_mobile_top_padding": 55,
             "bb_margin": 0,
+            "bb_mobile_margin": 0,
             "bb_align": "left",
-            "bb_color": "#2a2a2a"
+            "bb_color": "#2a2a2a",
+            "bb_hover_color": "",
+            "bb_home_color": ""
           }
         }
       },
@@ -153,21 +167,27 @@
             "link": "",
             "width": "2\/3"
           }
+        },
+        "text_PmAVEY": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<h3>Promoting Grip Strength<\/h3><p>Wearing lifting hand grips, you'll get a secure and comfortable grip on the bar. So, you'll be able to perform more reps with more weight without worries about losing control.<\/p><h3>Hand Protection<\/h3><p>Gym grips will protect your hands from blisters and calluses that can set your training progress back. With grips, you'll be able to train longer with better comfort.<\/p><h3>Controlling the Weights<\/h3><p>You'll have more control over the barbell, so you can focus more on your form and technique, eliminating injury risks and enhancing your performance.<\/p><h3>Versatility in Use<\/h3><p>You can use grips not just for weightlifting, you can also wear them for such exercises as pull-ups, deadlifts, rows inside and outside the gym. Lifting grips also simplify your training routine without dealing with excessive material, providing a strong grip around the bar, and making your lifting experience smoother and efficient.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
         }
       },
       "block_order": [
         "text_PA9iYd",
         "spacer_KXgwaQ",
-        "image_4XpfJa"
+        "image_4XpfJa",
+        "text_PmAVEY"
       ],
       "settings": {
         "section-bottom-margin": false
-      }
-    },
-    "section_liquid_Ux7tHy": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"container\">\n<h3>Promoting Grip Strength<\/h3>\n    <p>Wearing lifting hand grips, you'll get a secure and comfortable grip on the bar. So, you'll be able to perform more reps with more weight without worries about losing control.<\/p>\n\n    <h3>Hand Protection<\/h3>\n    <p>Gym grips will protect your hands from blisters and calluses that can set your training progress back. With grips, you'll be able to train longer with better comfort.<\/p>\n\n    <h3>Controlling the Weights<\/h3>\n    <p>You'll have more control over the barbell, so you can focus more on your form and technique, eliminating injury risks and enhancing your performance.<\/p>\n\n    <h3>Versatility in Use<\/h3>\n    <p>You can use grips not just for weightlifting, you can also wear them for such exercises as pull-ups, deadlifts, rows inside and outside the gym. Lifting grips also simplify your training routine without dealing with excessive material, providing a strong grip around the bar, and making your lifting experience smoother and efficient.<\/p>\n<\/div>"
       }
     },
     "section_custom_QbnFzR": {
@@ -197,21 +217,27 @@
             "link": "",
             "width": "2\/3"
           }
+        },
+        "text_4DYGRF": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "text": "<h3>Choose the Right Size<\/h3><p>To pick up the right size, measure the circumference of your wrist and the length of your palm. Then compare it with the sizing chart of the manufacturer.<\/p><h3>Material<\/h3><p>Choose grips for weightlifting that are made from high-quality durable materials, i.e., leather or synthetic materials like neoprene. These materials will bring ultimate protection and durability.<\/p><h3>Grip Style<\/h3><p>There are several styles of lifting grips you can choose for your workouts: fingerless or full-finger options. Moreover, there are gymnastic grips that are divided into dowel grips and non-dowel ones. The first has a small rod across the inside finger area of the grip that helps the gymnast hang on while using a looser grip. The latter option is palm guards which are widely used in other sports such as cross-training, which help recreational athletes rip less.<\/p>",
+            "link_title": "Learn more",
+            "link": "",
+            "align": "left",
+            "width": "1\/1"
+          }
         }
       },
       "block_order": [
         "text_e8qtXn",
         "spacer_dgxjr8",
-        "image_erxGEE"
+        "image_erxGEE",
+        "text_4DYGRF"
       ],
       "settings": {
         "section-bottom-margin": false
-      }
-    },
-    "section_liquid_JDVCMh": {
-      "type": "section-liquid",
-      "settings": {
-        "custom_liquid": "<div class=\"container\">\n<h3>Choose the Right Size<\/h3>\n    <p>To pick up the right size, measure the circumference of your wrist and the length of your palm. Then compare it with the sizing chart of the manufacturer.<\/p>\n\n    <h3>Material<\/h3>\n    <p>Choose grips for weightlifting that are made from high-quality durable materials, i.e., leather or synthetic materials like neoprene. These materials will bring ultimate protection and durability.<\/p>\n\n    <h3>Grip Style<\/h3>\n    <p>There are several styles of lifting grips you can choose for your workouts: fingerless or full-finger options. Moreover, there are gymnastic grips that are divided into dowel grips and non-dowel ones. The first has a small rod across the inside finger area of the grip that helps the gymnast hang on while using a looser grip. The latter option is palm guards which are widely used in other sports such as cross-training, which help recreational athletes rip less.<\/p>\n<\/div>"
       }
     },
     "section_custom_V6xfyJ": {
@@ -260,9 +286,7 @@
     "product-grid",
     "section_custom_rpVzKy",
     "section_custom_TnmqKp",
-    "section_liquid_Ux7tHy",
     "section_custom_QbnFzR",
-    "section_liquid_JDVCMh",
     "section_custom_V6xfyJ"
   ]
 }
