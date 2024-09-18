@@ -139,39 +139,38 @@
   {% if template == "index" %}
     <link rel="alternate" hreflang="x-default" href="https://your-store-name.com/">
     <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/">
-    <link rel="alternate" hreflang="de" href="https://eu.warmbody-coldmind.com/de">
-    <link rel="alternate" hreflang="es" href="https://eu.warmbody-coldmind.com/es">
+    <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de">
+    <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es">
   {% endif %}
   <!-- Collection pages -->
   {% if template == "collection" %}
     <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/collections/{{collection.handle}}">
     <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/collections/{{collection.handle}}">
-    <link rel="alternate" hreflang="de" href="https://eu.warmbody-coldmind.com/de/collections/{{collection.handle}}">
-    <link rel="alternate" hreflang="es" href="https://eu.warmbody-coldmind.com/es/collections/{{collection.handle}}">
+    <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/collections/{{collection.handle}}">
+    <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/collections/{{collection.handle}}">
   {% endif %}
   <!-- Product pages -->
   {% if template == "product" %}
     <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/products/{{product.title}}">
     <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/products/{{product.handle}}">
-    <link rel="alternate" hreflang="de" href="https://eu.warmbody-coldmind.com/de/products/{{product.handle}}">
-    <link rel="alternate" hreflang="es" href="https://eu.warmbody-coldmind.com/es/products/{{product.handle}}">
+    <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/products/{{product.handle}}">
+    <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/products/{{product.handle}}">
   {% endif %}
   <!-- Individual pages -->
   {% if template == "page" %}
     <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/pages/{{page.handle}}">
     <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/pages/{{page.handle}}">
-    <link rel="alternate" hreflang="de" href="https://eu.warmbody-coldmind.com/de/pages/{{page.handle}}">
-    <link rel="alternate" hreflang="es" href="https://eu.warmbody-coldmind.com/es/pages/{{page.handle}}">
+    <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/pages/{{page.handle}}">
+    <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/pages/{{page.handle}}">
   {% endif %}
   
-  <!-- Disable Default hreflang tags -->
+  {{ content_for_header }}
   {% assign lines = content_for_header | newline_to_br | split: '<br />' %}
   {% for line in lines %}
       {% if line contains '<link rel="alternate" hreflang="en-DE' or line contains '<link rel="alternate" hreflang="de-DE' or line contains '<link rel="alternate" hreflang="es-DE' %}
         {% assign content_for_header = content_for_header | remove: line %}
       {% endif %}
   {% endfor %}
-  {{ content_for_header }}
 
   {% render 'shogun-head' %}
 {% render 'gp-head' %}
