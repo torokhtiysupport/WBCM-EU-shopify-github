@@ -163,14 +163,18 @@
     <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/pages/{{page.handle}}">
     <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/pages/{{page.handle}}">
   {% endif %}
-  
-  {{ content_for_header }}
+
+  <!-- Disable Default hreflang tags -->
   {% assign lines = content_for_header | newline_to_br | split: '<br />' %}
   {% for line in lines %}
       {% if line contains '<link rel="alternate" hreflang="en-DE' or line contains '<link rel="alternate" hreflang="de-DE' or line contains '<link rel="alternate" hreflang="es-DE' %}
         {% assign content_for_header = content_for_header | remove: line %}
       {% endif %}
   {% endfor %}
+
+  <!-- End Custom hreflang tags -->
+  
+  {{ content_for_header }}
 
   {% render 'shogun-head' %}
 {% render 'gp-head' %}
