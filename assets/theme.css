@@ -9675,3 +9675,47 @@ section.description .container--tiny {
     background: #fff;
   }
 }
+
+/* Badges */
+  .product-badges {
+    position: absolute;
+    top: 5px;
+    left: calc(60% + 10px);
+  }
+  .product-badges .badge {
+    background-color: #ff0000;
+    color: #000;
+    padding: 5px 10px;
+    margin-right: 5px;
+    border-radius: 3px;
+    border: 1px solid #000;
+    font-size: 12px;
+    line-height: 1.2;
+  }
+  .product-badges .bestseller {
+    background-color: #fa7a02;
+    color: #fff;
+  }
+  .product-badges .sold-out {
+    background-color: #000;
+    display: none;
+    color: #fff;
+  }
+  .product-badges .sale {
+    background-color: #c00000;
+    color: #fff;
+  }
+  .product-badges .new {
+    background-color: #fadd02;
+  }
+
+  .product-badges .coming-soon, .product-badges .last-items {
+    background-color: #fff;
+  }
+
+  @media screen and (max-width: 768px) {
+    .product-badges {
+      top: 5px;
+      left: 20px;
+    }
+  }
