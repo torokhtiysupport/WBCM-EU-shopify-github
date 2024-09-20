@@ -5208,7 +5208,7 @@ variant-selects {
   position: relative;
   background: var(--color--bg);
   max-width: 700px;
-  width: 100%;
+  width: auto;
   margin: 12px auto 42px; }
   .product-popup-draw .mfp-close {
     color: var(--color--text);
@@ -5221,10 +5221,10 @@ variant-selects {
     line-height: 58px; }
 
 .product-popup-draw__wrapper {
-  padding: 30px; }
+  padding: 30px 10px; }
 
 .product-popup__inner {
-  overflow-x: scroll; }
+  overflow-x: auto; }
 
 .product-popup__head {
   text-align: center;
@@ -5246,6 +5246,7 @@ variant-selects {
   margin-top: 12px; }
 
 .product-popup__media-img {
+  margin: 0!important;
   width: 100%; }
 
 .product-single__profile-container--divider,
