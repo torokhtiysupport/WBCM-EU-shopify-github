@@ -587,6 +587,30 @@
                                         {% endcomment %}
                                         {% for i in (1..8) %}
                                             <div class="o-layout__item u-1/{{ section.settings.grid_mobile }} {{ grid_item_width }}">
+
+                                                <!-- Badges -->
+                                                                <div class="product-badges">
+                                                                          {% if product.tags contains 'Coming Soon' %}
+                                                                            <span class="badge coming-soon">Coming Soon</span>
+                                                                          {% endif %}
+                                                
+                                                                          {% if product.tags contains 'Last Items' %}
+                                                                            <span class="badge last-items">Last Items</span>
+                                                                          {% endif %}
+                                                
+                                                                          {% if product.tags contains 'Bestseller' %}
+                                                                            <span class="badge bestseller">Bestseller</span>
+                                                                          {% endif %}
+                                                                          
+                                                                          {% if product.compare_at_price > product.price %}
+                                                                            <span class="badge sale">Sale</span>
+                                                                          {% endif %}
+                                                                          
+                                                                          {% if product.tags contains 'NEW' %}
+                                                                            <span class="badge new">New</span>
+                                                                          {% endif %}
+                                                                </div>
+                                              
                                                 <a href="#" class="product-card__link home-products__link">
                                                     <div class="product-card{% if settings.product_grid_align %} product-card--center{% else %} product-card--left{% endif %}">
                                                         <div class="product-card__media">
