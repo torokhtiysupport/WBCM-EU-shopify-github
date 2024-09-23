@@ -9687,7 +9687,7 @@ section.description .container--tiny {
   .product-badges {
     position: absolute;
     top: 5px;
-    left: calc(60% + 20px);
+    left: calc(60% + 30px);
   }
   .product-badges .badge {
     background-color: #ff0000;
