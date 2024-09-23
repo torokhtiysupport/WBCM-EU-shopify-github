@@ -9726,3 +9726,7 @@ section.description .container--tiny {
       left: 18px;
     }
   }
+
+  .collection__cards .o-layout__item {
+    position: relative;
+  }
