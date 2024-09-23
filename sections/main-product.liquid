@@ -29,7 +29,32 @@
                         </nav>
                     </div>
                 {% endif %} {% endcomment %}
-                
+                <!-- Badges -->
+                <div class="product-badges">
+                          {% unless product.tags contains 'Coming Soon' %}
+                              <span class="badge sold-out">Sold Out</span>
+                          {% endunless %}
+
+                          {% if product.tags contains 'Coming Soon' %}
+                            <span class="badge coming-soon">Coming Soon</span>
+                          {% endif %}
+
+                          {% if product.tags contains 'Last Items' %}
+                            <span class="badge last-items">Last Items</span>
+                          {% endif %}
+
+                          {% if product.tags contains 'Bestseller' %}
+                            <span class="badge bestseller">Bestseller</span>
+                          {% endif %}
+                          
+                          {% if product.compare_at_price > product.price %}
+                            <span class="badge sale">Sale</span>
+                          {% endif %}
+                          
+                          {% if product.tags contains 'NEW' %}
+                            <span class="badge new">New</span>
+                          {% endif %}
+                </div>
             </div>
 
             <div class="container{% unless section.settings.container == 'full' %} container--{{ section.settings.container }}{% endunless %} {% if section.settings.container == 'small' %}container--tiny@tab{% endif %}">
@@ -68,34 +93,6 @@
                             <div class="u-height-100">
 
                                 <div class="product-single__box js-product-single-actions">
-                                    <!-- Badges -->
-                                        <div class="product-badges">
-                                                  {% unless product.tags contains 'Coming Soon' %}
-                                                      <span class="badge sold-out">Sold Out</span>
-                                                  {% endunless %}
-                        
-                                                  {% if product.tags contains 'Coming Soon' %}
-                                                    <span class="badge coming-soon">Coming Soon</span>
-                                                  {% endif %}
-                        
-                                                  {% if product.tags contains 'Last Items' %}
-                                                    <span class="badge last-items">Last Items</span>
-                                                  {% endif %}
-                        
-                                                  {% if product.tags contains 'Bestseller' %}
-                                                    <span class="badge bestseller">Bestseller</span>
-                                                  {% endif %}
-                                                  
-                                                  {% if product.compare_at_price > product.price %}
-                                                    <span class="badge sale">Sale</span>
-                                                  {% endif %}
-                                                  
-                                                  {% if product.tags contains 'NEW' %}
-                                                    <span class="badge new">New</span>
-                                                  {% endif %}
-                                        </div>
-                                    <!-- End Badges -->
-                                  
                                     {%- liquid
                                         assign form_id = 'product-form-' | append: section.id
                                         assign buy_buttons_present = false
