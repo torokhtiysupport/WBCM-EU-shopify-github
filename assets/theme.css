@@ -9722,7 +9722,7 @@ section.description .container--tiny {
 
   @media screen and (max-width: 768px) {
     .product-badges {
-      top: -440px;
+      top: -480px;
       left: 0;
     }
   }
