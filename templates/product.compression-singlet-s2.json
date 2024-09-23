@@ -1,13 +1,22 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "170056398848b74346": {
       "type": "apps",
       "blocks": {
         "85a8195a-bd18-4a62-b2ab-2f1e519d893e": {
-          "type": "shopify:\/\/apps\/schema-breadcrumbs\/blocks\/product-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/product-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
-            "home_link": "\/",
+            "home_link": "/",
             "menu": "main-menu",
             "separator": "›",
             "custom_class": "",
@@ -26,6 +35,8 @@
             "bb_mobile_margin": 0,
             "bb_align": "left",
             "bb_color": "#2a2a2a",
+            "bb_hover_color": "",
+            "bb_home_color": "",
             "truncator": 20
           }
         }
@@ -48,7 +59,7 @@
           }
         },
         "108243de-456a-47e1-8b42-f68915d5089c": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -101,6 +112,21 @@
           "type": "description",
           "settings": {
           }
+        },
+        "popup_iX79YX": {
+          "type": "popup",
+          "settings": {
+            "link_title": "Size chart",
+            "link_style": "body",
+            "align": "left",
+            "popup_heading": "label",
+            "popup_content": "",
+            "image": "shopify://shop_images/singlet-sizes.jpg",
+            "text": "",
+            "icon": "icon-clothes-design-tape-measure",
+            "icon_size": 1,
+            "color_icon": "#212121"
+          }
         }
       },
       "block_order": [
@@ -112,7 +138,8 @@
         "quantity_selector",
         "buy_buttons",
         "db48bf56-e904-4604-9f21-89d04e9bf241",
-        "description"
+        "description",
+        "popup_iX79YX"
       ],
       "settings": {
         "container": "large",
@@ -133,28 +160,28 @@
           "type": "article",
           "settings": {
             "title": "Specs",
-            "text": "<p><strong>Sizing (size by weight class)<\/strong>:<\/p><ul><li><strong>S<\/strong>: 62-72kg \/ 136-159 lbs<\/li><li><strong>M<\/strong>: 73-84kg \/ 161-185 lbs<\/li><li><strong>L<\/strong>: 85-98kg \/ 187-216 lbs<\/li><li><strong>XL<\/strong>: 99-110kg \/ 218-242 lbs<\/li><li><strong>XXL<\/strong>: 111-125kg \/ 245-275 lbs<\/li><\/ul><p>If you don't know how to choose a size, read our tips <a href=\"https:\/\/blog.warmbody-coldmind.com\/guides\/compression-clothing\/\" target=\"_blank\" title=\"https:\/\/blog.warmbody-coldmind.com\/guides\/compression-clothing\/\">here<\/a>.<\/p><p><strong>Color palette<\/strong>: black with blue\/yellow print on the sides<br\/><br\/><\/p>"
+            "text": "<p><strong>Sizing (size by weight class)</strong>:</p><ul><li><strong>S</strong>: 62-72kg / 136-159 lbs</li><li><strong>M</strong>: 73-84kg / 161-185 lbs</li><li><strong>L</strong>: 85-98kg / 187-216 lbs</li><li><strong>XL</strong>: 99-110kg / 218-242 lbs</li><li><strong>XXL</strong>: 111-125kg / 245-275 lbs</li></ul><p>If you don't know how to choose a size, read our tips <a href=\"https://blog.warmbody-coldmind.com/guides/compression-clothing/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/compression-clothing/\">here</a>.</p><p><strong>Color palette</strong>: black with blue/yellow print on the sides<br/><br/></p>"
           }
         },
         "article_na9QUf": {
           "type": "article",
           "settings": {
             "title": "Intended Use",
-            "text": "<p>This compression singlet suits any type of weight training: weightlifting, powerlifting, and bodybuilding sessions.<\/p>"
+            "text": "<p>This compression singlet suits any type of weight training: weightlifting, powerlifting, and bodybuilding sessions.</p>"
           }
         },
         "article_LLaaV9": {
           "type": "article",
           "settings": {
             "title": "Warranty",
-            "text": "<p>We offer the return option for the item within 14 days after receiving it. Items must be unwashed and unworn with all barcodes intact. If you're not fully satisfied with the product, you can return it within 14 days of receipt. The same is for exchanging the items.<\/p>"
+            "text": "<p>We offer the return option for the item within 14 days after receiving it. Items must be unwashed and unworn with all barcodes intact. If you're not fully satisfied with the product, you can return it within 14 days of receipt. The same is for exchanging the items.</p>"
           }
         },
         "article_fGVQ8g": {
           "type": "article",
           "settings": {
             "title": "Care",
-            "text": "<p>To wash a singlet, use a liquid soap only. Machine wash cold with like colors. Hang dry only.<\/p>"
+            "text": "<p>To wash a singlet, use a liquid soap only. Machine wash cold with like colors. Hang dry only.</p>"
           }
         }
       },
@@ -177,9 +204,9 @@
         "image_qFHkFk": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/best-singlet-s2-for.jpg",
+            "image": "shopify://shop_images/best-singlet-s2-for.jpg",
             "title": "BEST SINGLET FOR:",
-            "desc": "<ul><li>weightlifting<\/li><li>powerlifting<\/li><li>bodybuilding sessions<\/li><\/ul>",
+            "desc": "<ul><li>weightlifting</li><li>powerlifting</li><li>bodybuilding sessions</li></ul>",
             "horizontal_align": "left",
             "link_title": "",
             "link": "",
@@ -198,7 +225,7 @@
         "block_spacing": 2,
         "section-bottom-margin": false,
         "image_ratio": "natural",
-        "block_layout": "1\/2",
+        "block_layout": "1/2",
         "block_align": "left",
         "vertical_align": "middle",
         "heading_size": 2,
@@ -211,9 +238,9 @@
         "image_TJzL4A": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/singlet-s2-designed-by.jpg",
+            "image": "shopify://shop_images/singlet-s2-designed-by.jpg",
             "title": "DESIGN BY OLYMPIC CHAMPION OLEKSIY TOROKHTIY",
-            "desc": "<p>Designed to withstand rigorous training sessions, this singlet offers superior comfort and durability, empowering athletes to push their limits. Experience the difference of locally-made excellence in every stitch<\/p>",
+            "desc": "<p>Designed to withstand rigorous training sessions, this singlet offers superior comfort and durability, empowering athletes to push their limits. Experience the difference of locally-made excellence in every stitch</p>",
             "horizontal_align": "left",
             "link_title": "",
             "link": "",
@@ -232,7 +259,7 @@
         "block_spacing": 2,
         "section-bottom-margin": false,
         "image_ratio": "natural",
-        "block_layout": "1\/2",
+        "block_layout": "1/2",
         "block_align": "right",
         "vertical_align": "middle",
         "heading_size": 2,
@@ -245,7 +272,7 @@
         "image_Ux7WtH": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/singlet-s2-features.jpg",
+            "image": "shopify://shop_images/singlet-s2-features.jpg",
             "title": "",
             "desc": "",
             "horizontal_align": "left",
@@ -270,7 +297,7 @@
         "block_spacing": 2,
         "section-bottom-margin": false,
         "image_ratio": "natural",
-        "block_layout": "2\/3",
+        "block_layout": "2/3",
         "block_align": "left",
         "vertical_align": "top",
         "heading_size": 3,
@@ -288,7 +315,7 @@
             "link_title": "",
             "link": "",
             "align": "center",
-            "width": "1\/2"
+            "width": "1/2"
           }
         }
       },
@@ -305,7 +332,7 @@
         "image_TMjMzp": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/singlet-s-2-sizes.webp",
+            "image": "shopify://shop_images/singlet-sizes.jpg",
             "title": "",
             "desc": "",
             "horizontal_align": "left",
@@ -330,7 +357,7 @@
         "block_spacing": 2,
         "section-bottom-margin": false,
         "image_ratio": "natural",
-        "block_layout": "2\/3",
+        "block_layout": "2/3",
         "block_align": "left",
         "vertical_align": "top",
         "heading_size": 3,
@@ -350,14 +377,14 @@
           "type": "article",
           "settings": {
             "title": "Shipping",
-            "text": "<p>✔ Orders processed within 48 hours on business days (Mon-Fri).<\/p><p>✔ Delivered via DHL Standard in 3-5 business days.<\/p><p>✔ View shipping costs & taxes at checkout.<\/p>"
+            "text": "<p>✔ Orders processed within 48 hours on business days (Mon-Fri).</p><p>✔ Delivered via DHL Standard in 3-5 business days.</p><p>✔ View shipping costs & taxes at checkout.</p>"
           }
         },
         "template--17346847047944__2d5bd59f-a78a-4717-af1f-2177417b93ca-1674837758c3ce571e-2": {
           "type": "article",
           "settings": {
             "title": "Returns",
-            "text": "<p>✔ Option to return the item within 14 days after receiving it<\/p><p>✔ Items must be in \"as-new\" condition, unwashed & unworn<\/p><p>✔ Send a return request to <a href=\"mailto:europe@warmbody-coldmind.com\" title=\"mailto:europe@warmbody-coldmind.com\">europe@warmbody-coldmind.com<\/a><\/p><p>✔ More info about return or exchange policy <a href=\"\/pages\/privacy-policy\" title=\"PRIVACY POLICY\">click here<\/a>.<\/p>"
+            "text": "<p>✔ Option to return the item within 14 days after receiving it</p><p>✔ Items must be in \"as-new\" condition, unwashed & unworn</p><p>✔ Send a return request to <a href=\"mailto:europe@warmbody-coldmind.com\" title=\"mailto:europe@warmbody-coldmind.com\">europe@warmbody-coldmind.com</a></p><p>✔ More info about return or exchange policy <a href=\"/pages/privacy-policy\" title=\"PRIVACY POLICY\">click here</a>.</p>"
           }
         }
       },
@@ -380,7 +407,7 @@
       "type": "apps",
       "blocks": {
         "9827f988-21c5-4ea8-b629-f84c75497d8d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
