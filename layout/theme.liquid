@@ -136,41 +136,7 @@
   
   <!-- Custom hreflang tags -->
   <!-- Home page -->
-  <!-- {% if template == "index" %}
-    <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/">
-    <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/">
-    <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de">
-    <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es">
-  {% endif %}
-  <!-- Collection pages -->
-  {% if request.path contains '/collections/' %}
-    <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/collections/{{collection.handle}}">
-    <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/collections/{{collection.handle}}">
-    <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/collections/{{collection.handle}}">
-    <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/collections/{{collection.handle}}">
-  {% endif %}
-  <!-- Product pages -->
-  {% if request.path contains '/products/' %}
-    <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/products/{{ product.handle }}">
-    <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/products/{{ product.handle }}">
-    <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/products/{{ product.handle }}">
-    <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/products/{{ product.handle }}">
-  {% endif %}
-  <!-- Individual pages -->
-  {% if request.path contains '/pages/' %}
-    <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/pages/{{page.handle}}">
-    <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/pages/{{page.handle}}">
-    <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/pages/{{page.handle}}">
-    <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/pages/{{page.handle}}">
-  {% endif %} -->
-
-  <!-- Disable Default hreflang tags -->
-  <!-- {% assign lines = content_for_header | newline_to_br | split: '<br />' %}
-  {% for line in lines %}
-      {% if line contains '<link rel="alternate" hreflang' %}
-        {% assign content_for_header = content_for_header | remove: line %}
-      {% endif %}
-  {% endfor %} -->
+  
 
   <!-- End Custom hreflang tags -->
   
