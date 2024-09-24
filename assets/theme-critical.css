@@ -2586,6 +2586,12 @@ body:not(.header-stuck) [data-transparent-header=true].header:not(:hover) .heade
 .label--custom_2 .label__text {
   color: var(--color--text-label-custom_two); }
 
+.label--custom_3 {
+  background-color: var(--color--label-custom3); }
+
+.label--custom_3 .label__text {
+  color: var(--color--text-label-custom_three); }
+
 .product-card__label__items {
   position: absolute;
   display: flex;
