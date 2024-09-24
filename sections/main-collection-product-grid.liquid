@@ -661,22 +661,41 @@
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    const products = document.querySelectorAll('.collection-products .product-card');
+    // Отримуємо всі продукти на сторінці колекції
+    var products = document.querySelectorAll('.collection__cards .product-card');
 
     products.forEach(function(product) {
-        const productFormAdd = product.querySelector('.product-form__add');
-        const customLabel = product.querySelector('.label--custom_4');
+        var addButton = product.querySelector('.product-form__add');
+        var customLabel = product.querySelector('.label--custom_4');
 
-        if (productFormAdd && customLabel) {
-            if (productFormAdd.classList.contains('is-disabled')) {
-                customLabel.style.display = 'block';
-            } else {
-                customLabel.style.display = 'none';
+        // Функція для оновлення видимості лейбла на основі наявності класу is-disabled
+        function updateLabel() {
+            if (addButton && customLabel) {
+                if (addButton.classList.contains('is-disabled')) {
+                    customLabel.style.display = 'block'; // Показуємо лейбл
+                } else {
+                    customLabel.style.display = 'none'; // Ховаємо лейбл
+                }
             }
+        }
+
+        updateLabel(); // Викликаємо спочатку для ініціалізації
+
+        // Використовуємо MutationObserver для стеження за змінами класів
+        var observer = new MutationObserver(function(mutations) {
+            mutations.forEach(function(mutation) {
+                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                    updateLabel(); // Оновлюємо лейбл при зміні класу
+                }
+            });
+        });
+
+        // Налаштовуємо спостереження за змінами атрибутів для кожного продукту
+        if (addButton) {
+            observer.observe(addButton, { attributes: true }); // Спостерігаємо за змінами атрибутів (класів)
         }
     });
 });
-
 </script>
 
 {% schema %}
