@@ -659,6 +659,26 @@
 
 {% endpaginate %}
 
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const products = document.querySelectorAll('.collection-products .product-card');
+
+    products.forEach(function(product) {
+        const productFormAdd = product.querySelector('.product-form__add');
+        const customLabel = product.querySelector('.label--custom_4');
+
+        if (productFormAdd && customLabel) {
+            if (productFormAdd.classList.contains('is-disabled')) {
+                customLabel.style.display = 'block';
+            } else {
+                customLabel.style.display = 'none';
+            }
+        }
+    });
+});
+
+</script>
+
 {% schema %}
 {
     "name": "Collection page",
