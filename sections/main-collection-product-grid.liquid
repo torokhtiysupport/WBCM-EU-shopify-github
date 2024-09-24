@@ -665,12 +665,13 @@
     var products = document.querySelectorAll('.collection__cards .product-card');
 
     products.forEach(function(product) {
-        var addButton = product.querySelector('.product-form__add.product-form__add--dynamic');
+        var addButton = product.querySelector('.product-form__add');
         var customLabel = product.querySelector('.label--custom_4');
 
         // Функція для оновлення видимості лейбла на основі наявності класу is-disabled
         function updateLabel() {
             if (addButton && customLabel) {
+                // Перевіряємо конкретно наявність класу is-disabled
                 if (addButton.classList.contains('is-disabled')) {
                     customLabel.style.display = 'block'; // Показуємо лейбл
                 } else {
@@ -684,7 +685,8 @@
         // Використовуємо MutationObserver для стеження за змінами класів
         var observer = new MutationObserver(function(mutations) {
             mutations.forEach(function(mutation) {
-                if (mutation.type === 'attributes' && mutation.attributeName === 'class') {
+                // Перевіряємо, чи змінився клас саме у кнопки, а не під час наведення або інших подій
+                if (mutation.target === addButton && mutation.type === 'attributes' && mutation.attributeName === 'class') {
                     updateLabel(); // Оновлюємо лейбл при зміні класу
                 }
             });
