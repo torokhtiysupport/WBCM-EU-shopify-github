@@ -662,7 +662,7 @@
 <script>
   document.addEventListener('DOMContentLoaded', function() {
     // Отримуємо всі продукти на сторінці колекції
-    var products = document.querySelectorAll('.collection__cards .product-card');
+    var products = document.querySelectorAll('.product-card, .product-card__wrapper');
 
     products.forEach(function(product) {
         var addButton = product.querySelector('.product-form__add');
