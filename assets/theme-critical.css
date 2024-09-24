@@ -2587,7 +2587,7 @@ body:not(.header-stuck) [data-transparent-header=true].header:not(:hover) .heade
   color: var(--color--text-label-custom_two); }
 
 .label--custom_3 {
-  background-color: #c7c7c7; }
+  background-color: rgba(199, 199, 199, 0.8); }
 
 .label--custom_3 .label__text {
   color: var(--color--text-label-custom_three); }
