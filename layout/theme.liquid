@@ -145,9 +145,8 @@
   <!-- Collection pages -->
   {% if request.path contains '/collections/' %}
     {% unless request.path contains '/products/' %}
-      <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/collections/{{ collection.handle }}">
       {% if collection.metafields.custom.hreflang_en %}
-        <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/collections/{{ collection.metafields.custom.hreflang_en }}">
+        <link rel="alternate" hreflang="en" href="https://warmbody-coldmind.com/collections/{{ collection.metafields.custom.hreflang_en }}">
         <link rel="alternate" hreflang="en-US" href="https://warmbody-coldmind.com/collections/{{ collection.metafields.custom.hreflang_en }}">
       {% else %}
         <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/collections/{{ collection.handle }}">
@@ -169,9 +168,8 @@
   {% endif %}
   <!-- Product pages -->
   {% if request.path contains '/products/' %}
-    <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/products/{{ product.handle }}">
       {% if product.metafields.custom.hreflang_en %}
-        <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/products/{{ product.metafields.custom.hreflang_en }}">
+        <link rel="alternate" hreflang="en" href="https://warmbody-coldmind.com/products/{{ product.metafields.custom.hreflang_en }}">
         <link rel="alternate" hreflang="en-US" href="https://warmbody-coldmind.com/products/{{ product.metafields.custom.hreflang_en }}">
       {% else %}
         <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/products/{{ product.handle }}">
