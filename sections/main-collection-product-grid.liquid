@@ -664,30 +664,36 @@
     var products = document.querySelectorAll('.product-card');
     products.forEach(function(product) {
         var addButton = product.querySelector('.product-form__add-btn');
-        var customLabel = product.querySelector('.product-card__label--custom__4');
-        function updateLabel() {
-            if (addButton && customLabel) {
-                if (addButton.hasAttribute('disabled')) {
-                    customLabel.style.display = 'block';
-                } else {
-                    customLabel.style.display = 'none';
-                }
+        var customLabels = product.querySelectorAll('.product-card__label--custom__4');
+        
+        function updateLabels() {
+            if (addButton && customLabels.length > 0) {
+                customLabels.forEach(function(customLabel) {
+                    if (addButton.hasAttribute('disabled')) {
+                        customLabel.style.display = 'block';
+                    } else {
+                        customLabel.style.display = 'none';
+                    }
+                });
             }
         }
-        updateLabel(); 
+        
+        updateLabels(); 
         var observer = new MutationObserver(function(mutations) {
             mutations.forEach(function(mutation) {
                 if (mutation.target === addButton && mutation.type === 'attributes' && mutation.attributeName === 'disabled') {
-                    updateLabel();
+                    updateLabels();
                 }
             });
         });
+        
         if (addButton) {
             observer.observe(addButton, { attributes: true });
         }
     });
 });
 </script>
+
 
 {% schema %}
 {
