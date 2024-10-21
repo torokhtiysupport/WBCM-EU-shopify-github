@@ -306,7 +306,7 @@
         "container": "large",
         "block_spacing": 2,
         "section-bottom-margin": false,
-        "image_ratio": "3:4",
+        "image_ratio": "1:1",
         "block_layout": "1/2",
         "block_align": "left",
         "vertical_align": "middle",
