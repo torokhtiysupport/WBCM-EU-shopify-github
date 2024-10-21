@@ -1,22 +1,22 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "17007327945bd03b2c": {
       "type": "apps",
       "blocks": {
         "e571f99a-baae-46a1-a4b1-58b4199a6b81": {
-          "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/product-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/product-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
-            "home_link": "\/",
+            "home_link": "/",
             "menu": "main-menu",
             "separator": "›",
             "custom_class": "",
@@ -59,7 +59,7 @@
           }
         },
         "b5fe1f14-138e-4f5c-b661-8866d61a0490": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/preview_badge\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         },
@@ -150,28 +150,28 @@
           "type": "article",
           "settings": {
             "title": "Specs",
-            "text": "<ul><li><strong>Dimensions:<\/strong> S (28\"-35\"), M (30\"-37\"), L (31\"-41\"), XL (35\"-45\"), XXL (38\"-48\"), XXXL (41\"-52\")<br\/>If you don't know how to choose a size, read our tips <a href=\"https:\/\/blog.warmbody-coldmind.com\/size-guides\/lifting-belt-size-chart\/\" target=\"_blank\" title=\"https:\/\/blog.warmbody-coldmind.com\/size-guides\/lifting-belt-size-chart\/\">here<\/a>.<\/li><li><strong>Material:<\/strong> genuine A-grade leather<\/li><li><strong>Thickness:<\/strong> 6 mm<\/li><li><strong>Width:<\/strong> 4\" (10 cm)<\/li><li><strong>Closure type:<\/strong> Buckle<\/li><\/ul>"
+            "text": "<ul><li><strong>Dimensions:</strong> S (28\"-35\"), M (30\"-37\"), L (31\"-41\"), XL (35\"-45\"), XXL (38\"-48\"), XXXL (41\"-52\")<br/>If you don't know how to choose a size, read our tips <a href=\"https://blog.warmbody-coldmind.com/size-guides/lifting-belt-size-chart/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/size-guides/lifting-belt-size-chart/\">here</a>.</li><li><strong>Material:</strong> genuine A-grade leather</li><li><strong>Thickness:</strong> 6 mm</li><li><strong>Width:</strong> 4\" (10 cm)</li><li><strong>Closure type:</strong> Buckle</li></ul>"
           }
         },
         "template--17877575270664__ca4c36f1-f47f-4af4-9f94-6bbb252e947a-article-2": {
           "type": "article",
           "settings": {
             "title": "Intended Use",
-            "text": "<p>Ideal for both everyday gym goers and professional Oly lifters, powerlifters, bodybuilders, cross-trainers, and general fitness attenders.<\/p>"
+            "text": "<p>Ideal for both everyday gym goers and professional Oly lifters, powerlifters, bodybuilders, cross-trainers, and general fitness attenders.</p>"
           }
         },
         "template--17877575270664__ca4c36f1-f47f-4af4-9f94-6bbb252e947a-article-3": {
           "type": "article",
           "settings": {
             "title": "Warranty",
-            "text": "<p>We offer the return option for the item within 14 days after receiving it. Items must be unwashed and unworn with all barcodes intact. If you're not fully satisfied with the product, you can return it within 14 days of receipt. The same is for exchanging the items.<\/p>"
+            "text": "<p>We offer the return option for the item within 14 days after receiving it. Items must be unwashed and unworn with all barcodes intact. If you're not fully satisfied with the product, you can return it within 14 days of receipt. The same is for exchanging the items.</p>"
           }
         },
         "template--17877575270664__ca4c36f1-f47f-4af4-9f94-6bbb252e947a-article-4": {
           "type": "article",
           "settings": {
             "title": "Care",
-            "text": "<p>Wipe with a wet tissue. Avoid machine washing so as not to damage the natural leather. Allow the belt to air dry naturally in a well-ventilated area away from heat sources and sunlight.<\/p>"
+            "text": "<p>Wipe with a wet tissue. Avoid machine washing so as not to damage the natural leather. Allow the belt to air dry naturally in a well-ventilated area away from heat sources and sunlight.</p>"
           }
         }
       },
@@ -194,7 +194,7 @@
         "image_eNpAx4": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/leather-belt-features-banner-desk.jpg",
+            "image": "shopify://shop_images/leather-belt-features-banner-desk.jpg",
             "link": ""
           }
         }
@@ -222,7 +222,7 @@
         "image_ggYPXM": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/leather-belt-features-banner-mob.jpg",
+            "image": "shopify://shop_images/leather-belt-features-banner-mob.jpg",
             "link": ""
           }
         }
@@ -259,7 +259,7 @@
         "image_XtcK6m": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/leather-belts-collours.webp",
+            "image": "shopify://shop_images/leather-belts-collours.webp",
             "link": ""
           }
         }
@@ -286,9 +286,9 @@
         "template--17877575270664__7266bf5e-5752-4aac-a17b-c0f6ff20f381-1688993923cc7d1bb8-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/The_man_is_holding_a_Leather_Weightlifting_Belt.jpg",
+            "image": "shopify://shop_images/Weightlifting-Leather-Belt-Blue-Chili.jpg",
             "title": "",
-            "desc": "<p><strong>HEAVY-DUTY:<br\/><\/strong>The Double Roller Stainless Steel Buckle with 4 Strengthened Bol.<br\/><strong>TOP QUALITY:<\/strong><br\/>Genuine A-Grade Leather with 6mm Thickness Maximum Support<br\/><strong>MAXIMUM SUPPORT:<\/strong><br\/>4\" Wide for Confident & Comfortable Back Support<br\/><strong>UNIQUE DESIGN:<\/strong><br\/>Tough and Durable Belt with laser printing for men and women.<\/p>",
+            "desc": "<p><strong>HEAVY-DUTY:<br/></strong>The Double Roller Stainless Steel Buckle with 4 Strengthened Bol.<br/><strong>TOP QUALITY:</strong><br/>Genuine A-Grade Leather with 6mm Thickness Maximum Support<br/><strong>MAXIMUM SUPPORT:</strong><br/>4\" Wide for Confident & Comfortable Back Support<br/><strong>UNIQUE DESIGN:</strong><br/>Tough and Durable Belt with laser printing for men and women.</p>",
             "horizontal_align": "left",
             "link_title": "",
             "link": "",
@@ -307,7 +307,7 @@
         "block_spacing": 2,
         "section-bottom-margin": false,
         "image_ratio": "3:4",
-        "block_layout": "1\/2",
+        "block_layout": "1/2",
         "block_align": "left",
         "vertical_align": "middle",
         "heading_size": 3,
@@ -320,9 +320,9 @@
         "image_3YGg6b": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/best-belt-for.jpg",
+            "image": "shopify://shop_images/best-belt-for.jpg",
             "title": "BEST BELT FOR:",
-            "desc": "<p>• OLYMPIC WEIGHTLIFTING<br\/>• POWERLIFTING<br\/>• BODYBUILDING<br\/>• CROSS TRAINING<br\/>• FITNESS TRAINING<\/p>",
+            "desc": "<p>• OLYMPIC WEIGHTLIFTING<br/>• POWERLIFTING<br/>• BODYBUILDING<br/>• CROSS TRAINING<br/>• FITNESS TRAINING</p>",
             "horizontal_align": "left",
             "link_title": "",
             "link": "",
@@ -341,7 +341,7 @@
         "block_spacing": 2,
         "section-bottom-margin": false,
         "image_ratio": "4:3",
-        "block_layout": "1\/2",
+        "block_layout": "1/2",
         "block_align": "right",
         "vertical_align": "middle",
         "heading_size": 3,
@@ -354,7 +354,7 @@
         "template--17877575270664__7e31d79e-3a8c-408b-bac9-562350eec323-168899706167833dbd-0": {
           "type": "video",
           "settings": {
-            "video_url": "https:\/\/www.youtube.com\/watch?v=JE7we4QsDOw&t=1s",
+            "video_url": "https://www.youtube.com/watch?v=JE7we4QsDOw&t=1s",
             "video_title": ""
           }
         }
@@ -375,7 +375,7 @@
       "settings": {
         "full_width": false,
         "section_title": "",
-        "text": "<p>Pay Attention to Take Your Measurements from <strong>True Waist Size<\/strong>. Do Not Use Pants Size.<br\/>If your Measurements are between two sizes, we Recommend Choosing the Upper Size.<\/p>",
+        "text": "<p>Pay Attention to Take Your Measurements from <strong>True Waist Size</strong>. Do Not Use Pants Size.<br/>If your Measurements are between two sizes, we Recommend Choosing the Upper Size.</p>",
         "section-bottom-margin": true
       }
     },
@@ -385,7 +385,7 @@
         "template--17877575270664__6600bffc-d9d5-47d6-8a66-a98b240b5557-1688997134042401de-0": {
           "type": "image",
           "settings": {
-            "image": "shopify:\/\/shop_images\/bammer-4-1464px_x_600px_b241728a-02d1-461a-958b-404dd468f1c2.png",
+            "image": "shopify://shop_images/bammer-4-1464px_x_600px_b241728a-02d1-461a-958b-404dd468f1c2.png",
             "link": ""
           }
         }
@@ -419,14 +419,14 @@
           "type": "article",
           "settings": {
             "title": "Shipping",
-            "text": "<p>✔ Orders processed within 48 hours on business days (Mon-Fri).<\/p><p>✔ Delivered via DHL Standard in 3-5 business days.<\/p><p>✔ View shipping costs & taxes at checkout.<\/p>"
+            "text": "<p>✔ Orders processed within 48 hours on business days (Mon-Fri).</p><p>✔ Delivered via DHL Standard in 3-5 business days.</p><p>✔ View shipping costs & taxes at checkout.</p>"
           }
         },
         "template--17346847047944__2d5bd59f-a78a-4717-af1f-2177417b93ca-1674837758c3ce571e-2": {
           "type": "article",
           "settings": {
             "title": "Returns",
-            "text": "<p>✔ Option to return the item within 14 days after receiving it<\/p><p>✔ Items must be in \"as-new\" condition, unwashed & unworn<\/p><p>✔ Send a return request to <a href=\"mailto:europe@warmbody-coldmind.com\" title=\"mailto:europe@warmbody-coldmind.com\">europe@warmbody-coldmind.com<\/a><\/p><p>✔ More info about return or exchange policy <a href=\"\/pages\/privacy-policy\" title=\"PRIVACY POLICY\">click here<\/a>.<\/p>"
+            "text": "<p>✔ Option to return the item within 14 days after receiving it</p><p>✔ Items must be in \"as-new\" condition, unwashed & unworn</p><p>✔ Send a return request to <a href=\"mailto:europe@warmbody-coldmind.com\" title=\"mailto:europe@warmbody-coldmind.com\">europe@warmbody-coldmind.com</a></p><p>✔ More info about return or exchange policy <a href=\"/pages/privacy-policy\" title=\"PRIVACY POLICY\">click here</a>.</p>"
           }
         }
       },
@@ -449,7 +449,7 @@
       "type": "apps",
       "blocks": {
         "88702fc5-4422-4d49-80d5-ca72a2d7847d": {
-          "type": "shopify:\/\/apps\/judge-me-reviews\/blocks\/review_widget\/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
           }
         }
