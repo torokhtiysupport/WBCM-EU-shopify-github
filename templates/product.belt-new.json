@@ -374,8 +374,8 @@
       "type": "section-rich-text",
       "settings": {
         "full_width": false,
-        "section_title": "",
-        "text": "<p>Pay Attention to Take Your Measurements from <strong>True Waist Size</strong>. Do Not Use Pants Size.<br/>If your Measurements are between two sizes, we Recommend Choosing the Upper Size.</p>",
+        "section_title": "SIZING",
+        "text": "<p>Pay Attention to Take Your Measurements from <strong>True Waist Size</strong>. Do Not Use Pants Size.<br/>If your Measurements are between two sizes, we Recommend Choosing the Upper Size.</p><p>If you don't know how to choose a size, read our tips <a href=\"https://blog.warmbody-coldmind.com/size-guides/lifting-belt-size-chart/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/size-guides/lifting-belt-size-chart/\">here</a>.</p>",
         "section-bottom-margin": true
       }
     },
