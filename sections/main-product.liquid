@@ -1247,23 +1247,28 @@
 </script>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    const saleBadge = document.getElementById('sale-badge');
-  
+  document.addEventListener("DOMContentLoaded", function() {
+    const productSelect = document.querySelector('[name="id"]');
+    const saleBadge = document.querySelector(".badge.sale");
+
+    if (!productSelect || !saleBadge) return;
+
     function updateSaleBadge() {
-      const selectedVariant = Shopify.product.selected_or_first_available_variant;
-  
-      if (selectedVariant && selectedVariant.compare_at_price > selectedVariant.price) {
-        saleBadge.style.display = 'inline';
-      } else {
-        saleBadge.style.display = 'none';
-      }
+        const selectedOption = productSelect.options[productSelect.selectedIndex];
+        const compareAtPrice = parseFloat(selectedOption.getAttribute("data-compare-at-price") || 0);
+        const price = parseFloat(selectedOption.getAttribute("data-price") || 0);
+
+        if (compareAtPrice > price) {
+            saleBadge.style.display = "inline"; 
+        } else {
+            saleBadge.style.display = "none";
+        }
     }
-  
-    document.querySelector('[name="id"]').addEventListener('change', updateSaleBadge);
-  
+
     updateSaleBadge();
-  });
+    productSelect.addEventListener("change", updateSaleBadge);
+});
+
 </script>
 <!-- End JS for Sold Out and Coming Soon Badge -->
 
