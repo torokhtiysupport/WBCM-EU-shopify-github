@@ -47,10 +47,7 @@
                             <span class="badge bestseller">Bestseller</span>
                           {% endif %}
                           
-                          {%- assign current_variant = product.selected_or_first_available_variant -%}
-                          {%- if current_variant.compare_at_price > current_variant.price -%}
-                            <span class="badge sale">Sale</span>
-                          {%- endif -%}
+                          <span class="badge sale" style="display: none;">Sale</span>
 
                           
                           {% if product.tags contains 'NEW' %}
@@ -1212,9 +1209,11 @@
   document.addEventListener('DOMContentLoaded', function() {
     var soldOutBadge = document.querySelector('.product-badges .sold-out');
     var comingSoonBadge = document.querySelector('.product-badges .coming-soon');
+    var saleBadge = document.querySelector('.product-badges .sale'); // Додано бейдж Sale
     var addButton = document.querySelector('.product-form__add-btn');
 
     function updateBadge() {
+      // Логіка для бейджів "Sold Out" і "Coming Soon"
       if (addButton && addButton.hasAttribute('disabled')) {
         if (soldOutBadge) {
           soldOutBadge.style.display = 'inline';
@@ -1228,6 +1227,18 @@
         }
         if (comingSoonBadge) {
           comingSoonBadge.style.display = 'none';
+        }
+      }
+
+      // Логіка для бейджа "Sale"
+      var currentVariant = window.product.selected_or_first_available_variant; // Отримуємо поточний варіант
+      if (currentVariant.compare_at_price > currentVariant.price) {
+        if (saleBadge) {
+          saleBadge.style.display = 'inline'; // Показати бейдж "Sale"
+        }
+      } else {
+        if (saleBadge) {
+          saleBadge.style.display = 'none'; // Сховати бейдж "Sale"
         }
       }
     }
