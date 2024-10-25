@@ -47,7 +47,10 @@
                             <span class="badge bestseller">Bestseller</span>
                           {% endif %}
                           
-                          <span id="sale-badge" class="badge sale" style="display: none;">Sale</span>
+                          {%- assign current_variant = product.selected_or_first_available_variant -%}
+                          {%- if current_variant.compare_at_price > current_variant.price -%}
+                            <span class="badge sale">Sale</span>
+                          {%- endif -%}
 
                           
                           {% if product.tags contains 'NEW' %}
@@ -1244,31 +1247,6 @@
       observer.observe(targetNode, config);
     }
   });
-</script>
-
-<script>
-  document.addEventListener("DOMContentLoaded", function() {
-    const productSelect = document.querySelector('[name="id"]');
-    const saleBadge = document.querySelector(".badge.sale");
-
-    if (!productSelect || !saleBadge) return;
-
-    function updateSaleBadge() {
-        const selectedOption = productSelect.options[productSelect.selectedIndex];
-        const compareAtPrice = parseFloat(selectedOption.getAttribute("data-compare-at-price") || 0);
-        const price = parseFloat(selectedOption.getAttribute("data-price") || 0);
-
-        if (compareAtPrice > price) {
-            saleBadge.style.display = "inline"; 
-        } else {
-            saleBadge.style.display = "none";
-        }
-    }
-
-    updateSaleBadge();
-    productSelect.addEventListener("change", updateSaleBadge);
-});
-
 </script>
 <!-- End JS for Sold Out and Coming Soon Badge -->
 
