@@ -47,9 +47,7 @@
                             <span class="badge bestseller">Bestseller</span>
                           {% endif %}
                           
-                          {% if product.selected_or_first_available_variant.compare_at_price > product.selected_or_first_available_variant.price %}
-                              <span class="badge sale">Sale</span>
-                          {% endif %}
+                          <span id="sale-badge" class="badge sale" style="display: none;">Sale</span>
 
                           
                           {% if product.tags contains 'NEW' %}
@@ -1245,6 +1243,26 @@
     if (targetNode) {
       observer.observe(targetNode, config);
     }
+  });
+</script>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function() {
+    const saleBadge = document.getElementById('sale-badge');
+  
+    function updateSaleBadge() {
+      const selectedVariant = Shopify.product.selected_or_first_available_variant;
+  
+      if (selectedVariant && selectedVariant.compare_at_price > selectedVariant.price) {
+        saleBadge.style.display = 'inline';
+      } else {
+        saleBadge.style.display = 'none';
+      }
+    }
+  
+    document.querySelector('[name="id"]').addEventListener('change', updateSaleBadge);
+  
+    updateSaleBadge();
   });
 </script>
 <!-- End JS for Sold Out and Coming Soon Badge -->
