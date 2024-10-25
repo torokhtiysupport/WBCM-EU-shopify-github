@@ -31,8 +31,8 @@
         "section-slideshow-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Halloween-banner-desktop-EU.jpg",
-            "image_mobile": "shopify://shop_images/Halloween-banner-mob-EU.jpg",
+            "image": "shopify://shop_images/halloween-banner-EU-desktop-new.jpg",
+            "image_mobile": "shopify://shop_images/halloween-banner-EU-mob-new.jpg",
             "alignment": "bottom-center",
             "title": "",
             "text": "",
