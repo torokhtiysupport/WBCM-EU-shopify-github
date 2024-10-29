@@ -63,6 +63,14 @@
           "settings": {
           }
         },
+        "text_TPXxmF": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "style": "h3",
+            "text": "<p>We know, you love our old designs, but we can’t continue having all of them in stock. That’s why we decided to print them via third-party services for them to be still available for you. Please, check the product details below before purchasing. These T-shirts have a different characteristics from the PRO* ones.</p>"
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -110,6 +118,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -121,7 +130,7 @@
             "align": "left",
             "popup_heading": "label",
             "popup_content": "",
-            "image": "shopify://shop_images/Mens-t-shirts-sizes.jpg",
+            "image": "shopify://shop_images/size-chart-printful.png",
             "text": "",
             "icon": "icon-clothes-design-tape-measure",
             "icon_size": 1,
@@ -132,6 +141,7 @@
       "block_order": [
         "title",
         "106529e2-51eb-4e60-b46e-da369900c001",
+        "text_TPXxmF",
         "price",
         "db48bf56-e904-4604-9f21-89d04e9bf249",
         "variant_picker",
@@ -163,15 +173,61 @@
         "section-bottom-margin": false
       }
     },
+    "product_accordion_hH7Qk3": {
+      "type": "product_accordion",
+      "blocks": {
+        "article_E8hj4g": {
+          "type": "article",
+          "settings": {
+            "title": "Specs",
+            "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>"
+          }
+        },
+        "article_JQpxYp": {
+          "type": "article",
+          "settings": {
+            "title": "Intended Use",
+            "text": "<p>Use these articles to answer questions that customers have about your products and services. You can use text, links and images and also group articles into categories.</p>"
+          }
+        },
+        "article_EUA9MG": {
+          "type": "article",
+          "settings": {
+            "title": "Warranty",
+            "text": "<p>We offer the return option for the item within 14 days after receiving it. Items must be unwashed and unworn with all barcodes intact. If you're not fully satisfied with the product, you can return it within 14 days of receipt. The same is for exchanging the items.</p>"
+          }
+        },
+        "article_bkc74W": {
+          "type": "article",
+          "settings": {
+            "title": "Care",
+            "text": "<ul><li>Machine wash cold, inside-out, gentle cycle with mild detergent and similar colors. Use non-chlorine bleach, only when necessary. No fabric softeners.</li><li>Tumble dry low, or hang-dry for longest life.</li><li>Cool iron inside-out if necessary. Do not iron decoration.</li><li>Do not dry clean.</li></ul>"
+          }
+        }
+      },
+      "block_order": [
+        "article_E8hj4g",
+        "article_JQpxYp",
+        "article_EUA9MG",
+        "article_bkc74W"
+      ],
+      "disabled": true,
+      "settings": {
+        "enable_sidebar": false,
+        "cta_link_title": "Contact us",
+        "cta_link": "",
+        "cta_style": "link"
+      }
+    },
     "83f5df5f-68c3-4b48-b6c0-8a1cd71d34d6": {
       "type": "section-image-with-text",
       "blocks": {
         "template--18060617351432__83f5df5f-68c3-4b48-b6c0-8a1cd71d34d6-1689337163d69eea8b-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Mens-t-shirts-sizes.jpg",
+            "image": "{{ product.featured_image }}",
             "title": "Product details:",
-            "desc": "<ul><li>Composition: 95% Cotton/ 5% Elastane</li><li>Material wicks sweat & dries really fast</li><li>Machine wash: 30°C with similar colors</li><li>Made in Ukraine</li></ul>",
+            "desc": "<ul><li>Solid colors are 100% Airlume combed and ring-spun cotton</li><li>Ash color is 99% combed and ring-spun cotton, 1% polyester</li><li>Heather colors are 52% combed and ring-spun cotton, 48% polyester</li><li>Athletic and Black Heather are 90% combed and ring-spun cotton, 10% polyester</li><li>Heather Prism colors are 99% combed and ring-spun cotton, 1% polyester</li><li>Fabric weight: 4.2 oz./yd.² (142 g/m²)</li><li>Pre-shrunk fabric</li><li>30 singles</li><li>Side-seamed construction</li><li>Tear-away label</li><li>Shoulder-to-shoulder taping</li><li>Blank product sourced from Nicaragua, Mexico, Honduras, or the US</li></ul>",
             "horizontal_align": "left",
             "link_title": "",
             "link": "",
@@ -184,6 +240,74 @@
       },
       "block_order": [
         "template--18060617351432__83f5df5f-68c3-4b48-b6c0-8a1cd71d34d6-1689337163d69eea8b-0"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "section-bottom-margin": false,
+        "image_ratio": "3:4",
+        "block_layout": "1/2",
+        "block_align": "left",
+        "vertical_align": "middle",
+        "heading_size": 3,
+        "link_style": "hollow"
+      }
+    },
+    "section_image_with_text_qeeDHC": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_x4E7rz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/product-measurements.png",
+            "title": "Product measurements",
+            "desc": "<p>Measurements are provided by our suppliers. Product measurements may vary by up to 2\" (5 cm).</p><p>Pro tip! Measure one of your products at home and compare with the measurements you see in this guide.</p><p><strong>A Length</strong></p><p>Place the end of the tape beside the collar at the top of the tee (Highest Point Shoulder). Pull the tape measure to the bottom of the shirt.</p><p><strong>B Width</strong></p><p>Place the end of the tape at the seam under the sleeve and pull the tape measure across the shirt to the seam under the opposite sleeve.</p>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false
+          }
+        }
+      },
+      "block_order": [
+        "image_x4E7rz"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "section-bottom-margin": false,
+        "image_ratio": "natural",
+        "block_layout": "1/2",
+        "block_align": "right",
+        "vertical_align": "middle",
+        "heading_size": 3,
+        "link_style": "hollow"
+      }
+    },
+    "section_image_with_text_C3YQMt": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_AUJLmw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/measure-yourself.png",
+            "title": "Measure yourself",
+            "desc": "<p>Measurements are provided by suppliers.</p><p>Product measurements may vary by up to 2″ (5 cm).</p><p><strong>A Length</strong></p><p>Place the end of the tape beside the collar at the top of the tee (Highest Point Shoulder). Pull the tape measure to the bottom of the shirt.</p><p><strong>B Width</strong></p><p>Measure yourself around the fullest part of your chest. Keep the tape measure horizontal.</p>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false
+          }
+        }
+      },
+      "block_order": [
+        "image_AUJLmw"
       ],
       "settings": {
         "container": "large",
@@ -268,7 +392,10 @@
     "170073311980a1ab59",
     "main",
     "203d1340-3a17-4e4f-bb2a-d09fc99c356b",
+    "product_accordion_hH7Qk3",
     "83f5df5f-68c3-4b48-b6c0-8a1cd71d34d6",
+    "section_image_with_text_qeeDHC",
+    "section_image_with_text_C3YQMt",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
     "1690977685ca3c1a41",
     "product-recommendations"
