@@ -254,7 +254,7 @@
         "image_x4E7rz": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/product-measurements.png",
+            "image": "shopify://shop_images/measure-yourself-torokhtiy.jpg",
             "title": "Product measurements",
             "desc": "<p>Measurements are provided by our suppliers. Product measurements may vary by up to 2\" (5 cm).</p><p>Pro tip! Measure one of your products at home and compare with the measurements you see in this guide.</p><p><strong>A Length</strong></p><p>Place the end of the tape beside the collar at the top of the tee (Highest Point Shoulder). Pull the tape measure to the bottom of the shirt.</p><p><strong>B Width</strong></p><p>Place the end of the tape at the seam under the sleeve and pull the tape measure across the shirt to the seam under the opposite sleeve.</p>",
             "horizontal_align": "left",
@@ -288,7 +288,7 @@
         "image_AUJLmw": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/measure-yourself.png",
+            "image": "shopify://shop_images/product-measurements-torokhtiy.jpg",
             "title": "Measure yourself",
             "desc": "<p>Measurements are provided by suppliers.</p><p>Product measurements may vary by up to 2″ (5 cm).</p><p><strong>A Length</strong></p><p>Place the end of the tape beside the collar at the top of the tee (Highest Point Shoulder). Pull the tape measure to the bottom of the shirt.</p><p><strong>B Width</strong></p><p>Measure yourself around the fullest part of your chest. Keep the tape measure horizontal.</p>",
             "horizontal_align": "left",
