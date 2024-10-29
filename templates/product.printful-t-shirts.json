@@ -122,19 +122,14 @@
           "settings": {
           }
         },
-        "popup_HeFjFr": {
-          "type": "popup",
+        "link_3Kzfaw": {
+          "type": "link",
           "settings": {
-            "link_title": "Size chart",
-            "link_style": "body",
+            "title": "📐Size Chart",
+            "link": "#size-guide",
+            "style": "body",
             "align": "left",
-            "popup_heading": "label",
-            "popup_content": "",
-            "image": "shopify://shop_images/size-chart-printful.png",
-            "text": "",
-            "icon": "icon-clothes-design-tape-measure",
-            "icon_size": 1,
-            "color_icon": "#212121"
+            "new_tab": false
           }
         }
       },
@@ -149,7 +144,7 @@
         "buy_buttons",
         "db48bf56-e904-4604-9f21-89d04e9bf241",
         "description",
-        "popup_HeFjFr"
+        "link_3Kzfaw"
       ],
       "settings": {
         "container": "large",
