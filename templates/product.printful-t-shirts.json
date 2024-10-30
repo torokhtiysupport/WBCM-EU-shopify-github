@@ -108,6 +108,16 @@
             "enable_payment_button": true
           }
         },
+        "link_3Kzfaw": {
+          "type": "link",
+          "settings": {
+            "title": "📐Size Chart",
+            "link": "#size-guide",
+            "style": "body",
+            "align": "left",
+            "new_tab": false
+          }
+        },
         "db48bf56-e904-4604-9f21-89d04e9bf241": {
           "type": "spacer",
           "settings": {
@@ -121,16 +131,6 @@
           "disabled": true,
           "settings": {
           }
-        },
-        "link_3Kzfaw": {
-          "type": "link",
-          "settings": {
-            "title": "📐Size Chart",
-            "link": "#size-guide",
-            "style": "body",
-            "align": "left",
-            "new_tab": false
-          }
         }
       },
       "block_order": [
@@ -142,9 +142,9 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "link_3Kzfaw",
         "db48bf56-e904-4604-9f21-89d04e9bf241",
-        "description",
-        "link_3Kzfaw"
+        "description"
       ],
       "settings": {
         "container": "large",
