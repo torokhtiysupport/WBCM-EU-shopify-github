@@ -170,7 +170,7 @@
           "type": "article",
           "settings": {
             "title": "Specs",
-            "text": "<ul><li><strong>Length:</strong> 34cm (13,39in)</li><li><strong>Width:</strong> 3cm (1,18in)</li><li><strong>Thickness:</strong> 2mm </li><li><strong>Material:</strong> cotton, neopren, leather</li></ul>"
+            "text": "<ul><li><strong>Length:</strong> 34cm (13,39in)</li><li><strong>Width:</strong> 3cm (1,18in)</li><li><strong>Thickness:</strong> 3mm </li><li><strong>Material:</strong> cotton, neopren, leather</li></ul>"
           }
         },
         "article_DXjDFA": {
@@ -267,7 +267,7 @@
       "settings": {
         "container": "large",
         "block_spacing": 2,
-        "section-bottom-margin": true,
+        "section-bottom-margin": false,
         "image_ratio": "1:1",
         "block_layout": "1/2",
         "block_align": "right",
@@ -353,7 +353,6 @@
         "template--17877542043912__f47e7c52-8d76-4826-80a7-073e15a0842e-16887257524b3aa6cc-2",
         "e5411bbb-14f8-4f86-8156-1b0525ebbbf2"
       ],
-      "disabled": true,
       "settings": {
         "title": "HOW TO USE STRAP",
         "container": "large",
@@ -385,7 +384,7 @@
         "template--17877542043912__9c5582dd-a5de-49f8-8aed-a7448ecc3dcc-16887257524b3aa6cc-0": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/V1-basic-grip-types.jpg",
+            "image": "shopify://shop_images/Pro-2.1.jpg",
             "title": "GRIP TYPES",
             "sub_title": "",
             "desc": "<ol><li>✔ Deadlift ✔ Weightlifting</li><li>✔ Deadlift <strong>X</strong> Weightlifting</li></ol>",
@@ -396,10 +395,10 @@
         "template--17877542043912__9c5582dd-a5de-49f8-8aed-a7448ecc3dcc-16887257524b3aa6cc-1": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/about-2_68a88f93-97b4-4e3e-ad17-0ffd3fec074c.png",
+            "image": "shopify://shop_images/Pro-2.2.jpg",
             "title": "RIGHT SIZE - INCREASED WEIGHTS",
             "sub_title": "",
-            "desc": "<p>One size fits all. Max test strength of the straps is rated at 300kg (over 660 pounds!). 2mm thick, 6.4cm wide, with a special type of dual stitching to prevent tearing.</p>",
+            "desc": "<p>One size fits all. Max test strength of the straps is rated at 390kg (over 860 pounds!). 3mm thick, 3cm wide, quicker to strap up and quicker to release!</p>",
             "link_title": "",
             "link": ""
           }
@@ -421,7 +420,6 @@
         "template--17877542043912__9c5582dd-a5de-49f8-8aed-a7448ecc3dcc-16887257524b3aa6cc-1",
         "template--17877542043912__9c5582dd-a5de-49f8-8aed-a7448ecc3dcc-16887257524b3aa6cc-2"
       ],
-      "disabled": true,
       "custom_css": [
         "li {list-style-position: inside;}"
       ],
