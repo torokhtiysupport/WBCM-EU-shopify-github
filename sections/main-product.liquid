@@ -49,9 +49,12 @@
                           
                           <span class="badge sale" style="display: none;">Sale</span>
 
-                          
                           {% if product.tags contains 'NEW' %}
                             <span class="badge new">New</span>
+                          {% endif %}
+
+                          {% if product.tags contains 'by Printful' %}
+                            <span class="badge by-printful">by Printful</span>
                           {% endif %}
                 </div>
             </div>
