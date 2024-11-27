@@ -21,7 +21,7 @@
             "separator": "›",
             "custom_class": "",
             "bb_show_hide": true,
-            "unclickable": false,
+            "hide_product": false,
             "bb_show_more": true,
             "enable_custom_feature": true,
             "bb_custom_inheritance": true,
@@ -60,15 +60,14 @@
         },
         "106529e2-51eb-4e60-b46e-da369900c001": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         },
         "text_TPXxmF": {
           "type": "text",
           "settings": {
             "title": "",
             "style": "h3",
-            "text": "<p>We know, you love our old designs, but we can’t continue having all of them in stock. That’s why we decided to print them via third-party services for them to be still available for you. Please, check the product details below before purchasing. These T-shirts have a different characteristics from the PRO* ones.</p>"
+            "text": "<p>We know, you love our old designs, but we can’t continue having all of them in stock. That’s why<strong>we decided to print them via print on demand services for them to be still available for you</strong>. Please, check the product details below before purchasing. These T-shirts have a different characteristics from the other ones on our website.</p>"
           }
         },
         "price": {
@@ -99,8 +98,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "buy_buttons": {
           "type": "buy_buttons",
@@ -129,8 +127,7 @@
         "description": {
           "type": "description",
           "disabled": true,
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -372,8 +369,7 @@
       "blocks": {
         "0d186a7d-03b8-45f1-8bb8-0daa802a0750": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
