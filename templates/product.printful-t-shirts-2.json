@@ -149,6 +149,108 @@
         "thumbnails_show_border": false
       }
     },
+    "section_image_with_text_WMacbU": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_qaxJHy": {
+          "type": "image",
+          "settings": {
+            "image": "{{ product.featured_image }}",
+            "title": "Product details:",
+            "desc": "<ul><li>Solid colors are 100% Airlume combed and ring-spun cotton</li><li>Ash color is 99% combed and ring-spun cotton, 1% polyester</li><li>Heather colors are 52% combed and ring-spun cotton, 48% polyester</li><li>Athletic and Black Heather are 90% combed and ring-spun cotton, 10% polyester</li><li>Heather Prism colors are 99% combed and ring-spun cotton, 1% polyester</li><li>Fabric weight: 4.2 oz./yd.² (142 g/m²)</li><li>Pre-shrunk fabric</li><li>30 singles</li><li>Side-seamed construction</li><li>Tear-away label</li><li>Shoulder-to-shoulder taping</li><li>Blank product sourced from Nicaragua, Mexico, Honduras, or the US</li></ul>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false
+          }
+        }
+      },
+      "block_order": [
+        "image_qaxJHy"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "section-bottom-margin": false,
+        "image_ratio": "3:4",
+        "block_layout": "1/2",
+        "block_align": "right",
+        "vertical_align": "middle",
+        "heading_size": 3,
+        "link_style": "hollow"
+      }
+    },
+    "section_image_with_text_ikPET9": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_dbihM9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/measure-yourself-torokhtiy_67489f32-5e61-40e3-8500-cb2aa00890ee.jpg",
+            "title": "Product measurements",
+            "desc": "<p>Measurements are provided by our suppliers. Product measurements may vary by up to 2\" (5 cm).</p><p>Pro tip! Measure one of your products at home and compare with the measurements you see in this guide.</p><p><strong>A Length</strong></p><p>Place the end of the tape beside the collar at the top of the tee (Highest Point Shoulder). Pull the tape measure to the bottom of the shirt.</p><p><strong>B Width</strong></p><p>Place the end of the tape at the seam under the sleeve and pull the tape measure across the shirt to the seam under the opposite sleeve.</p>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false
+          }
+        }
+      },
+      "block_order": [
+        "image_dbihM9"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "section-bottom-margin": false,
+        "image_ratio": "natural",
+        "block_layout": "1/2",
+        "block_align": "left",
+        "vertical_align": "middle",
+        "heading_size": 3,
+        "link_style": "hollow"
+      }
+    },
+    "section_image_with_text_BY7tgh": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_wPt3wQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/product-measurements-torokhtiy.jpg",
+            "title": "Product measurements",
+            "desc": "<p>Measurements are provided by our suppliers. Product measurements may vary by up to 2\" (5 cm).</p><p>Pro tip! Measure one of your products at home and compare with the measurements you see in this guide.</p><p><strong>A Length</strong></p><p>Place the end of the tape beside the collar at the top of the tee (Highest Point Shoulder). Pull the tape measure to the bottom of the shirt.</p><p><strong>B Width</strong></p><p>Place the end of the tape at the seam under the sleeve and pull the tape measure across the shirt to the seam under the opposite sleeve.</p>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false
+          }
+        }
+      },
+      "block_order": [
+        "image_wPt3wQ"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "section-bottom-margin": false,
+        "image_ratio": "natural",
+        "block_layout": "1/2",
+        "block_align": "right",
+        "vertical_align": "middle",
+        "heading_size": 3,
+        "link_style": "hollow"
+      }
+    },
     "2d5bd59f-a78a-4717-af1f-2177417b93ca": {
       "type": "section-faq",
       "blocks": {
@@ -213,45 +315,14 @@
         "grid_mobile": "2",
         "related_grid_row": 1
       }
-    },
-    "section_image_with_text_WMacbU": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "image_qaxJHy": {
-          "type": "image",
-          "settings": {
-            "title": "Image with text",
-            "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
-            "horizontal_align": "left",
-            "link_title": "Learn more",
-            "link": "",
-            "bg_color_block": "rgba(0,0,0,0)",
-            "bg_color_content": "#ffffff",
-            "color_text": "#212121",
-            "text_heading_color": false
-          }
-        }
-      },
-      "block_order": [
-        "image_qaxJHy"
-      ],
-      "settings": {
-        "container": "large",
-        "block_spacing": 2,
-        "section-bottom-margin": false,
-        "image_ratio": "4:3",
-        "block_layout": "2/3",
-        "block_align": "left",
-        "vertical_align": "top",
-        "heading_size": 3,
-        "link_style": "hollow"
-      }
     }
   },
   "order": [
     "170056398848b74346",
     "main",
     "section_image_with_text_WMacbU",
+    "section_image_with_text_ikPET9",
+    "section_image_with_text_BY7tgh",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
     "1691087074b17a7ec7",
     "product-recommendations"
