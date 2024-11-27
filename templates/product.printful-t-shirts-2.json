@@ -16,18 +16,27 @@
           "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/product-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
+            "home_link": "/",
             "menu": "main-menu",
             "separator": "›",
+            "custom_class": "",
             "bb_show_hide": true,
+            "hide_product": false,
             "bb_show_more": true,
             "enable_custom_feature": false,
+            "bb_custom_inheritance": true,
             "bb_capitalize": false,
             "bb_font_size": 13,
             "bb_padding": 0,
+            "bb_mobile_padding": 55,
             "bb_top_padding": 20,
+            "bb_mobile_top_padding": 55,
             "bb_margin": 0,
+            "bb_mobile_margin": 0,
             "bb_align": "left",
             "bb_color": "#2a2a2a",
+            "bb_hover_color": "",
+            "bb_home_color": "",
             "truncator": 20
           }
         }
@@ -52,6 +61,14 @@
         "108243de-456a-47e1-8b42-f68915d5089c": {
           "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
+        },
+        "text_BdnjJH": {
+          "type": "text",
+          "settings": {
+            "title": "",
+            "style": "h3",
+            "text": "<p>We know, you love our old designs, but we can’t continue having all of them in stock. That’s why <strong>we decided to print them via print on demand services for them to be still available for you</strong>. Please, check the product details below before purchasing. These T-shirts have a different characteristics from the other ones on our website.</p>"
+          }
         },
         "price": {
           "type": "price",
@@ -89,6 +106,16 @@
             "enable_payment_button": true
           }
         },
+        "link_QLFpRP": {
+          "type": "link",
+          "settings": {
+            "title": "📐Size Chart",
+            "link": "",
+            "style": "body",
+            "align": "center",
+            "new_tab": false
+          }
+        },
         "db48bf56-e904-4604-9f21-89d04e9bf241": {
           "type": "spacer",
           "settings": {
@@ -96,22 +123,19 @@
             "bottom": "small",
             "border": true
           }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
         }
       },
       "block_order": [
         "title",
         "108243de-456a-47e1-8b42-f68915d5089c",
+        "text_BdnjJH",
         "price",
         "db48bf56-e904-4604-9f21-89d04e9bf249",
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
-        "db48bf56-e904-4604-9f21-89d04e9bf241",
-        "description"
+        "link_QLFpRP",
+        "db48bf56-e904-4604-9f21-89d04e9bf241"
       ],
       "settings": {
         "container": "large",
@@ -189,11 +213,45 @@
         "grid_mobile": "2",
         "related_grid_row": 1
       }
+    },
+    "section_image_with_text_WMacbU": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_qaxJHy": {
+          "type": "image",
+          "settings": {
+            "title": "Image with text",
+            "desc": "<p>Use these blocks to share your brand's story. You can focus on a particular collection, a product detail, or even embed a video.</p>",
+            "horizontal_align": "left",
+            "link_title": "Learn more",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false
+          }
+        }
+      },
+      "block_order": [
+        "image_qaxJHy"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "section-bottom-margin": false,
+        "image_ratio": "4:3",
+        "block_layout": "2/3",
+        "block_align": "left",
+        "vertical_align": "top",
+        "heading_size": 3,
+        "link_style": "hollow"
+      }
     }
   },
   "order": [
     "170056398848b74346",
     "main",
+    "section_image_with_text_WMacbU",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
     "1691087074b17a7ec7",
     "product-recommendations"
