@@ -338,14 +338,14 @@
           "type": "article",
           "settings": {
             "title": "Shipping",
-            "text": "<p>✔ Orders processed within 48 hours on business days (Mon-Fri).</p><p>✔ Delivered via DHL Standard in 3-5 business days.</p><p>✔ View shipping costs & taxes at checkout.</p>"
+            "text": "<ul><li>UK: 5–7 business days</li><li>EU: 5–9 business days</li><li>Australia: 5–9 business days</li><li>Customers are responsible for all customs duties, taxes, and fees as per their country's regulations.</li><li>After placing the order, you will receive a tracking number to monitor the progress of the shipment (if you haven't received, please contact us).</li><li>It is the customer’s responsibility to check local customs regulations and ensure timely payment of any required fees BEFORE making the order.</li></ul><p>*Important! Delivery time may vary and could be LONGER than estimated terms above.</p>"
           }
         },
         "template--17346847047944__2d5bd59f-a78a-4717-af1f-2177417b93ca-1674837758c3ce571e-2": {
           "type": "article",
           "settings": {
             "title": "Returns",
-            "text": "<p>✔ Option to return the item within 14 days after receiving it</p><p>✔ Items must be in \"as-new\" condition, unwashed & unworn</p><p>✔ Send a return request to <a href=\"mailto:europe@warmbody-coldmind.com\" title=\"mailto:europe@warmbody-coldmind.com\">europe@warmbody-coldmind.com</a></p><p>✔ More info about return or exchange policy <a href=\"/pages/privacy-policy\" title=\"PRIVACY POLICY\">click here</a>.</p>"
+            "text": "<ul><li>We accept returns for damaged or mislabeled items within 30 days of receipt. To initiate a return, please contact us and provide photos of the issue.</li><li>We do not cover size exchanges. Please ensure you double-check our size guide before placing your order.</li><li>If your order does not arrive by the estimated delivery date, please reach out to us within 30 days. We will investigate the issue and determine the appropriate next steps.</li><li>We do not offer refunds for buyer’s remorse. Please verify that you have selected the correct item before completing your order.</li><li>The risk of loss, damage, and title for products passes to you once the item is delivered to the carrier. It is your responsibility to file any claims with the carrier for a lost shipment if tracking shows the product was delivered.<br/>For customers in the European Economic Area or the United Kingdom, the risk of loss and title for products passes to you once you take possession of the product.</li><li>Please note that you are responsible for any customs issues that may arise. If your package is held at customs, it is your responsibility to contact the customs office directly, as not all customs agencies send notifications regarding shipments. Be sure to stay on top of tracking updates and address any customs-related matters promptly to avoid delays.</li></ul>"
           }
         }
       },
