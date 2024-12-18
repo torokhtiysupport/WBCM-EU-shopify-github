@@ -12,22 +12,6 @@
     "section-slideshow": {
       "type": "section-slideshow",
       "blocks": {
-        "9bf15e77-545b-4d61-8855-5dfad503a3f3": {
-          "type": "video",
-          "settings": {
-            "video_link": "",
-            "yt_link": "https://youtu.be/eequK5kl4XY",
-            "alignment": "bottom-center",
-            "title": "WARM BODY-COLD MIND",
-            "text": "<p>Weight lifting gear and clothing</p>",
-            "link_style": "c-btn c-btn--primary",
-            "link_title": "",
-            "link": "",
-            "link_style_2": "c-btn c-btn--hollow",
-            "link_title_2": "Shop now",
-            "link_2": "shopify://collections/accessories"
-          }
-        },
         "fde81176-0031-42f6-babd-05e0cfd2687c": {
           "type": "image",
           "settings": {
@@ -42,6 +26,22 @@
             "link_style_2": "c-btn c-btn--hollow",
             "link_title_2": "Shop Now",
             "link_2": "shopify://collections/sale"
+          }
+        },
+        "9bf15e77-545b-4d61-8855-5dfad503a3f3": {
+          "type": "video",
+          "settings": {
+            "video_link": "",
+            "yt_link": "https://youtu.be/eequK5kl4XY",
+            "alignment": "bottom-center",
+            "title": "WARM BODY-COLD MIND",
+            "text": "<p>Weight lifting gear and clothing</p>",
+            "link_style": "c-btn c-btn--primary",
+            "link_title": "",
+            "link": "",
+            "link_style_2": "c-btn c-btn--hollow",
+            "link_title_2": "Shop now",
+            "link_2": "shopify://collections/accessories"
           }
         },
         "83308ea5-1c8e-4267-8c12-79946a19ed46": {
@@ -94,8 +94,8 @@
         }
       },
       "block_order": [
-        "9bf15e77-545b-4d61-8855-5dfad503a3f3",
         "fde81176-0031-42f6-babd-05e0cfd2687c",
+        "9bf15e77-545b-4d61-8855-5dfad503a3f3",
         "83308ea5-1c8e-4267-8c12-79946a19ed46",
         "section-slideshow-1",
         "section-slideshow-0"
