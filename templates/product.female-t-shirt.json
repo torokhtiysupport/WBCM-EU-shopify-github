@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "17007328442becda52": {
@@ -21,7 +21,7 @@
             "separator": "›",
             "custom_class": "",
             "bb_show_hide": true,
-            "unclickable": false,
+            "hide_product": false,
             "bb_show_more": true,
             "enable_custom_feature": true,
             "bb_custom_inheritance": true,
@@ -93,8 +93,7 @@
         },
         "quantity_selector": {
           "type": "quantity_selector",
-          "settings": {
-          }
+          "settings": {}
         },
         "inventory_notice": {
           "type": "inventory_notice",
@@ -126,8 +125,7 @@
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "popup_ngCgnL": {
           "type": "popup",
@@ -169,6 +167,40 @@
         "thumbnails_position": "bottom",
         "thumbnails_ratio": "1:1",
         "thumbnails_show_border": false
+      }
+    },
+    "a53c4eae-3e49-4f62-9830-9c327002be93": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "template--18060641599752__a53c4eae-3e49-4f62-9830-9c327002be93-1689337163d69eea8b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2023-07-14_15.34.37.png",
+            "title": "Product details:",
+            "desc": "<ul><li>Composition: 95% Cotton/ 5% Elastane</li><li>Material wicks sweat & dries really fast</li><li>Machine wash: 30°C with similar colors</li></ul>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false
+          }
+        }
+      },
+      "block_order": [
+        "template--18060641599752__a53c4eae-3e49-4f62-9830-9c327002be93-1689337163d69eea8b-0"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "section-bottom-margin": false,
+        "image_ratio": "natural",
+        "block_layout": "1/2",
+        "block_align": "left",
+        "vertical_align": "middle",
+        "heading_size": 3,
+        "link_style": "hollow"
       }
     },
     "2d5bd59f-a78a-4717-af1f-2177417b93ca": {
@@ -233,40 +265,6 @@
         "section-bottom-margin": false
       }
     },
-    "a53c4eae-3e49-4f62-9830-9c327002be93": {
-      "type": "section-image-with-text",
-      "blocks": {
-        "template--18060641599752__a53c4eae-3e49-4f62-9830-9c327002be93-1689337163d69eea8b-0": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/2023-07-14_15.34.37.png",
-            "title": "Product details:",
-            "desc": "<ul><li>Composition: 95% Cotton/ 5% Elastane</li><li>Material wicks sweat & dries really fast</li><li>Machine wash: 30°C with similar colors</li></ul>",
-            "horizontal_align": "left",
-            "link_title": "",
-            "link": "",
-            "bg_color_block": "rgba(0,0,0,0)",
-            "bg_color_content": "#ffffff",
-            "color_text": "#212121",
-            "text_heading_color": false
-          }
-        }
-      },
-      "block_order": [
-        "template--18060641599752__a53c4eae-3e49-4f62-9830-9c327002be93-1689337163d69eea8b-0"
-      ],
-      "settings": {
-        "container": "large",
-        "block_spacing": 2,
-        "section-bottom-margin": false,
-        "image_ratio": "natural",
-        "block_layout": "1/2",
-        "block_align": "left",
-        "vertical_align": "middle",
-        "heading_size": 3,
-        "link_style": "hollow"
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -282,10 +280,10 @@
   "order": [
     "17007328442becda52",
     "main",
-    "2d5bd59f-a78a-4717-af1f-2177417b93ca",
-    "1689611230f095a9d4",
     "b10b6eba-d92f-4513-ba04-dbd0bdf5547b",
     "a53c4eae-3e49-4f62-9830-9c327002be93",
+    "2d5bd59f-a78a-4717-af1f-2177417b93ca",
+    "1689611230f095a9d4",
     "product-recommendations"
   ]
 }
