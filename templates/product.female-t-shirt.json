@@ -256,15 +256,6 @@
         "include_margins": true
       }
     },
-    "b10b6eba-d92f-4513-ba04-dbd0bdf5547b": {
-      "type": "section-rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "",
-        "text": "<p>We have something to offer to our ladies: our \"Warm Body Cold Mind\" t-shirt features elegant lettering on the front, a slim fit and fresh vivid colors.Super soft, durable, made fromblended fabrics for those intense workoutsand comfortable enough to be worn all day.</p>",
-        "section-bottom-margin": false
-      }
-    },
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
@@ -280,7 +271,6 @@
   "order": [
     "17007328442becda52",
     "main",
-    "b10b6eba-d92f-4513-ba04-dbd0bdf5547b",
     "a53c4eae-3e49-4f62-9830-9c327002be93",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
     "1689611230f095a9d4",
