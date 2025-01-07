@@ -8,29 +8,7 @@
  * ------------------------------------------------------------
  */
 {
-  "order": [
-    "170056398848b74346",
-    "main",
-    "2d5bd59f-a78a-4717-af1f-2177417b93ca",
-    "1691087074b17a7ec7",
-    "product-recommendations"
-  ],
   "sections": {
-    "1691087074b17a7ec7": {
-      "type": "apps",
-      "blocks": {
-        "9827f988-21c5-4ea8-b629-f84c75497d8d": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "9827f988-21c5-4ea8-b629-f84c75497d8d"
-      ],
-      "settings": {
-        "include_margins": true
-      }
-    },
     "170056398848b74346": {
       "type": "apps",
       "blocks": {
@@ -59,6 +37,92 @@
       ],
       "settings": {
         "include_margins": true
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+            "title_size": 3,
+            "title_size_mobile": 3
+          }
+        },
+        "108243de-456a-47e1-8b42-f68915d5089c": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "price_label_discount": true,
+            "price_label_discount_type": "text",
+            "price_label_discount_color": "#c00000"
+          }
+        },
+        "db48bf56-e904-4604-9f21-89d04e9bf249": {
+          "type": "spacer",
+          "settings": {
+            "top": "small",
+            "bottom": "small",
+            "border": true
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "product_variant_style": "swatches",
+            "popup_enable": false,
+            "popup_trigger": "Size\nGröße\nTaille\nTaglia\nTalla",
+            "popup_label": "Size guide",
+            "popup_content": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {}
+        },
+        "buy_buttons": {
+          "type": "buy_buttons",
+          "settings": {
+            "enable_payment_button": true
+          }
+        },
+        "db48bf56-e904-4604-9f21-89d04e9bf241": {
+          "type": "spacer",
+          "settings": {
+            "top": "small",
+            "bottom": "small",
+            "border": true
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "108243de-456a-47e1-8b42-f68915d5089c",
+        "price",
+        "db48bf56-e904-4604-9f21-89d04e9bf249",
+        "variant_picker",
+        "quantity_selector",
+        "buy_buttons",
+        "db48bf56-e904-4604-9f21-89d04e9bf241",
+        "description"
+      ],
+      "settings": {
+        "container": "large",
+        "show_breadcrumbs": true,
+        "enable_zoom": true,
+        "enable_video_looping": false,
+        "product_image_ratio": "1:1",
+        "enable_product_image_rounded_corners": false,
+        "thumbnails_position": "bottom",
+        "thumbnails_ratio": "1:1",
+        "thumbnails_show_border": false
       }
     },
     "2d5bd59f-a78a-4717-af1f-2177417b93ca": {
@@ -100,90 +164,19 @@
         "cta_style": "link"
       }
     },
-    "main": {
-      "type": "main-product",
+    "1691087074b17a7ec7": {
+      "type": "apps",
       "blocks": {
-        "108243de-456a-47e1-8b42-f68915d5089c": {
-          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+        "9827f988-21c5-4ea8-b629-f84c75497d8d": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {}
-        },
-        "buy_buttons": {
-          "type": "buy_buttons",
-          "settings": {
-            "enable_payment_button": true
-          }
-        },
-        "db48bf56-e904-4604-9f21-89d04e9bf241": {
-          "type": "spacer",
-          "settings": {
-            "top": "small",
-            "bottom": "small",
-            "border": true
-          }
-        },
-        "db48bf56-e904-4604-9f21-89d04e9bf249": {
-          "type": "spacer",
-          "settings": {
-            "top": "small",
-            "bottom": "small",
-            "border": true
-          }
-        },
-        "description": {
-          "type": "description",
-          "settings": {}
-        },
-        "price": {
-          "type": "price",
-          "settings": {
-            "price_label_discount": true,
-            "price_label_discount_type": "text",
-            "price_label_discount_color": "#c00000"
-          }
-        },
-        "quantity_selector": {
-          "type": "quantity_selector",
-          "settings": {}
-        },
-        "title": {
-          "type": "title",
-          "settings": {
-            "title_size": 3,
-            "title_size_mobile": 3
-          }
-        },
-        "variant_picker": {
-          "type": "variant_picker",
-          "settings": {
-            "product_variant_style": "swatches",
-            "popup_enable": false,
-            "popup_trigger": "Size\nGröße\nTaille\nTaglia\nTalla",
-            "popup_label": "Size guide",
-            "popup_content": ""
-          }
         }
       },
       "block_order": [
-        "title",
-        "108243de-456a-47e1-8b42-f68915d5089c",
-        "price",
-        "db48bf56-e904-4604-9f21-89d04e9bf249",
-        "variant_picker",
-        "quantity_selector",
-        "buy_buttons",
-        "db48bf56-e904-4604-9f21-89d04e9bf241",
-        "description"
+        "9827f988-21c5-4ea8-b629-f84c75497d8d"
       ],
       "settings": {
-        "container": "large",
-        "show_breadcrumbs": true,
-        "enable_zoom": true,
-        "enable_video_looping": false,
-        "product_image_ratio": "1:1",
-        "enable_product_image_rounded_corners": false,
-        "thumbnails_position": "bottom",
-        "thumbnails_ratio": "1:1",
-        "thumbnails_show_border": false
+        "include_margins": true
       }
     },
     "product-recommendations": {
@@ -197,5 +190,12 @@
         "related_grid_row": 1
       }
     }
-  }
+  },
+  "order": [
+    "170056398848b74346",
+    "main",
+    "2d5bd59f-a78a-4717-af1f-2177417b93ca",
+    "1691087074b17a7ec7",
+    "product-recommendations"
+  ]
 }

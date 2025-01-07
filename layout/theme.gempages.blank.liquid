@@ -19,9 +19,22 @@
 
 	{% render 'network' %}
 
-	{%- if canonical_url != blank  -%}
+	<!-- {%- if canonical_url != blank  -%}
   	<link rel="canonical" href="{{ canonical_url }}">
-	{%- endif -%}
+	{%- endif -%} -->
+
+    {%- if canonical_url != blank -%}
+    {% assign cleaned_url = canonical_url | replace: 'https://eu.', 'https://' %}
+    <link rel="canonical" href="{{ cleaned_url }}">
+    {%- endif -%}
+
+    {% if request.path contains '/es/' or request.path contains '/de/' %}
+      <meta name="robots" content="noindex">
+    {% endif %}
+
+    {% if handle contains 'icart-recommendations' or handle contains 'best-seller-internal-use' or handle contains 'starter-kit' or handle contains 'most-popular' or handle contains 'best-selling-accessoires' %}
+      <meta name="robots" content="noindex">
+    {% endif %}
 
 	{% if settings.favicon != blank %}
     <link rel="shortcut icon" href="{{ settings.favicon | img_url: '32x32' }}" type="image/png">
@@ -119,7 +132,80 @@
 		<script src="{{ 'shopify_common.js' | shopify_asset_url }}"></script>
 	{% endif %}
 
-	<!-- Header hook for plugins ================================================== -->
+  <!-- Header hook for plugins ================================================== -->
+  
+  <!-- Custom hreflang tags -->
+  <!-- Home page -->
+  {% if template == "index" %}
+    <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/">
+    <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/">
+    <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de">
+    <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es">
+  {% endif %}
+  <!-- Collection pages -->
+  {% if request.path contains '/collections/' %}
+    {% unless request.path contains '/products/' %}
+      {% if collection.metafields.custom.hreflang_en %}
+        <link rel="alternate" hreflang="en" href="https://warmbody-coldmind.com/collections/{{ collection.metafields.custom.hreflang_en }}">
+        <link rel="alternate" hreflang="en-US" href="https://warmbody-coldmind.com/collections/{{ collection.metafields.custom.hreflang_en }}">
+      {% else %}
+        <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/collections/{{ collection.handle }}">
+        <link rel="alternate" hreflang="en-US" href="https://warmbody-coldmind.com/collections/{{ collection.handle }}">
+      {% endif %}
+      {% if collection.metafields.custom.hreflang_de %}
+        <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/collections/{{ collection.metafields.custom.hreflang_de }}">
+      {% else %}
+        <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/collections/{{ collection.handle }}">
+      {% endif %}
+      {% if collection.metafields.custom.hreflang_es %}
+        <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/collections/{{ collection.metafields.custom.hreflang_es }}">
+        <link rel="alternate" hreflang="es-MX" href="https://warmbody-coldmind.com/es/collections/{{ collection.metafields.custom.hreflang_es }}">
+      {% else %}
+        <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/collections/{{ collection.handle }}">
+        <link rel="alternate" hreflang="es-MX" href="https://warmbody-coldmind.com/es/collections/{{ collection.handle }}">
+      {% endif %}
+    {% endunless %}
+  {% endif %}
+  <!-- Product pages -->
+  {% if request.path contains '/products/' %}
+      {% if product.metafields.custom.hreflang_en %}
+        <link rel="alternate" hreflang="en" href="https://warmbody-coldmind.com/products/{{ product.metafields.custom.hreflang_en }}">
+        <link rel="alternate" hreflang="en-US" href="https://warmbody-coldmind.com/products/{{ product.metafields.custom.hreflang_en }}">
+      {% else %}
+        <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/products/{{ product.handle }}">
+        <link rel="alternate" hreflang="en-US" href="https://warmbody-coldmind.com/products/{{ product.handle }}">
+      {% endif %}
+      {% if product.metafields.custom.hreflang_de %}
+        <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/products/{{ product.metafields.custom.hreflang_de }}">
+      {% else %}
+        <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/products/{{ product.handle }}">
+      {% endif %}
+      {% if product.metafields.custom.hreflang_es %}
+        <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/products/{{ product.metafields.custom.hreflang_es }}">
+        <link rel="alternate" hreflang="es-MX" href="https://warmbody-coldmind.com/es/products/{{ product.metafields.custom.hreflang_es }}">
+      {% else %}
+        <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/products/{{ product.handle }}">
+        <link rel="alternate" hreflang="es-MX" href="https://warmbody-coldmind.com/es/products/{{ product.handle }}">
+      {% endif %}
+  {% endif %}
+  <!-- Individual pages -->
+  {% if request.path contains '/pages/' %}
+    <link rel="alternate" hreflang="x-default" href="https://eu.warmbody-coldmind.com/pages/{{page.handle}}">
+    <link rel="alternate" hreflang="en" href="https://eu.warmbody-coldmind.com/pages/{{page.handle}}">
+    <link rel="alternate" hreflang="de-DE" href="https://eu.warmbody-coldmind.com/de/pages/{{page.handle}}">
+    <link rel="alternate" hreflang="es-ES" href="https://eu.warmbody-coldmind.com/es/pages/{{page.handle}}">
+  {% endif %}
+
+  <!-- Disable Default hreflang tags -->
+  {% assign lines = content_for_header | newline_to_br | split: '<br />' %}
+  {% for line in lines %}
+      {% if line contains '<link rel="alternate" hreflang' %}
+        {% assign content_for_header = content_for_header | remove: line %}
+      {% endif %}
+  {% endfor %}
+
+  <!-- End Custom hreflang tags -->
+  
   {{ content_for_header }}
 
   {% render 'shogun-head' %}
