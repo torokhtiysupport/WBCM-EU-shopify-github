@@ -1,4 +1,11 @@
 {% assign number_of_comments = article.comments_count %}
+{% if article.metafields.custom.author.value != blank %}
+  {% assign author = article.metafields.custom.author.value %}
+{% endif %}
+{% if article.metafields.custom.reviewer.value != blank %}
+  {% assign reviewer = article.metafields.custom.reviewer.value %}
+{% endif %}
+{{ 'custom-section-blog-post.css' | asset_url | stylesheet_tag }}
 
 <section class="section section--article article{% unless article.image and section.settings.show_img %} article--no-img{% endunless %}">
 
@@ -49,8 +56,18 @@
                 {%- when 'date'-%}
                     <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
                         <div class="article__date">
-                            <p class="article__date-text">{{ article.published_at | date: "%b %d, %Y" }}</p>
+                            <p class="article__date-text">{{ article.updated_at | date: "%b %d, %Y" }}</p>
                         </div>
+                        <div>
+                          <img src="{{ author.avatar | image_url: width: 300, height: 300 }}" width="" height="" style="border-radius: 50%" alt="{{ author.name }}" class="article-header-avatar">
+                          <span itemprop="author">Author: <a href="#author-reviewer">{{ author.name }}</a> ({{ author.short_bio }})</span>
+                        </div >
+                        {% if article.metafields.custom.reviewer.value != blank %}
+                          <div>
+                            <img src="{{ reviewer.avatar | image_url: width: 300, height: 300 }}" width="" height="" style="border-radius: 50%" alt="{{ reviewer.name }}" class="article-header-avatar">
+                            <span>Reviewed by: <a href="#author-reviewer">{{ reviewer.name }}</a> ({{ reviewer.short_bio }})</span>
+                          </div>
+                        {% endif %}
                     </div>
 
                 {%- when 'tags'-%}
