@@ -578,6 +578,9 @@
 .rating-table p {
   margin: 0;
 }
+.rating-table th, .rating-table td {
+  padding: 9px;
+}
 
 .product-pros-cons {
   display: flex;
