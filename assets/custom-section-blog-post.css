@@ -572,8 +572,8 @@
 .rating-table thead th:not(:first-of-type), .rating-table tr td:not(:first-of-type) {
   text-align: center;
 }
-.rating-table tbody {
-  border: 1px solid #A6A6A6!important;
+.rating-table tbody td {
+  border: 1px solid #A6A6A6;
 }
 
 .product-pros-cons {
