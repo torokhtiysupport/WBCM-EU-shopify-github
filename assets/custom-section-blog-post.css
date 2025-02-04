@@ -432,7 +432,7 @@
   height: 40px;
   background: #d30202;
   color: #fff;
-  font-family: 'Oswald';
+  font-family: 'Work Sans', sans-serif;
   top: -2px;
   left: -2px;
   padding: 8px;
@@ -536,7 +536,7 @@
 }
 .product-score-info__total {
   background: #d30202;
-  font-family: 'Oswald';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 700;
   color: #ffffff;
   width: 270px;
@@ -623,7 +623,7 @@
 }
 .rating-table_criterias,
 .rating-table_product li:first-of-type {
-  font-family: 'Oswald';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 600;
   text-transform: uppercase;
 }
@@ -642,7 +642,7 @@
   flex: 1;
 }
 .product-pros__title, .product-cons__title {
-  font-family: 'Oswald';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 500;
   font-size: 24px;
   margin: 0 0 10px;
@@ -687,7 +687,7 @@
   margin: 10px auto;
 }
 .article-sidebar .sidebar-product__name {
-  font-family: 'Oswald';
+  font-family: 'Work Sans', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
 }
