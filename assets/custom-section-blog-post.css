@@ -432,11 +432,10 @@
   background: #d7230a;
   color: #fff;
   font-family: 'Work Sans', sans-serif;
-  top: 20px;
-  left: 20px;
+  top: -20px;
+  left: -20px;
   padding: 8px;
-  border-top-left-radius: 16px;
-  border-bottom-right-radius: 16px;
+  border--radius: 50%;
 }
 .in-a-hurry__media {
   width: 200px;
