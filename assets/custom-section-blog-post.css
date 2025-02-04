@@ -573,7 +573,7 @@
   text-align: center;
 }
 .rating-table tbody {
-  border: 1px solid #A6A6A6;
+  border: 1px solid #A6A6A6!important;
 }
 
 .product-pros-cons {
