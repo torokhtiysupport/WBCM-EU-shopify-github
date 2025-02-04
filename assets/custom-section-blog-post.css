@@ -418,6 +418,7 @@
   flex-direction: row;
   gap: 16px;
   position: relative;
+  margin: 30px 0;
 }
 .in-a-hurry:before {
   display: flex;
