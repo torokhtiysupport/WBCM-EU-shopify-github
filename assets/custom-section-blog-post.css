@@ -581,6 +581,9 @@
 .rating-table th, .rating-table td {
   padding: 9px;
 }
+.rating-table thead {
+  background-color: #FFFCDC;
+}
 
 .product-pros-cons {
   display: flex;
