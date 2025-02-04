@@ -54,6 +54,39 @@
           "type": "date",
           "settings": {}
         },
+        "richtext_7tCwTD": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Who knew there’s so much science going on behind what seems to be only a few pieces of fabric? Well, as I’m sure you already know, lifting straps are so much more than that, and today, I have a list of the best figure 8 lifting straps you can find on the market.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_jekeUi": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Figure 8 lifting straps are considered to be the most popular type of lifting straps among weightlifters, and they’ve actually held that title for a while. Of course, it always comes down to personal preference and the type of workouts you do. Still, you can’t argue with the fact that figure 8 lifting straps are super effective. The grip is secure and their design makes them not only easy to use, but they do a great job at supporting your wrists.</p><p>So, let’s see which eleven are currently the best and if they’re something that would help your workouts.</p><p><strong>Let’s strap!</strong></p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "in_a_hurry_wfcTmW": {
+          "type": "in_a_hurry",
+          "settings": {
+            "in_a_hurry_image": "shopify://shop_images/figure-8-lifting-straps-WBCM.jpg",
+            "in_a_hurry_image_alt": "Figure 8 Straps WBCM",
+            "in_a_hurry_text": "<p>Check out our Top Pick <a href=\"https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ\">WBCM figure-8 straps</a>. This lifting gear won’t compromise you during tough training, so you’ll succeed in beating your PB! Designed by the Olympic Champion Oleksiy Torokhtiy, these straps will meet the needs both of amateur and elite lifters.</p>",
+            "in_a_hurry_url": "https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ"
+          }
+        },
+        "rating_table_GdfzT4": {
+          "type": "rating_table",
+          "settings": {}
+        },
+        "anchor_list_H8qEtx": {
+          "type": "anchor_list",
+          "settings": {}
+        },
         "meta": {
           "type": "meta",
           "settings": {
@@ -66,6 +99,11 @@
         "tags",
         "title",
         "date",
+        "richtext_7tCwTD",
+        "richtext_jekeUi",
+        "in_a_hurry_wfcTmW",
+        "rating_table_GdfzT4",
+        "anchor_list_H8qEtx",
         "meta"
       ],
       "settings": {
