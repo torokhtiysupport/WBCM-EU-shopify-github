@@ -3,6 +3,9 @@
   background: #ffffff;
   color: #000000;
 }
+.article-page-section p {
+  font-size: 18px;
+}
 .custom-article-container {
   display: flex;
   gap: 30px;
