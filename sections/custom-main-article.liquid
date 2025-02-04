@@ -6,441 +6,490 @@
   {% assign reviewer = article.metafields.custom.reviewer.value %}
 {% endif %}
 {{ 'custom-section-blog-post.css' | asset_url | stylesheet_tag }}
-
-<section class="section section--article article{% unless article.image and section.settings.show_img %} article--no-img{% endunless %}">
-
-    {% if section.settings.show_img %}
-        {% if article.image %}
-            <div class="container container--mob-0">
-                <div class="article__featured-media" style="background-image: url('{{ article.image.src | img_url: '1x1' }}')">
-                    <img
-                        class="article__featured-media__img "
-                        src="{{ article.image | img_url: '300x' }}"
-                        srcset="{% render 'bgset', image: article.image %}"
-                        sizes="(min-width: 981px) 50vw, 100vw"
-                        width="300"
-                        height="{{ 300 | divided_by: article.image.aspect_ratio | round }}"
-                        alt="{{ article.image.alt }}"
-                        loading="lazy"
-                    />
-                </div>
-            </div>
-        {% endif %}
-    {% endif %}
-
-    <div class="container article__container">
-        <div class="article__blocks">
-            {%- for block in section.blocks -%}
-                {%- case block.type -%}
-                {%- when '@app' -%}
-                    <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
-                      {% render block %}
-                    </div>
-
-                {%- when 'title'-%}
-                    <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
-                        <div class="article__title">
-                            <div class="section__title section__title--center">
-                                <h1 class="section__title-text">{{ article.title }}</h1>
-                            </div>
-                        </div>
-                    </div>
-
-                {%- when 'content'-%}
-                    <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
-                        <div class="article__content rte" itemprop="articleBody">
-                            {{ article.content }}
-                        </div>
-                    </div>
-
-                {%- when 'date'-%}
-                    <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
-                        <div class="article__date">
-                            <p class="article__date-text">{{ article.updated_at | date: "%b %d, %Y" }}</p>
-                        </div>
-                        <div>
-                          <img src="{{ author.avatar | image_url: width: 300, height: 300 }}" width="" height="" style="border-radius: 50%" alt="{{ author.name }}" class="article-header-avatar">
-                          <span itemprop="author">Author: <a href="#author-reviewer">{{ author.name }}</a> ({{ author.short_bio }})</span>
-                        </div >
-                        {% if article.metafields.custom.reviewer.value != blank %}
-                          <div>
-                            <img src="{{ reviewer.avatar | image_url: width: 300, height: 300 }}" width="" height="" style="border-radius: 50%" alt="{{ reviewer.name }}" class="article-header-avatar">
-                            <span>Reviewed by: <a href="#author-reviewer">{{ reviewer.name }}</a> ({{ reviewer.short_bio }})</span>
+<div class="custom-article-container">
+  <section class="section section--article article{% unless article.image and section.settings.show_img %} article--no-img{% endunless %}">
+  
+      {% if section.settings.show_img %}
+          {% if article.image %}
+              <div class="container container--mob-0">
+                  <div class="article__featured-media" style="background-image: url('{{ article.image.src | img_url: '1x1' }}')">
+                      <img
+                          class="article__featured-media__img "
+                          src="{{ article.image | img_url: '300x' }}"
+                          srcset="{% render 'bgset', image: article.image %}"
+                          sizes="(min-width: 981px) 50vw, 100vw"
+                          width="300"
+                          height="{{ 300 | divided_by: article.image.aspect_ratio | round }}"
+                          alt="{{ article.image.alt }}"
+                          loading="lazy"
+                      />
+                  </div>
+              </div>
+          {% endif %}
+      {% endif %}
+  
+      <div class="container article__container">
+          <div class="article__blocks">
+              {%- for block in section.blocks -%}
+                  {%- case block.type -%}
+                  {%- when '@app' -%}
+                      <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                        {% render block %}
+                      </div>
+  
+                  {%- when 'title'-%}
+                      <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                          <div class="article__title">
+                              <div class="section__title section__title--center">
+                                  <h1 class="section__title-text">{{ article.title }}</h1>
+                              </div>
                           </div>
-                        {% endif %}
-                    </div>
-
-                {%- when 'tags'-%}
-                    {% if article.tags.size > 0 %}
-                        <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
-                            <div class="article__tags">
-                                <ul class="article__tags-items o-list-bare">
-                                    {% for tag in article.tags %}
-                                        <li class="article__tags-item">{{ tag | link_to_tag: tag }}{% unless forloop.last == true %} / {% endunless %}</li>
-                                    {% endfor %}
-                                </ul>
+                      </div>
+  
+                  {%- when 'content'-%}
+                      <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                          <div class="article__content rte" itemprop="articleBody">
+                              {{ article.content }}
+                          </div>
+                      </div>
+  
+                  {%- when 'date'-%}
+                      <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                          <div class="article__date">
+                              <p class="article__date-text">{{ article.updated_at | date: "%b %d, %Y" }}</p>
+                          </div>
+                          <div>
+                            <img src="{{ author.avatar | image_url: width: 300, height: 300 }}" width="" height="" style="border-radius: 50%" alt="{{ author.name }}" class="article-header-avatar">
+                            <span itemprop="author">Author: <a href="#author-reviewer">{{ author.name }}</a> ({{ author.short_bio }})</span>
+                          </div >
+                          {% if article.metafields.custom.reviewer.value != blank %}
+                            <div>
+                              <img src="{{ reviewer.avatar | image_url: width: 300, height: 300 }}" width="" height="" style="border-radius: 50%" alt="{{ reviewer.name }}" class="article-header-avatar">
+                              <span>Reviewed by: <a href="#author-reviewer">{{ reviewer.name }}</a> ({{ reviewer.short_bio }})</span>
                             </div>
-                        </div>
-                    {% endif %}
-
-                {%- when 'meta'-%}
-                    <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
-                        <div class="article__meta">
-                            <div class="article__meta-wrapper">
-                                {% if block.settings.show_author %}
-                                    {% render 'author-reviewer-bottom', author: author, reviewer: reviewer %}
-                                {% endif %}
-                                {% if block.settings.show_sharing %}
-                                    <div class="article__meta-share">
-                                        {% capture share_link %}{{ shop.url }}{{ article.url }}{% endcapture %}
-                                        {% capture share_title %}{{ article.title | url_param_escape }}{% endcapture %}
-                                        {% capture share_img %}{{ article.image | img_url: '1024x1024' }}{% endcapture %}
-                                        <ul class="article__share-items">
-                                            {% if settings.share_facebook %}
-                                                <li class="article__share-item">
-                                                    <a href="//www.facebook.com/sharer.php?u={{ share_link }}" class="article__share-link icon-fallback" target="_blank">
-                                                        <i class="icon icon--facebook" aria-hidden="true"></i>
-                                                        <span class="icon-fallback__text">Facebook</span>
-                                                    </a>
-                                                </li>
-                                            {% endif %}
-                                            {% if settings.share_twitter %}
-                                                <li class="article__share-item">
-                                                    <a href="//twitter.com/share?text={{ share_title }}&amp;url={{ share_link }}" class="article__share-link icon-fallback" target="_blank">
-                                                        <i class="icon icon--twitter" aria-hidden="true"></i>
-                                                        <span class="icon-fallback__text">Twitter</span>
-                                                    </a>
-                                                </li>
-                                            {% endif %}
-                                            {% if settings.share_pinterest %}
-                                                <li class="article__share-item">
-                                                    <a href="http://pinterest.com/pin/create/button/?url={{ share_link }}&amp;media={{ share_img }}&amp;description={{ share_title }}" class="article__share-link icon-fallback" target="_blank">
-                                                        <i class="icon icon--pinterest" aria-hidden="true"></i>
-                                                        <span class="icon-fallback__text">Pinterest</span>
-                                                    </a>
-                                                </li>
-                                            {% endif %}
-                                            {% if settings.share_mail %}
-                                                <li class="article__share-item">
-                                                    <a href="mailto:?body={{ share_title }} - {{ share_link }}" class="article__share-link icon-fallback">
-                                                        <i class="icon icon--mail" aria-hidden="true"></i>
-                                                        <span class="icon-fallback__text">Email</span>
-                                                    </a>
-                                                </li>
-                                            {% endif %}
-                                        </ul>
-                                    </div>
-                                {% endif %}
-                            </div>
-                        </div>
+                          {% endif %}
+                      </div>
+  
+                  {%- when 'tags'-%}
+                      {% if article.tags.size > 0 %}
+                          <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                              <div class="article__tags">
+                                  <ul class="article__tags-items o-list-bare">
+                                      {% for tag in article.tags %}
+                                          <li class="article__tags-item">{{ tag | link_to_tag: tag }}{% unless forloop.last == true %} / {% endunless %}</li>
+                                      {% endfor %}
+                                  </ul>
+                              </div>
+                          </div>
+                      {% endif %}
+  
+                  {%- when 'meta'-%}
+                      <div class="article__block article__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                          <div class="article__meta">
+                              <div class="article__meta-wrapper">
+                                  {% if block.settings.show_author %}
+                                      {% render 'author-reviewer-bottom', author: author, reviewer: reviewer %}
+                                  {% endif %}
+                                  {% if block.settings.show_sharing %}
+                                      <div class="article__meta-share">
+                                          {% capture share_link %}{{ shop.url }}{{ article.url }}{% endcapture %}
+                                          {% capture share_title %}{{ article.title | url_param_escape }}{% endcapture %}
+                                          {% capture share_img %}{{ article.image | img_url: '1024x1024' }}{% endcapture %}
+                                          <ul class="article__share-items">
+                                              {% if settings.share_facebook %}
+                                                  <li class="article__share-item">
+                                                      <a href="//www.facebook.com/sharer.php?u={{ share_link }}" class="article__share-link icon-fallback" target="_blank">
+                                                          <i class="icon icon--facebook" aria-hidden="true"></i>
+                                                          <span class="icon-fallback__text">Facebook</span>
+                                                      </a>
+                                                  </li>
+                                              {% endif %}
+                                              {% if settings.share_twitter %}
+                                                  <li class="article__share-item">
+                                                      <a href="//twitter.com/share?text={{ share_title }}&amp;url={{ share_link }}" class="article__share-link icon-fallback" target="_blank">
+                                                          <i class="icon icon--twitter" aria-hidden="true"></i>
+                                                          <span class="icon-fallback__text">Twitter</span>
+                                                      </a>
+                                                  </li>
+                                              {% endif %}
+                                              {% if settings.share_pinterest %}
+                                                  <li class="article__share-item">
+                                                      <a href="http://pinterest.com/pin/create/button/?url={{ share_link }}&amp;media={{ share_img }}&amp;description={{ share_title }}" class="article__share-link icon-fallback" target="_blank">
+                                                          <i class="icon icon--pinterest" aria-hidden="true"></i>
+                                                          <span class="icon-fallback__text">Pinterest</span>
+                                                      </a>
+                                                  </li>
+                                              {% endif %}
+                                              {% if settings.share_mail %}
+                                                  <li class="article__share-item">
+                                                      <a href="mailto:?body={{ share_title }} - {{ share_link }}" class="article__share-link icon-fallback">
+                                                          <i class="icon icon--mail" aria-hidden="true"></i>
+                                                          <span class="icon-fallback__text">Email</span>
+                                                      </a>
+                                                  </li>
+                                              {% endif %}
+                                          </ul>
+                                      </div>
+                                  {% endif %}
+                              </div>
+                          </div>
+                      </div>
+                  {%- when 'richtext' -%}
+                    <div>
+                      {{ block.settings.rich_text_content }}
+                      {% if block.settings.rich_text_image != blank %}
+                        <img src="{{ block.settings.rich_text_image | img_url: 'original' }}" width="" height="" alt="{{ block.settings.rich_text_image_alt }}" class="rich-text-image {% if block.settings.half_width_main_image %}half-width-destop-image{% endif %}">
+                      {% endif %}
                     </div>
-                {%- when 'richtext' -%}
-                  <div>
-                    {{ block.settings.rich_text_content }}
-                    {% if block.settings.rich_text_image != blank %}
-                      <img src="{{ block.settings.rich_text_image | img_url: 'original' }}" width="" height="" alt="{{ block.settings.rich_text_image_alt }}" class="rich-text-image {% if block.settings.half_width_main_image %}half-width-destop-image{% endif %}">
-                    {% endif %}
-                  </div>
-                {%- when 'image' -%}
-                  <div class="image-section">
-                    <img src="{{ block.settings.image | img_url: 'original' }}" width="" height="" alt="{{ block.settings.image_alt }}" {% if block.settings.half_width_main_image %}class="half-width-destop-image"{% endif %}>
-                  </div>
-                {%- when 'video' -%}
-                  <div class="article-video-container">
-                    <iframe 
-                        src="https://www.youtube.com/embed/{{ block.settings.youtube_video_url | split: 'v=' | last }}?rel=0&showinfo=0" 
-                        frameborder="0" 
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowfullscreen
-                        class="article-youtube-iframe">
-                    </iframe>
-                  </div>                  
-                {%- when 'in_a_hurry' -%}
-                  <div class="custom-container in-a-hurry">
-                    <div class="in-a-hurry__text">
-                      <p>{{ block.settings.in_a_hurry_text }}</p>
+                  {%- when 'image' -%}
+                    <div class="image-section">
+                      <img src="{{ block.settings.image | img_url: 'original' }}" width="" height="" alt="{{ block.settings.image_alt }}" {% if block.settings.half_width_main_image %}class="half-width-destop-image"{% endif %}>
                     </div>
-                    <div class="in-a-hurry__media">
-                      <a href="{{ block.settings.in_a_hurry_url }}" target="_blank">
-                        <img src="{{ block.settings.in_a_hurry_image | img_url: 'original' }}" alt="{{ block.settings.in_a_hurry_image_alt }}" width="" height="">
-                      </a>
+                  {%- when 'video' -%}
+                    <div class="article-video-container">
+                      <iframe 
+                          src="https://www.youtube.com/embed/{{ block.settings.youtube_video_url | split: 'v=' | last }}?rel=0&showinfo=0" 
+                          frameborder="0" 
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowfullscreen
+                          class="article-youtube-iframe">
+                      </iframe>
+                    </div>                  
+                  {%- when 'in_a_hurry' -%}
+                    <div class="custom-container in-a-hurry">
+                      <div class="in-a-hurry__text">
+                        <p>{{ block.settings.in_a_hurry_text }}</p>
+                      </div>
+                      <div class="in-a-hurry__media">
+                        <a href="{{ block.settings.in_a_hurry_url }}" target="_blank">
+                          <img src="{{ block.settings.in_a_hurry_image | img_url: 'original' }}" alt="{{ block.settings.in_a_hurry_image_alt }}" width="" height="">
+                        </a>
+                      </div>
+                      <a class="button" href="{{ block.settings.in_a_hurry_url }}" target="_blank"><span>CHECK NOW</span></a>
                     </div>
-                    <a class="button" href="{{ block.settings.in_a_hurry_url }}" target="_blank"><span>CHECK NOW</span></a>
-                  </div>
-                {%- when 'anchor_list' -%}
-                  <div class="anchor-list">
-                    <ol>
-                      {% for block in section.blocks %}
-                        {% if block.type == "product" %}
-                          <li>
-                              <p><a href="#product-{{ block.settings.product_title | downcase | replace: ' ', '-' }}">{{ block.settings.product_title }}</a>{% unless block.settings.product_award == blank %} - {{ block.settings.product_award }}{% endunless %}</p>
-                          </li>
-                        {% endif %}
-                      {% endfor %}
-                    </ol>
-                  </div>
-                {%- when 'rating_table' -%}
-                    <div class="rating-table__container">
-                      <h2>Products Comparison</h2>
-                      <div class="rating-table">
-                        <ul class="rating-table_criterias">
-                          <li><p>Product</p></li>
-                          <li><p>Total</p></li>
-                          <li><p>{{ section.settings.criteria_1 }}</p></li>
-                          <li><p>{{ section.settings.criteria_2 }}</p></li>
-                          <li><p>{{ section.settings.criteria_3 }}</p></li>
-                          {% if section.settings.criteria_4 != blank %}
-                            <li><p>{{ section.settings.criteria_4 }}</p></li>
-                          {% endif %}
-                          {% if section.settings.criteria_5 != blank %}
-                            <li><p>{{ section.settings.criteria_5 }}</p></li>
-                          {% endif %}
-                          {% if section.settings.criteria_6 != blank %}
-                            <li><p>{{ section.settings.criteria_6 }}</p></li>
-                          {% endif %}
-                          {% if section.settings.criteria_7 != blank %}
-                            <li><p>{{ section.settings.criteria_7 }}</p></li>
-                          {% endif %}
-                          {% if section.settings.criteria_8 != blank %}
-                            <li><p>{{ section.settings.criteria_8 }}</p></li>
-                          {% endif %}
-                          {% if section.settings.criteria_9 != blank %}
-                            <li><p>{{ section.settings.criteria_9 }}</p></li>
-                          {% endif %}
-                          {% if section.settings.criteria_10 != blank %}
-                            <li><p>{{ section.settings.criteria_10 }}</p></li>
-                          {% endif %}
-                        </ul>
+                  {%- when 'anchor_list' -%}
+                    <div class="anchor-list">
+                      <ol>
                         {% for block in section.blocks %}
-                            {% if block.type == "product" %}
-                              <ul class="rating-table_product">
-                                <li><a href="{{ block.settings.product_url }}" target="_blank">{{ block.settings.short_product_title }}</a></li>
-                                <li><p>{{ block.settings.total_rating }}</p></li>
-                                <li><p>{{ block.settings.product_rating_1 }}</p></li>
-                                <li><p>{{ block.settings.product_rating_2 }}</p></li>
-                                <li><p>{{ block.settings.product_rating_3 }}</p></li>
-                                {% if block.settings.product_rating_4 != blank %}
-                                  <li><p>{{ block.settings.product_rating_4 }}</p></li>
-                                {% endif %}
-                                {% if block.settings.product_rating_5 != blank %}
-                                  <li><p>{{ block.settings.product_rating_5 }}</p></li>
-                                {% endif %}
-                                {% if block.settings.product_rating_6 != blank %}
-                                  <li><p>{{ block.settings.product_rating_6 }}</p></li>
-                                {% endif %}
-                                {% if block.settings.product_rating_7 != blank %}
-                                  <li><p>{{ block.settings.product_rating_7 }}</p></li>
-                                {% endif %}
-                                {% if block.settings.product_rating_8 != blank %}
-                                  <li><p>{{ block.settings.product_rating_8 }}</p></li>
-                                {% endif %}
-                                {% if block.settings.product_rating_9 != blank %}
-                                  <li><p>{{ block.settings.product_rating_9 }}</p></li>
-                                {% endif %}
-                                {% if block.settings.product_rating_10 != blank %}
-                                  <li><p>{{ block.settings.product_rating_10 }}</p></li>
-                                {% endif %}
-                              </ul>
-                            {% endif %}
+                          {% if block.type == "product" %}
+                            <li>
+                                <p><a href="#product-{{ block.settings.product_title | downcase | replace: ' ', '-' }}">{{ block.settings.product_title }}</a>{% unless block.settings.product_award == blank %} - {{ block.settings.product_award }}{% endunless %}</p>
+                            </li>
+                          {% endif %}
                         {% endfor %}
-                      </div>
+                      </ol>
                     </div>
-                {%- when 'why_trust_us' -%}
-                  <div class="article-why-trust-us">
-                    <h2>Why Trust Us?</h2>
-                    <p>With over 20 years in Olympic Weightlifting, our team does its best to provide the audience with ultimate support and meet the needs and requirements of advanced athletes and professional lifters, as well as people who strive to open new opportunities and develop their physical capabilities with us.</p>
-                    <p>All products we select are primarily approved and tested by the Olympic Weightlifting Champion Oleksii Torokhtiy. Under his guidance, we provide honest and reasonable assessments of the products we review by checking their characteristics, packaging, design, comfort and durability features, and general product rating. We select products from only high-quality and trusted sports brands, thus vouching for their quality.</p>
-                    <p><strong>The product testing process is described in more detail <a href="https://torokhtiy.com/pages/how-we-make-our-products-reviews" target="_blank">here</a></strong></p>
-                  </div>                  
-                {%- when 'product' -%}
-                  <div class="best-product-section" id="product-{{ block.settings.product_title | downcase | replace: ' ', '-' }}">
-                    <h2>{{ block.settings.product_position }}. <a href="{{ block.settings.product_url }}" target="_blank">{{ block.settings.product_title }}</a>{% unless block.settings.product_award == blank %} - {{ block.settings.product_award }}{% endunless %}</h2>
-                    <a href="{{ block.settings.product_url }}" target="_blank" class="best-product_image-link">
-                      <img src="{{ block.settings.product_main_image | img_url: 'original' }}" alt="{{ block.settings.product_title }}" width="" height="" {% if block.settings.half_width_main_image %}class="half-width-destop-image"{% endif %}>
-                    </a>
-                    <a class="button" href="{{ block.settings.product_url }}" target="_blank"><span>{{ block.settings.first_button_text }}</span></a>
-                    {% if block.settings.second_button_text != blank %}
-                      <a class="button secondary-button" href="{{ block.settings.second_button_url }}" target="_blank"><span>{{ block.settings.second_button_text }}</span></a>
-                    {% endif %}
-                    {{ block.settings.product_text_content_1 }}
-                    {% if block.settings.product_review_image %}
-                      <figure>
-                        <img src="{{ block.settings.product_review_image | img_url: 'original' }}" alt="{{ block.settings.product_title }} in use" width="" height="" {% if block.settings.half_width_review_image %}class="half-width-destop-image"{% endif %}>
-                        {% if block.settings.product_review_image_caption %}
-                          <figcaption>{{ block.settings.product_review_image_caption }}</figcaption>
-                        {% endif %}
-                      </figure>
-                    {% endif %}
-                    {% if block.settings.product_text_content_2 %}
-                      {{ block.settings.product_text_content_2 }}
-                    {% endif %}
-                    <div class="custom-container product-score">
-                      <div class="product-score-info">
-                        <div class="product-score-info__total">
-                          <p>{{ block.settings.total_rating }}</p>
-                          <p>EXPERT SCORE</p>
-                        </div>
-                        {{ block.settings.product_rating_description }}
-                      </div>
-                      <div class="product-score-rating">
-                        <ul>
-                          {% for i in (1..10) %}
-                            {% assign rating_key = 'product_rating_' | append: i %}
-                            {% assign criteria_key = 'criteria_' | append: i %}
-                            {% assign rating_value = block.settings[rating_key] | plus: 0 %}
-                            {% assign criteria_name = section.settings[criteria_key] %}
-                              {% if rating_value > 0 %}
-                                <li class="product-score-rating-item">
-                                  <div>
-                                    <p>{{ criteria_name }}:</p>
-                                    <p>{{ rating_value }}</p>
-                                  </div>
-                                  <div class="rating-graphic">
-                                    <div class="rating-fill" style="width: {{ rating_value | times: 10 }}%;"></div>
-                                  </div>
-                                </li>
+                  {%- when 'rating_table' -%}
+                      <div class="rating-table__container">
+                        <h2>Products Comparison</h2>
+                        <div class="rating-table">
+                          <ul class="rating-table_criterias">
+                            <li><p>Product</p></li>
+                            <li><p>Total</p></li>
+                            <li><p>{{ section.settings.criteria_1 }}</p></li>
+                            <li><p>{{ section.settings.criteria_2 }}</p></li>
+                            <li><p>{{ section.settings.criteria_3 }}</p></li>
+                            {% if section.settings.criteria_4 != blank %}
+                              <li><p>{{ section.settings.criteria_4 }}</p></li>
+                            {% endif %}
+                            {% if section.settings.criteria_5 != blank %}
+                              <li><p>{{ section.settings.criteria_5 }}</p></li>
+                            {% endif %}
+                            {% if section.settings.criteria_6 != blank %}
+                              <li><p>{{ section.settings.criteria_6 }}</p></li>
+                            {% endif %}
+                            {% if section.settings.criteria_7 != blank %}
+                              <li><p>{{ section.settings.criteria_7 }}</p></li>
+                            {% endif %}
+                            {% if section.settings.criteria_8 != blank %}
+                              <li><p>{{ section.settings.criteria_8 }}</p></li>
+                            {% endif %}
+                            {% if section.settings.criteria_9 != blank %}
+                              <li><p>{{ section.settings.criteria_9 }}</p></li>
+                            {% endif %}
+                            {% if section.settings.criteria_10 != blank %}
+                              <li><p>{{ section.settings.criteria_10 }}</p></li>
+                            {% endif %}
+                          </ul>
+                          {% for block in section.blocks %}
+                              {% if block.type == "product" %}
+                                <ul class="rating-table_product">
+                                  <li><a href="{{ block.settings.product_url }}" target="_blank">{{ block.settings.short_product_title }}</a></li>
+                                  <li><p>{{ block.settings.total_rating }}</p></li>
+                                  <li><p>{{ block.settings.product_rating_1 }}</p></li>
+                                  <li><p>{{ block.settings.product_rating_2 }}</p></li>
+                                  <li><p>{{ block.settings.product_rating_3 }}</p></li>
+                                  {% if block.settings.product_rating_4 != blank %}
+                                    <li><p>{{ block.settings.product_rating_4 }}</p></li>
+                                  {% endif %}
+                                  {% if block.settings.product_rating_5 != blank %}
+                                    <li><p>{{ block.settings.product_rating_5 }}</p></li>
+                                  {% endif %}
+                                  {% if block.settings.product_rating_6 != blank %}
+                                    <li><p>{{ block.settings.product_rating_6 }}</p></li>
+                                  {% endif %}
+                                  {% if block.settings.product_rating_7 != blank %}
+                                    <li><p>{{ block.settings.product_rating_7 }}</p></li>
+                                  {% endif %}
+                                  {% if block.settings.product_rating_8 != blank %}
+                                    <li><p>{{ block.settings.product_rating_8 }}</p></li>
+                                  {% endif %}
+                                  {% if block.settings.product_rating_9 != blank %}
+                                    <li><p>{{ block.settings.product_rating_9 }}</p></li>
+                                  {% endif %}
+                                  {% if block.settings.product_rating_10 != blank %}
+                                    <li><p>{{ block.settings.product_rating_10 }}</p></li>
+                                  {% endif %}
+                                </ul>
                               {% endif %}
                           {% endfor %}
-                        </ul>
-                      </div>
-                    </div>
-                    <div class="product-pros-cons">
-                      <div class="product-pros">
-                        <p class="product-pros__title">Positives:</p>
-                        {{ block.settings.product_pros }}
-                      </div>
-                      <div class="product-cons">
-                        <p class="product-cons__title">Could be better:</p>
-                        {{ block.settings.product_cons }}
-                      </div>
-                    </div>
-                  </div>
-                {%- endcase -%}
-            {%- endfor -%}
-        </div>
-    </div>
-
-    {% if blog.next_article or blog.previous_article %}
-        <div class="article-paginate">
-            <div class="article-paginate__wrapper">
-                <div class="article-paginate__item article-paginate__item--prev{% unless blog.previous_article %} article-paginate__item--disabled{% endunless %}">
-                    {% if blog.previous_article %}
-                        <a href="{{ blog.previous_article }}" class="article-paginate__link icon-fallback">
-                            <i class="icon icon--left-t" aria-hidden="true"></i>
-                            <span class="icon-fallback__text">{{ 'blogs.article.older_post' | t  }}</span>
-                        </a>
-                    {% else %}
-                        <span class="article-paginate__link icon-fallback">
-                            <i class="icon icon--left-t" aria-hidden="true"></i>
-                            <span class="icon-fallback__text">{{ 'blogs.article.older_post' | t  }}</span>
-                        </span>
-                    {% endif %}
-                </div>
-                <div class="article-paginate__item article-paginate__item--next{% unless blog.next_article %} article-paginate__item--disabled{% endunless %}">
-                    {% if blog.next_article %}
-                        <a href="{{ blog.next_article }}" class="article-paginate__link icon-fallback">
-                            <i class="icon icon--right-t" aria-hidden="true"></i>
-                            <span class="icon-fallback__text">{{ 'blogs.article.newer_post' | t }}</span>
-                        </a>
-                    {% else %}
-                        <span class="article-paginate__link icon-fallback">
-                            <i class="icon icon--right-t" aria-hidden="true"></i>
-                            <span class="icon-fallback__text">{{ 'blogs.article.newer_post' | t }}</span>
-                        </span>
-                    {% endif %}
-                </div>
-            </div>
-        </div>
-    {% endif %}
-
-    {% if blog.comments_enabled? %}
-        <div class="article-comments{% unless blog.next_article or blog.previous_article %} article-comments--mt{% endunless %}" id="comments">
-            <div class="container container--tiny">
-
-                <div class="article-comments__comments">
-                    {% if number_of_comments > 0 %}
-                        <h2 class="article-comments__title h4">{{ 'blogs.comments.with_count' | t: count: number_of_comments }}</h2>
-                    {% endif %}
-                    {% paginate article.comments by 3 %}
-                        {% if comment and comment.created_at %}
-                            <p class="article-comments__note form-success">
-                                {% if blog.moderated? %}
-                                    {{ 'blogs.comments.success_moderated' | t }}
-                                {% else %}
-                                    {{ 'blogs.comments.success' | t }}
-                                {% endif %}
-                            </p>
-                        {% endif %}
-                        {% if number_of_comments > 0 %}
-                            <ul class="article-comments__items o-list-bare">
-                                {% for comment in article.comments %}
-                                    <li id="{{ comment.id }}" class="article-comments__item">
-                                        <div class="article-comments__content rte">
-                                            {{ comment.content }}
-                                        </div>
-                                        <div class="article-comments__meta">
-                                            <span class="article-comments__meta-item">{{ comment.author }}</span>
-                                            <span class="article-comments__meta-item">{{ comment.created_at | time_tag: format: 'month_day_year' }}</span>
-                                        </div>
-                                    </li>
-                                {% endfor %}
-                            </ul>
-                        {% endif %}
-                        {% if paginate.pages > 1 %}
-                            <div class="article-comments__pagination">
-                                <div class="container">
-                                    <div class="pagination">
-                                        <div class="pagination__items">
-                                            {{ paginate | default_pagination:
-                                                next: '<i class="icon icon--right-t"></i><span class="icon-fallback__text">Next Page</span>',
-                                                previous: '<i class="icon icon--left-t"></i><span class="icon-fallback__text">Previous Page</span>'
-                                            }}
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        {% endif %}
-                    {% endpaginate %}
-                </div>
-
-                <div class="article-comments__form article-form{% if number_of_comments < 1 %} article-form--first{% endif %}">
-                    {% form 'new_comment', article %}
-
-                        <h2 class="article-form__title h4">{{ 'blogs.comments.title' | t }}</h2>
-
-                        {{ form.errors | default_errors }}
-
-                        <div class="o-layout">
-
-                            <div class="o-layout__item u-1/1 u-1/2@tab">
-                                <label for="CommentAuthor">{{ 'blogs.comments.name' | t }}</label>
-                                <input type="text" name="comment[author]" id="CommentAuthor" class="input-full{% if form.errors contains 'author' %} input--error{% endif %}" value="{{ form.author }}">
-                            </div>
-
-                            <div class="o-layout__item u-1/1 u-1/2@tab">
-                                <label for="CommentEmail">{{ 'blogs.comments.email' | t }}</label>
-                                <input type="email" name="comment[email]" id="CommentEmail" class="input-full{% if form.errors contains 'email' %} input--error{% endif %}" value="{{ form.email }}" autocorrect="off" autocapitalize="off">
-                            </div>
-
-                            <div class="o-layout__item u-1/1">
-                                <label for="CommentBody">{{ 'blogs.comments.message' | t }}</label>
-                                <textarea name="comment[body]" id="CommentBody" class="input-full{% if form.errors contains 'body' %} input--error{% endif %}">{{ form.body }}</textarea>
-                            </div>
                         </div>
-
-                        {% if blog.moderated? %}
-                            <p class="article-form__fine-print u-small">{{ 'blogs.comments.moderated' | t }}</p>
-                        {% endif %}
-
-                        <input type="submit" class="c-btn c-btn--primary c-btn--center" value="{{ 'blogs.comments.post' | t }}">
-
-                    {% endform %}
-                </div>
-
-            </div>
-        </div>
-    {% endif %}
-</section>
+                      </div>
+                  {%- when 'why_trust_us' -%}
+                    <div class="article-why-trust-us">
+                      <h2>Why Trust Us?</h2>
+                      <p>With over 20 years in Olympic Weightlifting, our team does its best to provide the audience with ultimate support and meet the needs and requirements of advanced athletes and professional lifters, as well as people who strive to open new opportunities and develop their physical capabilities with us.</p>
+                      <p>All products we select are primarily approved and tested by the Olympic Weightlifting Champion Oleksii Torokhtiy. Under his guidance, we provide honest and reasonable assessments of the products we review by checking their characteristics, packaging, design, comfort and durability features, and general product rating. We select products from only high-quality and trusted sports brands, thus vouching for their quality.</p>
+                      <p><strong>The product testing process is described in more detail <a href="https://torokhtiy.com/pages/how-we-make-our-products-reviews" target="_blank">here</a></strong></p>
+                    </div>                  
+                  {%- when 'product' -%}
+                    <div class="best-product-section" id="product-{{ block.settings.product_title | downcase | replace: ' ', '-' }}">
+                      <h2>{{ block.settings.product_position }}. <a href="{{ block.settings.product_url }}" target="_blank">{{ block.settings.product_title }}</a>{% unless block.settings.product_award == blank %} - {{ block.settings.product_award }}{% endunless %}</h2>
+                      <a href="{{ block.settings.product_url }}" target="_blank" class="best-product_image-link">
+                        <img src="{{ block.settings.product_main_image | img_url: 'original' }}" alt="{{ block.settings.product_title }}" width="" height="" {% if block.settings.half_width_main_image %}class="half-width-destop-image"{% endif %}>
+                      </a>
+                      <a class="button" href="{{ block.settings.product_url }}" target="_blank"><span>{{ block.settings.first_button_text }}</span></a>
+                      {% if block.settings.second_button_text != blank %}
+                        <a class="button secondary-button" href="{{ block.settings.second_button_url }}" target="_blank"><span>{{ block.settings.second_button_text }}</span></a>
+                      {% endif %}
+                      {{ block.settings.product_text_content_1 }}
+                      {% if block.settings.product_review_image %}
+                        <figure>
+                          <img src="{{ block.settings.product_review_image | img_url: 'original' }}" alt="{{ block.settings.product_title }} in use" width="" height="" {% if block.settings.half_width_review_image %}class="half-width-destop-image"{% endif %}>
+                          {% if block.settings.product_review_image_caption %}
+                            <figcaption>{{ block.settings.product_review_image_caption }}</figcaption>
+                          {% endif %}
+                        </figure>
+                      {% endif %}
+                      {% if block.settings.product_text_content_2 %}
+                        {{ block.settings.product_text_content_2 }}
+                      {% endif %}
+                      <div class="custom-container product-score">
+                        <div class="product-score-info">
+                          <div class="product-score-info__total">
+                            <p>{{ block.settings.total_rating }}</p>
+                            <p>EXPERT SCORE</p>
+                          </div>
+                          {{ block.settings.product_rating_description }}
+                        </div>
+                        <div class="product-score-rating">
+                          <ul>
+                            {% for i in (1..10) %}
+                              {% assign rating_key = 'product_rating_' | append: i %}
+                              {% assign criteria_key = 'criteria_' | append: i %}
+                              {% assign rating_value = block.settings[rating_key] | plus: 0 %}
+                              {% assign criteria_name = section.settings[criteria_key] %}
+                                {% if rating_value > 0 %}
+                                  <li class="product-score-rating-item">
+                                    <div>
+                                      <p>{{ criteria_name }}:</p>
+                                      <p>{{ rating_value }}</p>
+                                    </div>
+                                    <div class="rating-graphic">
+                                      <div class="rating-fill" style="width: {{ rating_value | times: 10 }}%;"></div>
+                                    </div>
+                                  </li>
+                                {% endif %}
+                            {% endfor %}
+                          </ul>
+                        </div>
+                      </div>
+                      <div class="product-pros-cons">
+                        <div class="product-pros">
+                          <p class="product-pros__title">Positives:</p>
+                          {{ block.settings.product_pros }}
+                        </div>
+                        <div class="product-cons">
+                          <p class="product-cons__title">Could be better:</p>
+                          {{ block.settings.product_cons }}
+                        </div>
+                      </div>
+                    </div>
+                  {%- endcase -%}
+              {%- endfor -%}
+          </div>
+      </div>
+  
+      {% if blog.next_article or blog.previous_article %}
+          <div class="article-paginate">
+              <div class="article-paginate__wrapper">
+                  <div class="article-paginate__item article-paginate__item--prev{% unless blog.previous_article %} article-paginate__item--disabled{% endunless %}">
+                      {% if blog.previous_article %}
+                          <a href="{{ blog.previous_article }}" class="article-paginate__link icon-fallback">
+                              <i class="icon icon--left-t" aria-hidden="true"></i>
+                              <span class="icon-fallback__text">{{ 'blogs.article.older_post' | t  }}</span>
+                          </a>
+                      {% else %}
+                          <span class="article-paginate__link icon-fallback">
+                              <i class="icon icon--left-t" aria-hidden="true"></i>
+                              <span class="icon-fallback__text">{{ 'blogs.article.older_post' | t  }}</span>
+                          </span>
+                      {% endif %}
+                  </div>
+                  <div class="article-paginate__item article-paginate__item--next{% unless blog.next_article %} article-paginate__item--disabled{% endunless %}">
+                      {% if blog.next_article %}
+                          <a href="{{ blog.next_article }}" class="article-paginate__link icon-fallback">
+                              <i class="icon icon--right-t" aria-hidden="true"></i>
+                              <span class="icon-fallback__text">{{ 'blogs.article.newer_post' | t }}</span>
+                          </a>
+                      {% else %}
+                          <span class="article-paginate__link icon-fallback">
+                              <i class="icon icon--right-t" aria-hidden="true"></i>
+                              <span class="icon-fallback__text">{{ 'blogs.article.newer_post' | t }}</span>
+                          </span>
+                      {% endif %}
+                  </div>
+              </div>
+          </div>
+      {% endif %}
+  
+      {% if blog.comments_enabled? %}
+          <div class="article-comments{% unless blog.next_article or blog.previous_article %} article-comments--mt{% endunless %}" id="comments">
+              <div class="container container--tiny">
+  
+                  <div class="article-comments__comments">
+                      {% if number_of_comments > 0 %}
+                          <h2 class="article-comments__title h4">{{ 'blogs.comments.with_count' | t: count: number_of_comments }}</h2>
+                      {% endif %}
+                      {% paginate article.comments by 3 %}
+                          {% if comment and comment.created_at %}
+                              <p class="article-comments__note form-success">
+                                  {% if blog.moderated? %}
+                                      {{ 'blogs.comments.success_moderated' | t }}
+                                  {% else %}
+                                      {{ 'blogs.comments.success' | t }}
+                                  {% endif %}
+                              </p>
+                          {% endif %}
+                          {% if number_of_comments > 0 %}
+                              <ul class="article-comments__items o-list-bare">
+                                  {% for comment in article.comments %}
+                                      <li id="{{ comment.id }}" class="article-comments__item">
+                                          <div class="article-comments__content rte">
+                                              {{ comment.content }}
+                                          </div>
+                                          <div class="article-comments__meta">
+                                              <span class="article-comments__meta-item">{{ comment.author }}</span>
+                                              <span class="article-comments__meta-item">{{ comment.created_at | time_tag: format: 'month_day_year' }}</span>
+                                          </div>
+                                      </li>
+                                  {% endfor %}
+                              </ul>
+                          {% endif %}
+                          {% if paginate.pages > 1 %}
+                              <div class="article-comments__pagination">
+                                  <div class="container">
+                                      <div class="pagination">
+                                          <div class="pagination__items">
+                                              {{ paginate | default_pagination:
+                                                  next: '<i class="icon icon--right-t"></i><span class="icon-fallback__text">Next Page</span>',
+                                                  previous: '<i class="icon icon--left-t"></i><span class="icon-fallback__text">Previous Page</span>'
+                                              }}
+                                          </div>
+                                      </div>
+                                  </div>
+                              </div>
+                          {% endif %}
+                      {% endpaginate %}
+                  </div>
+  
+                  <div class="article-comments__form article-form{% if number_of_comments < 1 %} article-form--first{% endif %}">
+                      {% form 'new_comment', article %}
+  
+                          <h2 class="article-form__title h4">{{ 'blogs.comments.title' | t }}</h2>
+  
+                          {{ form.errors | default_errors }}
+  
+                          <div class="o-layout">
+  
+                              <div class="o-layout__item u-1/1 u-1/2@tab">
+                                  <label for="CommentAuthor">{{ 'blogs.comments.name' | t }}</label>
+                                  <input type="text" name="comment[author]" id="CommentAuthor" class="input-full{% if form.errors contains 'author' %} input--error{% endif %}" value="{{ form.author }}">
+                              </div>
+  
+                              <div class="o-layout__item u-1/1 u-1/2@tab">
+                                  <label for="CommentEmail">{{ 'blogs.comments.email' | t }}</label>
+                                  <input type="email" name="comment[email]" id="CommentEmail" class="input-full{% if form.errors contains 'email' %} input--error{% endif %}" value="{{ form.email }}" autocorrect="off" autocapitalize="off">
+                              </div>
+  
+                              <div class="o-layout__item u-1/1">
+                                  <label for="CommentBody">{{ 'blogs.comments.message' | t }}</label>
+                                  <textarea name="comment[body]" id="CommentBody" class="input-full{% if form.errors contains 'body' %} input--error{% endif %}">{{ form.body }}</textarea>
+                              </div>
+                          </div>
+  
+                          {% if blog.moderated? %}
+                              <p class="article-form__fine-print u-small">{{ 'blogs.comments.moderated' | t }}</p>
+                          {% endif %}
+  
+                          <input type="submit" class="c-btn c-btn--primary c-btn--center" value="{{ 'blogs.comments.post' | t }}">
+  
+                      {% endform %}
+                  </div>
+  
+              </div>
+          </div>
+      {% endif %}
+  </section>
+  <aside class="article-sidebar">
+    {% for block in section.blocks %}
+      {% if block.type == "sidebar" %}
+          <div class="sidebar-product">
+            <a href="{{ block.settings.sidebar_product_url }}" target="_blank">
+              <img src="{{ block.settings.sidebar_product_image | img_url: 'original' }}" alt="{{ block.settings.sidebar_product_name }}" width="" height="">
+            </a>
+            <a href="{{ block.settings.sidebar_product_url }}" target="_blank" class="sidebar-product__name">{{ block.settings.sidebar_product_name }}</a>
+            <a href="{{ block.settings.sidebar_product_url }}" target="_blank" class="button"><span>BUY NOW</span></a>
+          </div>
+          <script>
+            $(document).ready(function () {
+              if ($(window).width() > 1200) {
+                  var element = $(".sidebar-product");
+          
+                  element.removeClass("fixed absolute").attr("style", "");
+          
+                  var elementStart = element.offset().top - 140;
+                  var main = $("main");
+                  var mainEnd = main.offset().top + main.outerHeight();
+                  var elementHeight = element.outerHeight();
+          
+                  element.css({
+                      "width": element.outerWidth(),
+                      "height": elementHeight
+                  });
+          
+                  $(window).scroll(function () {
+                      var scrollTop = $(window).scrollTop();
+                      var stopPoint = mainEnd - elementHeight - 140;
+          
+                      if (scrollTop >= elementStart && scrollTop < stopPoint) {
+                          element.addClass("fixed").removeClass("absolute").attr("style", "");
+                      } else if (scrollTop >= stopPoint) {
+                          element.css({
+                              "top": stopPoint - element.offset().top,
+                              "left": element.offset().left
+                          }).removeClass("fixed").addClass("absolute");
+                      } else {
+                          element.removeClass("fixed absolute").attr("style", "");
+                      }
+                  });
+              }
+            });
+          </script>
+      {% endif %}
+    {% endfor %}
+  </aside>
+</div>
 
 <script type="application/ld+json">
 {
