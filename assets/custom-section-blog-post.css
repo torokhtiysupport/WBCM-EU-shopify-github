@@ -584,6 +584,11 @@
 .rating-table thead {
   background-color: #FFFCDC;
 }
+.rating-table th {
+  border-top: 1px solid #FFFCDC;
+  border-left: 1px solid #FFFCDC;
+  border-right: 1px solid #FFFCDC;
+}
 
 .product-pros-cons {
   display: flex;
