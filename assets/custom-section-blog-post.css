@@ -566,67 +566,9 @@
   background-color: #D30202;
 }
 
-/* .rating-table__container {
-  overflow: auto;
-}
-.rating-table {
-  margin: 0 auto;
-  width: 1200px;
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 10px;
-}
-.rating-table p {
-  margin: 0;
-}
-.rating-table ul {
-  list-style: none;
-  display: flex;
-  align-items: center;
-  background-color: #f0f0f0;
-  border-radius: 16px;
-  padding: 4px 16px;
-  gap: 8px;
-}
-.rating-table ul:not(:last-of-type) {
-  margin: 0 0 8px;
-}
-.rating-table ul:last-of-type {
-  margin: 0;
-}
-.rating-table ul li p {
-  color: #000;
-}
-.rating-table ul li:not(:first-of-type) p {
-  text-align: center;
-}
-.rating-table ul li:not(:last-of-type) {
-  border-right: 2px solid #ffffff;
-}
-.rating-table ul li:first-of-type {
+.rating-table thead th:first-of-type, .rating-table tr td:first-of-type {
   text-align: left;
 }
-.rating-table ul li {
-  text-align: center;
-}
-.rating-table ul li:not(:first-of-type), .rating-table ul li:not(:nth-of-type(2)) {
-  flex: 0.5;
-}
-.rating-table ul li:first-of-type {
-  flex: 0.8;
-}
-.rating-table ul li:nth-of-type(2) {
-  flex: 0.5;
-}
-.rating-table_criterias,
-.rating-table_product li:first-of-type {
-  font-family: 'Work Sans', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-.rating-table_product li:first-of-type a {
-  color: #d30202;
-} */
 
 .product-pros-cons {
   display: flex;
