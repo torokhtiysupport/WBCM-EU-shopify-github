@@ -88,9 +88,7 @@
                         <div class="article__meta">
                             <div class="article__meta-wrapper">
                                 {% if block.settings.show_author %}
-                                    <div class="article__meta-author">
-                                        <p class="article__meta-author__text">{{ article.author }}</p>
-                                    </div>
+                                    {% render 'author-reviewer-bottom', author: author, reviewer: reviewer %}
                                 {% endif %}
                                 {% if block.settings.show_sharing %}
                                     <div class="article__meta-share">
