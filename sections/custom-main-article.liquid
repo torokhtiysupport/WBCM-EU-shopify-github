@@ -134,7 +134,187 @@
                             </div>
                         </div>
                     </div>
-
+                {%- when 'richtext' -%}
+                  <div>
+                    {{ block.settings.rich_text_content }}
+                    {% if block.settings.rich_text_image != blank %}
+                      <img src="{{ block.settings.rich_text_image | img_url: 'original' }}" width="" height="" alt="{{ block.settings.rich_text_image_alt }}" class="rich-text-image {% if block.settings.half_width_main_image %}half-width-destop-image{% endif %}">
+                    {% endif %}
+                  </div>
+                {%- when 'image' -%}
+                  <div class="image-section">
+                    <img src="{{ block.settings.image | img_url: 'original' }}" width="" height="" alt="{{ block.settings.image_alt }}" {% if block.settings.half_width_main_image %}class="half-width-destop-image"{% endif %}>
+                  </div>
+                {%- when 'video' -%}
+                  <div class="article-video-container">
+                    <iframe 
+                        src="https://www.youtube.com/embed/{{ block.settings.youtube_video_url | split: 'v=' | last }}?rel=0&showinfo=0" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                        allowfullscreen
+                        class="article-youtube-iframe">
+                    </iframe>
+                  </div>                  
+                {%- when 'in_a_hurry' -%}
+                  <div class="custom-container in-a-hurry">
+                    <div class="in-a-hurry__text">
+                      <p>{{ block.settings.in_a_hurry_text }}</p>
+                    </div>
+                    <div class="in-a-hurry__media">
+                      <a href="{{ block.settings.in_a_hurry_url }}" target="_blank">
+                        <img src="{{ block.settings.in_a_hurry_image | img_url: 'original' }}" alt="{{ block.settings.in_a_hurry_image_alt }}" width="" height="">
+                      </a>
+                    </div>
+                    <a class="button" href="{{ block.settings.in_a_hurry_url }}" target="_blank"><span>CHECK NOW</span></a>
+                  </div>
+                {%- when 'anchor_list' -%}
+                  <div class="anchor-list">
+                    <ol>
+                      {% for block in section.blocks %}
+                        {% if block.type == "product" %}
+                          <li>
+                              <p><a href="#product-{{ block.settings.product_title | downcase | replace: ' ', '-' }}">{{ block.settings.product_title }}</a>{% unless block.settings.product_award == blank %} - {{ block.settings.product_award }}{% endunless %}</p>
+                          </li>
+                        {% endif %}
+                      {% endfor %}
+                    </ol>
+                  </div>
+                {%- when 'rating_table' -%}
+                    <div class="rating-table__container">
+                      <h2>Products Comparison</h2>
+                      <div class="rating-table">
+                        <ul class="rating-table_criterias">
+                          <li><p>Product</p></li>
+                          <li><p>Total</p></li>
+                          <li><p>{{ section.settings.criteria_1 }}</p></li>
+                          <li><p>{{ section.settings.criteria_2 }}</p></li>
+                          <li><p>{{ section.settings.criteria_3 }}</p></li>
+                          {% if section.settings.criteria_4 != blank %}
+                            <li><p>{{ section.settings.criteria_4 }}</p></li>
+                          {% endif %}
+                          {% if section.settings.criteria_5 != blank %}
+                            <li><p>{{ section.settings.criteria_5 }}</p></li>
+                          {% endif %}
+                          {% if section.settings.criteria_6 != blank %}
+                            <li><p>{{ section.settings.criteria_6 }}</p></li>
+                          {% endif %}
+                          {% if section.settings.criteria_7 != blank %}
+                            <li><p>{{ section.settings.criteria_7 }}</p></li>
+                          {% endif %}
+                          {% if section.settings.criteria_8 != blank %}
+                            <li><p>{{ section.settings.criteria_8 }}</p></li>
+                          {% endif %}
+                          {% if section.settings.criteria_9 != blank %}
+                            <li><p>{{ section.settings.criteria_9 }}</p></li>
+                          {% endif %}
+                          {% if section.settings.criteria_10 != blank %}
+                            <li><p>{{ section.settings.criteria_10 }}</p></li>
+                          {% endif %}
+                        </ul>
+                        {% for block in section.blocks %}
+                            {% if block.type == "product" %}
+                              <ul class="rating-table_product">
+                                <li><a href="{{ block.settings.product_url }}" target="_blank">{{ block.settings.short_product_title }}</a></li>
+                                <li><p>{{ block.settings.total_rating }}</p></li>
+                                <li><p>{{ block.settings.product_rating_1 }}</p></li>
+                                <li><p>{{ block.settings.product_rating_2 }}</p></li>
+                                <li><p>{{ block.settings.product_rating_3 }}</p></li>
+                                {% if block.settings.product_rating_4 != blank %}
+                                  <li><p>{{ block.settings.product_rating_4 }}</p></li>
+                                {% endif %}
+                                {% if block.settings.product_rating_5 != blank %}
+                                  <li><p>{{ block.settings.product_rating_5 }}</p></li>
+                                {% endif %}
+                                {% if block.settings.product_rating_6 != blank %}
+                                  <li><p>{{ block.settings.product_rating_6 }}</p></li>
+                                {% endif %}
+                                {% if block.settings.product_rating_7 != blank %}
+                                  <li><p>{{ block.settings.product_rating_7 }}</p></li>
+                                {% endif %}
+                                {% if block.settings.product_rating_8 != blank %}
+                                  <li><p>{{ block.settings.product_rating_8 }}</p></li>
+                                {% endif %}
+                                {% if block.settings.product_rating_9 != blank %}
+                                  <li><p>{{ block.settings.product_rating_9 }}</p></li>
+                                {% endif %}
+                                {% if block.settings.product_rating_10 != blank %}
+                                  <li><p>{{ block.settings.product_rating_10 }}</p></li>
+                                {% endif %}
+                              </ul>
+                            {% endif %}
+                        {% endfor %}
+                      </div>
+                    </div>
+                {%- when 'why_trust_us' -%}
+                  <div class="article-why-trust-us">
+                    <h2>Why Trust Us?</h2>
+                    <p>With over 20 years in Olympic Weightlifting, our team does its best to provide the audience with ultimate support and meet the needs and requirements of advanced athletes and professional lifters, as well as people who strive to open new opportunities and develop their physical capabilities with us.</p>
+                    <p>All products we select are primarily approved and tested by the Olympic Weightlifting Champion Oleksii Torokhtiy. Under his guidance, we provide honest and reasonable assessments of the products we review by checking their characteristics, packaging, design, comfort and durability features, and general product rating. We select products from only high-quality and trusted sports brands, thus vouching for their quality.</p>
+                    <p><strong>The product testing process is described in more detail <a href="https://torokhtiy.com/pages/how-we-make-our-products-reviews" target="_blank">here</a></strong></p>
+                  </div>                  
+                {%- when 'product' -%}
+                  <div class="best-product-section" id="product-{{ block.settings.product_title | downcase | replace: ' ', '-' }}">
+                    <h2>{{ block.settings.product_position }}. <a href="{{ block.settings.product_url }}" target="_blank">{{ block.settings.product_title }}</a>{% unless block.settings.product_award == blank %} - {{ block.settings.product_award }}{% endunless %}</h2>
+                    <a href="{{ block.settings.product_url }}" target="_blank" class="best-product_image-link">
+                      <img src="{{ block.settings.product_main_image | img_url: 'original' }}" alt="{{ block.settings.product_title }}" width="" height="" {% if block.settings.half_width_main_image %}class="half-width-destop-image"{% endif %}>
+                    </a>
+                    <a class="button" href="{{ block.settings.product_url }}" target="_blank"><span>{{ block.settings.first_button_text }}</span></a>
+                    {% if block.settings.second_button_text != blank %}
+                      <a class="button secondary-button" href="{{ block.settings.second_button_url }}" target="_blank"><span>{{ block.settings.second_button_text }}</span></a>
+                    {% endif %}
+                    {{ block.settings.product_text_content_1 }}
+                    {% if block.settings.product_review_image %}
+                      <figure>
+                        <img src="{{ block.settings.product_review_image | img_url: 'original' }}" alt="{{ block.settings.product_title }} in use" width="" height="" {% if block.settings.half_width_review_image %}class="half-width-destop-image"{% endif %}>
+                        {% if block.settings.product_review_image_caption %}
+                          <figcaption>{{ block.settings.product_review_image_caption }}</figcaption>
+                        {% endif %}
+                      </figure>
+                    {% endif %}
+                    {% if block.settings.product_text_content_2 %}
+                      {{ block.settings.product_text_content_2 }}
+                    {% endif %}
+                    <div class="custom-container product-score">
+                      <div class="product-score-info">
+                        <div class="product-score-info__total">
+                          <p>{{ block.settings.total_rating }}</p>
+                          <p>EXPERT SCORE</p>
+                        </div>
+                        {{ block.settings.product_rating_description }}
+                      </div>
+                      <div class="product-score-rating">
+                        <ul>
+                          {% for i in (1..10) %}
+                            {% assign rating_key = 'product_rating_' | append: i %}
+                            {% assign criteria_key = 'criteria_' | append: i %}
+                            {% assign rating_value = block.settings[rating_key] | plus: 0 %}
+                            {% assign criteria_name = section.settings[criteria_key] %}
+                              {% if rating_value > 0 %}
+                                <li class="product-score-rating-item">
+                                  <div>
+                                    <p>{{ criteria_name }}:</p>
+                                    <p>{{ rating_value }}</p>
+                                  </div>
+                                  <div class="rating-graphic">
+                                    <div class="rating-fill" style="width: {{ rating_value | times: 10 }}%;"></div>
+                                  </div>
+                                </li>
+                              {% endif %}
+                          {% endfor %}
+                        </ul>
+                      </div>
+                    </div>
+                    <div class="product-pros-cons">
+                      <div class="product-pros">
+                        <p class="product-pros__title">Positives:</p>
+                        {{ block.settings.product_pros }}
+                      </div>
+                      <div class="product-cons">
+                        <p class="product-cons__title">Could be better:</p>
+                        {{ block.settings.product_cons }}
+                      </div>
+                    </div>
+                  </div>
                 {%- endcase -%}
             {%- endfor -%}
         </div>
