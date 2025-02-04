@@ -567,7 +567,11 @@
 }
 
 .rating-table thead th:first-of-type, .rating-table tr td:first-of-type {
+  font-weight: bold;
   text-align: left;
+}
+.rating-table thead th:nth-of-type(2), .rating-table tr td:nth-of-type(2) {
+  font-weight: bold;
 }
 .rating-table thead th:not(:first-of-type), .rating-table tr td:not(:first-of-type) {
   text-align: center;
