@@ -93,6 +93,14 @@
             "show_author": true,
             "show_sharing": false
           }
+        },
+        "sidebar_7exGKB": {
+          "type": "sidebar",
+          "settings": {
+            "sidebar_product_image": "shopify://shop_images/figure-8-lifting-straps-WBCM.jpg",
+            "sidebar_product_url": "https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ",
+            "sidebar_product_name": "WBCM Figure 8 Lifting Straps"
+          }
         }
       },
       "block_order": [
@@ -104,12 +112,13 @@
         "in_a_hurry_wfcTmW",
         "rating_table_GdfzT4",
         "anchor_list_H8qEtx",
-        "meta"
+        "meta",
+        "sidebar_7exGKB"
       ],
       "settings": {
-        "criteria_1": "",
-        "criteria_2": "",
-        "criteria_3": "",
+        "criteria_1": "Material",
+        "criteria_2": "Sizing",
+        "criteria_3": "Durability",
         "criteria_4": "",
         "criteria_5": "",
         "criteria_6": "",
