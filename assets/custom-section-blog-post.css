@@ -566,7 +566,7 @@
   background-color: #D30202;
 }
 
-.rating-table__container {
+/* .rating-table__container {
   overflow: auto;
 }
 .rating-table {
@@ -612,9 +612,9 @@
 .rating-table ul li:not(:first-of-type), .rating-table ul li:not(:nth-of-type(2)) {
   flex: 0.5;
 }
-/* .rating-table ul li:first-of-type {
+.rating-table ul li:first-of-type {
   flex: 0.8;
-} */
+}
 .rating-table ul li:nth-of-type(2) {
   flex: 0.5;
 }
@@ -626,10 +626,7 @@
 }
 .rating-table_product li:first-of-type a {
   color: #d30202;
-}
-.rating-table .discount-price {
-  text-decoration: line-through;
-}
+} */
 
 .product-pros-cons {
   display: flex;
