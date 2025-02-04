@@ -87,6 +87,39 @@
           "type": "anchor_list",
           "settings": {}
         },
+        "product_ibyHQe": {
+          "type": "product",
+          "settings": {
+            "product_title": "WBCM Figure 8 Lifting Straps",
+            "short_product_title": "WBCM",
+            "product_position": "1",
+            "product_award": "Top Pick",
+            "product_url": "",
+            "product_main_image": "shopify://shop_images/figure-8-lifting-straps-WBCM.jpg",
+            "half_width_main_image": true,
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_rating_description": "",
+            "product_rating_1": "",
+            "product_rating_2": "",
+            "product_rating_3": "",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "",
+            "product_pros": "",
+            "product_cons": ""
+          }
+        },
         "meta": {
           "type": "meta",
           "settings": {
@@ -112,6 +145,7 @@
         "in_a_hurry_wfcTmW",
         "rating_table_GdfzT4",
         "anchor_list_H8qEtx",
+        "product_ibyHQe",
         "meta",
         "sidebar_7exGKB"
       ],
