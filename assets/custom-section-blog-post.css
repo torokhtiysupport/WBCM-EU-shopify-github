@@ -1,5 +1,4 @@
 .article-page-section {
-  /* background: linear-gradient(0deg, rgb(var(--color-background)) 0%, rgb(var(--color-background)) 100%), linear-gradient(180deg, rgba(var(--color-background-input), 0.00) 0%, rgb(var(--color-background-input)) 100%); */
   background: #ffffff;
   color: #000000;
 }
