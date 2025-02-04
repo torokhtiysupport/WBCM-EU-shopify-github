@@ -523,9 +523,6 @@
   display: flex;
   justify-content: space-between;
 }
-/* .product-score-rating .product-score-rating-item p {
-  font-size: 14px;
-} */
 .product-score-info {
   display: flex;
   gap: 32px;
