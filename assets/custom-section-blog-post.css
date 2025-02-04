@@ -2,6 +2,10 @@
   background: #ffffff;
   color: #000000;
 }
+.custom-article-container {
+  display: flex;
+  gap: 30px;
+}
 .article-page-section h1, .article-page-section h2, .article-page-section h3, .article-page-section h4 {
   text-align: left;
 }
