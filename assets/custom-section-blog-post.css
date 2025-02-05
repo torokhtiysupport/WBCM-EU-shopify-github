@@ -788,7 +788,7 @@
   padding-left: var(--icon-space);
 }
 .product-card-desc li:before {
-  content: "\f058";
+  content: "\f05d";
   font-family: "FontAwesome";
   display: inline-block;
   margin-left: calc( var(--icon-space) * -1 );
