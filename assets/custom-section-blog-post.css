@@ -32,9 +32,6 @@
   background-color: #FFEE52;
   color: #000000;
 }
-.article-container a.secondary-button:hover span, .article-container a.secondary-button:focus span {
-  color: #000000;
-}
 
 .article-page-section li:not([itemprop="itemListElement"]), .article-page-section p:not(.product-pros__title, .product-cons__title) {
   font-size: 20px;
