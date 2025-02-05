@@ -693,6 +693,9 @@
   height: 100%;
   z-index: 3;
 }
+.article-why-trust-us.custom-container {
+  border: 4px solid #fec4d0;
+}
 
 @media screen and (max-width: 768px) {
   .custom-article-container {
