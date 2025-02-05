@@ -727,6 +727,11 @@
 }
 .star-rating-container {
   display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.star-rating-container p {
+  margin: 0;
 }
 
 @media screen and (max-width: 768px) {
