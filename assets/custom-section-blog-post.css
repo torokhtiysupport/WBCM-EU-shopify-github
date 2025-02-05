@@ -720,6 +720,7 @@
   font-weight: bold;
   text-transform: uppercase;
   font-size: 14px;
+  line-height: 1;
 }
 .product-card-rating ul {
   list-style: none;
