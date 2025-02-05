@@ -157,15 +157,19 @@
                     </div>                  
                   {%- when 'in_a_hurry' -%}
                     <div class="custom-container in-a-hurry">
-                      <div class="in-a-hurry__media">
-                        <a href="{{ block.settings.in_a_hurry_url }}" target="_blank">
-                          <img src="{{ block.settings.in_a_hurry_image | img_url: 'original' }}" alt="{{ block.settings.in_a_hurry_image_alt }}" width="" height="">
-                        </a>
+                      <div>
+                        <div class="in-a-hurry__media">
+                          <a href="{{ block.settings.in_a_hurry_url }}" target="_blank">
+                            <img src="{{ block.settings.in_a_hurry_image | img_url: 'original' }}" alt="{{ block.settings.in_a_hurry_image_alt }}" width="" height="">
+                          </a>
+                        </div>
+                        <div class="in-a-hurry__text">
+                          <p>{{ block.settings.in_a_hurry_text }}</p>
+                        </div>
                       </div>
-                      <div class="in-a-hurry__text">
-                        <p>{{ block.settings.in_a_hurry_text }}</p>
+                      <div>
+                        <a class="button" href="{{ block.settings.in_a_hurry_url }}" target="_blank"><span>CHECK NOW</span></a>
                       </div>
-                      <a class="button" href="{{ block.settings.in_a_hurry_url }}" target="_blank"><span>CHECK NOW</span></a>
                     </div>
                   {%- when 'anchor_list' -%}
                     <div class="anchor-list">
