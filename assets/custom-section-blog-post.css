@@ -706,6 +706,8 @@
   background-color: #fec4d0;
   top: -22px;
   left: -20px;
+  border-radius: 30px;
+  min-width: 120px;
 }
 .product-card-rating ul {
   list-style: none;
