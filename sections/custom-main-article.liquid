@@ -268,7 +268,7 @@
                         {% endunless %}
                         <div class="product-card-rating">
                           <a href="{{ block.settings.product_url }}" target="_blank" class="best-product_image-link">
-                            <img src="{{ block.settings.product_main_image | img_url: 'original' }}" alt="{{ block.settings.product_title }}" width="" height="" {% if block.settings.half_width_main_image %}class="half-width-destop-image"{% endif %}>
+                            <img src="{{ block.settings.product_main_image | img_url: 'original' }}" alt="{{ block.settings.product_title }}" width="" height="">
                           </a>
                           <div>
                             <div class="star-rating-container">
@@ -789,11 +789,6 @@
               "type": "image_picker",
               "id": "product_main_image",
               "label": "Product Main Image"
-            },
-            {
-              "type": "checkbox",
-              "id": "half_width_main_image",
-              "label": "Make image 50% width on desktop"
             },
             {
               "type": "text",
