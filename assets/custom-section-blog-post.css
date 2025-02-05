@@ -427,6 +427,7 @@
 .in-a-hurry > div:first-of-type {
   display: flex;
   flex-direction: row;
+  gap: 16px;
 }
 .in-a-hurry:before {
   display: flex;
