@@ -458,7 +458,7 @@
   width: 100%;
   height: auto;
 }
-.in-a-hurry__text p, .in-a-hurry__text h2 {
+.in-a-hurry__text, .in-a-hurry h2, .in-a-hurry p {
   margin: 0;
 }
 
