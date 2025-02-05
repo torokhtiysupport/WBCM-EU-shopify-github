@@ -707,11 +707,16 @@
   top: -22px;
   left: -20px;
   border-radius: 30px;
-  min-width: 120px;
+  min-width: 200px;
   z-index: 2;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.product-badge p {
+  margin: 0;
+  font-weight: bold;
+  text-transform: uppercase;
 }
 .product-card-rating ul {
   list-style: none;
