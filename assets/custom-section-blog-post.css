@@ -708,6 +708,7 @@
   left: -20px;
   border-radius: 30px;
   min-width: 120px;
+  z-index: 2;
 }
 .product-card-rating ul {
   list-style: none;
