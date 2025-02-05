@@ -567,6 +567,9 @@
 .rating-table__container {
   overflow: auto;
 }
+.rating-table__container table a {
+  color: #ed1b24;
+}
 .rating-table thead th:first-of-type, .rating-table tr td:first-of-type {
   font-weight: bold;
   text-align: left;
