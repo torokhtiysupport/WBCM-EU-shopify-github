@@ -764,7 +764,7 @@
   white-space: nowrap;
   overflow: hidden;
   display: flex;
-  color: gold;
+  color: #ffee52;
 }
 .stars-overlay .star {
   fill: gold;
