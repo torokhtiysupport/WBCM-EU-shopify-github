@@ -3,7 +3,10 @@
   background: #ffffff;
   color: #000000;
 }
-
+.article-page-section p a {
+  color: #ED1B24;
+  text-decoration: underline;
+}
 .article-page-section p {
   font-size: 18px;
 }
