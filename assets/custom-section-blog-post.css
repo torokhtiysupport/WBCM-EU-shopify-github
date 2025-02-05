@@ -419,10 +419,13 @@
   border: 5px solid #d7230a;
   display: flex;
   align-items: center;
-  flex-direction: row;
   gap: 16px;
   position: relative;
   margin: 30px 0;
+}
+.in-a-hurry > div:first-of-type {
+  display: flex;
+  flex-direction: row;
 }
 .in-a-hurry:before {
   display: flex;
@@ -750,9 +753,9 @@
   .in-a-hurry .button:hover, .in-a-hurry .button:focus {
     color: #D30202!important;
   }
-  .in-a-hurry {
+  .in-a-hurry > div:first-of-type {
     flex-direction: column;
-  }
+  } 
   .in-a-hurry__media {
     width: 100%;
   }
