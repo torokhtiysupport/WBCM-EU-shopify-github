@@ -695,6 +695,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .custom-article-container {
+    display: block;
+  }
   .article-page-section .article-card__footer {
     flex-wrap: wrap;
     font-size: 14px;
