@@ -458,11 +458,8 @@
   width: 100%;
   height: auto;
 }
-.in-a-hurry__text {
-  margin-top: 10px;
-}
-.in-a-hurry__text p {
-  margin: 20px 0 0;
+.in-a-hurry__text p, .in-a-hurry__text h2 {
+  margin: 0;
 }
 
 .anchor-list p, .anchor-list ol {
