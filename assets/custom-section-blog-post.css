@@ -778,6 +778,9 @@
 .star-rating-container p {
   margin: 0;
 }
+.product-card-desc {
+  margin-bottom: 20px;
+}
 .product-card-desc ul {
   --icon-space: 20px;
   list-style: none;
