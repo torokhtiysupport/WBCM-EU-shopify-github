@@ -710,7 +710,7 @@
 .product-card-rating {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 32px;
 }
 .product-card-rating img {
   flex-basis: 50%;
