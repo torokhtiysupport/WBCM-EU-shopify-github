@@ -562,6 +562,9 @@
   background-color: #D30202;
 }
 
+.rating-table__container {
+  overflow: auto;
+}
 .rating-table thead th:first-of-type, .rating-table tr td:first-of-type {
   font-weight: bold;
   text-align: left;
