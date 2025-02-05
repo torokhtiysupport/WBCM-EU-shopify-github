@@ -703,18 +703,15 @@
   font-size: 24px;
   width: 120px;
 }
-
 .star {
   width: 24px;
   height: 24px;
   fill: #ccc;
 }
-
 .stars-background {
   display: flex;
   gap: 4px;
 }
-
 .stars-overlay {
   position: absolute;
   top: 0;
@@ -725,11 +722,12 @@
   gap: 4px;
   color: gold;
 }
-
 .stars-overlay .star {
   fill: gold;
 }
-
+.star-rating-container {
+  display: flex;
+}
 
 @media screen and (max-width: 768px) {
   .custom-article-container {
