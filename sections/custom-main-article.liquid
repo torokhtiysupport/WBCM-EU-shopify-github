@@ -271,25 +271,27 @@
                             <img src="{{ block.settings.product_main_image | img_url: 'original' }}" alt="{{ block.settings.product_title }}" width="" height="" {% if block.settings.half_width_main_image %}class="half-width-destop-image"{% endif %}>
                           </a>
                           <div>
+                            <div>
                             <p><strong>Our Ratings: </strong> {{ block.settings.total_rating }}</p>
-                            <div class="star-rating">
-                              {% assign total_rating = block.settings.total_rating | plus: 0 %}
-                              {% assign percentage = total_rating | times: 20 %}
-                            
-                              <div class="stars-overlay" style="width: {{ percentage }}%;">
-                                {% for i in (1..5) %}
-                                  <svg class="star" viewBox="0 0 24 24">
-                                    <polygon points="12,2 15,9 22,9 17,14 19,21 12,17 5,21 7,14 2,9 9,9"></polygon>
-                                  </svg>
-                                {% endfor %}
-                              </div>
-                            
-                              <div class="stars-background">
-                                {% for i in (1..5) %}
-                                  <svg class="star" viewBox="0 0 24 24">
-                                    <polygon points="12,2 15,9 22,9 17,14 19,21 12,17 5,21 7,14 2,9 9,9"></polygon>
-                                  </svg>
-                                {% endfor %}
+                              <div class="star-rating">
+                                {% assign total_rating = block.settings.total_rating | plus: 0 %}
+                                {% assign percentage = total_rating | times: 20 %}
+                              
+                                <div class="stars-overlay" style="width: {{ percentage }}%;">
+                                  {% for i in (1..5) %}
+                                    <svg class="star" viewBox="0 0 24 24">
+                                      <polygon points="12,2 15,9 22,9 17,14 19,21 12,17 5,21 7,14 2,9 9,9"></polygon>
+                                    </svg>
+                                  {% endfor %}
+                                </div>
+                              
+                                <div class="stars-background">
+                                  {% for i in (1..5) %}
+                                    <svg class="star" viewBox="0 0 24 24">
+                                      <polygon points="12,2 15,9 22,9 17,14 19,21 12,17 5,21 7,14 2,9 9,9"></polygon>
+                                    </svg>
+                                  {% endfor %}
+                                </div>
                               </div>
                             </div>
                             <ul>
