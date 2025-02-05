@@ -699,6 +699,13 @@
 
 .product-card {
   border: 5px solid #fec4d0;
+  position: relative;
+}
+.product-badge {
+  position: absolute;
+  background-color: #fec4d0;
+  top: -22px;
+  left: -20px;
 }
 .product-card-rating ul {
   list-style: none;
