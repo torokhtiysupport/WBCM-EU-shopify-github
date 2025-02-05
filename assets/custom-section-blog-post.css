@@ -697,6 +697,9 @@
   border: 5px solid #fec4d0;
 }
 
+.product-card {
+  border: 5px solid #fec4d0;
+}
 .product-card-rating ul {
   list-style: none;
   margin: 0;
