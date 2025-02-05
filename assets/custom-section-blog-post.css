@@ -462,6 +462,13 @@
 .in-a-hurry__text, .in-a-hurry h2, .in-a-hurry p {
   margin: 0;
 }
+.in-a-hurry .button {
+  min-width: 120px;
+  background-color: #212121;
+  color: #FFFFFF;
+  border-radius: 30px;
+  padding: 9px 30px;
+}
 
 .anchor-list p, .anchor-list ol {
   margin: 0;
