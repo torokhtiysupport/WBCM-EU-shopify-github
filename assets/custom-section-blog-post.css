@@ -1,13 +1,11 @@
-.article-page-section {
+.custom-article-container {
   font-size: 18px;
-  background: #ffffff;
-  color: #000000;
 }
-.article-page-section p a {
+.custom-article-container p a {
   color: #ED1B24;
   text-decoration: underline;
 }
-.article-page-section p {
+.custom-article-container p {
   font-size: 18px;
 }
 .custom-article-container {
@@ -15,38 +13,24 @@
   gap: 30px;
   justify-content: center;
 }
-.article-page-section h1, .article-page-section h2, .article-page-section h3, .article-page-section h4 {
-  text-align: left;
-}
-.article-page-section h1 {
-  font-size: 52px;
-}
-.article-page-section h2 {
-  font-size: 40px;
-}
-.article-page-section h3 {
-  font-size: 36px;
-}
-.article-page-section h4 {
-  font-size: 32px;
-}
-.article-page-section .article-template__header {
-  margin-inline: unset;
-  align-items: start;
-}
-.article-page-section li, .article-page-section p {
+.custom-article-container li, .custom-article-container p {
   word-wrap: break-word;
 }
-
-.article-container a.button {
-  display: flex;
+.custom-article-container .button {
+  min-width: 120px;
+  border-radius: 30px;
+  padding: 10px 40px;
+  line-height: 30px;
+  font-size: 16px;
+  font-weight: bold;
 }
-.article-container a.button span {
-  position: relative;
+.custom-article-containern .button-main {
+  background-color: #212121;
+  color: #FFFFFF;
 }
-.secondary-button {
-  background-color: #000000;
-  border: 1px solid #000000;
+.custom-article-container .secondary-button {
+  background-color: #FFEE52;
+  color: #000000;
 }
 .article-container a.secondary-button:hover span, .article-container a.secondary-button:focus span {
   color: #000000;
@@ -465,18 +449,6 @@
 }
 .in-a-hurry__text, .in-a-hurry h2, .in-a-hurry p {
   margin: 0;
-}
-.article-page-section .button {
-  min-width: 120px;
-  border-radius: 30px;
-  padding: 10px 40px;
-  line-height: 30px;
-  font-size: 16px;
-  font-weight: bold;
-}
-.article-page-section .button.button-main {
-  background-color: #212121;
-  color: #FFFFFF;
 }
 
 .anchor-list p, .anchor-list ol {
