@@ -700,6 +700,7 @@
 .product-card {
   border: 5px solid #fec4d0;
   position: relative;
+  margin: 30px 0;
 }
 .product-badge {
   position: absolute;
@@ -712,6 +713,7 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  padding: 10px 40px;
 }
 .product-badge p {
   margin: 0;
