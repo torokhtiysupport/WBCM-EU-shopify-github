@@ -466,15 +466,17 @@
 .in-a-hurry__text, .in-a-hurry h2, .in-a-hurry p {
   margin: 0;
 }
-.in-a-hurry .button {
+.article-page-section .button {
   min-width: 120px;
-  background-color: #212121;
-  color: #FFFFFF;
   border-radius: 30px;
   padding: 10px 40px;
   line-height: 30px;
   font-size: 16px;
   font-weight: bold;
+}
+.article-page-section .button-main {
+  background-color: #212121;
+  color: #FFFFFF;
 }
 
 .anchor-list p, .anchor-list ol {
