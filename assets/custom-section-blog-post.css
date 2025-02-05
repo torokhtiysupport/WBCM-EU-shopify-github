@@ -485,6 +485,7 @@
 }
 .anchor-list a {
   color: #ED1B24;
+  text-decoration: underline;
 }
 
 .best-product-section figure {
