@@ -697,6 +697,40 @@
   border: 5px solid #fec4d0;
 }
 
+.star-rating {
+  position: relative;
+  display: inline-block;
+  font-size: 24px;
+  width: 120px;
+}
+
+.star {
+  width: 24px;
+  height: 24px;
+  fill: #ccc;
+}
+
+.stars-background {
+  display: flex;
+  gap: 4px;
+}
+
+.stars-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  white-space: nowrap;
+  overflow: hidden;
+  display: flex;
+  gap: 4px;
+  color: gold;
+}
+
+.stars-overlay .star {
+  fill: gold;
+}
+
+
 @media screen and (max-width: 768px) {
   .custom-article-container {
     display: block;
