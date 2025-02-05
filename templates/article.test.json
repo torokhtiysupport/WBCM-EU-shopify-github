@@ -97,7 +97,6 @@
             "product_award": "Top Pick",
             "product_url": "",
             "product_main_image": "shopify://shop_images/figure-8-lifting-straps-WBCM.jpg",
-            "half_width_main_image": true,
             "first_button_text": "CHECK LATEST PRICE",
             "second_button_text": "",
             "second_button_url": "",
@@ -128,6 +127,10 @@
             "show_sharing": false
           }
         },
+        "why_trust_us_VXYjUJ": {
+          "type": "why_trust_us",
+          "settings": {}
+        },
         "sidebar_7exGKB": {
           "type": "sidebar",
           "settings": {
@@ -148,6 +151,7 @@
         "anchor_list_H8qEtx",
         "product_ibyHQe",
         "meta",
+        "why_trust_us_VXYjUJ",
         "sidebar_7exGKB"
       ],
       "settings": {
