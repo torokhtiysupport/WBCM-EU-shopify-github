@@ -262,7 +262,7 @@
                   {%- when 'product' -%}
                     <h2>{{ block.settings.product_position }}. <a href="{{ block.settings.product_url }}" target="_blank">{{ block.settings.product_title }}</a></h2>
                     <div class="best-product-section" id="product-{{ block.settings.product_title | downcase | replace: ' ', '-' }}">
-                      <div class="product-card">
+                      <div class="product-card custom-container">
                         {% unless block.settings.product_award == blank %}
                           <div class="product-badge"><p>{{ block.settings.product_award }}</p></div>
                         {% endunless %}
