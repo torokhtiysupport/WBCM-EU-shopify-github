@@ -270,9 +270,9 @@
                           <a href="{{ block.settings.product_url }}" target="_blank" class="best-product_image-link">
                             <img src="{{ block.settings.product_main_image | img_url: 'original' }}" alt="{{ block.settings.product_title }}" width="" height="" {% if block.settings.half_width_main_image %}class="half-width-destop-image"{% endif %}>
                           </a>
-                          <div>
+                          <div class="star-rating-container">
                             <div>
-                            <p><strong>Our Ratings: </strong> {{ block.settings.total_rating }}</p>
+                              <p><strong>Our Ratings: </strong> {{ block.settings.total_rating }}</p>
                               <div class="star-rating">
                                 {% assign total_rating = block.settings.total_rating | plus: 0 %}
                                 {% assign percentage = total_rating | times: 20 %}
