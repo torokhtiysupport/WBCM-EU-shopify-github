@@ -809,6 +809,9 @@
 }
 
 @media screen and (max-width: 768px) {
+  .product-card-rating {
+    flex-direction: column;
+  }
   .custom-article-container {
     display: block;
   }
