@@ -566,6 +566,7 @@
 
 .rating-table__container {
   overflow: auto;
+  margin: 30px;
 }
 .rating-table__container table a {
   color: #ed1b24;
@@ -811,6 +812,7 @@
 @media screen and (max-width: 768px) {
   .product-card-rating {
     flex-direction: column;
+    align-items: start;
   }
   .custom-article-container {
     display: block;
