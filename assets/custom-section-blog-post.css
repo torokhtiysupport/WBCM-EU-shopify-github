@@ -566,7 +566,7 @@
 
 .rating-table__container {
   overflow: auto;
-  margin: 30px;
+  margin-bottom: 30px;
 }
 .rating-table__container table a {
   color: #ed1b24;
@@ -608,16 +608,11 @@
 }
 .product-pros__title, .product-cons__title {
   font-family: 'Work Sans', sans-serif;
-  font-weight: 500;
+  font-weight: bold;
   font-size: 24px;
   margin: 0 0 10px;
 }
-.product-pros__title {
-  color: #1e820a;
-}
-.product-cons__title {
-  color: #d30202;
-}
+
 .product-pros-cons ul {
   --icon-space: 30px;
   list-style: none;
