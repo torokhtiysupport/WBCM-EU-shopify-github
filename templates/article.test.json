@@ -120,16 +120,16 @@
             "product_cons": ""
           }
         },
+        "why_trust_us_VXYjUJ": {
+          "type": "why_trust_us",
+          "settings": {}
+        },
         "meta": {
           "type": "meta",
           "settings": {
             "show_author": true,
             "show_sharing": false
           }
-        },
-        "why_trust_us_VXYjUJ": {
-          "type": "why_trust_us",
-          "settings": {}
         },
         "sidebar_7exGKB": {
           "type": "sidebar",
@@ -150,8 +150,8 @@
         "rating_table_GdfzT4",
         "anchor_list_H8qEtx",
         "product_ibyHQe",
-        "meta",
         "why_trust_us_VXYjUJ",
+        "meta",
         "sidebar_7exGKB"
       ],
       "settings": {
