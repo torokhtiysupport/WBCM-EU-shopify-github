@@ -216,6 +216,9 @@
       "block_order": [
         "image_LNLRDM"
       ],
+      "custom_css": [
+        ".image-with-text__media-img {animation: none; -webkit-animation: none;}"
+      ],
       "settings": {
         "container": "large",
         "block_spacing": 2,
