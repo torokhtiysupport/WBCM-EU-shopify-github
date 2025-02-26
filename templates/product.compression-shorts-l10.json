@@ -157,14 +157,14 @@
           "type": "article",
           "settings": {
             "title": "Specifications",
-            "text": "<ul><li><strong>Sizing:</strong> S-XXL</li><li><strong>Material:</strong> Supplex Sport</li><li><strong>Inseam:</strong> 6.5 inches</li><li><strong>Color:</strong> Black</li><li><strong>Closure Type:</strong> Pull-On</li></ul>"
+            "text": "<ul><li><strong>Sizing:</strong> M-XXL</li><li><strong>Material:</strong> Battle-tested fabric</li><li><strong>Color:</strong> Black</li><li><strong>Closure Type:</strong> Pull-On</li></ul>"
           }
         },
         "article_na9QUf": {
           "type": "article",
           "settings": {
             "title": "Intended Use",
-            "text": "<p>These compression shorts suit any type of weight training: weightlifting, powerlifting, and bodybuilding sessions.</p>"
+            "text": "<p>Whether you're lifting, sprinting, or tackling any challenge — L10 Training Shorts keep you ready for the task.</p>"
           }
         },
         "article_LLaaV9": {
@@ -217,6 +217,7 @@
       "block_order": [
         "image_qFHkFk"
       ],
+      "disabled": true,
       "settings": {
         "container": "large",
         "block_spacing": 2,
@@ -251,6 +252,7 @@
       "block_order": [
         "image_TJzL4A"
       ],
+      "disabled": true,
       "settings": {
         "container": "large",
         "block_spacing": 2,
@@ -285,6 +287,7 @@
       "block_order": [
         "image_Ux7WtH"
       ],
+      "disabled": true,
       "custom_css": [
         ".o-layout {justify-content: center;}",
         ".o-layout .o-layout__item:last-of-type {display: none;}"
