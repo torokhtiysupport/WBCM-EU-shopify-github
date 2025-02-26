@@ -112,6 +112,7 @@
         },
         "popup_HeFjFr": {
           "type": "popup",
+          "disabled": true,
           "settings": {
             "link_title": "Size chart",
             "link_style": "body",
