@@ -216,6 +216,7 @@
       "block_order": [
         "image_LNLRDM"
       ],
+      "disabled": true,
       "settings": {
         "container": "large",
         "block_spacing": 2,
