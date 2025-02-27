@@ -12,6 +12,22 @@
     "section-slideshow": {
       "type": "section-slideshow",
       "blocks": {
+        "fde81176-0031-42f6-babd-05e0cfd2687c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/New-collection-strong-desktop-new-optimize.gif",
+            "image_mobile": "shopify://shop_images/New-collection-strong-mob-optimize.gif",
+            "alignment": "bottom-center",
+            "title": "",
+            "text": "",
+            "link_style": "c-btn c-btn--primary",
+            "link_title": "",
+            "link": "",
+            "link_style_2": "c-btn c-btn--hollow",
+            "link_title_2": "SHOP NOW",
+            "link_2": "shopify://collections/new-arrivals"
+          }
+        },
         "9bf15e77-545b-4d61-8855-5dfad503a3f3": {
           "type": "video",
           "settings": {
@@ -75,30 +91,14 @@
             "link_title_2": "Shop now",
             "link_2": "https://eu.warmbody-coldmind.com/#shopify-section-template--17346847080712__1ad5b4fe-ad71-4a5b-817c-7f8fb161026f"
           }
-        },
-        "fde81176-0031-42f6-babd-05e0cfd2687c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/help-ukraine-banner-desktop.png",
-            "image_mobile": "shopify://shop_images/help-ukraine-banner-mob.png",
-            "alignment": "bottom-center",
-            "title": "",
-            "text": "",
-            "link_style": "c-btn c-btn--primary",
-            "link_title": "",
-            "link": "",
-            "link_style_2": "c-btn c-btn--primary",
-            "link_title_2": "READ MORE",
-            "link_2": "https://blog.warmbody-coldmind.com/news/help-ukraine/"
-          }
         }
       },
       "block_order": [
+        "fde81176-0031-42f6-babd-05e0cfd2687c",
         "9bf15e77-545b-4d61-8855-5dfad503a3f3",
         "83308ea5-1c8e-4267-8c12-79946a19ed46",
         "section-slideshow-1",
-        "section-slideshow-0",
-        "fde81176-0031-42f6-babd-05e0cfd2687c"
+        "section-slideshow-0"
       ],
       "custom_css": [
         "a.c-btn--hollow {background-color: #fff; color: #000; box-shadow: none;}",
