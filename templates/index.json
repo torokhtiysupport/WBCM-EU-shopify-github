@@ -47,8 +47,8 @@
         "section-slideshow-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/new-arrivals-banner1920_1080-2.jpg",
-            "image_mobile": "shopify://shop_images/new-arrivals-banner900_1465.jpg",
+            "image": "shopify://shop_images/New-collection-strong-desktop-new.gif",
+            "image_mobile": "shopify://shop_images/New-collection-strong-mob-new.gif",
             "alignment": "bottom-center",
             "title": "",
             "text": "",
