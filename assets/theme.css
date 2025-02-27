@@ -9733,4 +9733,7 @@ section.description .container--tiny {
       top: 5px;
       left: 18px;
     }
+    .slick-track .slick-slide:first-of-type .home-carousel__content--btn {
+      padding: 0 0 80px!important;
+    }
   }
