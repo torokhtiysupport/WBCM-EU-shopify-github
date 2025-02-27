@@ -12,6 +12,22 @@
     "section-slideshow": {
       "type": "section-slideshow",
       "blocks": {
+        "section-slideshow-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/New-collection-strong-desktop-new.gif",
+            "image_mobile": "shopify://shop_images/New-collection-strong-mob-new.gif",
+            "alignment": "bottom-center",
+            "title": "",
+            "text": "",
+            "link_style": "c-btn c-btn--hollow",
+            "link_title": "SHOP NOW",
+            "link": "shopify://collections/new-arrivals",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "",
+            "link_2": ""
+          }
+        },
         "9bf15e77-545b-4d61-8855-5dfad503a3f3": {
           "type": "video",
           "settings": {
@@ -42,22 +58,6 @@
             "link_style_2": "c-btn c-btn--hollow",
             "link_title_2": "",
             "link_2": "shopify://collections/sale"
-          }
-        },
-        "section-slideshow-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/New-collection-strong-desktop-new.gif",
-            "image_mobile": "shopify://shop_images/New-collection-strong-mob-new.gif",
-            "alignment": "bottom-center",
-            "title": "",
-            "text": "",
-            "link_style": "c-btn c-btn--hollow",
-            "link_title": "SHOP NOW",
-            "link": "shopify://collections/new-arrivals",
-            "link_style_2": "c-btn c-btn--primary",
-            "link_title_2": "",
-            "link_2": ""
           }
         },
         "section-slideshow-0": {
@@ -94,9 +94,9 @@
         }
       },
       "block_order": [
+        "section-slideshow-1",
         "9bf15e77-545b-4d61-8855-5dfad503a3f3",
         "83308ea5-1c8e-4267-8c12-79946a19ed46",
-        "section-slideshow-1",
         "section-slideshow-0",
         "fde81176-0031-42f6-babd-05e0cfd2687c"
       ],
@@ -105,11 +105,12 @@
         "a.c-btn--primary,a.c-btn--hollow {padding-right: 70px !important; padding-left: 70px !important; transition: background-color 0.5s ease; transition: color 0.5s ease;}",
         "a.c-btn--hollow:hover,a.c-btn--hollow:focus {background-color: #000; color: #fff;}",
         "a.c-btn--hollow:hover,a.c-btn--hollow:focus,a.c-btn--primary:hover,a.c-btn--primary:focus {transition: background-color 0.5s ease; transition: color 0.5s ease;}",
-        "ul {position: static;}"
+        "ul {position: static;}",
+        "@media screen and (max-width: 768p)"
       ],
       "settings": {
         "title_size": 3,
-        "autoplay": true,
+        "autoplay": false,
         "autoplay_speed": 10,
         "nav_style": "bars",
         "slideshow_height": "full-screen",
