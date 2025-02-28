@@ -112,7 +112,6 @@
         },
         "popup_HTHqrL": {
           "type": "popup",
-          "disabled": true,
           "settings": {
             "link_title": "Size chart",
             "link_style": "body",
@@ -323,7 +322,6 @@
       "block_order": [
         "text_UyzgFw"
       ],
-      "disabled": true,
       "settings": {
         "section-bottom-margin": true
       }
@@ -350,7 +348,6 @@
       "block_order": [
         "image_TMjMzp"
       ],
-      "disabled": true,
       "custom_css": [
         ".o-layout {justify-content: center;}",
         ".o-layout .o-layout__item:last-of-type {display: none;}"
