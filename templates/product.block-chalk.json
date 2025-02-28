@@ -16,18 +16,27 @@
           "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/product-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
+            "home_link": "/",
             "menu": "main-menu",
             "separator": "›",
+            "custom_class": "",
             "bb_show_hide": true,
+            "hide_product": false,
             "bb_show_more": true,
             "enable_custom_feature": false,
+            "bb_custom_inheritance": true,
             "bb_capitalize": false,
             "bb_font_size": 13,
             "bb_padding": 0,
+            "bb_mobile_padding": 55,
             "bb_top_padding": 20,
+            "bb_mobile_top_padding": 55,
             "bb_margin": 0,
+            "bb_mobile_margin": 0,
             "bb_align": "left",
             "bb_color": "#2a2a2a",
+            "bb_hover_color": "",
+            "bb_home_color": "",
             "truncator": 20
           }
         }
@@ -125,6 +134,185 @@
         "thumbnails_show_border": false
       }
     },
+    "product_accordion_3HnJEX": {
+      "type": "product_accordion",
+      "blocks": {
+        "article_4RRGCr": {
+          "type": "article",
+          "settings": {
+            "title": "Specs",
+            "text": "<p><strong>Material:</strong> 100% Magnesium Carbonate<br/><strong>Color:</strong> White</p><ol><li><strong>1 Block</strong><br/>1 Block weight - ‎0.05 kg / ‎2 oz. <br/>Package Dimensions - ‎3.98” x 3.62” x 1.85” (10,11 cm x 9,19 cm x 4,7 cm)</li><li><strong>8 blocks</strong><br/>8 Blocks weight - ‎0.6 kg / 21,16 oz.<br/>Package Dimensions - ‌‎7.4” x 7.36” x 3.86” (18,74 cm x 18,66 cm x 9,8 cm)</li></ol>"
+          }
+        },
+        "article_pidJNJ": {
+          "type": "article",
+          "disabled": true,
+          "settings": {
+            "title": "Intended Use",
+            "text": ""
+          }
+        },
+        "article_Ed3KzV": {
+          "type": "article",
+          "settings": {
+            "title": "Warranty",
+            "text": "<p>We offer the return option for the item within 14 days after receiving it. Items must be unwashed and unworn with all barcodes intact. If you're not fully satisfied with the product, you can return it within 14 days of receipt. The same is for exchanging the items.</p>"
+          }
+        },
+        "article_yjKKxX": {
+          "type": "article",
+          "disabled": true,
+          "settings": {
+            "title": "Care",
+            "text": ""
+          }
+        }
+      },
+      "block_order": [
+        "article_4RRGCr",
+        "article_pidJNJ",
+        "article_Ed3KzV",
+        "article_yjKKxX"
+      ],
+      "settings": {
+        "enable_sidebar": false,
+        "cta_link_title": "Contact us",
+        "cta_link": "",
+        "cta_style": "link"
+      }
+    },
+    "section_image_slideshow_3PX8fq": {
+      "type": "section-image-slideshow",
+      "blocks": {
+        "image_QCxQ6Y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/block-chalk-banner-A.jpg",
+            "link": ""
+          }
+        },
+        "image_8XhX8h": {
+          "type": "image",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QCxQ6Y",
+        "image_8XhX8h"
+      ],
+      "settings": {
+        "autoplay": true,
+        "autoplay_speed": 8,
+        "nav_style": "bars",
+        "slideshow_width": "contained",
+        "overlay_color": "#000000",
+        "overlay_strength": 0,
+        "section-bottom-margin": false
+      }
+    },
+    "section_image_with_text_4bwCbU": {
+      "type": "section-image-with-text",
+      "blocks": {
+        "image_pFXpN3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/best-block-chalk-for.png",
+            "title": "BEST gym chalk blocks FOR:",
+            "desc": "<ul><li>WEIGHTLIFTING</li><li>POWERLIFTING</li><li>KETTLEBELL</li><li>BODYBUILDING</li><li>DUMBBELL</li><li>FUNCTIONAL TRAINING</li><li>BOULDERING</li><li>GYMNASTICS</li></ul>",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false
+          }
+        }
+      },
+      "block_order": [
+        "image_pFXpN3"
+      ],
+      "settings": {
+        "container": "large",
+        "block_spacing": 2,
+        "section-bottom-margin": false,
+        "image_ratio": "1:1",
+        "block_layout": "2/3",
+        "block_align": "right",
+        "vertical_align": "middle",
+        "heading_size": 2,
+        "link_style": "hollow"
+      }
+    },
+    "section_multi_column_images_hXBh64": {
+      "type": "section-multi-column-images",
+      "blocks": {
+        "text_FxMVNa": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/block-chalk-advantages-1.png",
+            "title": "",
+            "sub_title": "",
+            "desc": "<p>Our gym chalk block provides reliable protection while you are doing pull-ups, muscle-ups, snatches, squats, pole vaults, etc.</p>",
+            "link_title": "",
+            "link": ""
+          }
+        },
+        "text_HLYcBg": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/block-chalk-advantages-2.png",
+            "title": "",
+            "sub_title": "",
+            "desc": "<p>WBCM chalk block does not rub off easily, helps to absorb moisture and lowers slippage during your workouts.</p>",
+            "link_title": "",
+            "link": ""
+          }
+        },
+        "text_7fMrjf": {
+          "type": "text",
+          "settings": {
+            "image": "shopify://shop_images/block-chalk-advantages-3.png",
+            "title": "",
+            "sub_title": "",
+            "desc": "<p>Overcome grip problems caused by sweat, rain, humidity, and oils or sunscreen.</p>",
+            "link_title": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_FxMVNa",
+        "text_HLYcBg",
+        "text_7fMrjf"
+      ],
+      "settings": {
+        "title": "Magnesium carbonate chalk block Advantages",
+        "container": "large",
+        "link_title": "Learn more",
+        "link": "",
+        "divider": false,
+        "section-bottom-margin": true,
+        "grid": 3,
+        "spacing": 3,
+        "alignment": "center",
+        "link_style": "hollow",
+        "heading_size": 3,
+        "image_toggle": true,
+        "image_size": 100,
+        "image_padding": 0,
+        "image_ratio": "natural",
+        "image_fit": false,
+        "bg_color": "rgba(0,0,0,0)",
+        "color_image": "rgba(0,0,0,0)",
+        "color_text": "#212121",
+        "text_heading_color": false,
+        "grid_mobile": "1",
+        "mobile_layout": "carousel"
+      }
+    },
     "2d5bd59f-a78a-4717-af1f-2177417b93ca": {
       "type": "section-faq",
       "blocks": {
@@ -194,6 +382,10 @@
   "order": [
     "170056398848b74346",
     "main",
+    "product_accordion_3HnJEX",
+    "section_image_slideshow_3PX8fq",
+    "section_image_with_text_4bwCbU",
+    "section_multi_column_images_hXBh64",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
     "1691087074b17a7ec7",
     "product-recommendations"
