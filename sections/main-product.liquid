@@ -482,7 +482,7 @@
                                               </div>
 
                                             {%- when 'variant_picker' -%}
-                                                <div class="product-single__box__block product-single__box__block--{{ block.type }}" {{ block.shopify_attributes }}>
+                                                <div class="product-single__box__block product-single__box__block--{{ block.type }} {% if image_swatches %}product-has-image-swatches{% endif %}" {{ block.shopify_attributes }}>
                                                     {%- unless product.has_only_default_variant -%}
                                                         {% render 'product-options',
                                                             product: product,
