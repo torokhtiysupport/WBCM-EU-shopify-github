@@ -9607,7 +9607,7 @@ section.description .container--tiny {
 
 /* Hide Default Swatches when Custom Swatches are enable */
 
-.produc-has-image-swatches variant-swatches {
+.product-has-image-swatches variant-swatches {
   display: none;
 }
 
