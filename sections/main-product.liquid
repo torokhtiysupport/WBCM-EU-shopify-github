@@ -494,7 +494,7 @@
                                                           {%- assign has_size_swatches = true -%}
                                                       {%- endif -%}
                                                   {%- endfor -%}
-                                                <div class="product-single__box__block product-single__box__block--{{ block.type }} {% if has_image_swatches %}product-has-image-swatches{% endif %}{% if has_size_swatches %} product-has-size-swatches{% endif %}" {{ block.shopify_attributes }}>
+                                                <div class="product-single__box__block product-single__box__block--{{ block.type }} {% if has_image_swatches == true %}product-has-image-swatches{% endif %}{% if has_size_swatches == true %} product-has-size-swatches{% endif %}" {{ block.shopify_attributes }}>
                                                     {%- unless product.has_only_default_variant -%}
                                                         {% render 'product-options',
                                                             product: product,
