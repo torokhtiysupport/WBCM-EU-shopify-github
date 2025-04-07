@@ -9611,7 +9611,7 @@ section.description .container--tiny {
   display: none;
 }
 
-.js-product-single-actions:has(div.size-swatches_container) div.product-single__box__block--variant_picker product-interactive-options > fieldset {
+.product-has-size-swatches fieldset {
   display: none;
 }
 
