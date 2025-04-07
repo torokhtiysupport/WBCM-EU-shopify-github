@@ -484,13 +484,13 @@
                                             {%- when 'variant_picker' -%}
                                                 {%- assign has_image_swatches = false -%}
                                                   {%- for block in section.blocks -%}
-                                                      {%- if block.type == "image_swatches" -%}
+                                                      {%- if block.type == "image_swatches" and product.metafields.product.related_color_swatch_products != blank -%}
                                                           {%- assign has_image_swatches = true -%}
                                                       {%- endif -%}
                                                   {%- endfor -%}
                                                 {%- assign has_size_swatches = false -%}
                                                   {%- for block in section.blocks -%}
-                                                      {%- if block.type == "size_swatches" -%}
+                                                      {%- if block.type == "size_swatches" and product.metafields.product.related_size_swatch_products != blank -%}
                                                           {%- assign has_size_swatches = true -%}
                                                       {%- endif -%}
                                                   {%- endfor -%}
