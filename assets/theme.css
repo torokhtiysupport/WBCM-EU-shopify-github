@@ -9611,7 +9611,7 @@ section.description .container--tiny {
   display: none;
 }
 
-.product-has-size-swatches fieldset {
+.product-has-size-swatches product-interactive-options > fieldset {
   display: none;
 }
 
