@@ -1,0 +1,544 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "17007351490292b520": {
+      "type": "apps",
+      "blocks": {
+        "86c9c15f-872a-48bd-ae2e-92824e88a96c": {
+          "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/article-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "enable_custom_feature": false,
+            "bb_capitalize": true,
+            "bb_font_size": 13,
+            "bb_padding": 55,
+            "bb_top_padding": 55,
+            "bb_margin": 0,
+            "bb_align": "center",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "86c9c15f-872a-48bd-ae2e-92824e88a96c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "custom-main-article",
+      "blocks": {
+        "tags": {
+          "type": "tags",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "date": {
+          "type": "date",
+          "settings": {}
+        },
+        "richtext_dw9N4a": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>If you find your palms get sweaty when you weightlift and the barbell slips through your hands, gym chalk can be a game-changer. That said, powder chalk can be messy and is often not allowed in a public gym. So, today we’re going to discuss the best liquid chalk for lifting exercises.</p><p>For this list, our team of professional weightlifting certified coaches and cross trainers pooled together their multi-decade experience with barbell exercises to decide on the best liquid hand chalk.</p><p>Our product experts also compared many liquid chalk reviews to see if there’s something we missed worth pointing out. We aim to keep these lists up to date so if you have a product or experience worth sharing, reach out through the comment section.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "in_a_hurry_w6MGQW": {
+          "type": "in_a_hurry",
+          "settings": {
+            "in_a_hurry_image": "shopify://shop_images/wbcm-liquid-chalk.webp",
+            "in_a_hurry_image_alt": "WBKM Liquid Chalk",
+            "in_a_hurry_title": "Our Best Choice!",
+            "in_a_hurry_text": "<p>The gold medal for the best gym chalk goes to the <a href=\"https://warmbody-coldmind.com/products/liquid-chalk?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/liquid-chalk?sca_ref=5120971.qSPHd7ePgJ\">Warm Body Cold Mind Liquid Chalk</a>. As with all WBCM products, the mastermind behind this chalk is none other than former Olympic weightlifter Oleksiy Torokhtiy.</p>",
+            "in_a_hurry_url": "https://warmbody-coldmind.com/products/liquid-chalk?sca_ref=5120971.qSPHd7ePgJ"
+          }
+        },
+        "anchor_list_Unty8k": {
+          "type": "anchor_list",
+          "settings": {}
+        },
+        "rating_table_VFkHUY": {
+          "type": "rating_table",
+          "settings": {}
+        },
+        "product_BJzPRL": {
+          "type": "product",
+          "settings": {
+            "product_title": "Warm Body Cold Mind Liquid Chalk",
+            "short_product_title": "WBCM",
+            "product_position": "1",
+            "product_award": "Gold Medal",
+            "product_url": "https://warmbody-coldmind.com/products/liquid-chalk?sca_ref=5120971.qSPHd7ePgJ",
+            "product_main_image": "shopify://shop_images/wbcm-liquid-chalk.jpg",
+            "product_rating_description": "<p>The gold medal for the best gym chalk goes to the Warm Body Cold Mind Liquid Chalk. As with all WBCM products, the mastermind behind this chalk is none other than former Olympic weightlifter <a href=\"https://en.wikipedia.org/wiki/Oleksiy_Torokhtiy\" target=\"_blank\" title=\"https://en.wikipedia.org/wiki/Oleksiy_Torokhtiy\">Oleksiy Torokhtiy</a>. Rest assured that no less than two decades of experience helped create it. We’re also happy to see it highly ranked in many of our industry colleague’s liquid chalk reviews.</p><ul><li><strong>Ingredients:</strong> Magnesium Carbonate, liquid solution</li><li><strong>Smell:</strong> Citrus (lime, lemon)</li><li><strong>Drying Period:</strong> ~15 seconds</li><li><strong>Longevity:</strong> High</li><li><strong>Fitness Category:</strong> Weightlifting</li><li><strong>Viscosity:</strong> Medium</li><li><strong>Color:</strong> White</li><li><strong>Price:</strong> $$</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "4.5",
+            "product_rating_5": "4.75",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.9",
+            "first_button_text": "CHECK PRICE ON WBCM",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/dp/B08DJD3D88?tag=wbcmb-20",
+            "product_text_content_1": "<p><a href=\"https://warmbody-coldmind.com/products/liquid-chalk?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/liquid-chalk?sca_ref=5120971.qSPHd7ePgJ\">The chalk</a> is available in two sizes: 50ml (~1.7oz) for around 45 uses and 250ml (~8.5oz) for around 225 uses. The bottle includes a metal carabiner, making it easy and convenient to attach to your gym bag. Military backpack enthusiasts will find this feature especially useful.</p><p>The smell it gives off is a fresh citrus combination. We made it a bit denser to give it a more creamy and streamlined spread. For that reason, we opted for an upside-down bottle design. That way, you’ll always have some ready at the cap instead of having to violently shake and squeeze the bottle. </p>",
+            "product_review_image": "shopify://shop_images/wbcm-best-liquid-chalk-for-lifting-inst.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p>Photo by <a href=\"https://www.instagram.com/p/CK3NK6TgFfx/\" target=\"_blank\" title=\"https://www.instagram.com/p/CK3NK6TgFfx/\">@warmbody_coldmind</a></p>",
+            "product_text_content_2": "<p>It’s available worldwide on our website and also through <a href=\"https://www.amazon.com/dp/B08DJD3D88?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B08DJD3D88?tag=wbcmb-20\">Amazon</a>. We tried to keep the price competitive, though we’ll admit there are cheaper options. It can also slightly vary in price depending on your location and shipping requirements. Each purchase includes a replacement cap, so don’t worry if the main cap breaks for some reason.</p>",
+            "product_pros": "<ul><li>Designed by a former Olympic athlete</li><li>Pleasant non-invasive citrus smell</li><li>A spare cap is included</li><li>Upside-down bottle design makes it ready to go</li><li>The carabiner opens up carry possibilities</li></ul>",
+            "product_cons": "<ul><li>Price may vary depending on your location</li></ul>"
+          }
+        },
+        "product_kq7Qnf": {
+          "type": "product",
+          "settings": {
+            "product_title": "Spider Chalk Liquid Chalk",
+            "short_product_title": "Spider Chalk",
+            "product_position": "2",
+            "product_award": "Silver Medal",
+            "product_url": "https://www.roguefitness.com/spider-chalk-liquid-chalk/?a_aid=62ff8b7e519eb",
+            "product_main_image": "shopify://shop_images/rogue-spider-chalk-liquid-chalk.jpg",
+            "product_rating_description": "<p>As a close second, we have the liquid chalk by Spider Chalk. If you know anything about spiders, it’s that they can stick to literally anything horizontally, vertically, upside-down — without a care in the world. That was the inspiration for this high-density long-lasting hand chalk.</p><ul><li><strong>Ingredients:</strong> Magnesium Carbonate, liquid solution</li><li><strong>Smell:</strong> Sweet</li><li><strong>Drying Period:</strong> ~20 seconds</li><li><strong>Longevity:</strong> High</li><li><strong>Fitness Category:</strong> Weightlifting</li><li><strong>Viscosity:</strong> High</li><li><strong>Color:</strong> White</li><li><strong>Price:</strong> $$</li></ul>",
+            "product_rating_1": "4.75",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "4.5",
+            "product_rating_5": "4.75",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.8",
+            "first_button_text": "CHECK PRICE ON ROGUE",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/spider-chalk-Weightlifting-Liquid-Chalk/dp/B07BS1C9Z2?tag=wbcmb-20",
+            "product_text_content_1": "<p>The chalk comes in two sizes: 2oz and 8oz, promising 50 and 200 uses respectively. The viscosity is high, so squeezing out the last bit can be a bit of a drag. We recommend keeping the bottle upside-down if possible. Luckily, the cap works great, it clicks well into place and doesn’t have a mind of its own, so even upside-down shaking is fairly safe.</p><p>It comes out as a typical <a href=\"https://www.roguefitness.com/spider-chalk-liquid-chalk/?a_aid=62ff8b7e519eb\" target=\"_blank\" title=\"https://www.roguefitness.com/spider-chalk-liquid-chalk/?a_aid=62ff8b7e519eb\">off-white chalk</a> color. It spreads nicely, like a dense hand cream, though it takes a bit of time to dry down: around 20-30 seconds depending on the heat and skin type. There are some smell additives in the mix that make a fairly strong and sweet scent, almost like cinnamon. Fair warning though, some people will like this, while others might find it distracting.</p>",
+            "product_review_image": "shopify://shop_images/rogue-spider-chalk-liquid-chalk-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p><em>Photo by </em><a href=\"https://www.instagram.com/p/CzbzlAVLQJh/?img_index=2\" target=\"_blank\" title=\"https://www.instagram.com/p/CzbzlAVLQJh/?img_index=2\"><em>@spiderchalk</em></a></p>",
+            "product_text_content_2": "<p>It’s quite long-lasting even on a single application. The brand promises up to 60 minutes of use. Now, we’ve tested it in light, moderate, and vigorous settings. It performed as well as advertised in light and moderate ones, though don’t expect a single application to last you through multiple sets of 300 lbs deadlifts, which, to be fair, is understandable.</p>",
+            "product_pros": "<ul><li>Made in the U.S.A.</li><li>Long-lasting (60 minutes) in moderate use</li><li>The cap works well, no issues with self-opening</li><li>Good usage per bottle</li></ul>",
+            "product_cons": "<ul><li>Drying is a bit slow</li><li>Some people will dislike the strong and sweet smell</li></ul>"
+          }
+        },
+        "product_7aLUGN": {
+          "type": "product",
+          "settings": {
+            "product_title": "EVMT Brands Liquid Chalk",
+            "short_product_title": "EVMT Brands",
+            "product_position": "3",
+            "product_award": "Bronze Medal",
+            "product_url": "https://www.amazon.com/dp/B08JJMJ8JB?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/evmt-liquid-chalk.jpg",
+            "product_rating_description": "<p>The EVMT brand was founded by professional athletes of varying disciplines. Apart from the basic liquid chalk, their options range from regular liquid chalk to sports-specific choices, including weightlifting, rock climbing, and dancing.</p><ul><li><strong>Ingredients:</strong> Magnesium Carbonate, liquid solution</li><li><strong>Smell:</strong> Lemon</li><li><strong>Drying Period:</strong> ~15 seconds</li><li><strong>Longevity:</strong> Moderate</li><li><strong>Fitness Category:</strong> Regular, weightlifting, rock climbing, dancing.</li><li><strong>Viscosity:</strong> Medium</li><li><strong>Color:</strong> White</li><li><strong>Price:</strong> $$</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "4.5",
+            "product_rating_3": "4.5",
+            "product_rating_4": "4.75",
+            "product_rating_5": "5",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.8",
+            "first_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The original chalk is available in 50ml (~1.7oz) and 250ml (8.5 oz) respectively. There are various purchase options, which include a single bottle, two-pack, four-pack, and eight-pack for the small bottle and a single and two-pack options for the large bottle. <a href=\"https://www.amazon.com/dp/B08JJMJ8JB?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B08JJMJ8JB?tag=wbcmb-20\">The sports-specific chalk</a> is also available in small bottles of one or two per pack. At the moment, only the weightlifting one is available in 250ml in one- and two-pack options.</p><p>If you like it, this makes repurchasing a fairly easy choice, since you can get higher quantities to save money. Fair warning: some of the pictures show the bottle having a metal carabiner, but it actually comes with a simple binder ring. While that gets the job done for attaching to gym bags, it’s fair to say it’s nowhere near as convenient or long-lasting as a carabiner.</p><p>The viscosity is moderate, meaning it flows pretty well out of the bottle and spreads around fairly easily by simply rubbing your hands together. A lower density does however mean a lighter stick and shorter lasting period, on average.</p><p>Best used for light to medium-weight activities. There is, of course, the weightlifting option. While it comes off a bit denser, there isn’t that big of a difference in all fairness. Overall, it is a decent budget choice.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Cost-efficient, lots of bottle sizes and combinations</li><li>The basic lemon smell works fine</li><li>Feels soft on the hands</li></ul>",
+            "product_cons": "<ul><li>Despite some promo photos, it doesn’t include a carabiner</li><li>There isn’t too much of a difference between the types of chalk</li></ul>"
+          }
+        },
+        "product_E9HNYA": {
+          "type": "product",
+          "settings": {
+            "product_title": "Friction Labs Quick Grip Secret Stuff Liquid Chalk",
+            "short_product_title": "Friction Labs",
+            "product_position": "4",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/dp/B07S2TK63Y?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/friction-labs-quick-grip-secret-stuff-liquid-chalk.jpg",
+            "product_rating_description": "<p>Friction Labs positions itself as a premium hand chalk brand. The company started in rock climbing but has since expanded its formula to other sports. It’s a bit harder to recommend due to a single bottle size and a bit higher price, but if you don’t mind the cost, it’s an excellent choice.</p><ul><li><strong>Ingredients:</strong> Magnesium Carbonate, liquid solution or alcohol (depending on the version)</li><li><strong>Smell:</strong> None</li><li><strong>Drying Period:</strong> ~20 seconds (alcohol-based), 60-90 sec (alcohol-free)</li><li><strong>Longevity:</strong> High</li><li><strong>Fitness Category:</strong> Weightlifting, Climbing, Gymnastics, Aerial arts, Racket/Batting sports</li><li><strong>Viscosity:</strong> High</li><li><strong>Color:</strong> White</li><li><strong>Price:</strong> $$$</li></ul>",
+            "product_rating_1": "4.25",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "4.75",
+            "product_rating_5": "4.5",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.7",
+            "first_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>With <a href=\"https://www.amazon.com/dp/B07S2TK63Y?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B07S2TK63Y?tag=wbcmb-20\">Friction Labs</a>, you get three choices. First is the alcohol-free version. If you have sensitive skin prone to tears, cuts, and calluses, you’ll immediately reach for this one. The burning sensation is completely gone, and the layer of chalk is quite thick, providing an additional protective barrier. That said, it does take around 60-90 seconds to dry down.</p><p>The second choice is the newly formulated 80% alcohol hygienic formula. We’ll talk more about the use of alcohol-based chalk as a hand sanitizer, but just know that it’s highly effective at killing germs and bacteria. This makes it a great choice for use in public gyms, especially if you’re traveling and concerned about hygiene.</p><p>Lastly, there’s the original formula based on alcohol, but there’s no particular reason to recommend it over the other two. All three options come in one 75ml (~2.5oz) size only. The packaging is great though, with a flexible plastic tube and thick cap. No issues with the cap opening whatsoever, and the bottle uses the upside-down design we love.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Premium packaging</li><li>Upside-down bottle design</li><li>Both alcohol-free and alcohol versions</li><li>Available in a special hygienic formula</li></ul>",
+            "product_cons": "<ul><li>A bit expensive</li><li>Only available in the small bottle</li></ul>"
+          }
+        },
+        "product_jbCyCi": {
+          "type": "product",
+          "settings": {
+            "product_title": "Sportmediq Pro Grade Liquid Chalk",
+            "short_product_title": "Sportmediq",
+            "product_position": "5",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/dp/B07CL94PTH?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/sportmediq-pro-grade-liquid-chalk.jpg",
+            "product_rating_description": "<p>In retrospect, Sportmediq chalk used to be higher on our liquid grip reviews, even ranking #2 at some point. Although newer and more up-to-date products have taken their place, it’s still a decent product that deserves its spot on the list.</p><ul><li><strong>Ingredients:</strong> Magnesium Carbonate, alcohol solution</li><li><strong>Smell:</strong> Citrus</li><li><strong>Drying Period:</strong> ~25 seconds</li><li><strong>Longevity:</strong> Moderate</li><li><strong>Fitness Category:</strong> Weightlifting, powerlifting</li><li><strong>Viscosity:</strong> Medium</li><li><strong>Color:</strong> White</li><li><strong>Price:</strong> $</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "4.75",
+            "product_rating_3": "4.75",
+            "product_rating_4": "4.75",
+            "product_rating_5": "4.5",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.7",
+            "first_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The target audience for this liquid chalk is weightlifters and powerlifters, although it works fine for any type of sport. The citrus smell is pleasant at first but evaporates fairly quickly, so it’s not distracting either. It’s alcohol-based, so while it keeps your hands clean and sanitized, you’ll have to deal with the occasional burn. However, alcohol also evaporates quite well, leaving behind pure chalk.</p><p>Additionally, there’s word of reformulation and a weaker formula floating around online. Previously, the ingredients section included honey as an adhesive. Its removal could explain why the newer version appears to be watered down, although it is easier to wash out.</p><p>The price is fairly low considering the <a href=\"https://www.amazon.com/dp/B07CL94PTH?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B07CL94PTH?tag=wbcmb-20\">big bottle</a> size. However, it’s worth noting that 8.5oz is the only size option. The bottle is also 6.5 inches long, so it can take up a big space in your gym bag. It is not as easy to fit, especially if you use a drawstring bag. There used to be a smaller size that was more convenient, so here’s hoping that it comes back in future.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Affordable, all things considered</li><li>Easy to wash out</li><li>Alcohol dries off well and does not remain sticky</li></ul>",
+            "product_cons": "<ul><li>Reformulated version is weaker than before</li><li>Elongated bottle, not as easy to carry</li></ul>"
+          }
+        },
+        "product_eckeMK": {
+          "type": "product",
+          "settings": {
+            "product_title": "Liquid Grip 8-Ounce Bottle",
+            "short_product_title": "Liquid Grip",
+            "product_position": "6",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/Liquid-Grip-LG-8-8-Ounce-Bottle/dp/B003L7N0EC?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/liquid-grip-chalk.jpg",
+            "product_rating_description": "<p>Next up, we have the Liquid Grip. This chalk advertises itself as an all-around great choice, so let’s see how good it is.</p><ul><li><strong>Ingredients:</strong> Magnesium Carbonate, alcohol, thickener, fragrance</li><li><strong>Smell:</strong> Coconut</li><li><strong>Drying Period:</strong> ~10-15 seconds</li><li><strong>Longevity:</strong> Moderate</li><li><strong>Fitness Category:</strong> Gymnastics, aerial arts, sports</li><li><strong>Viscosity:</strong> Medium</li><li><strong>Color:</strong> White</li><li><strong>Price:</strong> $</li></ul>",
+            "product_rating_1": "4",
+            "product_rating_2": "4.75",
+            "product_rating_3": "4.75",
+            "product_rating_4": "4.75",
+            "product_rating_5": "4.75",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.6",
+            "first_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>After a few test runs with different types of exercise, we found this chalk best works for sports, rather than serious resistance training. It will improve your grip on, for example, a bat, racket, or ball, but it’s not for serious weightlifting. It does help that it also has National Collegiate Athletics Association (NCAA) approval for use in college baseball, football, and softball.</p><p>The initial smell reminds of coconut sunscreen. Based on the <a href=\"https://www.amazon.com/Liquid-Grip-LG-8-8-Ounce-Bottle/dp/B003L7N0EC?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/Liquid-Grip-LG-8-8-Ounce-Bottle/dp/B003L7N0EC?tag=wbcmb-20\">Liquid Grip</a> reviews we’ve sampled, the smell can be divisive, so keep this in mind. The packaging is eco-friendly and made from biodegradable plastic, which is a decent modern selling point. At the moment, it’s available in only one size (8oz), promising about 200 uses per bottle.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Approved for use in some Collegiate sports</li><li>Best used for ball, racket, and batting sports</li><li>Biodegradable bottle </li><li>Drying time is above average</li><li>200 uses per bottle is good value for money spent</li></ul>",
+            "product_cons": "<ul><li>Single bottle size at the moment</li><li>Strong alcoholic content, may not be for sensitive skin and noses</li></ul>"
+          }
+        },
+        "product_4zwNjF": {
+          "type": "product",
+          "settings": {
+            "product_title": "Spider Chalk Black Widow Liquid Chalk",
+            "short_product_title": "Spider Chalk Black Widow",
+            "product_position": "7",
+            "product_award": "",
+            "product_url": "https://www.roguefitness.com/black-widow-spider-chalk/?a_aid=62ff8b7e519eb",
+            "product_main_image": "shopify://shop_images/rogue-spider-chalk-black-widow-liquid-chalk.jpg",
+            "product_rating_description": "<p>Spider Chalk already took the #2 spot on this list with its basic liquid chalk formula, but that’s not the only Spider Chalk worth mentioning. Black Widow spiders are highly venomous as their venom is strong. Similarly, the Black Widow liquid chalk has strong adhesive capabilities.</p><ul><li><strong>Ingredients:</strong> rosins, 2 non-toxic bonding agents, lab-grade magnesium carbonate, custom thickener</li><li><strong>Smell:</strong> None</li><li><strong>Drying Period:</strong> ~5-10 seconds</li><li><strong>Longevity:</strong> High</li><li><strong>Fitness Category:</strong> Powerlifting, weightlifting, cross-training</li><li><strong>Viscosity:</strong> High</li><li><strong>Color:</strong> White</li><li><strong>Price:</strong> $$</li></ul>",
+            "product_rating_1": "4",
+            "product_rating_2": "4.75",
+            "product_rating_3": "4.75",
+            "product_rating_4": "5",
+            "product_rating_5": "4.5",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.6",
+            "first_button_text": "CHECK PRICE ON ROGUE",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/Chalk-Lifting-CrossFit-Gymnastics-Ingredients/dp/B01BLVPZTM?tag=wbcmb-20",
+            "product_text_content_1": "<p><a href=\"https://www.roguefitness.com/black-widow-spider-chalk/?a_aid=62ff8b7e519eb\" target=\"_blank\" title=\"https://www.roguefitness.com/black-widow-spider-chalk/?a_aid=62ff8b7e519eb\">Black Widow Spider chalk</a> is high-density, long-lasting, and incredibly sticky. It dries up in an incredibly short time, with most people finding it ready to go in a few seconds. This makes it incredibly useful for high-weight resistance training, including weightlifting and powerlifting, but also cross-training if you do weighted pull-ups and dips, for example.</p>",
+            "product_review_image": "shopify://shop_images/spider-chalk-black-widow-liquid-chalk-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p><em>Photo by </em><a href=\"https://www.instagram.com/p/CcEey1SsBEm/?img_index=2\" target=\"_blank\" title=\"https://www.instagram.com/p/CcEey1SsBEm/?img_index=2\"><em>@spiderchalk</em></a></p>",
+            "product_text_content_2": "<p>It lasts a significant amount of time, relative to the exercise you’re doing. With moderate use, we found it gives a good 45-60 minute workout window. At the moment, it’s available only in a 4oz variant, which is roughly 120ml. This sizing is a bit awkward since it’s neither here nor there. It’s neither compact like the ~1.7oz nor affordable like the ~8oz bottles.</p>",
+            "product_pros": "<ul><li>Great for powerlifters and strongmen</li><li>Very sticky</li><li>Long-lasting</li><li>Dries very fast</li></ul>",
+            "product_cons": "<ul><li>Niche, the average user may find it too sticky</li><li>The 4oz bottle size is a bit awkward</li></ul>"
+          }
+        },
+        "product_rUJd9L": {
+          "type": "product",
+          "settings": {
+            "product_title": "IRON AMERICAN Liquid Sports Chalk",
+            "short_product_title": "Iron American",
+            "product_position": "8",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/dp/B08VF3DQ66?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/iron-american-liquid-sports-chalk.jpg",
+            "product_rating_description": "<p>If you like buying locally and supporting small businesses, we’re happy to introduce you to IRON AMERICAN. The founder, Ryan Thiele, is by all accounts a down-to-earth regular guy who enjoys fitness on top of being a proud patriot.</p><ul><li><strong>Ingredients:</strong> Magnesium Carbonate, alcohol solution</li><li><strong>Smell:</strong> None</li><li><strong>Drying Period:</strong> ~15-25 seconds</li><li><strong>Longevity:</strong> Moderate</li><li><strong>Fitness Category:</strong> Weightlifting, powerlifting</li><li><strong>Viscosity:</strong> Medium</li><li><strong>Color:</strong> White or pink</li><li><strong>Price:</strong> $</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "4.5",
+            "product_rating_3": "4.5",
+            "product_rating_4": "4",
+            "product_rating_5": "4.75",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.6",
+            "first_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>One unique thing about <a href=\"https://www.amazon.com/dp/B08VF3DQ66?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B08VF3DQ66?tag=wbcmb-20\">IRON AMERICAN chalk</a> is the optional color choices between white & pink. It doesn’t have a designated smell, however, you might pick up a strong alcohol odor depending on your nose sensitivity. Otherwise, it’s a medium viscosity, moderately lasting liquid chalk.</p>",
+            "product_review_image": "shopify://shop_images/iron-american-liquid-sports-chalk-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p><em>Photo by </em><a href=\"https://www.instagram.com/p/CzbzlAVLQJh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==\" target=\"_blank\" title=\"https://www.instagram.com/p/CzbzlAVLQJh/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==\"><em>@iron_american_liquid_chalk</em></a></p>",
+            "product_text_content_2": "<p>The main selling point, other than being locally owned and operated, is the large array of sizes. We’re talking two-packs, three-packs, five-packs, twelves-packs, and more combinations to check out. The main available sizes are the usual 50ml and a medium-large 200ml (1.7 and 6.7 OZ). They even offer small 30ml (1oz) pouches, which can fit into a cargo pants pocket or gym bag small compartment very easily.</p><p>That said, it’s a bit harder to recommend to our international readers, since it’s made by a small U.S.-based company. Shipping costs can rack up to the point where the price is outmatched by some competitors.</p>",
+            "product_pros": "<ul><li>The choice of color (white and pink) is unique</li><li>High repurchase value with size and pack variety</li><li>Available in small carry pouches</li><li>Some people will value that it’s a local business</li></ul>",
+            "product_cons": "<ul><li>Shipping outside the U.S. will cost you a lot</li><li>Can smell strongly of alcohol</li></ul>"
+          }
+        },
+        "product_cKHhxx": {
+          "type": "product",
+          "settings": {
+            "product_title": "Togear Liquid Chalk",
+            "short_product_title": "Togear",
+            "product_position": "9",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/dp/B08BJ137DL/?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/togear-liquid-chalk.jpg",
+            "product_rating_description": "<p>Last but not least is the Togear Liquid Chalk. This is a lab-tested pure magnesium-based chalk with virtually no additives. Very skin and allergy-friendly.</p><ul><li><strong>Ingredients:</strong> Magnesium Carbonate, liquid solution</li><li><strong>Smell:</strong> Lemon</li><li><strong>Drying Period:</strong> ~15-25 seconds</li><li><strong>Longevity:</strong> Moderate</li><li><strong>Fitness Category:</strong> Weightlifting, rock climbing, gymnastics</li><li><strong>Viscosity:</strong> Low</li><li><strong>Color:</strong> White</li><li><strong>Price:</strong> $</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "5",
+            "product_rating_3": "4.5",
+            "product_rating_4": "4",
+            "product_rating_5": "5",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.5",
+            "first_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The chalk is available in three sizes: 50ml (~1.7oz), 100ml (~3.4oz), and 250ml (~8.8oz). The 50ml bottle does have a valuable upside-down design, making the liquid ready for use at the opening of the cap. It also sports a metal carabiner, so props for that as well. The plastic packaging is a bit cheap, especially the cap. This is understandable for the price, but you’ll have to be careful not to drop it.</p><p><a href=\"https://www.amazon.com/dp/B08BJ137DL/?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B08BJ137DL/?tag=wbcmb-20\">The liquid solution</a> uses two non-toxic bonding agents, making it safe to use on exposed skin. The viscosity is a bit low, so it can pour out heavily if you’re not careful. The excess fluid also requires a bit more time to dry down than average, so expect anywhere from 15 to 25 seconds. That said, the extra fluidity does make it easy to spread. It also carries a light lemon smell, akin to cleaning products or a basic liquid soap.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Lab-tested</li><li>No additives</li><li>Metal carabiner (although only in the smallest variant)</li><li>Modest price, especially with multiple bottle sizes</li></ul>",
+            "product_cons": "<ul><li>A bit too liquidy, have to be careful when pouring it</li><li>The cap is a bit cheaply made</li></ul>"
+          }
+        },
+        "richtext_84kUNn": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>What Is Liquid Chalk for Lifting?</h2><p><a href=\"https://blog.warmbody-coldmind.com/guides/liquid-chalk-vs-regular-chalk/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/liquid-chalk-vs-regular-chalk/\">Hand chalk</a> is an essential tool for keeping your hands dry in a variety of sports that benefit from a firm grip. It’s used in rock climbing, gymnastics, aerial arts (hoops, pole dancing), calisthenics, and weightlifting, to name a few.</p><p>Despite sharing the name, it’s not to be confused with regular drawing/classroom chalk, as they’re made from completely different materials. Workout chalk is made out of <a href=\"https://pubchem.ncbi.nlm.nih.gov/compound/Magnesium-Carbonate\" target=\"_blank\" title=\"https://pubchem.ncbi.nlm.nih.gov/compound/Magnesium-Carbonate\">Magnesium Carbonate</a> (MgCO3), which is primarily known for and used in chemistry for its absorbent and drying properties.</p><p>Originally, hand chalk came as either a powdered substance or as a block. More recently, liquid chalk has taken the stage, figuratively and literally, because it has some unique advantages (more on this in a later segment). It comes in plastic bottles, making it much easier to store and carry than powder chalk.</p><h2>How Does Liquid Chalk Work?</h2><p>Liquid hand chalk is made from the same Magnesium Carbonate mixed with a liquid adhesive, usually alcohol. When squeezed out of the bottle, it feels fluid like a cream, making it easy to spread evenly on your palms. Once it dries down, it leaves behind the moisture-wicking MgCO3 layer.</p><p>In sports, MgCO3 is rubbed into the palms to absorb sweat and keep the skin dry, preventing slipping when gripping onto a surface. It’s especially useful when gripping cylindrical objects, such as barbells or handlebars, to minimize friction from rolling.</p><p>The idea behind Magnesium Carbonate is grounded in known chemistry, and there’s plenty of research into its effects in various sports. For example, chalk has been shown to <a href=\"https://pubmed.ncbi.nlm.nih.gov/11411778/#:~:text=The%20results%20showed%20that%20chalk%20decreased%20the%20coefficient%20of%20friction.\" target=\"_blank\" title=\"https://pubmed.ncbi.nlm.nih.gov/11411778/#:~:text=The%20results%20showed%20that%20chalk%20decreased%20the%20coefficient%20of%20friction.\">decrease friction</a> during rock climbing.</p><p>Calisthenics athletes do plenty of exercises by gripping onto handlebars (pull-ups, drips, monkey bars), and using chalk has also been shown to <a href=\"https://pubmed.ncbi.nlm.nih.gov/29541333/\" target=\"_blank\" title=\"https://pubmed.ncbi.nlm.nih.gov/29541333/\">improve grip duration</a>. Similar results <a href=\"http://article.sapub.org/10.5923.j.sports.20201002.04.html\" target=\"_blank\" title=\"http://article.sapub.org/10.5923.j.sports.20201002.04.html\">were found in a study</a> observing chalk’s use in weightlifting.</p>",
+            "rich_text_image": "shopify://shop_images/wbcm-liquid-lifting-chalk.jpg",
+            "rich_text_image_alt": "Demonstration Warm Body Cold Mind Liquid Lifting Chalk",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_zhFUQj": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Liquid chalk containing 80% alcohol has also been proven effective at <a href=\"https://journals.asm.org/doi/10.1128/msphere.00313-21\" target=\"_blank\" title=\"https://journals.asm.org/doi/10.1128/msphere.00313-21\">killing off germs and bacteria</a>, including the infamous COVID-19 virus. Thus, it’s a good idea to use it, especially with public equipment.</p><p>The only slight drawback might be the burning sensation when you rub alcohol into palms with micro-cuts and ripped calluses, for example, which isn’t uncommon. Otherwise, there are non-alcohol versions.</p><h2>Pros and Cons of Using Liquid Chalk for Lifting</h2><p>So far, we’ve established what liquid weightlifting chalk is and how it benefits you. However, liquid chalk is not all upsides no downsides. If you’re thinking of using chalk for your workouts, here are some pros and cons to be aware of:</p><h3>Pros</h3><ul><li>Keeps your hands sweat-free</li><li>Increases palm stickiness</li><li>Application is easy</li><li>Leaves behind next to no mess, easy to wash out</li><li>Often requires no more than one or two applications per workout</li><li>Bottled, easy to carry</li><li>Works for any activity that requires a strong grip (climbing, pull-ups, weightlifting)</li><li>Adds a small coat of outer protection for your skin</li><li>The alcohol found in some liquid chalk burns away bacteria</li></ul><h3>Cons</h3><ul><li>More expensive than powdered chalk</li><li>If the bottle or cap breaks, unless you’re quick to react, it will dry up and need full replacement</li><li>Using it too often and leaving it on too long can dry out the skin</li><li>Often unnecessary, can cause overreliance</li></ul>",
+            "rich_text_image": "shopify://shop_images/wbcm-liquid-chalks-for-lifting.jpg",
+            "rich_text_image_alt": "Warm Body Cold Mind Training Lifting Chalk",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_zTndif": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>How to Choose the Best Liquid Chalk?</h2><p>Liquid <a href=\"https://blog.warmbody-coldmind.com/guides/what-is-gym-chalk-used-for/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/what-is-gym-chalk-used-for/\">chalk for weightlifting</a> is a fairly consistent product between the various brands. However, people have different needs and preferences, such as brand, stickiness, price, as well as their sport of choice, which may sway purchasing decisions. With that in mind, here are some aspects to consider when choosing the best gym chalk:</p><h3>1. Grip Effectiveness</h3><p>The stickiness of your chalk depends on the ratio between Magnesium Carbonate and the carrier fluid. Higher MgCO3 content will result in stickier chalk, providing a more robust grip, while chalk with a higher percentage of liquid is easier to wash out. Depending on the difficulty of your exercise, you might value grip effectiveness differently.</p><h3>2. Dry Time</h3><p>Most liquid chalk dries fairly quickly, between 10-20 seconds depending on your skin texture and room humidity. For most people, a few seconds difference won’t be too much of a factor, but it may be for those who need their chalk to dry quicker. For example, during competitive endeavors where time is essential like rock climbing races or cross-training competitions.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_xqRh3T": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h4>Pro Tip:</h4><p><em>\"You can usually find the expected drying time printed on the bottle or in the user manual.\"</em></p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_eQjyQt": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h3>3. Consistency</h3><p>Formula consistency will affect how easy the chalk is to apply and how big of a mess it can leave behind. A smooth and even-textured liquid with tiny grains of chalk is easier to apply and spreads out more evenly. It’s also easier to wash out afterward. </p><h3>4. Smell</h3><p>Some liquid chalk brands are odorless, while some might have a mild fragrance. As your hands warm up from the exercise, the chalk will heat up and release the smell. It’s a good idea to check the smell before purchase, as it might be a scent you’re not fond of or the one that your brain associates with allergies you may have, making it distracting to use.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "video_fEG4dt": {
+          "type": "video",
+          "settings": {
+            "youtube_video_url": "https://www.youtube.com/watch?v=huFVPigEtr8"
+          }
+        },
+        "richtext_yYKpHf": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h3>5. Online Reviews</h3><p>Checking liquid chalk reviews online is a good way to get a feel for the product from other users’ perspectives. For us, we can vouch safely for our picks when it comes to weightlifting and strength training. However, if you practice other things that also use chalk, such as rock climbing or outdoor calisthenics, you should look for trusted reviews for your specific sport or discipline.</p><h3>6. Value for Money</h3><p>Although more expensive than powdered chalk on average, generally speaking, liquid chalk won’t be a budget-breaking purchase. Price differences between brands are not more than a few dollars. That said, shopping around isn’t a bad idea either. Depending on your needs and frequency of use, you might find a certain brand’s bottle size, shelf life, ease and cost of shipment, etc. more attractive.</p><h2>Step-by-Step Application of Liquid Chalk</h2><p>Applying liquid hand chalk may seem straightforward, but there’s a proper way of doing it. Here’s a step-by-step checklist:</p><h3>1. How to Apply Liquid Chalk?</h3><ol><li>Wash your hands then dry them down with your gym towel.</li><li>Shake the bottle to even out the contents.</li><li>Unseal the cap and squeeze out a small pebble-sized amount.</li><li>Before you start spreading, close the cap to seal off the air and avoid accidental spillage.</li><li>Spread evenly across your hands, making sure to rub in between the fingers as well.</li><li>Let it dry for however long the package or user manual says.</li><li>Give it a test run and see how it feels to grip. Apply some more if you’re unhappy with the stick, otherwise, you’re all set.</li></ol><h4>Pro Tip:</h4><p><em>\"Most people do one big squeeze and then spread it over their hands.</em></p><p><em>As a result, they often end up with more chalk on one hand than the other. Instead, do two smaller squeezes per hand — it spreads more evenly that way.\"</em></p><h3>2. How to Remove Liquid Chalk?</h3><ol><li>Wash your hands with water, the chalk residue will start to dissolve fairly easily.</li><li>Use liquid soap to get a deeper clean.</li><li>Check and scrub your knuckles and fingerprints.</li><li>Rinse and towel dry.</li></ol>",
+            "rich_text_image": "shopify://shop_images/wbcm-liquid-chalk-for-lifting.jpg",
+            "rich_text_image_alt": "WBCM Liquid Chalk",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_DVK6PT": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>4 Main Mistakes When Using Liquid Chalk for Lifting</h2><p>Now that you know how to apply liquid chalk for weightlifting, here are some basic mistakes to avoid:</p><h3>1. Applying to Wet Hands</h3><p>Make sure your skin is dry before applying liquid chalk. If your palms are wet from sweat or water, the chalk will not dry down as well or efficiently. This can have the opposite effect of actually making your grip more slippery.</p><h3>2. Applying Too Much Chalk</h3><p>Similar to applying on wet hands, applying too much chalk can stop it from drying down and applying the desired effect. It can also leave behind messy palm prints. You only need a smidgen per hand relative to your palm size. It’s easier to add more in case of need than to wash out and try again.</p><h3>3. Using When Unnecessary</h3><p>Chalk assists us when things get intense, and a firm grip can make or break the exercise. However, using it when unnecessary, such as on weight increments or rep and set numbers that aren’t challenging our grip, is a waste.</p><p>Firstly, it’s always a good idea to let the hands naturally develop grip strength, as it not only makes our grip better in exercises but also improves our quality of life. Secondly, gripping with exposed skin will toughen it over time. Additionally, relying on external aids can cause psychological dependence.</p><p>As a side note, using it more frequently makes you go through bottles quicker, so you end up spending more money in the long run.</p>",
+            "rich_text_image": "shopify://shop_images/wbcm-chalk.jpg",
+            "rich_text_image_alt": "WBCM Chalk",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_HPqiVd": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h3>4. Ignoring Expiration Dates</h3><p>Alcohol-based liquid weightlifting chalk has an expiration date. Over time, the alcohol content will dissolve and evaporate from air exposure, breaking down the fluidity of the chalk, which can make it harder to apply and reduce its effectiveness.</p><h2>Powder Chalk vs. Liquid Chalk Key Differences</h2><p>The choice between liquid chalk vs. regular chalk, which comes in bricks or powder bags, will mostly come down to preference, but some factors may sway your decision.</p><p>Both options are easy to apply. Powder chalk is immediately ready, while liquid chalk requires 10-20 seconds to dry. However, powder chalk is good for one or two, maybe three uses depending on friction, whereas liquid chalk can last an entire set or workout, saving time in the long run.</p><p>Storage and portability also favor liquid chalk. A block of powder needs something like a plastic container for transport, which is more effort than a simple carry bottle. In addition, there’s the risk of a powder chalk container opening and spreading in your gym bag, on the floor, etc. Powder chalk also becomes harder to apply as it's ground down, while the brick becomes smaller, unlike tubed chalk that maintains easy application.</p><p>Regular chalk is messy if not carefully applied, spreading debris and powder easily as you rub it into your hands, and leaving hand imprints on any surface you touch (wall, clothing, rack, etc.). Removing it from barbells, especially between knurling, can also be annoying. Liquid chalk helps avoid a powdered mess and is easier to wash out.</p><p>Public gyms typically don’t allow chalk due to messiness. That said, some gyms strictly prohibit powder chalk but allow liquid chalk in lifting areas, for example. Both are generally allowed for competitive use, but if you bring your own, you’ll have to submit it for inspection.</p>",
+            "rich_text_image": "shopify://shop_images/using-liquid-chalk-for-exercising-in-gym-wbcm.jpg",
+            "rich_text_image_alt": "Using liquid chalk for exercising in gym",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_7eNwin": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Price is one of the few factors where powder chalk wins out convincingly as it is much cheaper. Additionally, since it doesn’t use alcohol or other adhesives, there’s essentially no expiry date. It’s an okay choice if you use it very sporadically, such as a few times per year.</p><h2>FAQ</h2><h3>Does Liquid Chalk Cause Dry Hands?</h3><p>Gym chalk prevents the palms from sweating by absorbing it underneath the layer of chalk. However, this does mean you interfere with natural perspiration. While normal doses of liquid chalk for gym use won’t cause skin problems, applying it too often and leaving it on too long can leave the skin dry. It’s important to wash out the chalk and moisturize your hands to prevent dry hands.</p><h3>Can You Use Normal Chalk For Lifting?</h3><p>No, everyday chalk, such as blackboard chalk, is not the same as hand chalk for gym use. Despite the name, it’s not made from the same material. Regular chalk is based on calcium sulfate. When you rub it against a blackboard, for example, it grinds down to leave behind a trace.</p><p>Skin is not a hard enough surface to do this against. Even if you managed to grind it down separately and spread it on your hands, it doesn’t have the same skin-drying properties as magnesium-carbonate-based workout chalk, meaning it won’t improve your grip.</p><h3>How Long Does 50ml Liquid Chalk Last?</h3><p>A bottle of 50ml liquid weightlifting chalk lasts for about 50 uses. However, it depends on factors like your palm size and how much you prefer to use. If you have sensitive skin, you might find that a thicker layer of chalk helps, so you’ll naturally use more per squeeze. </p><h3>Does Liquid Chalk Prevent Calluses?</h3><p>Liquid hand chalk can add a protective layer to the skin to prevent some abrasion and friction. This might help against the formation of calluses but isn’t a solution against them. <a href=\"https://www.healthline.com/health/calluses-on-hands#causes:~:text=All%20calluses%20are%20caused%20by%20repetitive%20movements%20that%20produce%20friction%20on%20your%20skin.%20Over%20time%2C%20the%20dead%20skin%20cells%20build%20up%20and%20harden%20over%20your%20new%20ones%20as%20a%20defense%20mechanism%20to%20protect%20the%20skin%20underneath%20the%20callus.\" target=\"_blank\" title=\"https://www.healthline.com/health/calluses-on-hands#causes:~:text=All%20calluses%20are%20caused%20by%20repetitive%20movements%20that%20produce%20friction%20on%20your%20skin.%20Over%20time%2C%20the%20dead%20skin%20cells%20build%20up%20and%20harden%20over%20your%20new%20ones%20as%20a%20defense%20mechanism%20to%20protect%20the%20skin%20underneath%20the%20callus.\">Calluses form</a> as a result of repeated friction and pressure against the skin.</p><p>If you’re gripping something heavy that requires a lot of grip pressure to not let go of (for example, a heavy barbell) the thin layer of chalk will not do much for you. You’ll need a thicker layer of protection, for example, weightlifting gloves.</p><h3>Do Commercial Gyms Allow Liquid Chalk?</h3><p>Most commercial gyms don’t allow the use of workout chalk because it’s messy. Some gyms make an exception for liquid chalk because it doesn’t leave behind powder, but you’ll have to inquire at the gym or check out their terms and conditions.</p><p>Gyms and training centers specifically oriented to weightlifting/powerlifting often do allow chalk. Otherwise, investing in a pair of weightlifting gloves is a good idea.</p><h2>Can You Use Liquid Chalk In Powerlifting & Weightlifting Competitions?</h2><p>The use of liquid chalk for powerlifting & weightlifting competitions is allowed. For example, the <a href=\"https://iwf.sport/wp-content/uploads/downloads/2023/07/IWF-TCRR-2023.pdf\" target=\"_blank\" title=\"https://iwf.sport/wp-content/uploads/downloads/2023/07/IWF-TCRR-2023.pdf\">International Weightlifting Federation (Summer Olympic Games) official rulebook</a> allows it. So does the <a href=\"https://www.powerlifting.sport/fileadmin/ipf/data/rules/technical-rules/english/IPF_Technical_Rules_Book_2024.pdf\" target=\"_blank\" title=\"https://www.powerlifting.sport/fileadmin/ipf/data/rules/technical-rules/english/IPF_Technical_Rules_Book_2024.pdf\">International Powerlifting Federation rulebook</a> (under magnesium carbonate).</p><p><a href=\"https://www.usapowerlifting.com/wp-content/uploads/2023/09/USAPL-Rulebook-v2023.1.pdf\" target=\"_blank\" title=\"https://www.usapowerlifting.com/wp-content/uploads/2023/09/USAPL-Rulebook-v2023.1.pdf\">The USA Powerlifting rulebook</a> even specifies liquid chalk in section 3.16.7.1., as long as it doesn’t have adhesive additives. Keep in mind that if you want to bring your own (liquid or powder) chalk, you’ll have to provide it for inspection by the committee.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "video_F7pAmH": {
+          "type": "video",
+          "settings": {
+            "youtube_video_url": "https://www.youtube.com/watch?v=LAvMuCT3BWQ"
+          }
+        },
+        "richtext_3EaVA8": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>Conclusion</h2><p>If you want a quick and easy solution to deal with sweaty hands, liquid weightlifting chalk is a great pickup. It’s easy to apply and wash out and doesn’t leave behind the mess associated with powder chalk.</p><p>The chalk is not only good at absorbing sweat but also adds a protective layer to your skin. If you’re looking for the best liquid chalk for lifting, we humbly recommend <a href=\"https://warmbody-coldmind.com/products/liquid-chalk?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/liquid-chalk?sca_ref=5120971.qSPHd7ePgJ\">Warm Body Cold Mind</a>. We built it upon decades of professional experience to fulfill the highest standards.</p><p>We’d also like to hear from you. Tell us, what is your favorite weightlifting exercise? How do you typically deal with sweaty palms? Leave a comment letting us know and remember to give us a follow on social media, where we post related fitness content.</p><p>Also Read:</p><ul><li><a href=\"https://blog.warmbody-coldmind.com/guides/5mm-vs-7mm-knee-sleeves/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/5mm-vs-7mm-knee-sleeves/\">7mm Knee Sleeves vs 5mm</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/weightlifting-calluses/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/weightlifting-calluses/\">Weightlifting Calluses</a></li></ul><p>References:</p><ol><li>F. X. Li, S. Margetts, I. Fowler, “Use of 'Chalk' in Rock Climbing: Sine Qua Non or Myth?” Journal of Sports Sciences 19, no. 6 (2001): 427-432.</li><li>“IWF Technical and Competition Rules & Regulations,” International Weightlifting Federation, https://iwf.sport/wp-content/uploads/downloads/2023/07/IWF-TCRR-2023.pdf (accessed Dec. 15, 2023).</li><li>Jace McArthur, Paul Maggio, Mark DeBeliso, “The Effect of Grip Chalk on the Clean Grip Midthigh Pull,” International Journal of Sports Science 10, no. 2 (2020): 50-55.</li><li>Julie L. McAuley, Joshua M. Deerain, William Hammersla, Turgut E. Aktepe, Damian F. J. Purcell, “Liquid Chalk Is an Antiseptic against SARS-CoV-2 and Influenza A Respiratory Viruses,” American Society for Microbiology mSphere 6, no. 3 (2021).</li><li>“Magnesium Carbonate,” National Center for Biotechnology Information, https://pubchem.ncbi.nlm.nih.gov/compound/Magnesium-Carbonate (Accessed Dec. 15, 2023).</li><li>Nicholas Bacon, Greg Ryan, Jonathan Wingo, Mark Richardson, Tracey Pangallo, Phillip Bishop, “Effect of Magnesium Carbonate Use on Repeated Open-Handed and Pinch Grip Weight-Assisted Pull-Ups,” International Journal of Exercise Science 11, no. 4 (2018): 479-492.</li><li>“Oleksiy Torokhtiy,” Wikipedia, https://en.wikipedia.org/wiki/Oleksiy_Torokhtiy (accessed Dec. 15, 2023).</li><li>“RULEBOOK Version 2023.1.” USA Powerlifting, https://www.usapowerlifting.com/wp-content/uploads/2023/09/USAPL-Rulebook-v2023.1.pdf (accessed Dec. 15, 2023).</li><li>“Technical Rules Book 2024,” International Powerlifting Federation (IPF), https://www.powerlifting.sport/fileadmin/ipf/data/rules/technical-rules/english/IPF_Technical_Rules_Book_2024.pdf (accessed Dec. 15, 2023).</li><li>All photos are made by WBCM Media team.</li></ol>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "why_trust_us_EbVgbF": {
+          "type": "why_trust_us",
+          "settings": {}
+        },
+        "meta": {
+          "type": "meta",
+          "settings": {
+            "show_author": true,
+            "show_sharing": false
+          }
+        },
+        "sidebar_aUbMMd": {
+          "type": "sidebar",
+          "settings": {
+            "sidebar_product_image": "shopify://shop_images/wbcm-liquid-chalk.jpg",
+            "sidebar_product_url": "https://warmbody-coldmind.com/products/liquid-chalk?sca_ref=5120971.qSPHd7ePgJ",
+            "sidebar_product_name": "WARM BODY COLD MIND LIQUID CHALK"
+          }
+        }
+      },
+      "block_order": [
+        "tags",
+        "title",
+        "date",
+        "richtext_dw9N4a",
+        "in_a_hurry_w6MGQW",
+        "anchor_list_Unty8k",
+        "rating_table_VFkHUY",
+        "product_BJzPRL",
+        "product_kq7Qnf",
+        "product_7aLUGN",
+        "product_E9HNYA",
+        "product_jbCyCi",
+        "product_eckeMK",
+        "product_4zwNjF",
+        "product_rUJd9L",
+        "product_cKHhxx",
+        "richtext_84kUNn",
+        "richtext_zhFUQj",
+        "richtext_zTndif",
+        "richtext_xqRh3T",
+        "richtext_eQjyQt",
+        "video_fEG4dt",
+        "richtext_yYKpHf",
+        "richtext_DVK6PT",
+        "richtext_HPqiVd",
+        "richtext_7eNwin",
+        "video_F7pAmH",
+        "richtext_3EaVA8",
+        "why_trust_us_EbVgbF",
+        "meta",
+        "sidebar_aUbMMd"
+      ],
+      "settings": {
+        "criteria_1": "Size",
+        "criteria_2": "Consistency",
+        "criteria_3": "Sweat Resistance",
+        "criteria_4": "Dry Time",
+        "criteria_5": "Value for Money",
+        "criteria_6": "",
+        "criteria_7": "",
+        "criteria_8": "",
+        "criteria_9": "",
+        "criteria_10": "",
+        "show_img": true
+      }
+    }
+  },
+  "order": [
+    "17007351490292b520",
+    "main"
+  ]
+}
