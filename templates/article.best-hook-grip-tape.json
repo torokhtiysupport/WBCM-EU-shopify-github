@@ -1,0 +1,386 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "17007351490292b520": {
+      "type": "apps",
+      "blocks": {
+        "86c9c15f-872a-48bd-ae2e-92824e88a96c": {
+          "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/article-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "enable_custom_feature": false,
+            "bb_capitalize": true,
+            "bb_font_size": 13,
+            "bb_padding": 55,
+            "bb_top_padding": 55,
+            "bb_margin": 0,
+            "bb_align": "center",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "86c9c15f-872a-48bd-ae2e-92824e88a96c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "custom-main-article",
+      "blocks": {
+        "tags": {
+          "type": "tags",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "date": {
+          "type": "date",
+          "settings": {}
+        },
+        "richtext_bGDJ86": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Have you ever seen the band-aid-looking tape that lifters use? It may look weird if you don’t know what it is, but it actually serves an important purpose and today, I’ll share with you the best hook grip tape.</p><p>If you’re a weightlifter or a powerlifter, there’s a chance you’re using the hook grip tape already so this review will come in handy if you’re in the market for a new one. If you don’t use the tape yet, then this could revolutionize your workouts. And I’m not exaggerating. </p><p>I’m sure you know the importance of a firm grip and what can happen if it accidentally slips. This is where the hook grip tape can help and make your life a whole lot easier. Let’s get into the reviews first, and then we’ll get into details regarding the tape itself.</p><p>Tape up!</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "in_a_hurry_w6MGQW": {
+          "type": "in_a_hurry",
+          "settings": {
+            "in_a_hurry_image": "shopify://shop_images/wbcm-tape.jpg",
+            "in_a_hurry_image_alt": "wbcm tape",
+            "in_a_hurry_title": "Our Best Choice!",
+            "in_a_hurry_text": "<p>The <a href=\"https://warmbody-coldmind.com/products/self-adhesive-thumb-tape?sca_ref=762429.vy7Qn6X2mY\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/self-adhesive-thumb-tape?sca_ref=762429.vy7Qn6X2mY\">WARM BODY COLD MIND 2″ Premium Lifting Thumb Tape</a> is not only affordably priced and available in a variety of colors but also delivers exceptional performance. It remains securely in place during your workouts, ensuring your lifts are worry-free, and it offers tearable and stretchy qualities for easy adjustments, providing the ideal grip tape solution for your weightlifting needs.</p>",
+            "in_a_hurry_url": "https://warmbody-coldmind.com/products/self-adhesive-thumb-tape?sca_ref=762429.vy7Qn6X2mY"
+          }
+        },
+        "rating_table_VFkHUY": {
+          "type": "rating_table",
+          "settings": {}
+        },
+        "anchor_list_Unty8k": {
+          "type": "anchor_list",
+          "settings": {}
+        },
+        "product_yi4Ti9": {
+          "type": "product",
+          "settings": {
+            "product_title": "Warm Body Cold Mind 2” Premium Lifting Thumb Tape",
+            "short_product_title": "WBCM",
+            "product_position": "1",
+            "product_award": "Top Pick",
+            "product_url": "https://warmbody-coldmind.com/products/self-adhesive-thumb-tape?sca_ref=762429.vy7Qn6X2mY",
+            "product_main_image": "shopify://shop_images/wbcm-tape.jpg",
+            "product_rating_description": "<p>WARM BODY COLD MIND 2\" Premium Lifting Thumb Tape offers a secure and flexible hold without leaving any residue, crafted from 100% breathable cotton to enhance comfort and safety, making it an ideal choice for weightlifting, with potential limitations in extremely humid conditions.</p><ul><li><strong>Pack Size: </strong>3/6/12 rolls</li><li><strong>Roll Size: </strong>19 ft. L x 2 in. W</li><li><strong>Material: </strong>Cotton</li></ul>",
+            "product_rating_1": "4.9",
+            "product_rating_2": "4.9",
+            "product_rating_3": "5",
+            "product_rating_4": "5",
+            "product_rating_5": "4.5",
+            "product_rating_6": "4.9",
+            "product_rating_7": "5",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.9",
+            "first_button_text": "CHECK PRICE ON WBCM",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/WARM-BODY-COLD-MIND-Weightlifting/dp/B083YW5TVW/?tag=wbcmb-20",
+            "product_text_content_1": "<p>My <a href=\"https://warmbody-coldmind.com/products/self-adhesive-thumb-tape?sca_ref=762429.vy7Qn6X2mY\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/self-adhesive-thumb-tape?sca_ref=762429.vy7Qn6X2mY\">top pick</a> comes at a great price, in a bunch of colors and performs great. You can do your lifts without even thinking the weightlifting finger tape will fall off, it stays securely in place no matter how long you work out for.</p><p>You always want thumb tape to be tearable and stretchy, and this one is both. It’s easy to tear a piece off and it’s also easy to adjust it because it stretches quite a bit. If you get a thick, stiff tape, it may be better when it comes to durability, but you’ll have a really hard time adjusting it. Most likely, you won’t even be able to adjust it properly and then you won’t get the benefits a grip tape provides, so always look for something stretchy. </p><p>Its hold is flexible, but secure. The glue is strong enough to prevent any shifting, but it also leaves absolutely no residue. Shifting is a pain and not only because it’s uncomfortable. If your tape shifts, you’ll spend a lot of time readjusting; time that would be better spent lifting.</p>",
+            "product_review_image": "shopify://shop_images/wbcm-tape-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p>Photo by <a href=\"https://www.instagram.com/p/CPdASK_nF-f/\" target=\"_blank\" title=\"https://www.instagram.com/p/CPdASK_nF-f/\">@warmbody_coldmind</a></p>",
+            "product_text_content_2": "<p>The material is 100% cotton, <a href=\"http://scienceline.ucsb.edu/getkey.php?key=7007\" target=\"_blank\" title=\"http://scienceline.ucsb.edu/getkey.php?key=7007\">which means it’s breathable</a> and will absorb sweat and chalk. This was made with comfort as one of the priorities and it really shows. </p><p>Another priority was safety because tape can be irritating on sensitive skin. And if you combine it with sweat, it can cause an allergic reaction. This one is non-allergenic and completely safe to use regardless of your skin type.</p><p>It may not work as well in super humid conditions – it can shift a bit and, if you’re working out for a really long time, even come off. Keep that in mind, but other than that, this is superb.</p>",
+            "product_pros": "<ul><li>Non-allergenic</li><li>Very stretchy</li><li>Absorbs sweat and chalk</li><li>Easy to tear away</li></ul>",
+            "product_cons": "<ul><li>Shifts in humid conditions</li></ul>"
+          }
+        },
+        "product_aeBXMC": {
+          "type": "product",
+          "settings": {
+            "product_title": "Barbell UP Professional Weight Lifting Thumb Tape",
+            "short_product_title": "Barbell UP",
+            "product_position": "2",
+            "product_award": "RUNNER-UP",
+            "product_url": "https://www.amazon.com/dp/B0BHZ9ZDJ4/?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/barbell-up-tape.jpg",
+            "product_rating_description": "<p>Barbell UP Professional Weight Lifting Thumb Tape offers outstanding stretch, made from 100% breathable and non-allergenic cotton for sweat absorption and skin comfort, with a non-slip design, easy handling, and three color style options, making it a highly versatile and personalized grip tape solution.</p><ul><li><strong>Pack Size: </strong>3 rolls</li><li><strong>Roll Size:</strong> 20 ft. L x 1.5 in. W</li><li><strong>Material: </strong>Cotton</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "5",
+            "product_rating_3": "4.7",
+            "product_rating_4": "4.6",
+            "product_rating_5": "5",
+            "product_rating_6": "4.6",
+            "product_rating_7": "5",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.8",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The runner-up has everything you would want grip tape to have, plus some extra stretch. The <a href=\"https://www.amazon.com/dp/B0BHZ9ZDJ4/?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B0BHZ9ZDJ4/?tag=wbcmb-20\">Barbell UP lifting tape</a> is made of 100% elastic and breathable cotton.</p><p>This thumb tape is made from non-allergenic cotton, so if you have sensitive skin or are prone to suffer allergies, this tape surely stands out from the crowd. The tape’s natural composition ensures sweat and chalk absorption, while not causing irritation. The Barbell UP tape also helps prevent blisters.</p><p>The three rolls that you get in a pack are each 20 feet long and will last you (if properly used) for approximately 45 workout sessions. The tape is also non-slip, empowered by a top-of-the-line stick formula. This will help reduce the number of times you have to rewrap or adjust the tape mid-session.</p><p>It is also very flexible (thanks to the high-quality cotton used) and easy to handle – simply rip, wrap, and you’re good to go (no scissors needed). </p><p>To top this all off, you’ll also have three choices of color style to choose from: skull (pink), chessboard (black & white), and rainbow. This offers plenty personalization options. A very welcome runner-up lifting tape choice!</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>100% natural breathable and non-allergenic cotton</li><li>Superior sweat and chalk absorption</li><li>Easy to handle and rip</li><li>Three stylish designs to choose from</li></ul>",
+            "product_cons": "<ul><li>Some glue residue left after tape removal</li></ul>"
+          }
+        },
+        "product_Tbcmca": {
+          "type": "product",
+          "settings": {
+            "product_title": "WOD Nation Weightlifting Hook Grip Tape",
+            "short_product_title": "WOD",
+            "product_position": "3",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/WOD-Nation-Weightlifting-Hook-Grip/dp/B07XCK3319/?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/wod-nation-tape.jpg",
+            "product_rating_description": "<p>WOD Nation Weightlifting Hook Grip Tape offers an exceptionally generous amount of tape at a reasonable price, featuring a comfortable and easily adjustable design with excellent grip protection, making it a top choice for weightlifting, especially when thicker tape is preferred for skin protection.</p><ul><li><strong>Pack Size:</strong> 3/12/24 rolls</li><li><strong>Roll Size:</strong> 23 ft. L x 1.5 in. W</li><li><strong>Material:</strong> Elastic cotton</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "4.5",
+            "product_rating_3": "5",
+            "product_rating_4": "5",
+            "product_rating_5": "4.5",
+            "product_rating_6": "5",
+            "product_rating_7": "4.7",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.7",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>You get a very generous amount of tape here. I initially thought that <a href=\"https://www.amazon.com/WOD-Nation-Weightlifting-Hook-Grip/dp/B07XCK3319/?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/WOD-Nation-Weightlifting-Hook-Grip/dp/B07XCK3319/?tag=wbcmb-20\">WOD Nation</a> was exaggerating with the amount, but no – there’s a lot of tape on these rolls. More than you get with most others, in fact.</p><p>This is a very cost-effective option because the price is really reasonable, but you get more tape than you would with most other manufacturers. But the amount isn’t the only thing that sets this tape apart. </p><p>It’s not as stretchy as the last one I mentioned, but it still has enough stretch to be easily adjustable and comfortable. You’ll probably notice it’s a tiny bit on the stiffer side. It won’t be an issue except with snatches when it tends to bunch up. But it works just fine for other workouts. </p>",
+            "product_review_image": "shopify://shop_images/wod-nation-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p>Photo by <a href=\"https://www.instagram.com/p/Cl_T4qGSI49/\" target=\"_blank\" title=\"https://www.instagram.com/p/Cl_T4qGSI49/\">@teamwodnation</a></p>",
+            "product_text_content_2": "<p>If you’re struggling to adjust the strap to your fingers, you can make it more moldable/malleable by applying some heat to it. Any hairdryer will do. Heat will really help with some of the stiffness, and it will allow you to adjust it perfectly. </p><p>You won’t need scissors with it because the tape tears apart in a blink, and it’s ready to use. No sweat or chalk residue either – it will absorb all of it.</p><p>The grip protection is next level with this one. Yes, it’s a bit stiffer than some of the others, but that’s because it’s slightly thicker and protects your skin like no other. It prevents blisters and skin tears even during the most hardcore lifts. Your skin is completely safe with this tape. I highly recommend it.</p>",
+            "product_pros": "<ul><li>The longest amount of tape received on this list (69 ft.)</li><li>Can be made more moldable by applying heat</li><li>Thicker, so it protects the skin more</li></ul>",
+            "product_cons": "<ul><li>Looses a bit of adhesiveness on the edges and wrinkles up while doing snatches</li></ul>"
+          }
+        },
+        "product_ygfdjB": {
+          "type": "product",
+          "settings": {
+            "product_title": "LYFT-RX Weightlifting Hook Grip Tape",
+            "short_product_title": "LYFT-RX",
+            "product_position": "4",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/LYFT-RX-Weightlifting-Adhesive-Protects-Weightlifters/dp/B01LXI43NV/?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/lyft-rx-tape.jpg",
+            "product_rating_description": "<p>LYFT-RX Weightlifting Hook Grip Tape, crafted with 25% spandex, strikes a perfect balance between stretch and grip, offering adjustability and comfort, making it an ideal choice for weightlifting with its latex-free and breathable design, although it may leave minimal glue residue, which is easily manageable.</p><ul><li><strong>Pack Size:</strong> 3 rolls or 6 rolls</li><li><strong>Roll Size:</strong> 15 ft. L x 1.5–2 in. W</li><li><strong>Material: </strong>75% Cotton, 25% Spandex</li></ul>",
+            "product_rating_1": "4.8",
+            "product_rating_2": "5",
+            "product_rating_3": "4.5",
+            "product_rating_4": "4.7",
+            "product_rating_5": "4.7",
+            "product_rating_6": "4",
+            "product_rating_7": "4.7",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.6",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p><a href=\"https://www.amazon.com/LYFT-RX-Weightlifting-Adhesive-Protects-Weightlifters/dp/B01LXI43NV/?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/LYFT-RX-Weightlifting-Adhesive-Protects-Weightlifters/dp/B01LXI43NV/?tag=wbcmb-20\">LYFT-RX</a> brings us weightlifting thumb tape that is made of 25% spandex, which means it stretches like crazy. Let’s check what it’s all about!</p><p>You don’t want the tape to be stiff because it will restrict blood flow and feel uncomfortable, but too much stretch means that the tape won’t hold well under pressure, and it also won’t provide as much grip as you would like it to. 25% spandex, however, falls right in the sweet spot to make the tape easily adjustable, comfortable, and effective. </p><p>It contains no latex, so if you’re allergic to it, you have nothing to worry about – no irritations with this one! The cotton makes sure the tape is breathable, and it also absorbs sweat.</p>",
+            "product_review_image": "shopify://shop_images/lyftrx-tape-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p>Photo by <a href=\"https://www.instagram.com/p/Cx4JA_IMyd0/\" target=\"_blank\" title=\"https://www.instagram.com/p/Cx4JA_IMyd0/\">@lyftrx</a></p>",
+            "product_text_content_2": "<p>If we’re talking about grip, this is excellent. No matter the conditions or the pressure, this tape stays on – it won’t budge until you take it off. </p><p>You may notice some glue residue once you remove it. I don’t even think it’s that big of an annoyance because it comes off easily and doesn’t transfer to your gym bag, barbell, or anything like that.</p>",
+            "product_pros": "<ul><li>Very flexible</li><li>Does not contain latex</li><li>Strong glue</li></ul>",
+            "product_cons": "<ul><li>Some glue residue after removing the tape</li></ul>"
+          }
+        },
+        "product_twNFkr": {
+          "type": "product",
+          "settings": {
+            "product_title": "Goat Scary Sticky Premium Hook Grip Tape",
+            "short_product_title": "Goat",
+            "product_position": "5",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/Goat-Tape-Premium-Athletic-Weightlifting/dp/B013J4D67M?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/goat-tape.jpg",
+            "product_rating_description": "<p>Goat Scary Sticky Premium Hook Grip Tape, despite its non-Halloween-related name, lives up to its reputation as the stickiest tape available, offering unparalleled adhesive strength for weightlifting, although it lacks the stretchiness of a cotton-spandex blend, it excels in performance, providing reliable grip and durability during intense workouts.</p><ul><li><strong>Pack Size:</strong> Single pack, 2 pack, 4 pack, 6 pack, 8 pack</li><li><strong>Roll Size:</strong> 30 ft. L x 1.5 in. W</li><li><strong>Material:</strong> Cotton</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "4.2",
+            "product_rating_3": "5",
+            "product_rating_4": "4.5",
+            "product_rating_5": "4.2",
+            "product_rating_6": "4",
+            "product_rating_7": "5",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.6",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>Scary sticky… Isn’t that a peculiar name? You’re almost expecting it to be a Halloween type of tape, right? Well, the name has nothing to do with Halloween and I completely get why they named it that – this is so sticky, it IS scary.</p><p>If the strength of the adhesive is your priority, then there’s no tape better for you than this one. This <a href=\"https://www.amazon.com/Goat-Tape-Premium-Athletic-Weightlifting/dp/B013J4D67M?tag=https://www.amazon.com/Goat-Tape-Premium-Athletic-Weightlifting/dp/B013J4D67M?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/Goat-Tape-Premium-Athletic-Weightlifting/dp/B013J4D67M?tag=https://www.amazon.com/Goat-Tape-Premium-Athletic-Weightlifting/dp/B013J4D67M?tag=wbcmb-20\">grip tape</a> for weights is the stickiest tape you’ll find. This one won’t move no matter what you do to it, and it’s a bit of a hassle to remove. The glue on it really is unique, and I don’t know of a manufacturer that offers anything stronger.</p>",
+            "product_review_image": "shopify://shop_images/goat-tape-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p>Photo by <a href=\"https://www.instagram.com/p/Cwm7IEuMPf8/\" target=\"_blank\" title=\"https://www.instagram.com/p/Cwm7IEuMPf8/\">@goattape</a></p>",
+            "product_text_content_2": "<p>It’s latex-free and made from cotton, which I always appreciate because it’s great at sweat absorption. The thing with cotton is, it doesn’t stretch, so most tapes come in a cotton-spandex blend. I really wish this one came in a blend, too, because it doesn’t stretch nearly as much as I think it should. You can wrap it around your fingers fine, but it’s just not as comfortable as it should be. </p><p>But once you get it on, its performance is unmatched. You’ll feel it a little on your fingers, but you can sweat all you want and apply as much pressure as you wish – this tape isn’t going anywhere. It holds up to heat, friction, sweat, tension… Literally anything. There is some room for improvement with the Goat Scary Sticky tape, of course, but this is still one of the best sticky tapes you can find.</p>",
+            "product_pros": "<ul><li>Super sticky</li><li>Holds up to anything without moving</li><li>Breathable</li></ul>",
+            "product_cons": "<ul><li>Not flexible</li><li>Harder to remove than others</li></ul>"
+          }
+        },
+        "richtext_AbpG9y": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>What Is Hook Grip?</h2><p>Hook grip is a weightlifting technique used in strength and weightlifting training. It's basically a special way of holding the barbell or bar to improve grip strength and reduce the chance of slipping. <br/>With hook grip, you grip the barbell with your thumb under your fingers, which creates a 'hook' with the thumb around the bar. This results in a more secure way to hold the bar.</p>",
+            "rich_text_image": "shopify://shop_images/WBCM-Hook-Grip-Tapes.jpg",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_yrLRhx": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>What Are the 4 Benefits of Using Hook Grip Tape?</h2><p>The tape can seem like a hassle sometimes because it's one more step you need to take before you're ready to start your workout. But it has quite a few benefits that can ultimately lead to your performance being improved. It will make the workout more comfortable, and you won't have to worry about the bar slipping from your hands, And those nasty blisters and calluses? You'll have way less of them (if any!) if you decide to give the tape a try.</p><h3>1. Better Grip Stability</h3><p>The tape makes the surface tacky and prevents any slipping that would be caused by chalk or sweat. Essentially, it improves grip stability and allows you to have a very strong hold on the barbell.</p><h3>2. Less Friction</h3><p>Since you have the tape as the protective barrier between the barbel and the skin, you won’t feel as much friction. The tape will also prevent blisters, abrasions, and calluses.</p><h3>3. More Thumb Comfort</h3><p>You’ve probably noticed that the tape is usually applied to the thumb. The hook grip technique is not the most comfortable and the tape will protect the thumb from the pressure coming from the bar. This makes the technique more tolerable.</p><h3>4. Improved Confidence</h3><p>If your grip is secure, you can focus on your technique and not worry about slipping or accidents.</p>",
+            "rich_text_image": "shopify://shop_images/athlete-grip-tape-workout.jpg",
+            "rich_text_image_alt": "grip tape in use",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_jcjNRw": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>5 Tips on How to Pick the Right Lifting Tape for You?</h2><h3>1. Adhesiveness</h3><p>This is one thing you most likely know you need to pay attention to. It’s pretty simple – if the glue is not strong enough, the tape will shift or completely fall off. However, glue that’s too strong will leave residue and will be hard to remove. You want something in between – strong enough to stay in place, but not as strong where it will be hard to remove.</p><h3>2. Material</h3><p>You want a cotton-spandex blend. Anywhere from 5% to 25% spandex is great, but don’t go over 25%. If your tape is too stretchy, it won’t work well. This is also the case with it being too stiff – it will be uncomfortable and hard to adjust.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_WDjUDJ": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h3>Pro Tip:</h3><p><em>\"When selecting grip tape, it's crucial to strike a balance in terms of adhesiveness. You'll want it to be sufficiently strong to remain in place during your workouts but not excessively adhesive, which can make removal challenging. In terms of material, prioritize a cotton-spandex blend, which offers flexibility without being overly stretchy or uncomfortably rigid.\"</em></p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_pmYqVq": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h3>3. Sweat Absorption</h3><p>Cotton is great at sweat absorption, and it’s also durable, which is why you want your tape to be mostly made of cotton.</p><h3>4. Easily Applicable</h3><p>Good tape is easy to tear, and it won’t leave any frays behind it. If you see a tape that needs to be cut with scissors, it doesn’t mean that it’s bad, but who really wants to have to have scissors as part of their gym equipment?</p><h3>5. Non-allergenic</h3><p>If your skin is sensitive or if you’re allergic to latex, make sure to get non-allergenic tape. When you combine sensitive skin, sweat and tape that can cause allergies.</p>",
+            "rich_text_image": "shopify://shop_images/different-tapes.jpg",
+            "rich_text_image_alt": "different tapes",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_HkgCM8": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>How to Use Lifting Tape?</h2><p>You need to start off with clean, dry hands. Then, measure the length of the area you want to protect so you know how much weightlifting tape for hands you need to tear off (or cut off if you’re unlucky and got the annoying kind of tape). </p><p>Once you’ve torn off what you need, apply one end of the tape to your skin with a little bit of tension. Stretch it as you apply it but be gentle with it. Overlap each wrap so you know that everything is covered, and the tape is secure.</p><p>As you’re wrapping, smooth the tape down and into your skin to make it adhere evenly. </p><p>When you reach the end, press it down and secure it. </p><p>When you’re done with your workout, do the following:</p><ul><li>peel off the tape</li><li>wash your hands</li><li>If you see any stubborn glue residue: apply some coconut oilgently rub until all the residue has been removed</li></ul>",
+            "rich_text_image": "shopify://shop_images/kettlebells-workout-using-grip-tape.jpg",
+            "rich_text_image_alt": "kettlebells exercises with hook tape",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_eaKUVM": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>FAQ</h2><h3>Why Do Weightlifters Tape Their Thumbs?</h3><p>They do it to protect their skin from friction and tearing during heavy workouts and to improve their grip. Tape is especially popular with the hook grip technique.</p><h3>Is Thumb Tape Allowed in Powerlifting?</h3><p>It usually is, but it’s best to check the rules and guidelines set by the specific powerlifting federation or organization that’s hosting the event.</p><h3>Does Thumb Tape Help Hook Grip?</h3><p>Yes, it can. It acts as a protective layer between the skin and the bar and prevents tears, calluses, and blisters. It also allows you to have a more comfortable and secure grip on the bar.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "video_cFNLW8": {
+          "type": "video",
+          "settings": {
+            "youtube_video_url": "https://www.youtube.com/watch?v=aZIveyj-CKQ"
+          }
+        },
+        "richtext_hTWPLm": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>Conclusion</h2><p>We’ve gone over everything tape-related, so now you know exactly what hook grip tape does and you also have a few recommendations!</p><p>The <a href=\"https://warmbody-coldmind.com/products/self-adhesive-thumb-tape?sca_ref=762429.vy7Qn6X2mY\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/self-adhesive-thumb-tape?sca_ref=762429.vy7Qn6X2mY\">WARM BODY COLD MIND 2\" Premium Lifting Thumb Tape</a> is an absolute winner today, but the other tapes are something worth trying, too.</p><p>What do you think about grip tape for thumbs? Do you use it, and for what? Do you have a favorite kind of tape? What results have you seen when you started using tape?</p><p>Leave all opinions and comments below!</p><p><strong>Taping out!</strong> <em>(I know… Doesn’t really make sense)</em></p><p>Also Read:</p><ul><li><a href=\"https://warmbody-coldmind.com/blogs/news/what-is-gym-chalk-used-for\" target=\"_blank\" title=\"https://warmbody-coldmind.com/blogs/news/what-is-gym-chalk-used-for\">What Does Chalk Do for Lifting</a></li><li><a href=\"https://warmbody-coldmind.com/blogs/news/deadlift-hook-grip\" target=\"_blank\" title=\"https://warmbody-coldmind.com/blogs/news/deadlift-hook-grip\">Deadlift Hook Grip</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/how-to-use-deadlift-straps/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/how-to-use-deadlift-straps/\">How to Use Straps for Deadlift</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/wrist-pain-from-lifting/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/wrist-pain-from-lifting/\">Wrist Pain From Lifting</a></li></ul><p>References:</p><ol><li>\"Why is cotton so cooling?\" UCSB Science Line 2020-06-23 http://scienceline.ucsb.edu/getkey.php?key=7007</li><li>Marion B. Sulzberger MD, Thomas A. Cortese Jr MD,PhD, Leonard Fishman MD, Hugh S. Wiley MD, Paul S. Peyakovich AB \"Studies on Blisters Produced by Friction: I. Results of Linear Rubbing and Twisting Technics\" Journal of Investigative Dermatology 6 January 2016 https://www.sciencedirect.com/ science/article/pii/S0022202X15472112</li><li>Rijen Shrestha; Kewal Krishan; Husnain Ishaq; Tanuj Kanchan \"Abrasion\" 2023 January https://www.ncbi.nlm.nih.gov/books/NBK554465/</li><li>Stacy Frye \"Callus\" Encyclopedia Britannica Sep 22, 2023 https://www.britannica.com/science/callus-dermatology</li><li>\"Spandex\" Encyclopedia Britannica https://www.britannica.com/technology/spandex</li><li>\"Cotton Fabric\" Encyclopedia of Energy, 2004 https://www.sciencedirect.com/ topics/engineering/cotton-fabric</li><li>Photos made by WBCM Media Team.</li></ol>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "why_trust_us_EbVgbF": {
+          "type": "why_trust_us",
+          "settings": {}
+        },
+        "meta": {
+          "type": "meta",
+          "settings": {
+            "show_author": true,
+            "show_sharing": false
+          }
+        },
+        "sidebar_aUbMMd": {
+          "type": "sidebar",
+          "settings": {
+            "sidebar_product_image": "shopify://shop_images/wbcm-tape.jpg",
+            "sidebar_product_url": "https://warmbody-coldmind.com/products/self-adhesive-thumb-tape?sca_ref=762429.vy7Qn6X2mY",
+            "sidebar_product_name": "WBCM Premium Lifting Thumb Tape"
+          }
+        }
+      },
+      "block_order": [
+        "tags",
+        "title",
+        "date",
+        "richtext_bGDJ86",
+        "in_a_hurry_w6MGQW",
+        "rating_table_VFkHUY",
+        "anchor_list_Unty8k",
+        "product_yi4Ti9",
+        "product_aeBXMC",
+        "product_Tbcmca",
+        "product_ygfdjB",
+        "product_twNFkr",
+        "richtext_AbpG9y",
+        "richtext_yrLRhx",
+        "richtext_jcjNRw",
+        "richtext_WDjUDJ",
+        "richtext_pmYqVq",
+        "richtext_HkgCM8",
+        "richtext_eaKUVM",
+        "video_cFNLW8",
+        "richtext_hTWPLm",
+        "why_trust_us_EbVgbF",
+        "meta",
+        "sidebar_aUbMMd"
+      ],
+      "settings": {
+        "criteria_1": "Adhesiveness",
+        "criteria_2": "Flexibility",
+        "criteria_3": "Durability",
+        "criteria_4": "Easy-To-Tear",
+        "criteria_5": "Material Quality",
+        "criteria_6": "Clean Removal",
+        "criteria_7": "Packaging",
+        "criteria_8": "",
+        "criteria_9": "",
+        "criteria_10": "",
+        "show_img": true
+      }
+    }
+  },
+  "order": [
+    "17007351490292b520",
+    "main"
+  ]
+}
