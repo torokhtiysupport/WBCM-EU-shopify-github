@@ -1,0 +1,463 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "17007351490292b520": {
+      "type": "apps",
+      "blocks": {
+        "86c9c15f-872a-48bd-ae2e-92824e88a96c": {
+          "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/article-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "settings": {
+            "home": "Home",
+            "home_link": "/",
+            "menu": "main-menu",
+            "separator": "›",
+            "custom_class": "",
+            "bb_show_hide": true,
+            "enable_custom_feature": false,
+            "bb_capitalize": true,
+            "bb_font_size": 13,
+            "bb_padding": 55,
+            "bb_top_padding": 55,
+            "bb_margin": 0,
+            "bb_align": "center",
+            "bb_color": "#c0c0c0"
+          }
+        }
+      },
+      "block_order": [
+        "86c9c15f-872a-48bd-ae2e-92824e88a96c"
+      ],
+      "settings": {
+        "include_margins": true
+      }
+    },
+    "main": {
+      "type": "custom-main-article",
+      "blocks": {
+        "tags": {
+          "type": "tags",
+          "settings": {}
+        },
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "date": {
+          "type": "date",
+          "settings": {}
+        },
+        "richtext_Nmxkeq": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Deadlifting needs precision, focus, and, of course, the right equipment. Without them, your routine will be non-effective, and you’ll likely end up just wasting your time.</p><p>When it comes to equipment, a lot of people don’t think about socks that much, but they’re an important accessory that goes beyond just conventional footwear, and the best deadlift socks can make a world of difference.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "in_a_hurry_w6MGQW": {
+          "type": "in_a_hurry",
+          "settings": {
+            "in_a_hurry_image": "shopify://shop_images/WBCM_Long_Weightlifting_Socks.jpg",
+            "in_a_hurry_image_alt": "WBCM Long Weightlifting Socks Close View",
+            "in_a_hurry_title": "Our Best Choice!",
+            "in_a_hurry_text": "<p><a href=\"https://warmbody-coldmind.com/products/long-weightlifting-socks?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/long-weightlifting-socks?sca_ref=5120971.qSPHd7ePgJ\">Warm Body Cold Mind’s elite weightlifting socks</a>, mostly microacrylic fiber, offer superior comfort, support, and durability with an innovative design and advanced moisture-wicking technology.</p>",
+            "in_a_hurry_url": "https://warmbody-coldmind.com/products/long-weightlifting-socks?sca_ref=5120971.qSPHd7ePgJ"
+          }
+        },
+        "richtext_3YD4Xj": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>The right pair of socks will offer support, protection, and comfort, so all you will need to concentrate on is your form. This article has 7 exceptional pairs of socks, and you’re guaranteed to find at least one that will work for you.</p><p>Once you do, you’ll wonder how you ever managed without them and realize why it’s so vital to have the best socks for weightlifting!</p><p>Socks on!</p><p>Our team of certified experts and professional athletes has tested 25 pairs of socks, and only 7 were considered to be good enough for this list. The socks were evaluated on 6 key criteria, and our team spent over 300 hours testing most of them. In addition to extensive testing, we have gone over hundreds of online user reviews and analyzed them carefully. This list is regularly updated, so feel free to leave a comment and share your experience with us!</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "rating_table_VFkHUY": {
+          "type": "rating_table",
+          "settings": {}
+        },
+        "anchor_list_Unty8k": {
+          "type": "anchor_list",
+          "settings": {}
+        },
+        "product_JqPgVf": {
+          "type": "product",
+          "settings": {
+            "product_title": "WBCM Long Weightlifting Socks",
+            "short_product_title": "WBCM",
+            "product_position": "1",
+            "product_award": "TOP PICK",
+            "product_url": "https://warmbody-coldmind.com/products/long-weightlifting-socks?sca_ref=5120971.qSPHd7ePgJ",
+            "product_main_image": "shopify://shop_images/WBCM_Long_Weightlifting_Socks.jpg",
+            "product_rating_description": "<p>WBCM Long Weightlifting Socks excel in moisture-wicking and shock absorption with advanced mesh, targeted cushioning, and reinforced arch support for stability, despite limited color options.</p><ul><li><strong>Style: </strong>Knee-high socks</li><li><strong>Size: </strong>S, M, L</li><li><strong>Material: </strong>78% microacrylic fiber, 22% elastane</li><li><strong>Shin protection:</strong> Targeted cushioning for impact absorption</li><li><strong>Compression:</strong> Reinforced arch support for reduced foot fatigue</li><li><strong>Ventilation: </strong>Very good thanks to the advanced mesh</li><li><strong>Best for:</strong> Arch support, reduced foot fatigue, physical activities</li><li><strong>Color: </strong>White</li><li><strong>Price: </strong>$</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "5",
+            "product_rating_5": "5",
+            "product_rating_6": "5",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "30",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p><a href=\"https://warmbody-coldmind.com/products/long-weightlifting-socks?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/long-weightlifting-socks?sca_ref=5120971.qSPHd7ePgJ\">Warm Body Cold Mind’s long weightlifting socks</a> take the first place on this list. You want weightlifting socks to be comfortable, supportive, not too expensive, and durable – these ones tick all those boxes.</p><p>Their best feature is the high-quality composition. They’re made of 78% microacrylic fiber and 22% elastane, and their design is quite innovative, although you probably wouldn’t expect that from a pair of socks.</p><p>These, however, are made with antimicrobial yarn, which means your feet will have a hygienic environment during your workout. Of course, it also means you don’t need to worry about odor, and we all know what an issue that can be when it comes to working out and sweating</p>",
+            "product_review_image": "shopify://shop_images/training-weightlifting-socks-wbcm-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p>Photo by <a href=\"https://www.instagram.com/p/BkAFfgkhZ4Y/\" target=\"_blank\" title=\"https://www.instagram.com/p/BkAFfgkhZ4Y/\">@warmbody_coldmind</a></p>",
+            "product_text_content_2": "<p>Speaking of sweating, another great thing about these socks is that the advanced mesh technology is great at wicking away heat and moisture, so your feet will remain dry, cool, and comfortable.</p><p>The targeted cushioning in the footbed does a fantastic job at absorbing shock and acts as an extra layer of protection and comfort. This is especially important for weightlifting, because it exerts a lot of pressure on your feet.</p><p>Something else that you’re certainly going to enjoy is the reinforced arch support that offers stability, reduces foot fatigue, and helps you push through workout. The only thing about these socks that’s less than ideal is the color choices, which are non-existent.</p><p>There’s only one color option available, but given that these are truly the best workout socks, it’s something that can easily be overlooked.</p>",
+            "product_pros": "<ul><li>Made of high-quality blend of materials</li><li>Antimicrobial yarn for hygienic, odor-free environment</li><li>Targeted cushioning</li><li>Mesh for ventilation</li></ul>",
+            "product_cons": "<ul><li>Only one color available</li></ul>"
+          }
+        },
+        "product_ieeAkw": {
+          "type": "product",
+          "settings": {
+            "product_title": "ROGUE Compression Socks",
+            "short_product_title": "Rogue",
+            "product_position": "2",
+            "product_award": "RUNNER-UP",
+            "product_url": "https://www.roguefitness.com/rogue-compression-socks-black/?a_aid=62ff8b7e519eb",
+            "product_main_image": "shopify://shop_images/ROGUE_Compression_Socks.jpg",
+            "product_rating_description": "<p>ROGUE Compression Socks by Rogue feature Olefin fiber for eco-friendly wear, offering value despite a higher price, with various sizes and thoughtful design for deadlifting, though sizing may be a drawback.</p><ul><li><strong>Style: </strong>Compression socks</li><li><strong>Size: </strong>S, M, L, XL</li><li><strong>Material: </strong>Olefin fiber, nylon, spandex</li><li><strong>Compression: </strong>Significant</li><li><strong>Ventilation: </strong>Window Seam design, thin channeled upper, and double welt cuff for airflow</li><li><strong>Best for: </strong>Weightlifting, CrossFit, running, cycling, triathlons, intense gym workouts</li><li><strong>Color: </strong>Black</li><li><strong>Price: </strong>$$$$</li></ul>",
+            "product_rating_1": "5/5",
+            "product_rating_2": "5/5",
+            "product_rating_3": "5/5",
+            "product_rating_4": "5/5",
+            "product_rating_5": "5/5",
+            "product_rating_6": "4.7",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "29.7",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p><a href=\"https://www.roguefitness.com/rogue-compression-socks-black/?a_aid=62ff8b7e519eb\" target=\"_blank\" title=\"https://www.roguefitness.com/rogue-compression-socks-black/?a_aid=62ff8b7e519eb\">Rogue</a> is known for delivering first-class equipment, and these socks are some of the best pairs of compression socks you’ll be able to find.</p><p>If you just glance at their description, you may feel like the price is a bit high, but if you take a look at their features, you’ll see that they’re a decent value for money, even though the price point may be more than what you want to spend on a pair of socks.</p><p>Something that stands out right away is Rogue’s use of Olefin fiber, which is a Nobel prize-winning material famous for its eco-friendly production and incredibly lightweight nature (can you believe these socks will float in water?).</p><p>Olefin fiber dries quickly and is resistant to chemicals and perspiration. Besides, there’s a blend of nylon and spandex, which contributes to a softer and more comfortable feeling with exceptional breathability.</p><p>There are 4 available size options (S, M, L, XL) that are supposed to suit all foot shapes and sizes. However, they run a bit small, which is often the case with compression socks. They’re also a bit shorter than expected, so they have a tendency to slide down your calves, especially bigger ones — it can be quite distracting and uncomfortable.</p><p>If these fit you and don’t slide down, you’ll love them, because Rogue put a lot of thought into designing them. They have a “Window Seam” design, T-66 nylon toe and heel, and a Y-heel contour, making the socks adapt to your feet.</p><p>In addition, they use double density weave footbed and three-point arch support for cushioning and stability. They’re some of the best socks for deadlifting for sure, but they’re not quite perfect because of the sizing issue.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>The use of Olefin fiber makes the socks lightweight and fast-drying</li><li>Sustainable</li><li>Very breathable</li><li>Excellent compression</li></ul>",
+            "product_cons": "<ul><li>They run small</li><li>They’re shorter than expected and have a tendency to slide down your calves</li><li>Expensive</li></ul>"
+          }
+        },
+        "product_8CF8wD": {
+          "type": "product",
+          "settings": {
+            "product_title": "UA Unisex Over-The-Calf Socks",
+            "short_product_title": "Under Armour",
+            "product_position": "3",
+            "product_award": "",
+            "product_url": "https://tidd.ly/48j9lde",
+            "product_main_image": "shopify://shop_images/UA_Unisex_Over-The-Calf_Socks.jpg",
+            "product_rating_description": "<p>UA Unisex Over-The-Calf Socks, designed for athletics, provide comfort with a polyester blend, available in 16 colors, featuring fast-drying material, breathable mesh, and medium cushioning, caution for larger calves due to sizing.</p><ul><li><strong>Style: </strong>Athletic socks</li><li><strong>Size: </strong>Y 4.5-7 / W 6-10 / M 7-8.5; M 8.5-13 / W 10-14; M 13-16</li><li><strong>Material: </strong>90% polyester, 7% nylon, 3% elastane</li><li><strong>Compression: </strong>Embedded arch support for reducing foot fatigue and support (not compression socks)</li><li><strong>Ventilation:</strong> Mesh panels on top, fast-drying materials</li><li><strong>Best for: </strong>Sports with frequent foot impacts</li><li><strong>Color: </strong>16 colors available</li><li><strong>Price:</strong> $$</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "5",
+            "product_rating_5": "4.5",
+            "product_rating_6": "4.8",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "29.3",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/Under-Armour-Adult-Soccer-Over/dp/B09WB1P8PM?tag=wbcmb-20",
+            "product_text_content_1": "<p>These are not compression socks, but they’re designed specifically for athletic activities and made to improve your performance while being comfortable and protective. These work as both men’s and women’s <a href=\"https://tidd.ly/48j9lde\" target=\"_blank\" title=\"https://tidd.ly/48j9lde\">deadlift socks</a>, so that’s another fantastic thing about them!</p><p>They’re made mostly out of polyester but also have some nylon and elastane. There are 16 colors available, which is amazing, but the color bleeds during washing. Seeing as how these socks are 90% polyester, it’s strange to see the color bleeding so easily, but what can you do?</p><p>The socks aim to keep your feet cool, dry, and odor-free during workouts. Polyester dries super-fast, so your feet are likely going to stay dry even if you sweat a lot, and the mesh panels on top ensure that the socks are breathable.</p><p>The materials they’re made of are very durable, and the socks have medium cushioning throughout the foot. In addition, the embedded arch support helps with foot fatigue and with maintaining your performance.</p><p>However, you probably won’t have too much luck with these if your calves are big. The sizes are okay when it comes to your foot, but it seems like the diameter of the top stays the same no matter what size you choose.</p><p>This won’t be a problem for people with skinny legs and calves, but if you’re bigger, keep this sizing issue in mind, because you’ll probably feel uncomfortable in these socks.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Mesh panels on top for breathability</li><li>16 colors available</li><li>They dry very fast</li></ul>",
+            "product_cons": "<ul><li>The color bleeds in the wash</li><li>Not suitable for big calves</li></ul>"
+          }
+        },
+        "product_ebtQet": {
+          "type": "product",
+          "settings": {
+            "product_title": "ELEIKO Compression Socks 47/50",
+            "short_product_title": "Eleiko",
+            "product_position": "4",
+            "product_award": "PREMIUM PICK",
+            "product_url": "https://eleiko.com/en-us/gear/accessories/3000630-990x-eleiko-compression-sock-47-50?ref=torokhtiy",
+            "product_main_image": "shopify://shop_images/ELEIKO_Compression_Socks.jpg",
+            "product_rating_description": "<p>ELEIKO Compression Sock, a premium choice, provides significant compression and targeted support with a durable blend of polyamide, Cordura, and elastane, ensuring long-lasting performance, though extended wear may impact breathability.</p><ul><li><strong>Style:</strong> Compression socks</li><li><strong>Size: </strong>S, M, L</li><li><strong>Material: </strong>76% polyamide, 13% Cordura, 11% elastane</li><li><strong>Shin protection:</strong> Cordura panel at the shin</li><li><strong>Compression:</strong> Significant; compression zone at the back</li><li><strong>Ventilation:</strong> Not completely breathable</li><li><strong>Best for: </strong>Athletes needing additional support</li><li><strong>Color: </strong>Black</li><li><strong>Price:</strong> $$$</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "5",
+            "product_rating_5": "4.5",
+            "product_rating_6": "4.5",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "29",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>If money isn’t an issue for you, then you may want to go for our premium pick. <a href=\"https://eleiko.com/en-us/gear/accessories/3000630-990x-eleiko-compression-sock-47-50?ref=torokhtiy\" target=\"_blank\" title=\"https://eleiko.com/en-us/gear/accessories/3000630-990x-eleiko-compression-sock-47-50?ref=torokhtiy\">Eleiko’s compression</a> socks offer significant compression and they’re designed with a focus on support, durability, and protection.</p><p>The socks are made of a blend of polyamide, Cordura, and elastane. They have a compression zone at the calf’s back, and the support they provide is targeted – you get it exactly where you need it. They stabilize your muscles and improve circulation.</p><p>The socks have a Cordura panel at the shin and cushioning to protect you from impact and minimize any abrasion. There’s also cushioning in the arch area that helps with absorbing pressure and helps with foot fatigue.</p><p>They’re incredibly durable because of the reinforced heel and toe sections and you’ll be able to use them for a long time. These socks will keep their structure and will be able to withstand all kinds of workouts.</p><p>However, one thing that’s not as ideal is breathability: if you wear them for a long time and sweat a lot, your feet won’t remain as dry as you would want them.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Reinforced heel and toe</li><li>Cordura panels for shin protection</li><li>Significant compression</li><li>Hold their shape over time</li></ul>",
+            "product_cons": "<ul><li>Not breathable enough</li><li>Expensive</li></ul>"
+          }
+        },
+        "product_CxViXY": {
+          "type": "product",
+          "settings": {
+            "product_title": "RX Shin Guards 2.0",
+            "short_product_title": "RX Shin Guards",
+            "product_position": "5",
+            "product_award": "BEST SHIN GUARDS",
+            "product_url": "https://www.roguefitness.com/rx-shin-guards-2-0/?a_aid=62ff8b7e519eb",
+            "product_main_image": "shopify://shop_images/RX_Shin_Guards_2.0.jpg",
+            "product_rating_description": "<p>RX Shin Guards 2.0 offer a pricier alternative for deadlift protection with a durable canvas exterior, flexible neoprene interior, easy application without removing shoes, and a one-size-fits-all design featuring a strong Velcro closure.</p><ul><li><strong>Style: </strong>Shin guards</li><li><strong>Size: </strong>One size</li><li><strong>Material: </strong>Tough canvas, soft neoprene</li><li><strong>Shin protection: </strong>Tough canvas outer layer for protection</li><li><strong>Best for: </strong>Rope climbs, deadlifts</li><li><strong>Color: </strong>Black</li><li><strong>Price: </strong>$$$$$</li></ul>",
+            "product_rating_1": "4.6",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "5",
+            "product_rating_5": "4.7",
+            "product_rating_6": "4.2",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "28.5",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/-/he/dp/B09VRDJLCT?tag=wbcmb-20",
+            "product_text_content_1": "<p>Although these are not socks, <a href=\"https://www.roguefitness.com/rx-shin-guards-2-0/?a_aid=62ff8b7e519eb\" target=\"_blank\" title=\"https://www.roguefitness.com/rx-shin-guards-2-0/?a_aid=62ff8b7e519eb\">shin guards</a> can be useful if you don’t want to wear deadlift socks but still need something for protection. This is the most expensive piece of equipment on our list, but they are well-made and do their job.</p><p>RX’s shin guards have a robust canvas exterior and soft neoprene in the inner layer. They’re durable and very protective, but still flexible enough that you can move freely. They’re very easy to put on and take off, especially if you compare them to some other shin guards.</p><p>You don’t need to take your shoes off to put them on and tighten them, which may not sound like a big deal, but if you’re working out, do you really want the hassle of removing your shoes, then placing your shin guards, adjusting them, and then putting your shoes back on? Seems like a hassle. </p>",
+            "product_review_image": "shopify://shop_images/training-shin-guards-rx-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p>Photo by <a href=\"https://www.instagram.com/rxsmartgear/p/C0cAFnDrHUc/\" target=\"_blank\" title=\"https://www.instagram.com/rxsmartgear/p/C0cAFnDrHUc/\">@rxsmartgear</a></p>",
+            "product_text_content_2": "<p>They come in one size and can fit anyone whose calf diameter is between 11” and 21”. There’s no stirrups, straps, or zippers on them, just a simple Velcro closure. The Velcro is really strong, but it's straps can get in the way during lifting sometimes.</p><p>Overall, if you want an alternative to socks, consider these shin guards (just be prepared to pay a bit more for them).</p>",
+            "product_pros": "<ul><li>Molle webbing for additional attachment points on the shoulder straps</li><li>Durable material</li><li>Two water bottle pockets</li><li>19 colors available</li></ul>",
+            "product_cons": "<ul><li>The most expensive item on the list</li><li>Velcro straps get in the way during lifting</li></ul>"
+          }
+        },
+        "product_3xPGxH": {
+          "type": "product",
+          "settings": {
+            "product_title": "HOPLITE Premium Compression Socks",
+            "short_product_title": "Hoplite",
+            "product_position": "6",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/dp/B01MT5JO01?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/HOPLITE_Premium_Compression_Socks.jpg",
+            "product_rating_description": "<p>HOPLITE Compression Socks offer lightweight comfort and moderate compression for everyday wear, with machine-washable design and arch support, but may be thin for intense activities like deadlifts, at a higher price.</p><ul><li><strong>Style: </strong>Compression socks</li><li><strong>Size: </strong>S, M, L</li><li><strong>Material: </strong>Knit fabric</li><li><strong>Shin protection:</strong> Thin padding over the shins</li><li><strong>Compression: </strong>Graduated compression</li><li><strong>Ventilation:</strong> Designed to stay cool and drain well</li><li><strong>Best for: </strong>Weightlifting, functional training, hiking, HIIT</li><li><strong>Color: </strong>Gray, black</li><li><strong>Price: </strong>$$$</li></ul>",
+            "product_rating_1": "4.8",
+            "product_rating_2": "4.7",
+            "product_rating_3": "4.5",
+            "product_rating_4": "4.5",
+            "product_rating_5": "5",
+            "product_rating_6": "4",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "27.5",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p><a href=\"https://www.amazon.com/dp/B01MT5JO01?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B01MT5JO01?tag=wbcmb-20\">Hoplite’s socks</a> are very lightweight and offer moderate compression, so if you want socks you’ll barely feel on — look no further. However, if you want something with a decent amount of padding that will provide more compression and support, it’s best to pass on these.</p><p>These socks are made of a 220-needle knit fabric and can be machine-washed. They have graduated compression that starts at the midfoot and provides arch support, which, as Hoplite claims, promotes optimal circulation and helps in removing lactic acid by up to 40%.</p><p>While these socks are very comfortable if you’re just wearing them for running errands, they’re just too thin to work for deadlifts or anything demanding. They also feel a bit flimsy, and it’s unlikely they will last you for a long time unless you’re extremely careful with them.</p>",
+            "product_review_image": "shopify://shop_images/training-compression-socks-hoplite-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p>Photo by <a href=\"https://www.instagram.com/p/Cf_dq0hObMb/\" target=\"_blank\" title=\"https://www.instagram.com/p/Cf_dq0hObMb/\">@hoplite_outfitters</a></p>",
+            "product_text_content_2": "<p>The next issue is the price – it’s really high. For this kind of price, you would expect something impeccable, but the truth is, it is a decent pair of socks that needs some improvements.</p><p>They’re not the best value for money unless you’re looking for something really lightweight and don’t need much support.</p>",
+            "product_pros": "<ul><li>Very lightweight</li><li>Can be machine washed</li><li>They feel very comfortable</li><li>Made to fit like second skin</li></ul>",
+            "product_cons": "<ul><li>Overpriced</li><li>Not very durable</li><li>Too thin to provide significant support</li></ul>"
+          }
+        },
+        "product_YKHrdQ": {
+          "type": "product",
+          "settings": {
+            "product_title": "CERBERUS Deadlift Socks",
+            "short_product_title": "Cerberus",
+            "product_position": "7",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/CERBERUS-STRENGTH-Cerberus-Deadlift-Socks/dp/B07TGFBXRK?tag=wbcmb-20",
+            "product_main_image": "shopify://shop_images/CERBERUS_Deadlift_Socks.jpg",
+            "product_rating_description": "<p>CERBERUS Deadlift Socks, ideal for intense workouts, prioritize shin protection with a breathable cotton blend, firm compression, and non-shifting design, available in one size with potential for reinforcement improvement.</p><ul><li><strong>Style: </strong>Deadlift socks</li><li><strong>Size: </strong>One size</li><li><strong>Material:</strong> 75% cotton, 12% nylon, and 13% spandex</li><li><strong>Shin protection: </strong>Designed to protect against abrasions and cuts during deadlifts, cleans, and rope climbs</li><li><strong>Compression: </strong>Provides compression and firm hold to prevent slipping</li><li><strong>Ventilation:</strong> Moisture-wicking and breathable</li><li><strong>Best for: </strong>Deadlifts, cleans, rope climbs</li><li><strong>Color: </strong>Black, blue/ white, green/ white, pink/ white, red, white/ red</li><li><strong>Price: </strong>$$$</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "4.8",
+            "product_rating_3": "4.2",
+            "product_rating_4": "4.5",
+            "product_rating_5": "4.5",
+            "product_rating_6": "4.5",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "27",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p><a href=\"https://www.amazon.com/CERBERUS-STRENGTH-Cerberus-Deadlift-Socks/dp/B07TGFBXRK?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/CERBERUS-STRENGTH-Cerberus-Deadlift-Socks/dp/B07TGFBXRK?tag=wbcmb-20\">Cerberus’ socks</a> are designed specifically for really intense workouts, particularly deadlifts, cleans, and rope climbs. They focus on protecting your shins from abrasive contact and they are recommended for use in powerlifting competitions.</p><p>They are made of cotton, nylon, and spandex and provide a firm compression hold. It’s great to see so much cotton being used, because that’s what makes the socks breathable and comfortable and adds to their overall durability.</p><p>Speaking of which, the toe and heel areas would be even better if they were reinforced, because in their current state, they’ll wear out pretty soon.</p>",
+            "product_review_image": "shopify://shop_images/training-deadlift-socks-cerberus-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p>Photo by <a href=\"https://www.instagram.com/p/Cbm8VV8uyjH/\" target=\"_blank\" title=\"https://www.instagram.com/p/Cbm8VV8uyjH/\">@cerberus_strength_usa</a></p>",
+            "product_text_content_2": "<p>They don’t shift and slip during workouts, so there’s nothing distracting you from your exercises. You can throw them in the washing machine when you’re done with them, but make sure to wash them with similar colors and don’t go over 105 °F, because if you do, you risk the color bleeding.</p><p>There’s only one size available, unfortunately. Although it is supposed to fit most people, when it comes to deadlifting socks, you really need a precise and comfortable fit, and one-size-fits-most design is not preferable here.</p><p>It would be great if Cerberus worked on this and included more sizes because that would definitely get them more customers. This way, some people will find them good, while others will say they’re uncomfortable, all because of the lack of sizes.</p>",
+            "product_pros": "<ul><li>Breathable</li><li>Good amount of colors available</li><li>No slipping or shifting during use</li></ul>",
+            "product_cons": "<ul><li>Only one size available</li><li>Toe and heel areas wear out soon</li></ul>"
+          }
+        },
+        "richtext_yWd9tM": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>How We Choose Product for Testing?</h2><p>When it comes to choosing deadlift socks to test, we focus on the most important factors: their design, comfortability, breathability, protection against abrasions, and support of blood flow during workouts. The right pair of socks can be crucial to your performance and need to be a blend of style and substance.</p><h2>What Are Deadlift Socks?</h2><p>Socks for deadlifting can get pricey, and there’s a chance you wanted to save some money and just thought, “How much difference can there really be between ordinary and deadlift socks?” Because socks are socks, right? Well, not quite. Deadlift socks don’t have as much in common with ordinary socks as you may think.</p><p>First of all, deadlift socks are specialized, which means they don’t just focus on keeping your feet warm like regular socks do. The socks used for deadlifts are built a lot tougher and use materials like nylon and spandex to make them more sturdy and stretchy. This extra strength is what helps them grip your legs better while you’re lifting weights.</p><p>Socks for deadlifting have quite a few benefits, but one of the crucial ones is that they protect your shins from scrapes and cuts that bars and ropes can cause. It is especially important in powerlifting competitions where you’re often required to wear them.</p>",
+            "rich_text_image": "shopify://shop_images/training-deadlift-long-socks.jpg",
+            "rich_text_image_alt": "Training deadlift long socks in use",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_mLahXq": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>They also usually have a firm compression, so their fit is snug, keeping them in place while you work out. Imagine feeling your socks sliding down when you’re trying to focus on your lift – that would be incredibly distracting and annoying.</p><p>Another great thing about deadlift socks is that they’re (usually) designed to be breathable and have moisture-wicking properties, so your feet remain dry even if your workout gets extremely intense. They will also <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S1440244018302615\" target=\"_blank\" title=\"https://www.sciencedirect.com/science/article/abs/pii/S1440244018302615\">help your muscles with recovery</a>.</p><p>You won’t find these features in regular socks, because they just aren’t necessary for everyday life and are more about being comfortable than supportive.</p><h2>When Do You Need Deadlift Socks?</h2><p>Well, you need them for deadlifts, of course, but their use is not limited to this one single exercise. They’re much more versatile than that, as you can also use them for cleans, rope climbs, and powerlifting, for instance.</p><p>Moreover, deadlift socks can be useful for fitness workouts, which include heavy lifts, box jumps, etc. Obstacle course racing can also benefit from a pair of deadlift socks. Basically, you can use these socks anytime you need to protect your shins from potential injuries.</p>",
+            "rich_text_image": "shopify://shop_images/dumbbell-workout-in-deadlifting-socks.jpg",
+            "rich_text_image_alt": "Dumbbell workout in deadlifting socks",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_EHwjTw": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>5 Advantages of Deadlift Socks</h2><p>If you don’t know much about deadlift socks and someone tells you they’re a necessity and you need them, would you go out and buy a pair or two? Probably not. This is why you should pay attention to this section: we’ll go over all the advantages these socks have, and by the end, you won’t be able to wait to get your hands on your first pair.</p><h3>1. Shin Protection</h3><p>The biggest reason why you should get a pair of deadlift socks is that they do an amazing job at protecting your shins during weightlifting. Since they’re made of durable materials, they act as a barrier against abrasions and cuts and don’t lose their integrity, since they’re made specifically for this purpose.</p><h3>2. Compression and Support</h3><p>If you compare deadlift socks to ordinary socks, you’ll notice that the former’s fit is very snug and firm, because they need to stay in place regardless of the exercises you’re doing. Additionally, compression promotes <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8439710/\" target=\"_blank\" title=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8439710/\">better blood circulation</a>, which reduces muscle fatigue and <a href=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6985982/\" target=\"_blank\" title=\"https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6985982/\">helps with recovery</a>.</p><h3>3. Managing Sweat and Moisture</h3><p>Sweaty feet are a big no-no, and you can’t focus on your lifts if your feet are uncomfortable. Deadlift socks keep your feet dry and comfortable and prevent blisters. Some of them are made of antimicrobial materials, so they take care of any odors.</p><h3>4. Versatility</h3><p>Don’t restrict their use to just weightlifting – deadlift socks can be very useful for fitness activities, jumps, climbs, etc. They’ll keep your shins safe from scratches and rope burns.</p><h3>5. Focus</h3><p>If your feet are dry and you know your shins are protected, you can safely focus on your lift without being distracted.</p>",
+            "rich_text_image": "shopify://shop_images/training-deadlifting-socks-workout.jpg",
+            "rich_text_image_alt": "Training deadlifting socks workout with kettlebell",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_NVM3wf": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>How to Choose the Best Socks for Deadlifts?</h2><p>There are a few things you need to pay attention to, but the best thing would be to try them out before you actually spend money on them. If you have no way of trying the socks out before purchasing them, focus on the following key factors:</p><h3>1. Material</h3><p>Deadlift socks need to be durable, so go for a blend of durable materials – nylon, polyester, cotton, and elastane. These materials are durable enough to be able to withstand intense exercises like weightlifting while providing you with the support you need to push your limits. Some socks even come with various images and patterns, so you can get some funny deadlift socks and make other people at the gym chuckle!</p><h3>2. Compression and Fit</h3><p>There’s a fine line between firm compression and an overly tight fit, so be careful with this. You want firm compression that will help with circulation, and you want the fit to be tight, so your socks stay in place and don’t slip, but make sure they feel comfortable, and not restricting.</p><h3>3. Shin Protection</h3><p>If your deadlift socks don’t protect your shins properly, you need another pair. Look for reinforced panels and additional padding in strategic areas, like the shin and Achilles region.</p><h3>Pro Tip:</h3><p><em>\"Apart from being reinforced, the stitches need to be neat. Symmetrical, neat stitching shows that the manufacturer cares about quality more than about just producing as many socks as possible. If the stitches are messy, then there’s no attention to detail and it’s likely the brand cares only about profit instead of quality items.\"</em></p><h3>4. Moisture-Wicking Properties</h3><p>Your feet need to stay dry all throughout your session, so you need socks that can make that happen. It’s best to go for socks that are a blend of natural and artificial materials, like cotton combined with nylon or polyester. Cotton is breathable and comfortable, while nylon and polyester are quick-drying and known for doing a great job at managing moisture.</p><h3>5. Durability</h3><p>Durable socks are made of quality materials and usually have reinforced stitching, which allows them to be used repeatedly without getting damaged.</p>",
+            "rich_text_image": "shopify://shop_images/training-socks-for-deadlift-female.jpg",
+            "rich_text_image_alt": "Training socks for deadlift female athlete",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_ya4jfD": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>Peculiarities of Care for Socks for Deadlifts and Lifting</h2><p>No matter how high quality the socks are, if you don’t care for them properly, you will end up damaging them. When it comes to cleaning them, you can safely throw them in the washing machine, but you need to wash them with similar colors and at a temperature of 105 °F maximum.</p><p>If you go over that temperature, the color will bleed, and the socks will likely lose their structure.  Another thing to be careful about is removing the tags: cut them instead of ripping them out in order to avoid damaging any seams.</p><p>However, good care goes beyond just cleaning and removing the tags. You need to change them regularly, so it’s good to have a few pairs instead of just one. It would be ideal if you changed them after every workout, especially if you sweat a lot.</p><p>Since you can’t wash them at high temperatures, you really shouldn’t let them get too sweaty or dirty, because you won’t be able to wash them properly. And the odor… you won’t get that out if you don’t change your socks on a regular basis.</p><p>Once they start to show signs of wear and tear, you need to throw them out and get a new pair. Some of the most frequent signs are fabric thinning (especially in the toes and heel) and loss of elasticity.</p>",
+            "rich_text_image": "shopify://shop_images/deadlifting-socks-for-lower-body-workout.jpg",
+            "rich_text_image_alt": "Deadlifting socks for lower body workout",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_edTNhJ": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>What About Using Socks in Different Sports?</h2><p>Socks are versatile, so you can use them for a lot of different activities. Deadlift socks provide good value for money (given you get a quality pair) and are designed specifically to help your performance and make your workouts more comfortable.</p><h3>1. Weightlifting Socks</h3><p>Specifically designed for weightlifting, lifting socks fit snugly and comfortably, protect your shins against abrasions and cuts, and provide compression to support you during your lifts.</p><h4>Reasons to Try Weightlifting Without Shoes</h4><p>Some people like shoes, some people like to lift barefoot, and some prefer using socks. If you lift without your shoes on, you’ll feel more connected to the ground, which can help your sense of balance and <a href=\"https://www.sciencedirect.com/science/article/pii/S0268003319304231\" target=\"_blank\" title=\"https://www.sciencedirect.com/science/article/pii/S0268003319304231\">stability</a>.</p><p>Additionally, it will keep your feet in a more natural position, because <a href=\"https://www.sciencedirect.com/science/article/pii/S0966636215004993\" target=\"_blank\" title=\"https://www.sciencedirect.com/science/article/pii/S0966636215004993\">shoes can constrict your feet’s structure and function</a>, and some people find that natural foot position helps their technique and form.</p><h3>2. Powerlifting Socks</h3><p>Like weightlifting socks, powerlifting socks are made to help during heavy lifts. They offer support and protection, especially during deadlifts and squats, where it’s common for the barbell to come in contact with the shins. Socks for powerlifting usually have extra padding to protect against abrasions and are made of durable materials.</p>",
+            "rich_text_image": "shopify://shop_images/training-long-socks-kettlebell-workout.jpg",
+            "rich_text_image_alt": "Training long socks kettlebell workout",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_iiXGCw": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>FAQ</h2><h3>Why Are Powerlifting and Weightlifting Socks Important?</h3><p>These socks are important because they provide protection and support during heavy lifts. They fit securely, protect your shins, and provide compression, which helps with muscle fatigue.</p><h3>Do Deadlift Socks Help Deadlift More?</h3><p>Deadlift socks can’t directly increase the weight you can lift, but since they protect against abrasions and fit securely, they might give you more confidence and allow you to focus on your lift better.</p><p>These socks help with distractions and discomfort, which means they indirectly support better form and concentration and can potentially contribute to performance and lifting heavier weights.</p><h3>Why Do Deadlifters Wear High Socks?</h3><p>They do it primarily to protect their shins, because the socks act as a barrier between the skin and the barbell. But beyond that, they also offer compression and stability.</p><h3>Are Deadlift Socks Better Than Regular Socks?</h3><p>Yes, regular socks don’t even compare to deadlift socks. The latter will protect your shins and offer compression and secure fit, all of which can help you feel more confident and comfortable during lifts. Regular socks are only meant to be comfortable and keep your feet warm.</p><h3>Why Choose Deadlifting Socks over Shoes?</h3><p>The socks give an almost barefoot feel but still protect against potential injuries. Unlike shoes, they allow you to have direct contact with the ground, which can help with stability and balance. They also help your feet stay in a more natural position.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "video_yETwmb": {
+          "type": "video",
+          "settings": {
+            "youtube_video_url": "https://www.youtube.com/watch?v=N-99wqa81jY"
+          }
+        },
+        "richtext_bWFegA": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>Conclusion</h2><p>We’ve now gone over everything that’s relevant when it comes to deadlift socks! There’s almost a science between them, but that’s a good thing – all of their features, which include compression, resistance to moisture, shin protection, support, etc., make them an effective part of any serious lifter’s routine.</p><p>There are tons of socks to choose from, but the best weightlifting socks are certainly <a href=\"https://warmbody-coldmind.com/products/long-weightlifting-socks?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/long-weightlifting-socks?sca_ref=5120971.qSPHd7ePgJ\">WBCM Long Weightlifting Socks</a>. They’re comfortable, perform amazingly well, and, best of all, their price is a steal compared to some other brands! It’s a win-win.</p><p>What’s your take on deadlifting in socks? We’d love to hear from you because we thrive on feedback and love discussions in the comment section.</p><p>Socks off!</p><p>Also read:</p><ul><li><a href=\"https://blog.warmbody-coldmind.com/guides/what-to-wear-under-singlet/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/what-to-wear-under-singlet/\">What to Wear Under Singlet</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/can-you-wear-sweatpants-to-the-gym/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/can-you-wear-sweatpants-to-the-gym/\">Can You Wear Sweatpants to the Gym</a></li></ul><p>References:</p><ol><li>Alexander H.K. Montoye, Alexandra A. Mithen, Haven L. Westra, Summer S. Besteman, Brian C. Rider, \"The Effect of Compression Socks on Maximal Exercise Performance and Recovery in Insufficiently Active Adults,\" International Journal of Exercise Science 14, no. 7 (2021): 1036-1051.</li><li>Gustavo R. Mota, Mário Antônio de Moura Simim, Izabela Aparecida dos Santos, Jeffer Eidi Sasaki, Moacir Marocolo, \"Effects of Wearing Compression Stockings on Exercise Performance and Associated Indicators: A Systematic Review,\" Open Access Journal of Sports Medicine 11 (2020): 29-42.</li><li>Ned Brophy-Williams, Matthew W. Driller, Cecilia M. Kitic, James W. Fell, Shona L. Halson, \"Wearing Compression Socks During Exercise Aids Subsequent Performance,\" Journal of Science and Medicine in Sport 22, no. 1 (2019): 123-127.</li><li>Simon Franklin, Michael J. Grey, Nicola Heneghan, Laura Bowen, François-Xavier Li, \"Barefoot vs Common Footwear: A Systematic Review of the Kinematic, Kinetic and Muscle Activity Differences During Walking,\" Gait & Posture 42, no. 3 (2015): 230-239.</li><li>Tomasz Cudejko, James Gardiner, Asangaedem Akpan, Kristiaan D'Août, \"Minimal Footwear Improves Stability and Physical Function in Middle-Aged and Older People Compared to Conventional Shoes,\" Clinical Biomechanics 71 (2020): 139-145.</li><li>Photos are made by WBCM Media Team.</li></ol>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "why_trust_us_EbVgbF": {
+          "type": "why_trust_us",
+          "settings": {}
+        },
+        "meta": {
+          "type": "meta",
+          "settings": {
+            "show_author": true,
+            "show_sharing": false
+          }
+        },
+        "sidebar_aUbMMd": {
+          "type": "sidebar",
+          "settings": {
+            "sidebar_product_image": "shopify://shop_images/WBCM_Long_Weightlifting_Socks_2326f729-9c2d-4b7a-8592-0141baad767e.jpg",
+            "sidebar_product_url": "https://warmbody-coldmind.com/products/long-weightlifting-socks?sca_ref=5120971.qSPHd7ePgJ",
+            "sidebar_product_name": "WBCM Long Weightlifting Socks"
+          }
+        }
+      },
+      "block_order": [
+        "tags",
+        "title",
+        "date",
+        "richtext_Nmxkeq",
+        "in_a_hurry_w6MGQW",
+        "richtext_3YD4Xj",
+        "rating_table_VFkHUY",
+        "anchor_list_Unty8k",
+        "product_JqPgVf",
+        "product_ieeAkw",
+        "product_8CF8wD",
+        "product_ebtQet",
+        "product_CxViXY",
+        "product_3xPGxH",
+        "product_YKHrdQ",
+        "richtext_yWd9tM",
+        "richtext_mLahXq",
+        "richtext_EHwjTw",
+        "richtext_NVM3wf",
+        "richtext_ya4jfD",
+        "richtext_edTNhJ",
+        "richtext_iiXGCw",
+        "video_yETwmb",
+        "richtext_bWFegA",
+        "why_trust_us_EbVgbF",
+        "meta",
+        "sidebar_aUbMMd"
+      ],
+      "settings": {
+        "criteria_1": "Design",
+        "criteria_2": "Protection",
+        "criteria_3": "Durability",
+        "criteria_4": "Compression",
+        "criteria_5": "Comfort",
+        "criteria_6": "Price/Quality",
+        "criteria_7": "",
+        "criteria_8": "",
+        "criteria_9": "",
+        "criteria_10": "",
+        "show_img": true
+      }
+    }
+  },
+  "order": [
+    "17007351490292b520",
+    "main"
+  ]
+}
