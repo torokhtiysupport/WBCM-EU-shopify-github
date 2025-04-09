@@ -9,35 +9,38 @@
  */
 {
   "sections": {
-    "17007352025dc930ae": {
+    "17007351490292b520": {
       "type": "apps",
       "blocks": {
-        "79b9f89e-8bc0-45de-bfe0-04bc8f5e4919": {
+        "86c9c15f-872a-48bd-ae2e-92824e88a96c": {
           "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/article-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
+            "home_link": "/",
             "menu": "main-menu",
             "separator": "›",
+            "custom_class": "",
             "bb_show_hide": true,
+            "enable_custom_feature": false,
             "bb_capitalize": true,
             "bb_font_size": 13,
             "bb_padding": 55,
             "bb_top_padding": 55,
             "bb_margin": 0,
             "bb_align": "center",
-            "bb_color": "#C0C0C0"
+            "bb_color": "#c0c0c0"
           }
         }
       },
       "block_order": [
-        "79b9f89e-8bc0-45de-bfe0-04bc8f5e4919"
+        "86c9c15f-872a-48bd-ae2e-92824e88a96c"
       ],
       "settings": {
         "include_margins": true
       }
     },
     "main": {
-      "type": "main-article",
+      "type": "custom-main-article",
       "blocks": {
         "tags": {
           "type": "tags",
@@ -51,15 +54,486 @@
           "type": "date",
           "settings": {}
         },
-        "content": {
-          "type": "content",
+        "richtext_WQAL7T": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Who knew there’s so much science going on behind what seems to be only a few pieces of fabric? Well, as I’m sure you already know, lifting straps are so much more than that, and today, I have a list of the best figure 8 lifting straps you can find on the market. </p><p>Figure 8 lifting straps are considered to be the most popular type of lifting straps among weightlifters, and they’ve actually held that title for a while. Of course, it always comes down to personal preference and the type of workouts you do. Still, you can’t argue with the fact that figure 8 lifting straps are super effective. The grip is secure and their design makes them not only easy to use, but they do a great job at supporting your wrists.</p><p>So, let’s see which eleven are currently the best and if they’re something that would help your workouts.</p><p><strong>Let’s strap!</strong></p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "in_a_hurry_w6MGQW": {
+          "type": "in_a_hurry",
+          "settings": {
+            "in_a_hurry_image": "shopify://shop_images/wbcm-figure8-straps.jpg",
+            "in_a_hurry_image_alt": "wbcm figure 8 straps",
+            "in_a_hurry_title": "Our Best Choice!",
+            "in_a_hurry_text": "<p>Check out our Top Pick <a href=\"https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ\">WBCM figure-8 straps</a>. This lifting gear won’t compromise you during tough training, so you’ll succeed in beating your PB! Designed by the Olympic Champion Oleksiy Torokhtiy, these straps will meet the needs both of amateur and elite lifters.</p>",
+            "in_a_hurry_url": "https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ"
+          }
+        },
+        "rating_table_VFkHUY": {
+          "type": "rating_table",
+          "settings": {}
+        },
+        "anchor_list_Unty8k": {
+          "type": "anchor_list",
+          "settings": {}
+        },
+        "product_Ww8FGG": {
+          "type": "product",
+          "settings": {
+            "product_title": "WBCM Figure 8 Lifting Straps",
+            "short_product_title": "WBCM",
+            "product_position": "1",
+            "product_award": "TOP PICK",
+            "product_url": "https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ",
+            "product_main_image": "shopify://shop_images/wbcm-figure8-straps.jpg",
+            "product_rating_description": "<p>The Top Pick for this list comes from Warm Body Cold Mind. Their figure 8 straps are the best bang for your buck that you can get. Not only that, but the WBCM straps don’t compromise in any of the scoring categories. Let’s check it out!</p><ul><li><strong>Size:</strong> Small for wrists up to 7’’ in circumference, Medium for wrists from 7’’-9’’ in circumference, Large for wrists from 9’’ and higher in circumference</li><li><strong>Material:</strong> Cotton</li><li><strong>Color:</strong> Black, white, pink, yellow, green/orange camo, black/white chessboard (not all colors are available in all sizes)</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "5",
+            "first_button_text": "CHECK PRICE ON WBCM",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/dp/B0BP88ZC6K?tag=wbcmb-20",
+            "product_text_content_1": "<p>First of all, these straps were designed by the Olympian Oleksiy Torokhtiy and his team. So that is a good indicator that this accessory has been engineered to accommodate professionals at the elite level of weightlifting.</p><p>The figure-8 straps come in three sizes (small, medium, and large) and are specially designed to be used by both men and women. This can be seen by the wrist sizing they recommend – up to 7’’ for S, to 9’’ and upwards for size L, and size M occupying the sweet spot from 7–9 inches.</p><p>Regarding materials used, there are two options. Heavy-duty cotton, or high-quality elastane straps with a thick neoprene cushion around the wrist. Both are amazing options to buy. With that in mind, if you’re into very heavy lifting or you enjoy lifting often, then I recommend you opt for the cushioned version. The price difference isn’t much, but the cushion (which is not present in many lifting straps) is a real game changer. You can really feel its effects when lifting heavy.</p><p>In terms of longevity, the straps are reinforced with extra-quality stitching. This not only ensures that the straps will last you a long time, but also promotes safety during your deadlifts, rows, shrugs, pull-ups, and dumbbell squats.</p><p><a href=\"https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ\">They come in six design options: </a>white, black, pink, yellow, camo (military green, orange, grey, and black), and a chessboard (black and white) pattern. You cannot get the full color selection depending on the size you choose.</p><p>The straps might run a bit large, so ensure you consult the sizing chart. You want to ensure a good snug fit when using your straps. Well deserved top pick choice. Cannot go wrong with the WBCM figure 8 straps!</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "<p>First of all, these straps were designed by the Olympian Oleksiy Torokhtiy and his team. So that is a good indicator that this accessory has been engineered to accommodate professionals at the elite level of weightlifting.</p><p>The figure-8 straps come in three sizes (small, medium, and large) and are specially designed to be used by both men and women. This can be seen by the wrist sizing they recommend – up to 7’’ for S, to 9’’ and upwards for size L, and size M occupying the sweet spot from 7–9 inches.</p><p>Regarding materials used, there are two options. Heavy-duty cotton, or high-quality elastane straps with a thick neoprene cushion around the wrist. Both are amazing options to buy. With that in mind, if you’re into very heavy lifting or you enjoy lifting often, then I recommend you opt for the cushioned version. The price difference isn’t much, but the cushion (which is not present in many lifting straps) is a real game changer. You can really feel its effects when lifting heavy.</p><p>In terms of longevity, the straps are reinforced with extra-quality stitching. This not only ensures that the straps will last you a long time, but also promotes safety during your deadlifts, rows, shrugs, pull-ups, and dumbbell squats.</p><p><a href=\"https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ\">They come in six design options</a>: white, black, pink, yellow, camo (military green, orange, grey, and black), and a chessboard (black and white) pattern. You cannot get the full color selection depending on the size you choose.</p><p>The straps might run a bit large, so ensure you consult the sizing chart. You want to ensure a good snug fit when using your straps. Well deserved top pick choice. Cannot go wrong with the WBCM figure 8 straps!</p>",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Supreme quality materials used</li><li>Wrist padding for extra comfort(in the elastic options)</li><li>Extra stitching to ensureproduct longevityand the lifter’s safety</li><li>Designed for both men and women</li></ul>",
+            "product_cons": "<ul><li>Not all colors areavailable dependingon chosen size</li><li>The fit can be a bit off(make sure to consultthe sizing chart)</li></ul>"
+          }
+        },
+        "product_8PEXxM": {
+          "type": "product",
+          "settings": {
+            "product_title": "Gymreapers Figure 8 Lifting Straps",
+            "short_product_title": "Gymreapers",
+            "product_position": "2",
+            "product_award": "BEST FREE STANDING",
+            "product_url": "https://www.gymreapers.com/products/gymreapers-figure-8-lifting-straps?aff=172",
+            "product_main_image": "shopify://shop_images/gymreapers-figure-8-straps.jpg",
+            "product_rating_description": "<p>When I see gym equipment made by actual athletes, I always have rather high expectations. If you Google figure 8 lifting straps, you’ll be overwhelmed with options, and that can be a bad thing, because it’s hard to decide which are good quality. Well, look no further – these are excellent.</p><ul><li><strong>Size:</strong> Small, medium, large</li><li><strong>Material:</strong> Cotton</li><li><strong>Color:</strong> Black, green, khaki, red</li></ul>",
+            "product_rating_1": "4.7",
+            "product_rating_2": "5",
+            "product_rating_3": "4.7",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.9",
+            "first_button_text": "CHECK  PRICE AT GYMREAPERS",
+            "second_button_text": "CHECK PRICE AT AMAZON",
+            "second_button_url": "https://www.amazon.com/dp/B07RBZ7HMN?tag=wbcmb-20",
+            "product_text_content_1": "<p>What I love about brands created by athletes is that they know what we want. They know the kind of struggles we have, and they can pinpoint what needs to be better. This really translates to these straps, and you can see a lot of effort went into making them.</p><p>The <a href=\"https://www.gymreapers.com/products/gymreapers-figure-8-lifting-straps?aff=172\" target=\"_blank\" title=\"https://www.gymreapers.com/products/gymreapers-figure-8-lifting-straps?aff=172\">straps</a> can look a little bulky at first, but these are made to withstand some serious, hardcore training and have the capability to withstand loads up to 1000 lbs. You’ll notice they’re a bit stiff, but they become comfortable after you break them in a little. Their durability is exceptional, so the stiffness shouldn’t be too much of a concern since you’d want straps that last and can take a beating.</p><p>Figure eight straps designed to work with all kinds of bars, from deadlift bars, to axle bars and more. They’ll do wonders for your grip, which will, in turn, improve your performance.</p><p>There are 3 sizes available, and they work pretty well and run true to size. If you go by their measurements, you’ll be satisfied with the fit.</p><p>This is another great pair of straps that’s priced reasonably and performs very well.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Very comfortable padding</li><li>Breathable and durable</li><li>Solid lifting rating of up to 1000 lbs</li></ul>",
+            "product_cons": "<ul><li>Limited color options</li></ul>"
+          }
+        },
+        "product_LMbfeW": {
+          "type": "product",
+          "settings": {
+            "product_title": "IRON APE Entry Level Figure 8 Straps",
+            "short_product_title": "IRON APE Entry",
+            "product_position": "3",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/IRON-APE-Deadlift-Weightlifting-Suitable/dp/B07XXHHXWY/?tag=wbcm-20",
+            "product_main_image": "shopify://shop_images/iron-ape-figure-8.jpg",
+            "product_rating_description": "<p>Coming in number four are IRON APE Entry level figure 8 straps. They are great for beginners since they do their job admirably while being affordable – thus letting newbies try figure 8 straps without spending much. This allows new lifters to later upgrade if they enjoy this type of lifting strap.</p><ul><li><strong>Size:</strong> MEDIUM: 23.6’’(60cm) strap length for wrists up to 6.5’’ in circumference, INTERMEDIATE 27.6’’(70cm) strap length for wrists from 6.5–7.5’’ in circumference</li><li><strong>Material:</strong> Cotton + neoprene padding</li><li><strong>Color:</strong> Black</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "4.7",
+            "product_rating_3": "5",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.8",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>Regardless of the lower price point, the material is still of high quality. It’s both strong and sturdy. The durability comes from the 1.6-inch (42mm) width and the heavy-duty, six-way stitching. The stitched ends prevent fraying. This ensures product longevity.</p><p>What’s also remarkable for straps this affordable is that they have neoprene padding. Nothing too thick, only 4mm, but it makes all the difference when doing heavier lifts.</p><p><a href=\"https://www.amazon.com/IRON-APE-Deadlift-Weightlifting-Suitable/dp/B07XXHHXWY/?tag=wbcm-20\" target=\"_blank\" title=\"https://www.amazon.com/IRON-APE-Deadlift-Weightlifting-Suitable/dp/B07XXHHXWY/?tag=wbcm-20\">The Iron Ape entry straps</a> come in two sizes: medium and intermediate. This can be slightly confusing since there is no size SMALL as you’d usually see on this type of product. But furthermore, the MEDIUM size covers wrist sizes of up to 6.5 inches – which is also something that you’d see in a size SMALL figure 8 wrist strap.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Very durable considering price tag</li><li>Very affordable figure 8 straps</li><li>4mm neoprene padding for extra comfort</li><li>6-way, heavy-duty stitching</li></ul>",
+            "product_cons": "<ul><li>Size LARGE is unavailable</li><li>Only one color is available (black)</li></ul>"
+          }
+        },
+        "product_VWLjUg": {
+          "type": "product",
+          "settings": {
+            "product_title": "W8TRAIN Padded Figure 8 Straps",
+            "short_product_title": "W8TRAIN",
+            "product_position": "4",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/dp/B08KFFF3VH/?tag=wbcm-20",
+            "product_main_image": "shopify://shop_images/w8train-figure-8.jpg",
+            "product_rating_description": "<p>If you use lifting straps, particularly figure 8, you’ve most likely either heard of W8TRAIN or possibly even tried them. They’re quite popular, and it’s obvious why – you get professional quality and comfortable straps at an exceedingly reasonable price.</p><ul><li><strong>Size:</strong> SMALL: 10’’ strap for wrists up to 6.75’’ (for smaller lifters), MEDIUM: 12’’ strap for wrists above 6.75’’ (for most lifters), LARGE: 14’’ *twist to the desired fit (for fat bars and axle bars)</li><li><strong>Material: </strong>Durable Anti-slip Cloth Fabric + Neoprene Cushion</li><li><strong>Color:</strong> Blue</li></ul>",
+            "product_rating_1": "4.7",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.9",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>One of the first things that stand out on the <a href=\"https://www.amazon.com/dp/B08KFFF3VH/?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B08KFFF3VH/?tag=wbcmb-20\">W8TRAIN FIgure 8 straps</a> is the interior padding, which is an uncommon feature when it comes to lifting straps.</p><p>The added cushion ensures an excellent grip without sacrificing comfort. This will reduce strain and irritation on the lifter's skin (especially when lifting heavy).</p><p>The straps come in a deep blue color, as well as in three size options (small, medium, and large) that cater to various wrist sizes. Up to 6.75 inches, above that, and the biggest size is made so that it can be twisted to ensure the perfect fit. The largest size was also engineered to accommodate axle and fat barbells. The multi-cloth anti-slip material is exceptionally sturdy and breathable. This helps keep the hands sweat-free and thereby increases performance.</p><p>Also worth noting is the 1000-pound lift rating, which is plenty enough. The W8TRAIN straps were designed to be comfortable, to be reliable, to boost performance by minimizing hindrances such as sweat/irritation, and to last.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Very comfortable padding</li><li>Breathable and durable</li><li>Solid lifting rating of up to 1000 lbs</li></ul>",
+            "product_cons": "<ul><li>Limited color options</li></ul>"
+          }
+        },
+        "product_zdcwxA": {
+          "type": "product",
+          "settings": {
+            "product_title": "Iron Bull Strength Heavy-Duty Lifting Straps",
+            "short_product_title": "Iron Bull Strength",
+            "product_position": "5",
+            "product_award": "",
+            "product_url": "https://ironbullstrength.com/products/figure-8-lifting-straps?sca_ref=3884196.eg5jxEttuv",
+            "product_main_image": "shopify://shop_images/ironbull-strenght-8.jpg",
+            "product_rating_description": "<p>Iron Bull Strength Heavy-Duty Lifting Straps come next. If you’re a casual gym-goer, then you probably do not need something heavy-duty like this. But if you are serious about weightlifting, then the robust design along with the engineering that went into creating this figure 8 straps product will surely be of interest.</p><ul><li><strong>Size:</strong> 10’’, 12’’, 14’’ L; 1.5’’ W; ¼ inch thickness10’’, 12’’, 14’’ L; 1.5’’ W; ¼ inch thickness</li><li><strong>Material: </strong>Cotton</li><li><strong>Color: </strong>Black with red stripes</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "4.7",
+            "product_rating_3": "5",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.7",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The material is very heavy-duty cotton. And it really is heavy–duty. They don’t seem to fray or get damaged easily. And that is further backed by the level 4 strength rating. While the strength rating wasn’t directly explained, as it usually is with internal classification systems, we can presume that a level 1 rating would be for beginners. What we do know is that these straps can withstand 1000 lbs without sustaining any damage, while remaining comfy on your wrists.</p><p>The Iron Bull straps have a width of 1.5’’ and a thickness of a quarter inch across all three offered sizes (10/12/14 inches in length). This length doesn’t refer to the whole length of the strap, but instead the finished figure 8 strap product. When you measure it from one side to the other, you’ll measure those above-mentioned sizes. It is not uncommon to measure figure-8 straps this way.</p><p>These straps were designed to be used by serious lifters for a plethora of lifting exercises such as rows, pull-ups, deadlifts, shrugs, and more. If you’re looking to enhance your lifting game while also looking stylish, <a href=\"https://ironbullstrength.com/products/figure-8-lifting-straps?sca_ref=3884196.eg5jxEttuv\" target=\"_blank\" title=\"https://ironbullstrength.com/products/figure-8-lifting-straps?sca_ref=3884196.eg5jxEttuv\">the Iron Bull Figure 8 straps</a> are the way to go (even though I’d love it if they had more colors to choose from).</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Level 4 strength rating (up to 1000 lbs)</li><li>Robust and Durable</li><li>Good stitching to increase product longevity</li></ul>",
+            "product_cons": "<ul><li>Limited to one color (black with red stripes)</li><li>Second most expensive figure-8 strap choice on this list</li></ul>"
+          }
+        },
+        "product_qFVVhh": {
+          "type": "product",
+          "settings": {
+            "product_title": "IRON APE Figure 8 Straps",
+            "short_product_title": "IRON APE",
+            "product_position": "6",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/IRON-APE-Deadlift-Deadlifting-Weightlifting/dp/B07D244W4C/?tag=wbcm-20",
+            "product_main_image": "shopify://shop_images/IRON-APE-Figure-8-Straps.jpg",
+            "product_rating_description": "<p>With these, you can be absolutely sure you’re focusing on your lift and not on the grip. Being tested to a whopping 3300 lbs., these are ideal for any of you that like to push your limits and break records.</p><ul><li><strong>Size: </strong>Medium(up to 6.5’’ wrists, intermediate (6.5–7.5’’ wrists), large over 7.5’’), and extra large (for axle lifts or giants)</li><li><strong>Material:</strong> Cotton</li><li><strong>Color:</strong> Black</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "5",
+            "product_rating_3": "4.5",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.7",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>With these figure 8 wrist straps, there are no fancy colors, or any aesthetic gimmicks included. These focus completely on two things – durability and performance. They will have you feeling the lift and will promote a more natural and efficient lifting form due to their unique design which reduces strain on your grip.</p><p><a href=\"https://www.amazon.com/IRON-APE-Deadlift-Deadlifting-Weightlifting/dp/B07D244W4C/?tag=wbcm-20\" target=\"_blank\" title=\"https://www.amazon.com/IRON-APE-Deadlift-Deadlifting-Weightlifting/dp/B07D244W4C/?tag=wbcm-20\">Iron Ape</a> is committed to quality, and you can see that in the straps. The material is a balance between durability and softness, and, although heavy, the cotton they used remains comfortable.</p>",
+            "product_review_image": "shopify://shop_images/IRON-APE-Figure-8-Straps-insta.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p>Photo by <a href=\"https://www.instagram.com/p/CwZ54evofxQ/\" target=\"_blank\" title=\"https://www.instagram.com/p/CwZ54evofxQ/\">@officialironape</a></p>",
+            "product_text_content_2": "<p>The stitching is next level, and I don’t just mean it’s neat – it can take some serious lifts without showing any signs of wear.</p><p>The sizes are inclusive because these straps are meant to be used by people who lift super heavy weights. The sizing chart is a bit unorthodox, and you’ll quickly notice that the straps don’t come in size S. But, the smallest available size, MEDIUM, is the size of what you’d normally find on figure 8 straps. So, their size M is actually the traditional size S. What Iron Ape could’ve done better was to actually include a size S that is made for wrist sizes even smaller than the typical 6.5’’ in circumference.</p><p>If, however, you struggle with finding straps that will fit your large wrists, you’ll likely find these perfect.</p>",
+            "product_pros": "<ul><li>Rated for 3300 lbs, the highest rating on this list</li><li>Suitable for large wrists</li><li>Heavy duty stitching</li><li>No need to break the straps in to be comfortable</li></ul>",
+            "product_cons": "<ul><li>Does not come in size SMALL</li></ul>"
+          }
+        },
+        "product_gNP6zz": {
+          "type": "product",
+          "settings": {
+            "product_title": "Serious Steel Fitness Figure 8 Straps",
+            "short_product_title": "Serious Steel Fitness",
+            "product_position": "7",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/dp/B06XKYZ18T/?tag=wbcm-20",
+            "product_main_image": "shopify://shop_images/ssf-straps.jpg",
+            "product_rating_description": "<p>The Serious Steel straps feel like most other figure 8 straps at all. More like someone took a fire hose, cut off 23.6–31.5 inches off, and stitched them together into lifting straps.</p><ul><li><strong>Size:</strong> 23.6’’(60cm) strap length for wrists up to 7.25’’ in circumference, 27.6’’(70cm) strap length for wrists above 7.25’’ in circumference, 31.5’’(80cm) strap length for use with an axle/fat bar</li><li><strong>Material:</strong> Cotton with nylon filament</li><li><strong>Color: </strong>Black with red stripes, OD Green, Red</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "4.5",
+            "product_rating_3": "5",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.7",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The <a href=\"https://www.amazon.com/dp/B06XKYZ18T/?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B06XKYZ18T/?tag=wbcmb-20\">Serious Steel figure 8</a> straps are made from cotton, but they are reinforced with nylon filaments. This gives them a few exciting properties: flexibility, moisture management, abrasion resistance, weight, and durability. Both cotton and nylon have their own sets of pros and cons when it comes to material characteristics, but they definitely do cover many weaknesses that the other material has.</p><p>For example, nylon is known for resilience and, tensile strength, abrasion resistance, which are all much higher than pure cotton. Cotton adds flexibility and comfort to the mix. Cotton is also good at absorbing moisture (sweat), while nylon isn’t, thus creating a material that will absorb sweat slower and dry more quickly.</p><p>These straps come in three sizes, as seen above, and they offer three color style options for personalization. They also come with extra stitching. And the average price tag (compared to others on this list) is not too much considering that the straps will likely last you a long time.</p><p>To further ease your mind on what mileage you’ll get out of these straps, you’ll also enjoy a 1-year warranty when you buy them. And given how well-made they are with the strong blend of materials, it is likely the straps will last you even longer. Great buy!</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Sturdy feel</li><li>The cotton–nylon blend has many more advantages than pure cotton</li><li>Aesthetically pleasing color style options</li></ul>",
+            "product_cons": "<ul><li>No padding</li><li>The size SMALL might run a bit big and require twisting to ensure a snug fit</li></ul>"
+          }
+        },
+        "product_eWYePk": {
+          "type": "product",
+          "settings": {
+            "product_title": "COBRA GRIPS Deadlift Straps Figure 8",
+            "short_product_title": "COBRA GRIPS",
+            "product_position": "8",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/Grip-Power-Pads-Deadlift-Circumference/dp/B076L6LM3X/?tag=wbcm-20",
+            "product_main_image": "shopify://shop_images/cobra-grips-strap.jpg",
+            "product_rating_description": "<p>The Cobra Grips figure 8 straps are brought to us by GRIP POWER PADS. These straps were surely designed to boost the quality of your lifting sessions with their combination of utility and durability.</p><ul><li><strong>Size:</strong> 23.6’’(60cm) strap length for wrists up to 6.75’’ in circumference, 27.6’’(70cm) strap length for wrists up to 7’’ in circumference, 31.5’’(80cm) strap length for use with an axle/fat bar</li><li><strong>Material:</strong> Cotton + neoprene padding</li><li><strong>Color:</strong> Black with red stripes, black with white strips, blue, green, red</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "5",
+            "product_rating_3": "4.5",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.7",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "https://www.amazon.com/Grip-Power-Pads-Deadlift-Circumference/dp/B076L6LM3X/?tag=wbcm-20",
+            "product_text_content_1": "<p>These straps are not just figure-8 straps. Once you use them, you can already feel the premium feel because of the added neoprene padding designed to cushion your wrist, thereby ensuring comfort while also securing your grip when lifting heavy.</p><p>The straps come in three sizes. The strap lengths are the industry standard.</p><p>Another thing that stands out is the color selection. You’ve got a wide palette of five different colors/color combinations, which are not commonly seen in these types of products since the color selection usually tends to be somewhat limited. So you can do your lifts and shrugs while looking stylish and having a secure and comfortable grip on the barbell.</p><p>With the <a href=\"https://www.amazon.com/Grip-Power-Pads-Deadlift-Circumference/dp/B076L6LM3X/?tag=wbcm-20\" target=\"_blank\" title=\"https://www.amazon.com/Grip-Power-Pads-Deadlift-Circumference/dp/B076L6LM3X/?tag=wbcm-20\">COBRA GRIPS</a>, you’ll also get a 1-year warranty standing behind the quality of the product. You’re definitely getting value for money because the straps are built to last with the durable cotton as well as the extra stitching.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Very comfy neoprene padding</li><li>1-year warranty comes with the product</li><li>Five color options available</li><li>Reinforced seam ensures a secure grip on the bar</li></ul>",
+            "product_cons": "<ul><li>The size SMALL might be a bit big for some users since the standard is usually 6.5’’</li></ul>"
+          }
+        },
+        "product_YXnwXz": {
+          "type": "product",
+          "settings": {
+            "product_title": "CERBERUS Strength USA Elite Figure 8 Lifting Straps",
+            "short_product_title": "CERBERUS Strength",
+            "product_position": "9",
+            "product_award": "PREMIUM PICK",
+            "product_url": "https://www.amazon.com/CERBERUS-Strength-USA-Figure-Lifting/dp/B01MD1RG45/?tag=wbcm-20",
+            "product_main_image": "shopify://shop_images/cerberus-straps.jpg",
+            "product_rating_description": "<p>You’d expect a really high price for such a great pair of straps, but these are premium only in quality – the price is still really reasonable. They look heavy-duty when you just look at them, but when you try them on, you’ll see that they reinvent that term.</p><ul><li><strong>Size:</strong> Small, medium, large, extra large</li><li><strong>Material:</strong> Cotton</li><li><strong>Color:</strong> Black with red stitching</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "4.5",
+            "product_rating_3": "4.7",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.6",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The straps are made of super durable cotton, and the type of weave is not what you’d see on every pair of straps. It’s a special type of weaving that makes them sturdy. They even come with a 1-year warranty so even if something were to happen, you’re covered!</p><p>They’re rated to an impressive 1300 lbs., which I think shows the commitment <a href=\"https://www.amazon.com/CERBERUS-Strength-USA-Figure-Lifting/dp/B01MD1RG45/?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/CERBERUS-Strength-USA-Figure-Lifting/dp/B01MD1RG45/?tag=wbcmb-20\">Cerberus</a> has to creating top-quality equipment. These will withstand the craziest of workouts without a blink, and you can really use them for whatever you want.</p><p>The material is first-class but does not sacrifice any comfort to be durable. Yes, it’s thick and can take a lot, but it’s not harsh against the skin. Luckily, you don’t have to worry about that with these.</p><p>I also like the patches with the logo on them, it makes them look interesting. There’s only one color available, but even if you’re not a fan of black, the red thread and the patch really spices the look up.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>4 sizes available</li><li>Premium quality for a reasonable price</li><li>Rated to 1300 lbs</li><li>Material is thick, but not harsh against the skin</li></ul>",
+            "product_cons": "<ul><li>Only 1 color available</li><li>Most expensive figure 8 strap product on the list</li></ul>"
+          }
+        },
+        "product_9kH4qV": {
+          "type": "product",
+          "settings": {
+            "product_title": "LoGest Figure 8 Lifting Straps",
+            "short_product_title": "LoGest",
+            "product_position": "10",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/Deadlift-Lifting-Lifters-Weightlifters-Workout/dp/B08CXGDGQ5/?tag=wbcm-20",
+            "product_main_image": "shopify://shop_images/logest-straps.jpg",
+            "product_rating_description": "<p>I would recommend these to anyone who is just starting to use straps because the price is very affordable and you can try them out, see if you even like straps, and then go on to something a bit better if you do. And if you don't, you haven't gone through a lot of expenses to find out. Win-win!</p><ul><li><strong>Size:</strong> 23.6’’(60cm) strap length for wrists up to 6.5’’ wrists, 27.6’’(70cm) strap length for wrists up to 9’’ wrists, 31.5’’(80cm) strap length for wrists greater than 9’’</li><li><strong>Material: </strong>Neoprene</li><li><strong>Color:</strong> Black</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "4.7",
+            "product_rating_3": "4.5",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.6",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The neoprene used to make the double loop <a href=\"https://www.amazon.com/Deadlift-Lifting-Lifters-Weightlifters-Workout/dp/B08CXGDGQ5/?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/Deadlift-Lifting-Lifters-Weightlifters-Workout/dp/B08CXGDGQ5/?tag=wbcmb-20\">lifting straps</a> is better than what you’d usually find. Especially when you consider the affordable price. It doesn't seem to fray or break plus the reinforced stitching on the seams and pads are strong indicators that these will last quite a bit of time.</p><p>The pads make a lot of difference comfort-wise, although they're not the thickest I've ever seen. If they were a bit thicker it would make them a lot more comfortable without having it influence the functionality of the straps.</p><p>There are three sizes available. If you have smaller wrists but are interested in them because of the price, ensure that the minimum size will be the correct fit for your wrist. This is due to these straps having slightly different wrist sizes compared to some of the others on the list. Consult the wrist size chart above in the specifications table.</p><p>Size large has a lot of give when you grip the bar. With that in mind, the size L is closer to extra large than your regular large.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Very affordable</li><li>Has a decent amount of padding</li><li>Reinforced stitching</li></ul>",
+            "product_cons": "<ul><li>They have a lot of give when you try to grip the bar</li></ul>"
+          }
+        },
+        "product_nGrwyj": {
+          "type": "product",
+          "settings": {
+            "product_title": "MOOCY Figure 8 Straps",
+            "short_product_title": "MOOCY",
+            "product_position": "11",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/dp/B089R6TW4W/?tag=wbcm-20",
+            "product_main_image": "shopify://shop_images/moocy-straps.jpg",
+            "product_rating_description": "<p>And last but not least, at the end of the list we have MOOCY with their figure 8 straps. These straps were designed with simplicity, affordability, and functionality in mind.</p><ul><li><strong>Size:</strong> SMALL: 4’’(10cm) W x 9’’(23cm) L; for wrists up to 6.75’’, MEDIUM: 4.5’’(12cm) W x 11’’(28cm) L; for wrists over 7.5’’</li><li><strong>Material: </strong>Cotton</li><li><strong>Color:</strong> Black with white stripes</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "4.5",
+            "product_rating_3": "4.5",
+            "product_rating_4": "",
+            "product_rating_5": "",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.5",
+            "first_button_text": "CHECK LATEST PRICE",
+            "second_button_text": "",
+            "second_button_url": "https://www.amazon.com/dp/B089R6TW4W/?tag=wbcm-20",
+            "product_text_content_1": "<p>The <a href=\"https://www.amazon.com/dp/B089R6TW4W/?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B089R6TW4W/?tag=wbcmb-20\">MOOCY figure-8 lifting straps</a> are made from cotton. The cotton is reinforced with heavy-duty stitching, ensuring the straps remain intact when strained. They fray, though, but only after some aggressive cleaning or after repeated months of use.</p><p>While not having cushion padding might be viewed as a negative thing, you’ll find comfort in the thought that the lack of padding allows for more direct hand-to-bar contact – and, this way, enhances the lifting feel while keeping your grip secure!</p><p>It comes only in two sizes (SMALL and MEDIUM), and they have a strange gap between wrist circumference sizes of 6.75–7.5 inches. But in case you buy them, and they’re running large, simply twist them until they feel snug against your wrists.</p><p>With the MOOCY straps, you'll also enjoy a 1- year long warranty which shows the company's confidence in its product. And to top it all off, if you do not like it (for any reason), you have the option to return or exchange it while the warranty remains active.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Durable cotton material</li><li>Extremely affordable figure 8 strap option</li><li>Regardless of the lack of padding, these straps wrap nicely around your wrists</li></ul>",
+            "product_cons": "<ul><li>The wrist circumference range from 6.75-7.5 inches isn’t covered</li><li>Doesn’t come in size LARGE</li><li>Only one color to choose from</li></ul>"
+          }
+        },
+        "richtext_nffwCf": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>What Are the 5 Benefits of Using Figure 8 Straps?</h2><p>Lifting straps have their general benefits. Here I want to focus on the benefits that you get from figure-8 straps specifically.</p><h3>1. Better Grip</h3><p>Probably the main reason people use lifting straps – to improve their grip. Unlike other types of lifting straps, figure-8 straps wrap around the hand and barbell twice. This essentially makes a much stronger connection between the two than what you’d get with other straps. That way, you can focus on your technique and the lift itself instead of worrying about your grip strength (and it possibly failing). This can increase your strength and endurance.</p><h3>2. Less Hand Fatigue</h3><p>Figure 8 lifting straps take some of the load off your hands so they don't get tired as quickly as they would if you weren't using them and muscle fatigue doesn't set in.</p>",
+            "rich_text_image": "shopify://shop_images/WBCM-V8-Straps.jpg",
+            "rich_text_image_alt": "figure 8 straps in use",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_PnCqqt": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h3>3. Better Muscle Engagement</h3><p>When you use traditional straps, the grip is often a weak link in the chain. But your grip is more secure with figure 8 lifting straps, which means you can keep your muscles engaged throughout the entire lift. This makes your performance better, speeds up muscle development, and lets you lift more than you normally would.</p><h3>4. More Mind-Muscle Connection</h3><p>If you want to lift properly, then you need to have a strong mind-muscle connection. This means that you consciously engage your muscles with each rep. Figure 8 straps help improve this connection because you don't have to worry about your grip slipping and you can be sure your hold on the bar is nice and firm.</p><h3>5. Improved Progression</h3><p>Generally speaking, all lifting straps allow you to focus on progressive overload. This is especially true for the figure 8 lifting straps because they remove the limitation your grip can pose so you can slowly increase the weight you lift.</p>",
+            "rich_text_image": "shopify://shop_images/WBCM-V8-Straps-on-plate.jpg",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_j88Nja": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>How to Pick Figure 8 Straps?</h2><h3>1. Improved Progression</h3><p>If none of the ones listed are to your liking, you might want to opt to look for figure-8 straps yourself. And out of the many on the market out there, it might not be easy to pick the ones that are best for you. Here are some general guidelines on what you should consider and not compromise on.</p><h3>2. Material</h3><p>The first thing to consider is the material. You want cotton, neoprene or polyester. Cotton is great because it's breathable and natural, but make sure it's heavy-duty, durable cotton. Neoprene and polyester are super durable but, again, look for something sturdy and good quality.</p><h3>3. Stitching</h3><p>Stitching is key because it's what keeps the straps together. Reinforced stitching is ideal, but you need to make sure it's neat. Messy stitches that are all over the place mean the company thinks manufacturing speed is more important than quality, which usually results in bad straps that fall apart soon. Poorly stitched straps would also be uncomfortable when used.</p>",
+            "rich_text_image": "shopify://shop_images/Stitching-of-WBCM-V8-Straps.jpg",
+            "rich_text_image_alt": "training using lifting straps",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_QYPex8": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h3>4. Sizes</h3><p>Most straps come in three basic sizes – small, medium, and large. Look at the size chart to decide what's appropriate for you. Also, I highly suggest reading user reviews because you'll often see that some of the straps don't run true to size. Reviews will help you decide if you need to size up or down.</p><h3>5. Padding</h3><p>Some figure 8 straps come with padding and this makes a world of difference when it comes to comfort. I advise padding to everyone, but especially if you're a beginner and you're just getting used to wearing straps.</p><h3>6. Weight Rating</h3><p>Check the weight your straps can handle before you decide to buy them. Don't use them with weights over their weight limit because that can lead to accidents.</p><h3>7. Warranty</h3><p>You'll see that some companies offer a warranty on the straps and it's a good indicator of their quality. If you see a warranty offered, it usually means the straps are made with a lot of care and effort and if anything happens to them, you know you're covered.</p>",
+            "rich_text_image": "shopify://shop_images/WBCM-8V-Straps.jpg",
+            "rich_text_image_alt": "grip using figure 8 straps",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_CjcdUn": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>How to Use Figure 8 Straps?</h2><p>Since we've gone over what's important and what you need to look out for, we need to make sure you know how to use figure 8 lifting straps once you choose the pair that works best.</p><p>The most important thing is to choose the correct size. Not only can the wrong size affect comfort, but it can lead to accidents and injuries. Before you buy them, do your research and check the size chart. If you need to, message the company for additional advice or look for some reviews to see if they run true to size or not.</p><p>Once you take care of the size, you're free to use them. Hold the strap in both hands and position the loop end of the strap over the top of the bar. You should see it hanging down. The other end should be hanging down, too.</p><p>Put your hands through the loops and position them around your wrists – they should now be looped around your wrists and the bar. Now, grip the bar like you usually would. The straps will allow you to focus completely on your lift without worrying about the grip.</p><p>After you're done with the lift, slowly start to release your grip on the bar. If you put them on correctly, they should stay looped around the bar, and you'll be able to safely lower the weight.</p><p>To remove them, just slide your hands out of them and lift them off the bar.</p><p>After you're done, take a few moments to check if there's any breakage or fraying. If there's damage, you need to replace them because it can affect their integrity and functionality.</p><p>Another important thing – lifting straps and washing machines don't mix. If you need to clean them (and trust me, you WILL need to clean them), wipe them down with a damp cloth and let them air dry.</p>",
+            "rich_text_image": "shopify://shop_images/WBCM-White-V8-Straps.jpg",
+            "rich_text_image_alt": "wbcm figure 8 straps",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_gCWiGN": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Figure 8 straps are not ideal for everyone and for every type of lift and you should choose the type of straps that go with the workouts you do.</p><p>The most important difference between regular straps and figure 8 straps is the grip mechanism. The figure 8 wraps have a unique design that wraps around your wrists and the bar. If you've ever used them, you know this is a really quick, effortless process. Regular straps, on the other hand, are different and loop around the bar a few times and then around your wrists. Compared to figure 8, this takes a lot more time.</p>",
+            "rich_text_image": "shopify://shop_images/straps-dumbbell-lifting.png",
+            "rich_text_image_alt": "exercising using figure 8 straps",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_LDfwRz": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>They will both give you a firm grip, but the problem with traditional straps is that they can get loose if you haven't wrapped them correctly or if you were in a rush. The figure 8 straps will lock your hands in place and there will be a lot less risk of slippage with them.</p><p>Comfort-wise, the figure 8 straps are a winner because they will often come with padding. Regular ones usually have no padding and can be uncomfortable during heavy lifts. There are exceptions; for example, the specialized <a href=\"https://www.amazon.com/WARM-BODY-COLD-MIND-Weightlifting/dp/B089WK1JM7/?tag=wbcmb-20\" target=\"_blank\" title=\"https://www.amazon.com/WARM-BODY-COLD-MIND-Weightlifting/dp/B089WK1JM7/?tag=wbcmb-20\">Warm Body Cold Mind (WBCM) Pro Lasso Straps</a> have sufficient padding to make them comfy on the hands and not cause irritation due to their aggressive texture.</p><p>If time is a factor for you, then this is another category figure 8 straps win in. There's no need to wrap them around the bar a million times. Also, keep in mind that the process of having to wrap the straps between sets can affect your focus.</p><p>Versatility is a different thing, though, and traditional straps are more versatile. Figure 8 straps are ideal for deadlifts and pulling exercises where a secure grip is crucial, but the traditional straps are better for a wider range of exercises that do not involve quick-release movements(e.g., cleans and snatches), such as pull-ups or rows.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_jwKAVz": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>FAQ</h2><h3>Can You Use Figure 8 Straps for Pull-Ups?</h3><p>Yes, figure 8 deadlift straps can be used for pull-ups, but they're not the ideal choice. They're best for deadlifts and pulling exercises because of how they create a double loop which significantly reduce the chance of losing grip. On the other hand, traditional straps allow for a bit more mobility and flexibility which is better for pull-ups, since such exercises require adjustments in angle and hand position.</p><h3>Are Figure 8 Straps Good for Deadlift?</h3><p>Yes, they're ideal for deadlifts because they provide a secure grip and will help you focus on your lift instead of focusing on your grip.</p><h3>Can Figure 8 Straps Be Too Big?</h3><p>They can be too big if they don't fit securely around your wrists and hands. If your straps are too big, it can affect your performance and they won't give you the grip support they're intended to.</p><h3>How Can I Make Figure 8 Straps Tighter?</h3><p>Try wrapping them around the bar a few times before sliding your hands through the loops. If you decide to do this, make sure you're not adjusting them to be too tight.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "video_A8YRBn": {
+          "type": "video",
+          "settings": {
+            "youtube_video_url": "https://www.youtube.com/watch?v=tFdfkdGCiEA"
+          }
+        },
+        "richtext_DcfcY6": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>Conclusion</h2><p>If you're still hanging in there, you should have a pretty good idea of what exactly figure 8 straps are, what you need to use them for and if they're even something you need.</p><p>The <a href=\"https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ\">WBCM Figure 8 Straps</a> are the absolute best figure 8 straps and, although there are some great straps on my list, nothing can top them.</p><p>Now it's your turn to share your opinions and experiences! What do you think is better between figure 8 straps vs normal straps? Has using lifting straps improved your performance? Do you have a favorite pair or are you still searching? Have you tried any of the straps from my list?</p><p>Leave anything you can think of in the comments below.</p><p>Happy (and safe) lifting! 😊</p><p>Also read:</p><ul><li><a href=\"https://warmbody-coldmind.com/blogs/news/lifting-grips-vs-straps\" target=\"_blank\" title=\"https://warmbody-coldmind.com/blogs/news/lifting-grips-vs-straps\">How To Use Wrist Wraps</a></li><li><a href=\"https://warmbody-coldmind.com/blogs/news/what-do-wrist-wraps-do\" target=\"_blank\" title=\"https://warmbody-coldmind.com/blogs/news/what-do-wrist-wraps-do\">What Do Wrist Wraps Do</a></li><li><a href=\"https://warmbody-coldmind.com/blogs/news/leather-vs-nylon-vs-cotton-lifting-straps\" target=\"_blank\" title=\"https://warmbody-coldmind.com/blogs/news/leather-vs-nylon-vs-cotton-lifting-straps\">Leather vs Nylon vs Cotton Lifting Straps</a></li><li><a href=\"https://warmbody-coldmind.com/blogs/news/what-does-a-master-athlete-need-to-know\" target=\"_blank\" title=\"https://warmbody-coldmind.com/blogs/news/what-does-a-master-athlete-need-to-know\">What Does a Master Athlete Need to Know</a></li><li><a href=\"https://warmbody-coldmind.com/blogs/news/lifting-grips-vs-straps\" target=\"_blank\" title=\"https://warmbody-coldmind.com/blogs/news/lifting-grips-vs-straps\">Lifting Straps & Grips</a></li><li><a href=\"https://warmbody-coldmind.com/blogs/news/what-do-wrist-wraps-do\" target=\"_blank\" title=\"https://warmbody-coldmind.com/blogs/news/what-do-wrist-wraps-do\">What Do Wrist Wraps Do</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/how-to-use-deadlift-straps/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/how-to-use-deadlift-straps/\">How to Use Deadlift Straps</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/wrist-support-for-push-ups/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/wrist-support-for-push-ups/\">Wrist Support Brace for Push UPS</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/lifting-hooks-vs-straps/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/lifting-hooks-vs-straps/\">Lifting Hooks vs Straps</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/straps-for-pull-ups/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/straps-for-pull-ups/\">Straps for Pull UPS</a></li></ul><p>References:</p><ol><li>Ivan Jukic \"Ergogenic effects of lifting straps on movement velocity, grip strength, perceived exertion and grip security during the deadlift exercise\" Physiol Behav. 2021 Feb 1;229:113283</li><li>Sukwon Kim \"EFFECTS OF LIFTING STRAPS ON BIOMECHANICS OF DEADLIFT- A CASE STUDY\" ISSN: 2347-5552, Volume-9, Issue-5, September 2021</li><li>ScienceDirect \"Cotton Fabric\" High-Performance Apparel, 2018</li><li>ScieceLine \"Why is cotton so cooling?\" 2020-06-23</li><li>Photos made by Torokhtiy Media Team.</li></ol>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "why_trust_us_EbVgbF": {
+          "type": "why_trust_us",
           "settings": {}
         },
         "meta": {
           "type": "meta",
           "settings": {
             "show_author": true,
-            "show_sharing": true
+            "show_sharing": false
+          }
+        },
+        "sidebar_aUbMMd": {
+          "type": "sidebar",
+          "settings": {
+            "sidebar_product_image": "shopify://shop_images/wbcm-figure8-straps.jpg",
+            "sidebar_product_url": "https://warmbody-coldmind.com/products/figure-8-lifting-straps?sca_ref=5120971.qSPHd7ePgJ",
+            "sidebar_product_name": "WBCM Figure 8 Lifting Straps"
           }
         }
       },
@@ -67,16 +541,52 @@
         "tags",
         "title",
         "date",
-        "content",
-        "meta"
+        "richtext_WQAL7T",
+        "in_a_hurry_w6MGQW",
+        "rating_table_VFkHUY",
+        "anchor_list_Unty8k",
+        "product_Ww8FGG",
+        "product_8PEXxM",
+        "product_LMbfeW",
+        "product_VWLjUg",
+        "product_zdcwxA",
+        "product_qFVVhh",
+        "product_gNP6zz",
+        "product_eWYePk",
+        "product_YXnwXz",
+        "product_9kH4qV",
+        "product_nGrwyj",
+        "richtext_nffwCf",
+        "richtext_PnCqqt",
+        "richtext_j88Nja",
+        "richtext_QYPex8",
+        "richtext_CjcdUn",
+        "richtext_gCWiGN",
+        "richtext_LDfwRz",
+        "richtext_jwKAVz",
+        "video_A8YRBn",
+        "richtext_DcfcY6",
+        "why_trust_us_EbVgbF",
+        "meta",
+        "sidebar_aUbMMd"
       ],
       "settings": {
+        "criteria_1": "Sizing",
+        "criteria_2": "Material",
+        "criteria_3": "Durability",
+        "criteria_4": "",
+        "criteria_5": "",
+        "criteria_6": "",
+        "criteria_7": "",
+        "criteria_8": "",
+        "criteria_9": "",
+        "criteria_10": "",
         "show_img": true
       }
     }
   },
   "order": [
-    "17007352025dc930ae",
+    "17007351490292b520",
     "main"
   ]
 }
