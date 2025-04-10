@@ -217,6 +217,7 @@
         "template--17775597322504__3e499de0-72f4-43fc-a17f-bab246eab652-1688993923cc7d1bb8-0",
         "ace69dc9-9b17-4ce2-9eb0-8541279a250c"
       ],
+      "disabled": true,
       "settings": {
         "container": "large",
         "block_spacing": 2,
@@ -243,6 +244,7 @@
       "block_order": [
         "template--17775597322504__e65ea801-a136-48f0-9c87-5ca23b3dcb4c-168899706167833dbd-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "desc": "",
@@ -293,6 +295,7 @@
         "template--17775597322504__42f88667-a0c3-4042-96ca-5304ce4d9e0e-1689001477e3b8286b-1",
         "template--17775597322504__42f88667-a0c3-4042-96ca-5304ce4d9e0e-1689001477e3b8286b-2"
       ],
+      "disabled": true,
       "settings": {
         "title": "HOW TO USE HOOKGRIP TAPE",
         "container": "large",
@@ -360,6 +363,7 @@
         "44040c05-5002-4629-a772-44df29b6c020",
         "69fcf440-2830-4e6c-9b0d-5aac3564dfd9"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "container": "large",
