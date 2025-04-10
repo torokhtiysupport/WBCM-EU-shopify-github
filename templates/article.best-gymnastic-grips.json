@@ -354,6 +354,7 @@
         "image_JetG6N": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/WBCM-Gymnastic-Grips-Holding-Rings.jpg",
             "image_alt": "WBCM Gymnastic Grips Holding Rings",
             "half_width_main_image": false
           }
@@ -369,6 +370,7 @@
         "image_GWhwF3": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/WBCM-Gymnastic-Grips.jpg",
             "image_alt": "",
             "half_width_main_image": false
           }
@@ -384,6 +386,7 @@
         "image_nXjArz": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/WBCM-Gymnastic-Grips-on-Barbell-Back-View.jpg",
             "image_alt": "",
             "half_width_main_image": false
           }
@@ -399,6 +402,7 @@
         "image_Acemki": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/WBCM-Gymnastic-Grips-Pull-Ups.jpg",
             "image_alt": "",
             "half_width_main_image": false
           }
@@ -414,6 +418,7 @@
         "image_FDjapD": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/WBCM-Gymnastic-Grips-on-Barbell.jpg",
             "image_alt": "",
             "half_width_main_image": false
           }
