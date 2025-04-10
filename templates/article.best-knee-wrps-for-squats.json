@@ -9,15 +9,17 @@
  */
 {
   "sections": {
-    "17007352025dc930ae": {
+    "17007351490292b520": {
       "type": "apps",
       "blocks": {
-        "79b9f89e-8bc0-45de-bfe0-04bc8f5e4919": {
+        "86c9c15f-872a-48bd-ae2e-92824e88a96c": {
           "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/article-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
+            "home_link": "/",
             "menu": "main-menu",
             "separator": "›",
+            "custom_class": "",
             "bb_show_hide": true,
             "bb_capitalize": true,
             "bb_font_size": 13,
@@ -25,19 +27,19 @@
             "bb_top_padding": 55,
             "bb_margin": 0,
             "bb_align": "center",
-            "bb_color": "#C0C0C0"
+            "bb_color": "#c0c0c0"
           }
         }
       },
       "block_order": [
-        "79b9f89e-8bc0-45de-bfe0-04bc8f5e4919"
+        "86c9c15f-872a-48bd-ae2e-92824e88a96c"
       ],
       "settings": {
         "include_margins": true
       }
     },
     "main": {
-      "type": "main-article",
+      "type": "custom-main-article",
       "blocks": {
         "tags": {
           "type": "tags",
@@ -51,15 +53,429 @@
           "type": "date",
           "settings": {}
         },
-        "content": {
-          "type": "content",
+        "richtext_QAQHKH": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Adding knee support for squats is always a good idea, as the exercise can be quite stressful on the joints, especially at higher weights. If you want more power output specifically, weightlifting knee wraps are the way to go.</p><p>In this article, we will cover the 9 best knee wraps for squats and explain how to use them. Weightlifters, powerlifters, and personal record squatters should especially pay attention to this simple and effective tool but also be wary of its overuse.</p><p>Our expert team of both current and ex-professional weightlifters, certified coaches, and squat enthusiasts has tried over 50 similar commercially available products. After sharing personal experiences and comparing our findings with those of industry colleagues and online reviews, we have selected 9 products that stood out. Our lists are also regularly updated to make sure the information is up to date.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "in_a_hurry_w6MGQW": {
+          "type": "in_a_hurry",
+          "settings": {
+            "in_a_hurry_image": "shopify://shop_images/rogue-knee-wraps.jpg",
+            "in_a_hurry_image_alt": "Rogue Knee Wraps",
+            "in_a_hurry_title": "Our Best Choice!",
+            "in_a_hurry_text": "<p>The <a href=\"https://www.roguefitness.com/rogue-knee-wraps/?a_aid=62ff8b7e519eb\" target=\"_blank\" title=\"https://www.roguefitness.com/rogue-knee-wraps/?a_aid=62ff8b7e519eb\">Rogue Knee Wraps</a> are made with a commercial elastic material mixed with soft cotton. They come in two sizes: 6.5 feet and 9 feet. Once wrapped, they are locked in place with an industrial-grade velcro strap — nothing groundbreaking but good enough.</p>",
+            "in_a_hurry_url": "https://www.roguefitness.com/rogue-knee-wraps/?a_aid=62ff8b7e519eb"
+          }
+        },
+        "anchor_list_Unty8k": {
+          "type": "anchor_list",
+          "settings": {}
+        },
+        "richtext_RekzH7": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Knee wraps are straightforward products with essentially a single use. Most are made according to standardized sizing, dictated by relevant weightlifting competition standards. As such, you’ll find many of these have more similarities than differences. Here’s a quick overview of our picks:</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "rating_table_VFkHUY": {
+          "type": "rating_table",
+          "settings": {}
+        },
+        "product_R6pLpp": {
+          "type": "product",
+          "settings": {
+            "product_title": "Rogue Knee Wraps",
+            "short_product_title": "Rogue",
+            "product_position": "1",
+            "product_award": "Gold Medal",
+            "product_url": "https://www.roguefitness.com/rogue-knee-wraps/?a_aid=62ff8b7e519eb",
+            "product_main_image": "shopify://shop_images/rogue-knee-wraps.jpg",
+            "product_rating_description": "<p>Rogue Fitness is a well-known and respected brand in the world of weightlifting. Their gear is used everywhere, from commercial gyms to the highest-tier weightlifting competitions. If you want to get the best knee wraps for squats but don’t want to think too much about it, these are a proven choice.</p><ul><li><strong>Length:</strong> 6.5 ft or 9 ft</li><li><strong>Width:</strong> 3”</li><li><strong>Material:</strong> Elastic, cotton, polyester</li><li><strong>Fastening Style:</strong> Velcro strap</li><li><strong>Used For:</strong> Weightlifting, powerlifting</li><li><strong>Color:</strong> Black (with red stripes)</li><li><strong>Price:</strong> $$</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "5",
+            "product_rating_5": "4.75",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.95",
+            "first_button_text": "CHECK PRICE ON ROGUE",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The <a href=\"https://www.roguefitness.com/rogue-knee-wraps/?a_aid=62ff8b7e519eb\" target=\"_blank\" title=\"https://www.roguefitness.com/rogue-knee-wraps/?a_aid=62ff8b7e519eb\">Rogue Knee Wraps</a> are made with a commercial elastic material mixed with soft cotton. They come in two sizes: 6.5 feet and 9 feet. Once wrapped, they are locked in place with an industrial-grade velcro strap — nothing groundbreaking but good enough.</p><p>Both versions are 3-inch thick, which is standard across knee wraps. The shorter one is in line with most powerlifting competition standards, making it competitively viable across various divisions. Meanwhile, bodybuilders, strongmen, or just generally bigger athletes might find more value in the 9-foot variant.</p>",
+            "product_review_image": "shopify://shop_images/knee-wraps-in-use-wbcm.jpg",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "<p>Right now, they’re available only in one color scheme, which is black with red stripes. Nothing wrong with it per se, but it means not much versatility in the looks department. This does limit the appeal for some, but it’s an easy fix to introduce more colors. Despite the brand name, they still managed to keep them at a fairly low price, meaning you get great value for your money.</p>",
+            "product_pros": "<ul><li>Made by a trusted brand</li><li>Available in two sizes</li><li>Excellent value for money</li></ul>",
+            "product_cons": "<ul><li>We’d like to see more color options</li></ul>"
+          }
+        },
+        "product_Gpqnpc": {
+          "type": "product",
+          "settings": {
+            "product_title": "RDX K2 Compression Knee Wraps",
+            "short_product_title": "RDX",
+            "product_position": "2",
+            "product_award": "Silver Medal",
+            "product_url": "https://rdxsports.com/products/rdx-power-lifting-knee-wraps-bandages-support-training?acc=15277",
+            "product_main_image": "shopify://shop_images/rdx-knees-wraps.jpg",
+            "product_rating_description": "<p>RDX is slowly creeping up on these top lists. Every time we update them, it seems like their products are ever so slightly higher than before. Their knee wraps take the number two spot or, as we like to call it, the silver medal, and are some of the best knee wraps for powerlifting you’ll find at this price.</p><ul><li><strong>Length:</strong> 78”</li><li><strong>Width:</strong> 3”</li><li><strong>Material:</strong> Cotton, Shell Shock Gel™</li><li><strong>Fastening Style:</strong> Velcro strap</li><li><strong>Used For:</strong> Weightlifting, powerlifting</li><li><strong>Color:</strong> Black with white details</li><li><strong>Price:</strong> $$</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "4.75",
+            "product_rating_5": "4.75",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.9",
+            "first_button_text": "CHECK PRICE ON RDX",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/RDX-Lifting-Bandage-Powerlifting-Sleeves/dp/B00FA2TBRG/?tag=wbcmb-eu-20",
+            "product_text_content_1": "<p>The <a href=\"https://rdxsports.com/products/rdx-power-lifting-knee-wraps-bandages-support-training?acc=15277\" target=\"_blank\" title=\"https://rdxsports.com/products/rdx-power-lifting-knee-wraps-bandages-support-training?acc=15277\">RDX K2 Compression Knee Wraps</a> use impressive materials throughout their build. Shock Gel™ makes the wraps feel quite snappy, with excellent power transfer. It’s highly mobile compared to other wraps, but maybe not as durable for super-heavy powerlifting. Mixed with soft cotton, the wraps remain non-abrasive to the skin.</p><p>The lining is also moisture-wicking, preventing sweat accumulation and odors. Additionally, these wraps have the favor of being both International Power-lifting League (IPL) & United States Power-lifting Association (USPA) approved for competitive use.</p>",
+            "product_review_image": "shopify://shop_images/performing-rdx-wraps-wbcm.jpg",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "<p>If that wasn’t convincing enough, the wraps are also <a href=\"https://www.oeko-tex.com/en/apply-here/oeko-tex-standard-100\" target=\"_blank\" title=\"https://www.oeko-tex.com/en/apply-here/oeko-tex-standard-100\">OEKO-TEX® Standard 100</a> certified, guaranteeing that they are made from high quality, non-hazardous, and sustainably sourced materials. The wraps are fastened with what RDX calls a Quick EZ hook & loop closure.</p><p>Essentially, they use a contoured-shaped stripe that’s easy to grip even without looking down at the knee, making wrapping and unwrapping more convenient. We didn’t find it that big of a difference maker, although it helps when you’re tired to just unwrap without looking.</p>",
+            "product_pros": "<ul><li>Shock-absorbing Shell Shock Gel™</li><li>OEKO-TEX® Standard 100 certified</li><li>Moisture-wicking lining</li><li>IPL & USPA approved</li></ul>",
+            "product_cons": "<ul><li>Not as durable as some other picks</li></ul>"
+          }
+        },
+        "product_gWGXfm": {
+          "type": "product",
+          "settings": {
+            "product_title": "Warm Body Cold Mind Weightlifting Knee Sleeves",
+            "short_product_title": "WBCM",
+            "product_position": "3",
+            "product_award": "Best Alternative",
+            "product_url": "https://eu.warmbody-coldmind.com/products/weightlifting-knee-sleeves?sca_ref=5120971.qSPHd7ePgJ",
+            "product_main_image": "shopify://shop_images/wbcm-knee-sleeves-product.jpg",
+            "product_rating_description": "<p>When searching for the best knee protection for squats, terminology might get a bit confusing. If you’re looking for simple knee support throughout the lift, you might be looking for knee sleeves instead. If that’s the case, we recommend our own Warm Body Cold Mind weightlifting knee sleeves.</p><ul><li><strong>Length:</strong> 11” and 11.4”</li><li><strong>Thickness:</strong> 7mm</li><li><strong>Material:</strong> Neoprene</li><li><strong>Fastening Style:</strong> Slide on</li><li><strong>Used For:</strong> Weightlifting</li><li><strong>Color:</strong> Black, Black & White, Black & Pink</li><li><strong>Price:</strong> $$</li></ul>",
+            "product_rating_1": "4.75",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "4.75",
+            "product_rating_5": "4.75",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.85",
+            "first_button_text": "CHECK PRICE ON WBCM",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/WARM-BODY-COLD-MIND-Powerlifting/dp/B0BBNG971P?tag=wbcmb-eu-20",
+            "product_text_content_1": "<p><a href=\"https://eu.warmbody-coldmind.com/products/weightlifting-knee-sleeves?sca_ref=5120971.qSPHd7ePgJ\" target=\"_blank\" title=\"https://eu.warmbody-coldmind.com/products/weightlifting-knee-sleeves?sca_ref=5120971.qSPHd7ePgJ\">Warm Body Cold Mind knee sleeves</a> are made from a durable and breathable material called Neoprene, which is commonly used for knee sleeves. It’s highly durable, though less so than the raw elastic of knee wraps. The sleeves are 7mm thick, making them suitably compressive but not overbearing.</p><p>Their design is familiar to those who used knee sleeves before, but stands out with an anatomical shape that provides support meeting medical-grade standards while still allowing full movement.</p><p>The sleeves have an anti-slip system to prevent them from sliding during workouts. They’re easy to slip on and off, but may not be as quick to unwrap as knee wraps do.</p>",
+            "product_review_image": "shopify://shop_images/performing-wbcm-sleeves-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p><em>Photo by </em><a href=\"https://www.instagram.com/p/C0Jr4j3NOVn/\" target=\"_blank\" title=\"https://www.instagram.com/p/C0Jr4j3NOVn/\"><em>@warmbody_coldmind</em></a></p>",
+            "product_text_content_2": "<p>Designed for both men and women, they come in three color choices: black, black & white, and black & pink, which gives them a simple and neutral look. They’ll fit pretty much every athlete with sizes from S to 3XL. Furthermore, we keep the price competitive and ship them globally.</p>",
+            "product_pros": "<ul><li>Designed by a former Olympic athlete</li><li>The best alternative to knee wraps</li><li>Comprehensive compression throughout</li><li>Lots of size choices</li></ul>",
+            "product_cons": "<ul><li>Not as good for 1RM max as knee wraps</li></ul>"
+          }
+        },
+        "product_eRyXLA": {
+          "type": "product",
+          "settings": {
+            "product_title": "Gymreapers 72” Knee Wraps",
+            "short_product_title": "Gymreapers",
+            "product_position": "4",
+            "product_award": "",
+            "product_url": "https://www.gymreapers.com/products/gymreapers-knee-wraps?aff=172",
+            "product_main_image": "shopify://shop_images/gymreapers-knee-wraps.jpg",
+            "product_rating_description": "<p>Gymreapers are a popular choice within the broader fitness community for their range of good-quality yet affordable products. The company founder, Roc Pilon, is an avid weightlifter, so you know he makes these products from experience.</p><ul><li><strong>Length:</strong> 72”</li><li><strong>Width:</strong> 3.25”</li><li><strong>Material:</strong> Elastic</li><li><strong>Fastening Style:</strong> Velcro strap</li><li><strong>Used For:</strong> Weightlifting, powerlifting</li><li><strong>Color:</strong> 9 color options</li><li><strong>Price:</strong> $</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "4.5",
+            "product_rating_3": "4.75",
+            "product_rating_4": "4.75",
+            "product_rating_5": "5",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.8",
+            "first_button_text": "CHECK PRICE ON GYMREAPERS",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/Gymreapers-Squats-Weightlifting-Powerlifting-Training/dp/B01N5PGK1W/?tag=wbcmb-eu-20",
+            "product_text_content_1": "<p>These <a href=\"https://www.gymreapers.com/products/gymreapers-knee-wraps?aff=172\" target=\"_blank\" title=\"https://www.gymreapers.com/products/gymreapers-knee-wraps?aff=172\">knee wraps</a> are made from raw elastic. On the one hand, they’re highly stretchable and snappy. On the other hand, the lack of a soft fabric such as cotton in the mix makes them a bit abrasive to the skin. This isn’t the end of the world, but it’s definitely not as comfortable to wear as our top pics.</p><p>A big positive about these knee wraps is the incorporation of a longer velcro strap, which helps with setting up your ideal tightness and fastening. Furthermore, reinforced stitching on the outline gives this better-than-average durability.</p>",
+            "product_review_image": "shopify://shop_images/gymreapers-knee-wraps-in-use-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p><em>Photo by </em><a href=\"https://www.instagram.com/p/CGaGSHbgciH/\" target=\"_blank\" title=\"https://www.instagram.com/p/CGaGSHbgciH/\"><em>@gymreapers</em></a></p>",
+            "product_text_content_2": "<p>Gymreapers always come out with a variety of color choices, helping you customize your gym look. The white skull logo has always been a bold choice, although it may not be to everyone’s liking.</p><p>The price is a bit higher than average, but Gymreapers compensates for it with a 1-year replacement warranty should something go wrong with your purchase. This isn’t typically found on expendable and inexpensive items like knee wraps, and it’s a friendly reminder of the great customer service from the brand.</p>",
+            "product_pros": "<ul><li>Reinforced stitching throughout the lining</li><li>A long velcro strap helps with fastening</li><li>Lots of color options</li><li>1-year replacement warranty</li></ul>",
+            "product_cons": "<ul><li>Raw elastic is harsh on the skin</li></ul>"
+          }
+        },
+        "product_7yBTQn": {
+          "type": "product",
+          "settings": {
+            "product_title": "Element26 Knee Wraps",
+            "short_product_title": "Element26",
+            "product_position": "5",
+            "product_award": "",
+            "product_url": "https://element26.co/products/knee-wraps?ref=wbcm",
+            "product_main_image": "shopify://shop_images/product-element26-knee-wraps.jpg",
+            "product_rating_description": "<p>Next, we have the Element26 knee wraps. We rate their products, particularly the weightlifting belt and knee sleeves, quite highly on our gear lists, though they might be slightly pricier than average.</p><ul><li><strong>Length:</strong> Roughly 90” (regular) and 115” (long)</li><li><strong>Width:</strong> 3”</li><li><strong>Material:</strong> Elastic, cotton</li><li><strong>Fastening Style:</strong> Tuck in</li><li><strong>Used For:</strong> Weightlifting, cross-training</li><li><strong>Color:</strong> Black</li><li><strong>Price:</strong> $</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "5",
+            "product_rating_3": "5",
+            "product_rating_4": "4.5",
+            "product_rating_5": "4.5",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.77",
+            "first_button_text": "CHECK PRICE ON ELEMENT26",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p><a href=\"https://element26.co/products/knee-wraps?ref=wbcm\" target=\"_blank\" title=\"https://element26.co/products/knee-wraps?ref=wbcm\">Element26 knee wraps</a> come in two lengths: regular (~90”) and long (~115”). The sizing also includes a helpful metric of recommended weight, with 85-200 lbs and 140-230 lbs for the regular and long versions respectively.</p><p>The build quality is definitely above average, with some interesting quirks. The material is a mix of elastic and cotton. If you look closely, you’ll see it’s quite tight-knit, giving it excellent elasticity without movement restriction. However, common complaints among heavyweight athletes are that they’re too thin, resulting in lower compression and durability.</p>",
+            "product_review_image": "shopify://shop_images/element26-knee-wraps-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p><em>Photo by </em><a href=\"https://www.instagram.com/element26.co/p/CghDFexuLK_/\" target=\"_blank\" title=\"https://www.instagram.com/element26.co/p/CghDFexuLK_/\"><em>@element26.co</em></a></p>",
+            "product_text_content_2": "<p>There’s no velcro strap or similar fastening, so you’ll have to tuck them in once you finish wrapping. This system has worked in the past but is definitely outdated. It’s slower and harder to use since the wraps can get slightly loose as you attempt to tuck them in. The price is slightly higher than average, although a limited lifetime warranty makes up for it.</p>",
+            "product_pros": "<ul><li>Great elasticity</li><li>Regular and long options for different-sized athletes</li><li>Lifetime limited warrant</li></ul>",
+            "product_cons": "<ul><li>Tuck-in fastening is slower and harder to use</li></ul>"
+          }
+        },
+        "product_dV3tdM": {
+          "type": "product",
+          "settings": {
+            "product_title": "Iron Bull Strength Classic Knee Wraps",
+            "short_product_title": "Iron Bull Strength",
+            "product_position": "6",
+            "product_award": "Competition Approved",
+            "product_url": "https://ironbullstrength.com/products/classic-knee-wraps?sca_ref=3884196.eg5jxEttuv",
+            "product_main_image": "shopify://shop_images/ironbull-knee-wraps.jpg",
+            "product_rating_description": "<p>Iron Bull Strength products are known for being competitively oriented, boasting standardized sizes and approval from various competition circuits. Their knee wraps offer the same reliability.</p><ul><li><strong>Length:</strong> 78”</li><li><strong>Width:</strong> 3”</li><li><strong>Material:</strong> Elastic, cotton</li><li><strong>Fastening Style:</strong> Velcro strap</li><li><strong>Used For:</strong> Weightlifting, powerlifting</li><li><strong>Color:</strong> 7 color options</li><li><strong>Price:</strong> $$</li></ul>",
+            "product_rating_1": "4.5",
+            "product_rating_2": "4.5",
+            "product_rating_3": "4.75",
+            "product_rating_4": "5",
+            "product_rating_5": "4.75",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.7",
+            "first_button_text": "CHECK PRICE ON IRONBULL",
+            "second_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_url": "https://www.amazon.com/Iron-Bull-Strength-Knee-Wraps/dp/B078FMN2LK/?tag=wbcmb-eu-20",
+            "product_text_content_1": "<p>The main body of <a href=\"https://ironbullstrength.com/products/classic-knee-wraps?sca_ref=3884196.eg5jxEttuv\" target=\"_blank\" title=\"https://ironbullstrength.com/products/classic-knee-wraps?sca_ref=3884196.eg5jxEttuv\">these wraps</a> is made from an elastic and cotton mix. It’s nothing to go crazy for, good elasticity but a bit thinner, lowering compression and energy return. Additionally, the material is a little abrasive if we’re being honest, there are softer options out there. The velcro closure is better than most, but not the best either.</p><p>The best factor about these knee wraps and the reason why you might choose them over others is their compliance for competitive use, boasting approval from USPA, IPL, IWF, and USAW. That alone makes them some of the best weightlifting knee wraps, as you’re immediately training with approved professional gear.</p>",
+            "product_review_image": "shopify://shop_images/ironbull-knee-wraps-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p><em>Photo by </em><a href=\"https://www.instagram.com/p/CNSeP7yCSxd/\" target=\"_blank\" title=\"https://www.instagram.com/p/CNSeP7yCSxd/\"><em>@ironbullstrength</em></a></p>",
+            "product_text_content_2": "<p>The color variety and versatility are decent, rivaling the likes of Gymreapers. We particularly liked the gray camo version, as it’s unique to this brand on top of being a popular choice. The price is noticeably higher than average, which may sway the decision of some, but it’s not budget-breaking either.</p>",
+            "product_pros": "<ul><li>Approved for competitive use in USPA, IPL, IWF, and USAW</li><li>Strong velcro</li><li>Good color variety with some unique looks</li></ul>",
+            "product_cons": "<ul><li>The material is somewhat abrasive</li></ul>"
+          }
+        },
+        "product_HmnYJd": {
+          "type": "product",
+          "settings": {
+            "product_title": "Mava Sports Knee Wraps",
+            "short_product_title": "Mava Sports",
+            "product_position": "7",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/Mava-Sports-Training-Weightlifting-Powerlifting/dp/B01J26DNWE/?tag=wbcmb-eu-20",
+            "product_main_image": "shopify://shop_images/mava-knee-wraps.jpg",
+            "product_rating_description": "<p>If you’re shopping on a budget and want to save some money, then check out Mava Sport. Although not the same standard of quality, these knee wraps will get you a similar performance to our higher picks.</p><ul><li><strong>Length:</strong> 72”</li><li><strong>Width:</strong> 3”</li><li><strong>Material:</strong> Neoprene</li><li><strong>Fastening Style:</strong> Velcro strap</li><li><strong>Used For:</strong> Weightlifting, powerlifting</li><li><strong>Color:</strong> 10 color options</li><li><strong>Price:</strong> $</li></ul>",
+            "product_rating_1": "4.75",
+            "product_rating_2": "4.5",
+            "product_rating_3": "4.75",
+            "product_rating_4": "4.5",
+            "product_rating_5": "4.75",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.65",
+            "first_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p><a href=\"https://www.amazon.com/Mava-Sports-Training-Weightlifting-Powerlifting/dp/B01J26DNWE/?tag=wbcmb-eu-20\" target=\"_blank\" title=\"https://www.amazon.com/Mava-Sports-Training-Weightlifting-Powerlifting/dp/B01J26DNWE/?tag=wbcmb-eu-20\">The wraps</a> feature a standardized 72-inch length and 3-inch width. This adheres to most competitive standards, although the brand does not have an official stamp of approval in any federation.</p><p>The material they are made of is Neoprene: compression and elasticity are okay, and it’s not too harsh either, although it is not as durable as a raw elastic or elastic and cotton mix. The velcro strap is decent in size and with a contoured grip, making the wraps easy and quick to take on and off.</p>",
+            "product_review_image": "shopify://shop_images/mava-knee-wraps-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p><em>Photo by </em><a href=\"https://www.instagram.com/p/CaX2lvROuri/\" target=\"_blank\" title=\"https://www.instagram.com/p/CaX2lvROuri/\"><em>@mavasports</em></a></p>",
+            "product_text_content_2": "<p>The straps have many color options, allowing you to customize your look. The price is a bit below average, but you also get an additional discount for purchasing 3 or more pairs — useful for equipping your gym or taking them as a present for others. Overall, they’re good value for the money spent.</p>",
+            "product_pros": "<ul><li>Budget-friendly</li><li>Decent color options</li><li>Standardized sizing</li></ul>",
+            "product_cons": "<ul><li>Not the highest durability, though you get what you pay for</li></ul>"
+          }
+        },
+        "product_TeyjAx": {
+          "type": "product",
+          "settings": {
+            "product_title": "Titan Signature Series Gold Knee Wraps",
+            "short_product_title": "Titan",
+            "product_position": "8",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/dp/B00CXWXJXI?tag=wbcmb-eu-20",
+            "product_main_image": "shopify://shop_images/titan-signature-knee-wraps.jpg",
+            "product_rating_description": "<p>Titan Support Systems Inc. is a family-owned business that has been in the powerlifting game since 1981. Their gear is aimed towards heavy lifters, so it may not be for everyone.</p><ul><li><strong>Length:</strong> roughly 78”, 90”, and 118”<br/>Width: 3”</li><li><strong>Material:</strong> Elastic, cotton</li><li><strong>Fastening Style:</strong> Tuck in</li><li><strong>Used For:</strong> Powerlifting</li><li><strong>Color:</strong> one option: black, yellow, and red stripes</li><li><strong>Price:</strong> $$$</li></ul>",
+            "product_rating_1": "5",
+            "product_rating_2": "4.5",
+            "product_rating_3": "4.5",
+            "product_rating_4": "4.5",
+            "product_rating_5": "4.5",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.6",
+            "first_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The <a href=\"https://www.amazon.com/dp/B00CXWXJXI?tag=wbcmb-eu-20\" target=\"_blank\" title=\"https://www.amazon.com/dp/B00CXWXJXI?tag=wbcmb-eu-20\">Titan Signature Series Gold knee wraps</a> are a re-release of one of their all-time best-sellers. Officially, it comes in three lengths: 2, 2.5, and 3 meters or roughly 78, 98, and 118 inches respectively.</p><p>The 78” version also boasts IPF approval for competitive use. The elastic cotton mix provides excellent compression and energy release, although it’s quite rigid, which makes it great for serious one-rep max attempt lifts but not so great for more mobile exercises.</p><p>The big drawback of these wraps is their price. It’s easily 2-3 times more expensive than other products on the list, including the top picks. The only saving grace here is the “made in U.S.A.” tagline. There is no fastening system, so you’ll have to tuck them in yourself. They also come in a single color option, which, if we’re being honest, isn’t the most attractive either.</p>",
+            "half_width_review_image": false,
+            "product_review_image_caption": "",
+            "product_text_content_2": "",
+            "product_pros": "<ul><li>Made in the U.S.A.</li><li>Three length options</li><li>Quite durable even on heavy lifts</li></ul>",
+            "product_cons": "<ul><li>Expensive</li><li>Not for everybody, best left for powerlifting</li></ul>"
+          }
+        },
+        "product_bxytpd": {
+          "type": "product",
+          "settings": {
+            "product_title": "Inzer Knee Wraps Iron Z",
+            "short_product_title": "Inzer",
+            "product_position": "9",
+            "product_award": "",
+            "product_url": "https://www.amazon.com/Inzer-Knee-Wraps-Meters-Powerlifting/dp/B00I9LB3BM/?tag=wbcmb-eu-20",
+            "product_main_image": "shopify://shop_images/inzer-knee-wraps.jpg",
+            "product_rating_description": "<p>Last but not least is the Inzer's knee wraps Iron Z series. The brand Inzer Advance Design has been a staple in powerlifting competitions for some time now, with many of its products receiving approval for competitive use.</p><ul><li><strong>Length:</strong> ~98”</li><li><strong>Width:</strong> 3 inches</li><li><strong>Material:</strong> Elastic, cotton</li><li><strong>Fastening Style:</strong> Tuck in</li><li><strong>Used For:</strong> Powerlifting</li><li><strong>Color:</strong> Black w/ red stripes</li><li><strong>Price:</strong> $$$</li></ul>",
+            "product_rating_1": "4.75",
+            "product_rating_2": "4.75",
+            "product_rating_3": "4.75",
+            "product_rating_4": "4.5",
+            "product_rating_5": "4",
+            "product_rating_6": "",
+            "product_rating_7": "",
+            "product_rating_8": "",
+            "product_rating_9": "",
+            "product_rating_10": "",
+            "total_rating": "4.55",
+            "first_button_text": "CHECK PRICE ON AMAZON",
+            "second_button_text": "",
+            "second_button_url": "",
+            "product_text_content_1": "<p>The rubber and cotton mix in <a href=\"https://www.amazon.com/Inzer-Knee-Wraps-Meters-Powerlifting/dp/B00I9LB3BM/?tag=wbcmb-eu-20\" target=\"_blank\" title=\"https://www.amazon.com/Inzer-Knee-Wraps-Meters-Powerlifting/dp/B00I9LB3BM/?tag=wbcmb-eu-20\">these wraps</a> works well together to bring above-average compression and elasticity, providing support and energy release sufficient for heavy lifts. Furthermore, the material goes through Inzer quality control, ensuring no faulty products hit the market. We’ve yet to see a negative review mentioning these torn or collapsed with regular use.</p>",
+            "product_review_image": "shopify://shop_images/inzer-knee-wraps-instagram.jpg",
+            "half_width_review_image": true,
+            "product_review_image_caption": "<p><em>Photo by </em><a href=\"https://www.instagram.com/p/CCWh37ADtJl/\" target=\"_blank\" title=\"https://www.instagram.com/p/CCWh37ADtJl/\"><em>@slick_studios</em></a></p>",
+            "product_text_content_2": "<p>However, they’re rather old-school in terms of looks and design. There’s only one color choice: black with red stripes, limiting user appeal. Fastening is tuck-in and can be a bit of a hassle as there’s no area to grip to — they’d easily improve with a simple velcro. The price is also slightly higher than the average, making them a bit hard to recommend.</p>",
+            "product_pros": "<ul><li>Excellent quality control</li><li>Powerful elastic effect</li><li>Standardized and elongated versions are available</li></ul>",
+            "product_cons": "<ul><li>A bit harder to stretch out and wrap, can fall a bit short</li><li>Tucking in is less convenient than a velcro</li></ul>"
+          }
+        },
+        "richtext_bqzNxN": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>Squat Knee Wraps: What Are They and How Do They Work?</h2><p>In the simplest of terms, knee wraps are specialized elastic bandages meant to wrap tightly around your knee joints during weightlifting exercises. Most commonly, they’re used for heavy squats. By encircling and binding the knee, wraps aim to provide enhanced structure and support to the joint.</p><p>When you lower yourself into a squat, the elastic material stretches out, storing energy. As you rise back up, the material swiftly snaps back, releasing the stored energy. It can have a variety of effects depending on one’s anatomy, but the potential benefits include maintaining joint integrity and stability throughout the exercise, reducing stress on the ligaments and tendons, and increasing power output for heavy lifts.</p><p>The majority of commercially available knee wraps for squatting follow a standardized build and size:</p><ol><li>A single-piece build (one long stripe)</li><li>A full length of roughly 2 meters/78 inches/6.5 feet depending on the manufacturer</li><li>3 inches wide throughout</li><li>Made from elastic materials, commonly neoprene</li><li>Mixed with cotton or another soft fabric to ease skin contact</li></ol>",
+            "rich_text_image": "shopify://shop_images/training-with-knee-wraps-squats-wbcm.jpg",
+            "rich_text_image_alt": "Oleksiy Torokhtiy Squatting With Knee Wraps",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_ccLPPU": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>Who Can Use Knee Wraps In Sports?</h2><p>In general, only people lifting serious weight <a href=\"https://blog.warmbody-coldmind.com/guides/how-to-use-knee-wraps/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/how-to-use-knee-wraps/\">use knee wraps for squatting</a>. The first people who come to mind are, of course, powerlifters. For those unaware, the squat is one of the three main powerlifting exercises, alongside the bench press and deadlift. Aside from powerlifting enthusiasts, other people you’ll see squatting heavily are bodybuilders and strongman competitors, both of whom use heavy squats to keep up their mass and, in the latter's case, raw strength.</p><p>The only actual sports where knee wraps see applicable use are competitive weightlifting and powerlifting. There’s some controversy surrounding them regarding their benefit of improving performance and, thus, lifting more weight. Nevertheless, they’re allowed assuming they follow a standardized build (material, shape, length, etc.) set by the relevant rulebook.</p><p>For example, the International Powerlifting Federation (IPF) allows the use of knee wraps. The summary of the ruling in the official <a href=\"https://www.powerlifting.sport/fileadmin/ipf/data/rules/technical-rules/english/IPF_Technical_Rules_Book_2024.pdf\" target=\"_blank\" title=\"https://www.powerlifting.sport/fileadmin/ipf/data/rules/technical-rules/english/IPF_Technical_Rules_Book_2024.pdf\">2024 rulebook</a>, page 19, is as follows:</p><ol><li>Knee wraps must be made of a single piece of commercially woven elastic</li><li>They can be covered with polyester, cotton, or a combination of both</li><li>Knee wraps must not exceed 2m in length and 8cm in width.</li><li>A knee wrap may not extend beyond 15cm above and 15cm below the center of the knee</li><li>The total covering width may not exceed 30 cm.</li><li>A combination of knee wraps and knee sleeves is strictly forbidden.</li><li>Wraps must not come in contact with the socks or lifting suit.</li><li>Wraps can’t be used elsewhere on the body</li><li>Synthetic rubber is only acceptable in knee sleeves, not wraps</li><li>Most importantly, only <a href=\"https://www.powerlifting.sport/fileadmin/ipf/data/rules/approved-list/Approved__List_2023-2026_V2_01-11-2023.pdf\" target=\"_blank\" title=\"https://www.powerlifting.sport/fileadmin/ipf/data/rules/approved-list/Approved__List_2023-2026_V2_01-11-2023.pdf\">officially approved</a> commercially manufactured gear can be used, with the only exception being medical bandages</li></ol><p>Meanwhile, the International Weightlifting Federation (IWF) — the governing body of the Summer Olympic Games weightlifting circuit — is even more relaxed on the topic. The <a href=\"https://iwf.sport/wp-content/uploads/downloads/2023/07/IWF-TCRR-2023.pdf\" target=\"_blank\" title=\"https://iwf.sport/wp-content/uploads/downloads/2023/07/IWF-TCRR-2023.pdf\">official IFW rulebook</a> section 4.5.1.2 only says the following:</p><p>One-piece elastic bandages, neoprene / rubberised kneecaps, or patella protectors which allow free movement, may be worn on the knees. Kneecap bandages / protectors may not be reinforced by way of buckles, straps, whalebone, plastic or wire.</p><h3>Pro Tip:</h3><p><em>\"If you want to enter a competition for weightlifting or powerlifting, make sure to check the official rulebook for a list of approved gear. It’s not just knee wraps that have certain restrictions, so it’s important to learn in advance what you can and can’t wear to avoid surprises\"</em></p><h2>4 Benefits of Using Knee Wraps for Squats</h2><p>We briefly mentioned the potential benefits of weightlifting knee wraps in the previous section. Now, let’s look at these effects in more detail to determine if they’re worth wearing.</p>",
+            "rich_text_image": "shopify://shop_images/wbcm-knee-wraps-in-use.jpg",
+            "rich_text_image_alt": "Knee Wraps for Squats In Use",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_rg4tRJ": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h3>1. Power Boost</h3><p>Knee wraps store and release energy by stretching and contracting during the downward (eccentric) and upward (concentric) phases of the squat. The effect is similar to that of a slingshot, i.e. the more you pull back, the harder it will release. The wraps can <a href=\"https://journals.lww.com/nsca-jscr/fulltext/2012/10000/wearing_knee_wraps_affects_mechanical_output_and.31.aspx\" target=\"_blank\" title=\"https://journals.lww.com/nsca-jscr/fulltext/2012/10000/wearing_knee_wraps_affects_mechanical_output_and.31.aspx\">boost your lift</a> both in terms of execution speed and power output, which is the main reason powerlifters use knee wraps for squatting.</p><h3>2. Joint Compression</h3><p>By wrapping snugly around the knee, wraps provide compression to the joint. The tightness of compression clothing has <a href=\"https://www.sciencedirect.com/science/article/pii/S2095254621000922#fig0006\" target=\"_blank\" title=\"https://www.sciencedirect.com/science/article/pii/S2095254621000922#fig0006\">numerous positive effects</a>, most notably squeezing the blood vessels and improving blood flow. It promotes faster delivery of oxygen and nutrients to the muscles, boosting energy levels and reducing fatigue. Additionally, the wraps keep the joint warm, preventing a state of readiness and facilitating recovery.</p><h3>3. Enhanced Proprioception</h3><p>Despite what social media would lead you to believe, mirrors at the gym serve a bigger function than just helping you take pictures. They’re meant to give you visual feedback during an exercise, so you can judge for yourself whether everything looks good or not. However, not everything can be seen with the naked eye.</p><p>By compressing the joint, knee wraps also provide active feedback on the joint’s position and activity during a squat. This increases our <a href=\"https://www.sciencedirect.com/science/article/abs/pii/B9780080450469019070\" target=\"_blank\" title=\"https://www.sciencedirect.com/science/article/abs/pii/B9780080450469019070\">proprioception</a>, i.e. the sense of our position and individual body parts. The heightened awareness assists with mind-muscle connection and reminds us of proper exercise techniques, which is helpful before the initial descent (eccentric phase) and ascend (concentric phase).</p><h3>4. Connective Tissue Support</h3><p>Every joint is essentially a bridge between two bigger anatomical structures. Without diving too much into complicated anatomy, you should know that connective tissue in your knees includes the <a href=\"https://my.clevelandclinic.org/health/body/21604-ligament\" target=\"_blank\" title=\"https://my.clevelandclinic.org/health/body/21604-ligament\">ligaments </a>and <a href=\"https://my.clevelandclinic.org/health/body/21738-tendon\" target=\"_blank\" title=\"https://my.clevelandclinic.org/health/body/21738-tendon\">tendons</a>.</p><p>Ligaments are stretchable enough to allow for joint mobility but are also meant to keep the joint in one piece. The tightness of knee wraps can assist in this case, limiting excessive movement within the joint and retaining structural integrity. Additionally, the compression exerted by knee wraps can positively influence tendons, mimicking their role in storing and releasing elastic energy, thus providing them with assistance.</p>",
+            "rich_text_image": "shopify://shop_images/best-knee-wraps-wbcm.jpg",
+            "rich_text_image_alt": "Squatting in knee wraps for squats",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_XGJgNk": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>3 Disadvantages of Knee Wraps for Squats</h2><p>Unfortunately for knee wraps, it’s not all upsides. In terms of common knee protection for squats, there are also notable downsides, which we will discuss below.</p><h3>1. Joint Weakness</h3><p>The <a href=\"https://journals.lww.com/nsca-jscr/fulltext/2012/10000/wearing_knee_wraps_affects_mechanical_output_and.31.aspx\" target=\"_blank\" title=\"https://journals.lww.com/nsca-jscr/fulltext/2012/10000/wearing_knee_wraps_affects_mechanical_output_and.31.aspx\">study we referenced earlier</a> that talked about knee wraps giving you a lifting boost also found a flaw that you should be aware of. The presence of knee squats slightly alters the dynamic of the exercise, affecting the targeted muscles and potentially compromising joint integrity. Based on this, the study recommends against wearing knee wraps during extended sets and reps with manageable weight. It also strongly suggests people with knee joint issues, such as injuries or medical conditions, avoid using knee wraps.</p><h3>2. Limited Use</h3><p>Knee wraps are essentially good for one thing only — boosting your lift. Thus, unless you’re purposely targeting your 1RM, you aren’t going to get much use out of them. They’re also fairly impractical considering you should wrap and unwrap them between each attempt to avoid damaging your knee.</p><p>Powerlifters will love them, but we also acknowledge that most people do not train for that purpose. If you want to add simple structural support, compression, and warmth to the joint without the potential downsides, go for knee sleeves instead.</p><h3>3. Overreliance</h3><p>At the end of the day, no amount of exercise assistance can improve your performance more than proper technique and training discipline. Using knee support for squats even when it’s unnecessary can be detrimental to the exercise and cause mental overreliance. Therefore, save your knee wraps for 1RM attempts and train without them.</p><h2>How to Choose the Best Knee Wraps for Squats?</h2><p>Knee sleeves are fairly similar between brands, which can cause a bit of confusion on which to buy. Here are some factors you should be aware of that may sway your purchase decision.</p><h3>1. Length</h3><p>The standard length for knee wraps is around 2m or roughly 78”, a dimension mostly influenced by competitive rules. However, it’s not set in stone, and you’ll find both shorter and longer options. Most people will find the standardized size sufficient, but you may want to experiment based on your size and knee circumference.</p>",
+            "rich_text_image": "shopify://shop_images/knee-wraps-wbcm.jpg",
+            "rich_text_image_alt": "Demonstration Knee Wraps for Squats",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_NkwQCc": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h3>2. Width</h3><p>Width is also fairly standard across the board, usually 8cm or 3” depending on your location. This is not only practical when selecting for competitive use, but generally, a higher width could result in even more restricted mobility.</p><h3>3. Material</h3><p>No one wants to spend money on something that doesn’t work. Opting for higher-quality knee wraps will make sure they don’t give in during exercise, improving your safety. However, material quality will also impact the price of your wraps.</p><p>Keep in mind these wraps are designed for elite powerlifters who lift as much as 2-4 times their weight. If you’re below this threshold, cheaper wraps will be sufficient for now.</p><h3>4. Durability</h3><p>Durability is intricately tied to the quality of the material. However, frequency of use also impacts knee wrap longevity, and the higher the weight you lift, the more important durability becomes. If you want guaranteed quality, stick with trusted brands.</p><h3>5. Brand Reputation</h3><p>Brands like Rogue, Iron Bull Strength, and Warm Body Cold Mind have built their reputation based on decades of experience. Their products are designed by industry experts, ensuring quality and reliability fit for pros.</p><p>They typically carry a higher price tag, but the branding provides peace of mind for your purchase. If you’re looking to balance out your budget, we also listed up-in-comer brands we found to give good value for money.</p><h3>6. Competitive Compliance</h3><p>Different competitions can have differing rules on knee bands for squats. We touched upon standardized sizing throughout the article, but some rulesets also have strict definitions of approved vs. not approved knee wrap.</p><p>If you have competitive aspirations, you should check the official rulebook of the competition you want to enter and whether they have an official list of approved gear. Keep in mind that trusted brands are more likely to be allowed.</p>",
+            "rich_text_image": "shopify://shop_images/taping-knee-wraps-wbcm.jpg",
+            "rich_text_image_alt": "Taping Knee Wraps for Squat",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_HAH38t": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>How to Wrap Your Knee Wraps Correctly?</h2><p>Here’s a simple step-by-step to putting on weightlifting knee wraps:</p><ol><li>Start by tightly rolling up your knee wrap into a tight roll, resembling a rolled duct tape.</li><li>Before wrapping, fully extend your knee. If needed, sit down to ensure your knee is not bent during the wrapping process.</li><li>Place the tab of the knee wrap slightly below the knee joint, at the base of your calf. Hold it securely with one hand.</li><li>With your free hand, begin unwrapping the material around your knee to create the first loop. Ensure it’s snug but not overtighten.</li><li>For each subsequent loop, wrap slightly upward. Overlap each wrap, covering at least half of the previous one, which prevents the wrap from unraveling.</li><li>Repeat the wrapping process until you've used the entire length of the material. To adjust tightness, stretch out the material.</li><li>Once you've reached the end of the material, use the provided fastening mechanism (such as Velcro or clips) to securely fasten the knee wrap in place. If there’s no fastening mechanism, simply tuck the loose end below the top wrap.</li></ol><h3>Pro Tip:</h3><p><em>\"Mind your leg hair. If you have excessive amounts of it, trim it down if you must. It can get stuck in the material as it stretches in and out. This can result in a painful tear mid-lift as the material snaps around, which can be discomforting or even distracting.\"</em></p><h2>Knee Wraps vs. Knee Sleeves vs. Knee Brace</h2><p>We understand that within our international audience, there may be some words with overlapping meanings. Therefore, we want to make a clear distinction between knee wraps, knee sleeves, and knee braces.</p><p>So, what’s the best knee support for squatting? Knee wraps shouldn’t need any more introduction as we’ve covered them in detail throughout the article.</p><p>So, let’s get knee braces out of the way. On the surface, they may seem similar to knee sleeves. However, they serve a different function. Knee braces <a href=\"https://my.clevelandclinic.org/health/treatments/21034-knee-brace\" target=\"_blank\" title=\"https://my.clevelandclinic.org/health/treatments/21034-knee-brace\">are used for medical purposes</a> to keep the joint in place and prevent unwanted movement during recovery and/or physical therapy.</p><p>They’re prescribed to people dealing with existing knee injuries, ligament instability, osteoarthritis, post-surgery weakness, and similar issues. If you try to use them for exercise, you’ll find them overly restrictive, which is their point after all.</p>",
+            "rich_text_image": "shopify://shop_images/knee_wraps-sleeves-wbcm.jpg",
+            "rich_text_image_alt": "Man use Knee Wraps While Competition",
+            "half_width_main_image": false
+          }
+        },
+        "richtext_VCnAgk": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<p>Next, knee sleeves: this compression garment is popular in various physical activities where knee support can impact your performance, including weightlifting, basketball, distance running, etc.</p><p>Besides providing warmth and stability, it alleviates pain and discomfort caused by common knee problems, such as osteoarthritis, runner’s knee, and tendonitis, helping people with knee issues exercise or just move more comfortably. However, despite numerous positives, wearing knee sleeves <a href=\"https://digitalcommons.odu.edu/hms_etds/16/\" target=\"_blank\" title=\"https://digitalcommons.odu.edu/hms_etds/16/\">can’t increase squatting power</a>. Essentially, it is a jack of all trades but a master of none when it comes to knee support for squats.</p><h2>FAQ</h2><h3>Are Knee Wraps Good for Squatting?</h3><p>It depends on what your exercise goal is. Using knee straps for squats can increase kinematic output, helping you lift more. However, this effect is only present when lifting near maximum weight (at least 80%). It can also put added stress on the joint, which is why experts don’t recommend using it unless you’re attempting a single-repetition maximum (1RM) lift.</p><h3>Is Squatting with Knee Wraps Considered Cheating?</h3><p>Well, is wearing weightlifting shoes considered cheating? After all, we aren’t born with shoes, and proper footwear <a href=\"https://www.tandfonline.com/doi/abs/10.1080/02640414.2016.1175652?journalCode=rjsp20\" target=\"_blank\" title=\"https://www.tandfonline.com/doi/abs/10.1080/02640414.2016.1175652?journalCode=rjsp20\">can improve our exercise performance</a>. Personally, it’s down to your perspective: wear them or don’t, but be respectful of people’s choices.</p><p>Competitively speaking, it depends on which governing body and thus which rulebook is applied. The IPF, USPA, IWF, and USAW competitions allow them as long as they follow a standardized build. However, the only way to be sure is to check the rules before you enter.</p><h3>Do Knee Wraps Make You Stronger?</h3><p>Not in a literal sense, but there have been studies that showed knee wraps can <a href=\"https://journals.lww.com/nsca-jscr/fulltext/2012/10000/wearing_knee_wraps_affects_mechanical_output_and.31.aspx\" target=\"_blank\" title=\"https://journals.lww.com/nsca-jscr/fulltext/2012/10000/wearing_knee_wraps_affects_mechanical_output_and.31.aspx\">increase exercise execution speed and peak power</a>. This could result in lifting more weight if that’s what you mean by “stronger”.</p>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "video_xKNbtm": {
+          "type": "video",
+          "settings": {
+            "youtube_video_url": "https://www.youtube.com/watch?v=A419PAg6MZk"
+          }
+        },
+        "richtext_bCqCka": {
+          "type": "richtext",
+          "settings": {
+            "rich_text_content": "<h2>Conclusion</h2><p>If you’re big into powerlifting or just testing your strength maximum, knee wraps can help you get more out of your squat. So, should you get knee wraps for squatting or not?</p><p>There’s no denying that they do what they’re made for, but they also come with some drawbacks, namely potential joint weakness. The question for you is, does the upside make them worth considering? If so, based on our testing, we recommend the classic <a href=\"https://www.roguefitness.com/rogue-knee-wraps/?a_aid=62ff8b7e519eb\" target=\"_blank\" title=\"https://www.roguefitness.com/rogue-knee-wraps/?a_aid=62ff8b7e519eb\">Rogue Knee Wraps</a> this time around.</p><p>We’d also like to hear from you. How often do you squat? How often do you do it close to your maximum, where knee wraps can assist you? Leave a comment with thoughts or questions and reach out on social media, where we post other useful fitness content.</p><p>Also Read:</p><ul><li><a href=\"https://blog.warmbody-coldmind.com/guides/do-knee-sleeves-help-with-squats/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/do-knee-sleeves-help-with-squats/\">How Knee Sleeves Can Improve Your Squats</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/what-size-knee-sleeves-do-i-need/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/what-size-knee-sleeves-do-i-need/\">What Size Knee Sleeves Do I Need</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/do-you-wear-knee-sleeves-under-or-over-leggings/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/do-you-wear-knee-sleeves-under-or-over-leggings/\">Do You Wear Knee Sleeves Under or Over Leggings</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/how-to-wash-knee-sleeves/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/how-to-wash-knee-sleeves/\">How to Wash Knee Sleeves</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/how-to-improve-squat-mobility/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/how-to-improve-squat-mobility/\">How to Increase Squat Mobility</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/gifts-for-personal-trainers/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/gifts-for-personal-trainers/\">Best Gifts For Personal Trainers</a></li><li><a href=\"https://blog.warmbody-coldmind.com/guides/what-are-knee-sleeves-for/\" target=\"_blank\" title=\"https://blog.warmbody-coldmind.com/guides/what-are-knee-sleeves-for/\">Do You Need Knee Sleeves For Lifting</a></li></ul><p>Referenses:</p><ol><li>Alexandria A. Trypuc, \"Effects of Knee Sleeves on Knee Mechanics During Squats at Variable Depths,\" Human Movement Sciences, Old Dominion University (2008)</li><li>“Approved list of Personal Apparel and Equipment for Use at IPF Sanctioned Competitions,” International Powerlifting Federation (IPF) https://www.powerlifting.sport/fileadmin/ipf/data/rules/approved-list/Approved__List_2023-2026_V2_01-11-2023.pdf (accessed December 25, 2023).</li><li>“Certification According to OEKO-TEX® STANDARD 100,” OEKO-TEX®, https://www.oeko-tex.com/en/apply-here/oeko-tex-standard-100 (accessed December 25, 2023).</li><li>Hayley S. Legg, Mark Glaister, Daniel J. Cleather, Jon E. Goodwin, “The Effect of Weightlifting Shoes on the Kinetics and Kinematics of the Back Squat,” Journal of Sports Sciences 35, no. 5 (2017): 508-515.</li><li>“IWF Technical and Competition Rules & Regulations,” International Weightlifting Federation, https://iwf.sport/wp-content/uploads/downloads/2023/07/IWF-TCRR-2023.pdf (accessed December 25, 2023).</li><li>J. L. Taylor, “Proprioception,” Encyclopedia of Neuroscience (Cambridge, MA, Academic Press 2009): 1143-1149.</li><li>Jason P. Lake, Patrick J. C. Carden, Kath A. Shorter, “Wearing Knee Wraps Affects Mechanical Output and Performance Characteristics of Back Squat Exercise,” The Journal of Strength and Conditioning Research 26, no. 10 (2012): 2844-2849.</li><li>“Knee Brace,” Cleveland Clinic, https://my.clevelandclinic.org/health/treatments/21034-knee-brace (accessed December 25, 2023).</li><li>“Ligament: Anatomy, Function, Sprain,” Cleveland Clinic, https://my.clevelandclinic.org/health/body/21604-ligament (accessed December 25, 2023).</li><li>Shane F. O'Riordan, Rod McGregor, Shona L. Halson, David J. Bishop, James R. Broatch, “Sports compression garments improve resting markers of venous return and muscle blood flow in male basketball players,” Journal of Sport and Health Science 12, no. 4 (2023): 513-522.</li><li>“Technical Rules Book 2024,” International Powerlifting Federation (IPF) https://www.powerlifting.sport/fileadmin/ipf/data/rules/technical-rules/english/IPF_Technical_Rules_Book_2024.pdf (accessed December 25, 2023).</li><li>“Tendon: Function, Anatomy & Common Injuries,” Cleveland Clinic https://my.clevelandclinic.org/health/body/21738-tendon (accessed December 25, 2023).</li><li>All photos are made by WBCM Media team.</li></ol>",
+            "rich_text_image_alt": "",
+            "half_width_main_image": false
+          }
+        },
+        "why_trust_us_EbVgbF": {
+          "type": "why_trust_us",
           "settings": {}
         },
         "meta": {
           "type": "meta",
           "settings": {
             "show_author": true,
-            "show_sharing": true
+            "show_sharing": false
+          }
+        },
+        "sidebar_aUbMMd": {
+          "type": "sidebar",
+          "settings": {
+            "sidebar_product_image": "shopify://shop_images/rogue-knee-wraps.jpg",
+            "sidebar_product_url": "https://www.roguefitness.com/rogue-knee-wraps/?a_aid=62ff8b7e519eb",
+            "sidebar_product_name": "Rogue Knee Wraps"
           }
         }
       },
@@ -67,16 +483,50 @@
         "tags",
         "title",
         "date",
-        "content",
-        "meta"
+        "richtext_QAQHKH",
+        "in_a_hurry_w6MGQW",
+        "anchor_list_Unty8k",
+        "richtext_RekzH7",
+        "rating_table_VFkHUY",
+        "product_R6pLpp",
+        "product_Gpqnpc",
+        "product_gWGXfm",
+        "product_eRyXLA",
+        "product_7yBTQn",
+        "product_dV3tdM",
+        "product_HmnYJd",
+        "product_TeyjAx",
+        "product_bxytpd",
+        "richtext_bqzNxN",
+        "richtext_ccLPPU",
+        "richtext_rg4tRJ",
+        "richtext_XGJgNk",
+        "richtext_NkwQCc",
+        "richtext_HAH38t",
+        "richtext_VCnAgk",
+        "video_xKNbtm",
+        "richtext_bCqCka",
+        "why_trust_us_EbVgbF",
+        "meta",
+        "sidebar_aUbMMd"
       ],
       "settings": {
+        "criteria_1": "Compression",
+        "criteria_2": "Material",
+        "criteria_3": "Elasticity",
+        "criteria_4": "Durability",
+        "criteria_5": "Fastening",
+        "criteria_6": "",
+        "criteria_7": "",
+        "criteria_8": "",
+        "criteria_9": "",
+        "criteria_10": "",
         "show_img": true
       }
     }
   },
   "order": [
-    "17007352025dc930ae",
+    "17007351490292b520",
     "main"
   ]
 }
