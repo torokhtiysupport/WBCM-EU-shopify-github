@@ -215,7 +215,7 @@
           "settings": {
             "image": "shopify://shop_images/444Warm_Body_Cold_Mind_WBCM_offer_for_Gyms_2023_1_-4.jpg",
             "title": "Our marketplaces:",
-            "desc": "<p>- 2 own websites and warehouses,<br/>in North America and the EU<br/>- Amazon (12 marketplaces, including the US, Canada, Mexico, the UK, Germany) and eBay<br/>- 15 affiliate gyms</p>",
+            "desc": "<ul><li>2 own websites and warehouses,<br/>in North America and the EU</li><li>Amazon (12 marketplaces, including the US, Canada, Mexico, the UK, Germany) and eBay</li><li>15 affiliate gyms</li></ul>",
             "horizontal_align": "left",
             "link_title": "",
             "link": "",
@@ -261,7 +261,7 @@
           "settings": {
             "image": "shopify://shop_images/555Warm_Body_Cold_Mind_WBCM_offer_for_Gyms_2023_1_-5.jpg",
             "title": "",
-            "desc": "<p>- We're a team of dedicated professionals with experience in sports science and training.<br/>- 90% of products are produced in Ukraine using European-quality materials.<br/>- This allows us to independently develop and test our goods, and promptly react to customer feedback.</p>",
+            "desc": "<ul><li>We're a team of dedicated professionals with experience in sports science and training.</li><li>90% of products are produced in Ukraine using European-quality materials.</li><li>This allows us to independently develop and test our goods, and promptly react to customer feedback.</li></ul>",
             "horizontal_align": "left",
             "link_title": "",
             "link": "",
