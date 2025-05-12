@@ -465,6 +465,23 @@
                                               {% endfor %}
                                               </div>
 
+                                            {%- when 'print_swatches' -%}
+                                              <div class="image-swatches_container">
+                                              {% if product.metafields.custom.product_color %}
+                                                <p class="linked-products-swatches_title">Print: {{ product.metafields.custom.product_print }}</p>
+                                              {% endif %}
+                                              {% for linked_product in product.metafields.product.related_color_swatch_products.value %}
+                                                <a href="{{- linked_product.url -}}" title="{{- linked_product.metafields.custom.product_print -}}">
+                                                  <img 
+                                                    class="product_images_swatches" width="50" height="50" src="{{- linked_product.featured_image | image_url: width: 360 -}}"
+                                                    width="360"
+                                                    height="{{ 360 | divided_by: block.settings.image.aspect_ratio | round }}"
+                                                    loading="lazy"
+                                                    alt="{{- linked_product.title -}}">
+                                                </a>
+                                              {% endfor %}
+                                              </div>
+
                                             {%- when 'size_swatches' -%}
                                               {% if product.metafields.custom.product_size %}
                                               <div>
@@ -488,13 +505,19 @@
                                                           {%- assign has_image_swatches = true -%}
                                                       {%- endif -%}
                                                   {%- endfor -%}
+                                                {%- assign has_print_swatches = false -%}
+                                                  {%- for block in section.blocks -%}
+                                                      {%- if block.type == "print_swatches" and product.metafields.product.related_color_swatch_products != blank -%}
+                                                          {%- assign has_print_swatches = true -%}
+                                                      {%- endif -%}
+                                                  {%- endfor -%}
                                                 {%- assign has_size_swatches = false -%}
                                                   {%- for block in section.blocks -%}
                                                       {%- if block.type == "size_swatches" and product.metafields.product.related_size_swatch_products != blank -%}
                                                           {%- assign has_size_swatches = true -%}
                                                       {%- endif -%}
                                                   {%- endfor -%}
-                                                <div class="product-single__box__block product-single__box__block--{{ block.type }} {% if has_image_swatches == true %}product-has-image-swatches{% endif %}{% if has_size_swatches == true %} product-has-size-swatches{% endif %}" {{ block.shopify_attributes }}>
+                                                <div class="product-single__box__block product-single__box__block--{{ block.type }} {% if has_image_swatches == true %}product-has-image-swatches{% endif %}{% if has_print_swatches == true %} product-has-print-swatches{% endif %}{% if has_size_swatches == true %} product-has-size-swatches{% endif %}" {{ block.shopify_attributes }}>
                                                     {%- unless product.has_only_default_variant -%}
                                                         {% render 'product-options',
                                                             product: product,
@@ -2453,6 +2476,11 @@
         {
             "type": "image_swatches",
             "name": "Image Swatches",
+            "limit": 1
+        },
+        {
+            "type": "print_swatches",
+            "name": "Print Swatches",
             "limit": 1
         },
         {
