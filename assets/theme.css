@@ -9614,6 +9614,9 @@ section.description .container--tiny {
 .product-has-size-swatches product-interactive-options > fieldset {
   display: none;
 }
+.product-has-print-swatches product-interactive-options > fieldset:first-of-type {
+  display: none;
+}
 
 /* Colletions Content */
 
