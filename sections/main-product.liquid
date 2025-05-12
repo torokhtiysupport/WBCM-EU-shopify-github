@@ -468,10 +468,10 @@
                                             {%- when 'print_swatches' -%}
                                               <div class="image-swatches_container">
                                               {% if product.metafields.custom.product_color %}
-                                                <p class="linked-products-swatches_title">Print: {{ product.metafields.custom.product_print }}</p>
+                                                <p class="linked-products-swatches_title">Print: {{ product.metafields.custom.product_color }}</p>
                                               {% endif %}
                                               {% for linked_product in product.metafields.product.related_color_swatch_products.value %}
-                                                <a href="{{- linked_product.url -}}" title="{{- linked_product.metafields.custom.product_print -}}">
+                                                <a href="{{- linked_product.url -}}" title="{{- linked_product.metafields.custom.product_color -}}">
                                                   <img 
                                                     class="product_images_swatches" width="50" height="50" src="{{- linked_product.featured_image | image_url: width: 360 -}}"
                                                     width="360"
