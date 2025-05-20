@@ -98,6 +98,10 @@
             "enable_payment_button": true
           }
         },
+        "ecomsend_restock_product_restore_email_mTpiNw": {
+          "type": "shopify://apps/ecomsend-restock/blocks/product-restore-email/b190bced-3b7b-47da-a05f-6ea4821c3a77",
+          "settings": {}
+        },
         "db48bf56-e904-4604-9f21-89d04e9bf241": {
           "type": "spacer",
           "settings": {
@@ -134,6 +138,7 @@
         "variant_picker",
         "quantity_selector",
         "buy_buttons",
+        "ecomsend_restock_product_restore_email_mTpiNw",
         "db48bf56-e904-4604-9f21-89d04e9bf241",
         "description",
         "popup_HeFjFr"
