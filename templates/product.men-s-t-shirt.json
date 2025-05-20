@@ -92,10 +92,6 @@
           "type": "quantity_selector",
           "settings": {}
         },
-        "ecomsend_restock_product_restore_email_mTpiNw": {
-          "type": "shopify://apps/ecomsend-restock/blocks/product-restore-email/b190bced-3b7b-47da-a05f-6ea4821c3a77",
-          "settings": {}
-        },
         "buy_buttons": {
           "type": "buy_buttons",
           "settings": {
@@ -137,7 +133,6 @@
         "db48bf56-e904-4604-9f21-89d04e9bf249",
         "variant_picker",
         "quantity_selector",
-        "ecomsend_restock_product_restore_email_mTpiNw",
         "buy_buttons",
         "db48bf56-e904-4604-9f21-89d04e9bf241",
         "description",
