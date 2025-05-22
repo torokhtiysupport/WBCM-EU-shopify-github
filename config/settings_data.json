@@ -128,8 +128,8 @@
         "settings": {
           "message_show": true,
           "home_page_only": false,
-          "message_text": "HELP UKRAINE",
-          "message_link": "https://blog.warmbody-coldmind.com/news/help-ukraine/",
+          "message_text": "🎂 OLEKSIY'S B-DAY SALE 🎂",
+          "message_link": "shopify://collections/sale",
           "message_color_bg": "#212121",
           "message_color_text": "#ffffff"
         }
@@ -369,11 +369,6 @@
           "iconCustomSize": 64,
           "position": "bottom-left"
         }
-      },
-      "5043070786800498925": {
-        "type": "shopify://apps/ecomsend-restock/blocks/bis-switch/b190bced-3b7b-47da-a05f-6ea4821c3a77",
-        "disabled": true,
-        "settings": {}
       },
       "back-in-stock-restock-alerts-4bb73be2-b7c2-4870-949f-c528145452a3": {
         "type": "shopify://apps/back-in-stock-restock-alerts/blocks/main/4bb73be2-b7c2-4870-949f-c528145452a3",
