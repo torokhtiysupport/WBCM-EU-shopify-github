@@ -15,6 +15,22 @@
         "image_QKk4tj": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/Independence-Day-Banner-Desktop.jpg",
+            "image_mobile": "shopify://shop_images/Independence-Day-Banner-Mob.jpg",
+            "alignment": "bottom-center",
+            "title": "",
+            "text": "",
+            "link_style": "c-btn c-btn--primary",
+            "link_title": "",
+            "link": "",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "SHOP NOW",
+            "link_2": "shopify://collections/sale"
+          }
+        },
+        "image_xU8x3z": {
+          "type": "image",
+          "settings": {
             "image": "shopify://shop_images/l-10-shorts-banner-desk.jpg",
             "image_mobile": "shopify://shop_images/l-10-shorts-banner-mob.jpg",
             "alignment": "bottom-center",
@@ -111,6 +127,7 @@
       },
       "block_order": [
         "image_QKk4tj",
+        "image_xU8x3z",
         "section-slideshow-1",
         "9bf15e77-545b-4d61-8855-5dfad503a3f3",
         "83308ea5-1c8e-4267-8c12-79946a19ed46",
