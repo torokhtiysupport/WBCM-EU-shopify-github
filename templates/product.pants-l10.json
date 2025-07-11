@@ -13,7 +13,7 @@
       "type": "apps",
       "blocks": {
         "68bb6900-0755-4395-86b5-9a43a15aba1c": {
-          "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/product-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "type": "shopify://apps/schema-breadcrumbs/blocks/product-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
             "home_link": "/",
@@ -197,7 +197,7 @@
         "article_6bQi8y": {
           "type": "article",
           "settings": {
-            "title": "Warranty",
+            "title": "Return Policy",
             "text": "<p>You can return or exchange the item within 14 days of receiving it, as long as it's unwashed, unworn, and has all the barcodes intact. If you're not happy with the product, you can return it within 14 days of receipt, or exchange it for another item.</p>"
           }
         },
@@ -228,7 +228,6 @@
         "template--17877542043912__d2d4f5b9-644a-4fe1-b9c4-4fe2459463bd-16887259068edd12c0-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/pants-x-edition-best-for.jpg",
             "title": "BEST PANTS FOR:",
             "desc": "<ul><li>weightlifting</li><li>powerlifting</li><li>bodybuilding sessions</li></ul>",
             "horizontal_align": "left",
@@ -263,7 +262,6 @@
         "template--21030396330294__9222cec0-f847-4989-9afd-055ed05dd976-image-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/pants-x-edition-features.jpg",
             "title": "",
             "desc": "<ul><li><strong>Minimalist design</strong> – No distractions, just performance.</li><li><strong>Battle-tested fabric</strong> – Resistant to wear and tear.</li><li><strong>Reinforced waistband</strong> – Secure fit for maximum comfort.</li><li><strong>Optimized for training</strong> – Move freely, lift confidently.</li></ul>",
             "horizontal_align": "left",
