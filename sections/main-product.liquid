@@ -321,6 +321,9 @@
                                                             {% if block.settings.enable_payment_button %}
                                                                 {{ form | payment_button }}
                                                             {% endif %}
+                                                            {% if block.settings.amazon_url != blank %}
+                                                                <a class="button secondary-button button-amazon-black" href="{{ block.settings.amazon_url }}" ><span>BUY ON AMAZON</span></a>
+                                                            {% endif %}
 
                                                         </div>
                                                         <div class="product-form__shopify-payment-terms">
@@ -1498,6 +1501,11 @@
             "id": "thumbnails_show_border",
             "label": "Show thumbnail border",
             "default": false
+        },
+        {
+            "type": "text",
+            "id": "amazon_url",
+            "label": "Amazon URL"
         }
     ],
     "blocks": [
