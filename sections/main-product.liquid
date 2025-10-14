@@ -329,33 +329,6 @@
                                                                 >
                                                                     <span>BUY ON AMAZON</span>
                                                                 </a>
-
-                                                                <script>
-                                                                    document.addEventListener('DOMContentLoaded', () => {
-                                                                    const amazonButton = document.querySelector('.button-amazon-black');
-                                                                    const variantForm = document.querySelector('form[action^="/cart/add"]');
-                                                                    if (!amazonButton || !variantForm) return;
-
-                                                                    const productJsonEl = document.querySelector('[type="application/json"][data-product]');
-                                                                    if (!productJsonEl) return;
-
-                                                                    const productData = JSON.parse(productJsonEl.textContent);
-
-                                                                    variantForm.addEventListener('change', () => {
-                                                                        const variantId = document.querySelector('[name="id"]')?.value;
-                                                                        if (!variantId) return;
-
-                                                                        const currentVariant = productData.variants.find(v => v.id == variantId);
-                                                                        if (!currentVariant) return;
-
-                                                                        if (currentVariant.available) {
-                                                                        amazonButton.style.display = 'none';
-                                                                        } else {
-                                                                        amazonButton.style.display = 'inline-block';
-                                                                        }
-                                                                    });
-                                                                    });
-                                                                </script>
                                                             {% endif %}
 
                                                         </div>
@@ -1327,22 +1300,16 @@
     var saleBadge = document.querySelector('.product-badges .sale');
     var lastItemsBadge = document.querySelector('.product-badges .last-items');
     var addButton = document.querySelector('.product-form__add-btn');
+    var amazonButton = document.querySelector('.button-amazon-black');
 
     function updateBadge() {
-      if (addButton && addButton.hasAttribute('disabled')) {
-        if (soldOutBadge) {
-          soldOutBadge.style.display = 'inline';
-        }
-        if (comingSoonBadge) {
-          comingSoonBadge.style.display = 'inline';
-        }
+      var isSoldOut = addButton && addButton.hasAttribute('disabled');
+      if (isSoldOut) {
+        if (soldOutBadge) soldOutBadge.style.display = 'inline';
+        if (comingSoonBadge) comingSoonBadge.style.display = 'inline';
       } else {
-        if (soldOutBadge) {
-          soldOutBadge.style.display = 'none';
-        }
-        if (comingSoonBadge) {
-          comingSoonBadge.style.display = 'none';
-        }
+        if (soldOutBadge) soldOutBadge.style.display = 'none';
+        if (comingSoonBadge) comingSoonBadge.style.display = 'none';
       }
 
       var label = document.querySelector('.product-single__box__block .label');
@@ -1356,16 +1323,18 @@
         } else if (saleBadge) {
           saleBadge.style.display = 'none';
         }
-        if (lastItemsBadge) {
-          lastItemsBadge.style.display = 'inline';
-        }
+        if (lastItemsBadge) lastItemsBadge.style.display = 'inline';
+      }
+
+      if (amazonButton) {
+        amazonButton.style.display = isSoldOut ? 'inline-flex' : 'none';
       }
     }
 
     updateBadge();
 
     var observer = new MutationObserver(function(mutations) {
-      mutations.forEach(function(mutation) {
+      mutations.forEach(function() {
         updateBadge();
       });
     });
@@ -1373,9 +1342,7 @@
     var targetNode = document.querySelector('body');
     var config = { childList: true, subtree: true };
 
-    if (targetNode) {
-      observer.observe(targetNode, config);
-    }
+    if (targetNode) observer.observe(targetNode, config);
   });
 </script>
 <!-- End JS for Badges -->
