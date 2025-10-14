@@ -321,9 +321,13 @@
                                                             {% if block.settings.enable_payment_button %}
                                                                 {{ form | payment_button }}
                                                             {% endif %}
-                                                            {% if block.settings.amazon_url != blank %}
-                                                                <a class="button secondary-button button-amazon-black" href="{{ block.settings.amazon_url }}" ><span>BUY ON AMAZON</span></a>
-                                                            {% endif %}
+                                                            <a 
+                                                            class="button secondary-button button-amazon-black" 
+                                                            href="{{ block.settings.amazon_url }}" 
+                                                            style="{% if product.selected_or_first_available_variant.available %}display:none;{% endif %}"
+                                                            >
+                                                                <span>BUY ON AMAZON</span>
+                                                            </a>
 
                                                         </div>
                                                         <div class="product-form__shopify-payment-terms">
@@ -1346,6 +1350,37 @@
   });
 </script>
 <!-- End JS for Badges -->
+<script>
+document.addEventListener('DOMContentLoaded', () => {
+  const amazonButton = document.querySelector('.button-amazon-black');
+  const variantForm = document.querySelector('form[action^="/cart/add"]');
+  if (!variantForm || !amazonButton) return;
+
+  variantForm.addEventListener('change', () => {
+    const variantInput = document.querySelector('[name="id"]');
+    if (!variantInput) return;
+
+    const selectedOption = window?.Shopify?.product?.variants?.find?.(
+      v => v.id == variantInput.value
+    );
+
+    if (!selectedOption) {
+      const productDataEl = document.querySelector('[type="application/json"][data-product]');
+      if (productDataEl) {
+        const productData = JSON.parse(productDataEl.textContent);
+        const variant = productData.variants.find(v => v.id == variantInput.value);
+        if (variant) selectedOption = variant;
+      }
+    }
+
+    if (selectedOption && !selectedOption.available) {
+      amazonButton.style.display = 'inline-block';
+    } else {
+      amazonButton.style.display = 'none';
+    }
+  });
+});
+</script>
 
 {%- liquid
   if product.selected_or_first_available_variant.featured_media
