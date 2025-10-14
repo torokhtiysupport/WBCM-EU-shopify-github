@@ -9759,6 +9759,7 @@ section.description .container--tiny {
   align-items: center;
   justify-content: center;
   gap: 10px;
+  margin: 0 auto;
 }
 .button-amazon-black span:before {
   content: '';
