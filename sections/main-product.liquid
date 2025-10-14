@@ -327,6 +327,7 @@
                                                             {{ form | payment_terms }}
                                                         </div>
                                                     {% endform %}
+                                                    {% if section.settings.amazon_url != blank %}
                                                     <a 
                                                         class="button button-main button-amazon-black" 
                                                         href="{{ block.settings.amazon_url }}" 
@@ -334,6 +335,7 @@
                                                     >
                                                         <span>BUY ON AMAZON</span>
                                                     </a>
+                                                {% endif %}
                                                 </div>
 
                                             {%- when 'pickup' -%}
