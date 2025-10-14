@@ -327,13 +327,13 @@
                                                             {{ form | payment_terms }}
                                                         </div>
                                                     {% endform %}
-                                                    {% if block.settings.amazon_url != blank %}
-                                                        <a class="button secondary-button button-amazon-black" 
-                                                            href="{{ block.settings.amazon_url }}" 
-                                                            style="display:none;">
-                                                            <span>BUY ON AMAZON</span>
-                                                        </a>
-                                                    {% endif %}
+                                                    <a 
+                                                        class="button secondary-button button-amazon-black" 
+                                                        href="{{ block.settings.amazon_url }}" 
+                                                        style="display:none;"
+                                                    >
+                                                        <span>BUY ON AMAZON</span>
+                                                    </a>
                                                 </div>
 
                                             {%- when 'pickup' -%}
