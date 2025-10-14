@@ -9777,6 +9777,7 @@ section.description .container--tiny {
   font-weight: bold;
   text-transform: uppercase;
   display: block;
+  width: auto;
 }
 .button-main {
   background-color: #212121;
