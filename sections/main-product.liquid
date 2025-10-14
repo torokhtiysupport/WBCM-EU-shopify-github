@@ -321,13 +321,15 @@
                                                             {% if block.settings.enable_payment_button %}
                                                                 {{ form | payment_button }}
                                                             {% endif %}
-                                                            <a 
-                                                            class="button secondary-button button-amazon-black" 
-                                                            href="{{ block.settings.amazon_url }}" 
-                                                            style="{% if product.selected_or_first_available_variant.available %}display:none;{% endif %}"
-                                                            >
-                                                                <span>BUY ON AMAZON</span>
-                                                            </a>
+                                                            {% if block.settings.amazon_url != blank %}
+                                                                <a 
+                                                                class="button secondary-button button-amazon-black" 
+                                                                href="{{ block.settings.amazon_url }}" 
+                                                                style="{% if product.selected_or_first_available_variant.available %}display:none;{% endif %}"
+                                                                >
+                                                                    <span>BUY ON AMAZON</span>
+                                                                </a>
+                                                            {% endif %}
 
                                                         </div>
                                                         <div class="product-form__shopify-payment-terms">
