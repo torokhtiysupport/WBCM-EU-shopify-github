@@ -1291,59 +1291,29 @@
 {% endif %}
 
 <!-- JS for Badges -->
+<script> document.addEventListener('DOMContentLoaded', function() { var soldOutBadge = document.querySelector('.product-badges .sold-out'); var comingSoonBadge = document.querySelector('.product-badges .coming-soon'); var saleBadge = document.querySelector('.product-badges .sale'); var lastItemsBadge = document.querySelector('.product-badges .last-items'); var addButton = document.querySelector('.product-form__add-btn'); function updateBadge() { if (addButton && addButton.hasAttribute('disabled')) { if (soldOutBadge) { soldOutBadge.style.display = 'inline'; } if (comingSoonBadge) { comingSoonBadge.style.display = 'inline'; } } else { if (soldOutBadge) { soldOutBadge.style.display = 'none'; } if (comingSoonBadge) { comingSoonBadge.style.display = 'none'; } } var label = document.querySelector('.product-single__box__block .label'); if (soldOutBadge && soldOutBadge.style.display === 'inline') { if (saleBadge) saleBadge.style.display = 'none'; if (lastItemsBadge) lastItemsBadge.style.display = 'none'; } else { if (label && saleBadge) { saleBadge.style.display = 'inline'; } else if (saleBadge) { saleBadge.style.display = 'none'; } if (lastItemsBadge) { lastItemsBadge.style.display = 'inline'; } } } updateBadge(); var observer = new MutationObserver(function(mutations) { mutations.forEach(function(mutation) { updateBadge(); }); }); var targetNode = document.querySelector('body'); var config = { childList: true, subtree: true }; if (targetNode) { observer.observe(targetNode, config); } }); </script>
+<!-- End JS for Badges -->
+
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    var soldOutBadge = document.querySelector('.product-badges .sold-out');
-    var comingSoonBadge = document.querySelector('.product-badges .coming-soon');
-    var saleBadge = document.querySelector('.product-badges .sale');
-    var lastItemsBadge = document.querySelector('.product-badges .last-items');
     var addButton = document.querySelector('.product-form__add-btn');
     var amazonButton = document.querySelector('.button-amazon-black');
+    if (!addButton || !amazonButton) return;
 
-    function updateBadge() {
-      var isSoldOut = addButton && addButton.hasAttribute('disabled');
-      if (isSoldOut) {
-        if (soldOutBadge) soldOutBadge.style.display = 'inline';
-        if (comingSoonBadge) comingSoonBadge.style.display = 'inline';
+    function updateAmazonButton() {
+      if (addButton.hasAttribute('disabled')) {
+        amazonButton.style.display = 'inline-flex';
       } else {
-        if (soldOutBadge) soldOutBadge.style.display = 'none';
-        if (comingSoonBadge) comingSoonBadge.style.display = 'none';
-      }
-
-      var label = document.querySelector('.product-single__box__block .label');
-
-      if (soldOutBadge && soldOutBadge.style.display === 'inline') {
-        if (saleBadge) saleBadge.style.display = 'none';
-        if (lastItemsBadge) lastItemsBadge.style.display = 'none';
-      } else {
-        if (label && saleBadge) {
-          saleBadge.style.display = 'inline';
-        } else if (saleBadge) {
-          saleBadge.style.display = 'none';
-        }
-        if (lastItemsBadge) lastItemsBadge.style.display = 'inline';
-      }
-
-      if (amazonButton) {
-        amazonButton.style.display = isSoldOut ? 'inline-flex' : 'none';
+        amazonButton.style.display = 'none';
       }
     }
 
-    updateBadge();
+    updateAmazonButton();
 
-    var observer = new MutationObserver(function(mutations) {
-      mutations.forEach(function() {
-        updateBadge();
-      });
-    });
-
-    var targetNode = document.querySelector('body');
-    var config = { childList: true, subtree: true };
-
-    if (targetNode) observer.observe(targetNode, config);
+    var observer = new MutationObserver(updateAmazonButton);
+    observer.observe(document.body, { childList: true, subtree: true });
   });
 </script>
-<!-- End JS for Badges -->
 
 {%- liquid
   if product.selected_or_first_available_variant.featured_media
