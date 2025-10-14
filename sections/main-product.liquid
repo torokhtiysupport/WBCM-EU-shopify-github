@@ -322,11 +322,9 @@
                                                                 {{ form | payment_button }}
                                                             {% endif %}
                                                             {% if block.settings.amazon_url != blank %}
-                                                                <a 
-                                                                    class="button secondary-button button-amazon-black" 
+                                                                <a class="button secondary-button button-amazon-black" 
                                                                     href="{{ block.settings.amazon_url }}" 
-                                                                    style="{% if product.selected_or_first_available_variant.available %}display:none;{% endif %}"
-                                                                >
+                                                                    style="display:none;">
                                                                     <span>BUY ON AMAZON</span>
                                                                 </a>
                                                             {% endif %}
