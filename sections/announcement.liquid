@@ -95,7 +95,8 @@
     const distance = endDate - now;
 
     if (distance <= 0) {
-      el.innerHTML = "🎃 Promotion ended!";
+      el.style.display = "none";
+      clearInterval(timerInterval);
       return;
     }
 
@@ -108,7 +109,7 @@
   }
 
   updateTimer();
-  setInterval(updateTimer, 1000);
+  const timerInterval = setInterval(updateTimer, 1000);
 })();
 </script>
 {% endif %}
