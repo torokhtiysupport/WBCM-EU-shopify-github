@@ -5,8 +5,7 @@
 "cart_data": {{cart | json}}
 {%- if cart -%}
 
-{% assign reversed_items = cart.items | reverse %}
-{% for item in reversed_items %}
+{%- for item in cart.items reversed -%}
 ,"{{item.id}}": {{item.product | json}}
 ,"prod_tag_{{ forloop.index | minus: 1 }}": {{ item.product.tags | json }}
 	{% assign cartProdId = item.product.id | split: ',' %}
