@@ -39,8 +39,7 @@
                             <div class="cart__block cart__block--{{ block.type }}" {{ block.shopify_attributes }}>
                                 <div class="cart__products">
 
-                                    {% assign reversed_items = cart.items | reverse %}
-                                    {% for item in reversed_items %}
+                                    {% for item in cart.items %}
                                         <div class="cart__product">
                                             <div class="cart__row">
 
