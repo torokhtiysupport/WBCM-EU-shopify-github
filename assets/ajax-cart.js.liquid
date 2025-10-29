@@ -470,6 +470,8 @@ var ajaxCart = (function(module, $) {
       items.push(item);
     });
 
+    items.reverse();
+
     if (typeof thisItem.product_title != "undefined") {
 
       var thisImg;
