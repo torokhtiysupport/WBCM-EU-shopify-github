@@ -15,7 +15,7 @@
         "fde81176-0031-42f6-babd-05e0cfd2687c": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Halloween-banner-WBCM.jpg",
+            "image": "shopify://shop_images/Halloween-banner-WBCM-wide.jpg",
             "image_mobile": "shopify://shop_images/Halloween-banner-WBCM-mobile.jpg",
             "alignment": "bottom-center",
             "title": "",
@@ -26,38 +26,6 @@
             "link_style_2": "c-btn c-btn--primary",
             "link_title_2": "SHOP NOW",
             "link_2": "shopify://collections/accessories"
-          }
-        },
-        "image_xU8x3z": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/l-10-shorts-banner-desk.jpg",
-            "image_mobile": "shopify://shop_images/l-10-shorts-banner-mob.jpg",
-            "alignment": "bottom-center",
-            "title": "",
-            "text": "",
-            "link_style": "c-btn c-btn--primary",
-            "link_title": "",
-            "link": "",
-            "link_style_2": "c-btn c-btn--primary",
-            "link_title_2": "SHOP NOW",
-            "link_2": "shopify://products/mens-compression-shorts-l-10"
-          }
-        },
-        "section-slideshow-1": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/New-collection-strong-desktop-new.gif",
-            "image_mobile": "shopify://shop_images/New-collection-strong-mob-new-1.gif",
-            "alignment": "bottom-center",
-            "title": "",
-            "text": "",
-            "link_style": "c-btn c-btn--hollow",
-            "link_title": "SHOP NOW",
-            "link": "shopify://collections/new-arrivals",
-            "link_style_2": "c-btn c-btn--primary",
-            "link_title_2": "",
-            "link_2": ""
           }
         },
         "9bf15e77-545b-4d61-8855-5dfad503a3f3": {
@@ -74,22 +42,6 @@
             "link_style_2": "c-btn c-btn--hollow",
             "link_title_2": "Shop now",
             "link_2": "shopify://collections/accessories"
-          }
-        },
-        "83308ea5-1c8e-4267-8c12-79946a19ed46": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Leather_Belts_Desktop_Banner.jpg",
-            "image_mobile": "shopify://shop_images/Leather_Belt_Mobile_Banner.jpg",
-            "alignment": "bottom-center",
-            "title": "",
-            "text": "",
-            "link_style": "c-btn c-btn--hollow",
-            "link_title": "Shop Now",
-            "link": "shopify://collections/lifting-belts",
-            "link_style_2": "c-btn c-btn--hollow",
-            "link_title_2": "",
-            "link_2": "shopify://collections/sale"
           }
         },
         "section-slideshow-0": {
@@ -111,10 +63,7 @@
       },
       "block_order": [
         "fde81176-0031-42f6-babd-05e0cfd2687c",
-        "image_xU8x3z",
-        "section-slideshow-1",
         "9bf15e77-545b-4d61-8855-5dfad503a3f3",
-        "83308ea5-1c8e-4267-8c12-79946a19ed46",
         "section-slideshow-0"
       ],
       "custom_css": [
