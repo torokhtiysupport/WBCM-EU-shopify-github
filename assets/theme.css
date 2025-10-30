@@ -8521,17 +8521,15 @@ body.js-using-tab .js-product-slider .slick-slide.slick-active {
 /* ==========================================================================
    #LOADING ANIMATIONS (REST)
    ========================================================================== */
-body[data-anim-zoom="true"] .home-carousel__bg {
+/* body[data-anim-zoom="true"] .home-carousel__bg {
   -ms-transform: scale(1.1);
   -webkit-transform: scale(1.1);
-  transform: scale(1.1); }
+  transform: scale(1.1); } */
 
 body[data-anim-zoom="true"] .js-sr-loaded .collection__header-img,
 body[data-anim-zoom="true"] .js-sr-loaded .article__featured-media__img,
 body[data-anim-zoom="true"] .js-sr-loaded .home-intro__bg,
 body[data-anim-zoom="true"] .js-sr-loaded .home-delivery__bg,
-body[data-anim-zoom="true"] .js-slide-active .home-carousel__bg,
-body[data-anim-zoom="true"] .slick-current .home-carousel__bg,
 body[data-anim-zoom="true"] .password-content__bg {
   -webkit-animation: zoomout 10s ease forwards;
   -moz-animation: zoomout 10s ease forwards;
