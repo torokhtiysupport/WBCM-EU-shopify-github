@@ -171,28 +171,28 @@
           "type": "article",
           "settings": {
             "title": "Specs",
-            "text": "<p><strong>Length</strong>: 33 cm (13\")<br/><strong>Width</strong>: 6.4 cm (2.52\")<br/><strong>Thickness</strong>: 2 mm (0.08\")<br/><strong>Material</strong>: cotton</p>"
+            "text": "<ul><li><strong>Rope Length</strong> - 110” / 279 cm</li><li><strong>Handle Length</strong> - 5,1” / 23 cm</li><li><strong>Weight</strong> - 0,22 lb / 100 grams</li><li><strong>Material</strong> - steel cor with PVC coating</li><li><strong>Bearing</strong> - 360°</li><li><strong>Colors:</strong> pink, silver, black, blue</li></ul>"
           }
         },
         "template--17877542043912__87074456-7ab6-4b88-a550-43948518aedd-article-2": {
           "type": "article",
           "settings": {
             "title": "Intended Use",
-            "text": "<p>V1 Lifting Straps are designed for weightlifting, powerlifting, bodybuilding, and functional fitness.</p>"
+            "text": "<p>This jump rope is a perfect addition to any training routine, ideal for cross-training, cardio workouts, boxing, and general fitness. Use it for warm-ups, conditioning, agility drills, and endurance training to boost performance and coordination.</p>"
           }
         },
         "template--17877542043912__87074456-7ab6-4b88-a550-43948518aedd-article-3": {
           "type": "article",
           "settings": {
             "title": "Return Policy",
-            "text": "<p>We offer the return option for the item within 14 days after receiving it. Items must be unwashed and unworn with all barcodes intact.<br/>In case you're not fully satisfied with the product, you can return it within 14 days of receipt. The same is for exchanging the items.</p>"
+            "text": "<p>We offer the return option for the item within 14 days after receiving it. Items must be unwashed and unworn with all barcodes intact. If you're not fully satisfied with the product, you can return it within 14 days of receipt. The same is for exchanging the items.</p>"
           }
         },
         "template--17877542043912__87074456-7ab6-4b88-a550-43948518aedd-article-4": {
           "type": "article",
           "settings": {
             "title": "Care",
-            "text": "<p>Hand wash them with warm water and a mild detergent. Can be machine-washed as well. We do not recommend washing them very often as it influences its lifetime and damages the fabric. Allow the straps to air dry.</p>"
+            "text": "<p>After training, simply wipe the handles and cable with a dry or slightly damp cloth to remove sweat and dust.Avoid using the rope on rough or abrasive surfaces like concrete to prevent damage to the cable.Store the jump rope in a cool, dry place, loosely coiled to prevent kinks or damage to the steel core.Do not leave it under direct sunlight or in extreme heat, as this may affect the durability of the PVC coating and the handles.</p>"
           }
         }
       },
@@ -216,9 +216,9 @@
         "template--17877542043912__a735ea2d-2943-4430-99e1-06e648e32a7c-16887259068edd12c0-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/2_dbac428b.png",
-            "title": "",
-            "desc": "<p><strong>Unique design:<br/></strong>Based on Olympian experience, that gives ultimate grip comfort.<br/><strong>Increased performance:</strong><br/>Maximize your wrist strength and boost your lifts.<br/><strong>Heavy-duty:</strong><br/>Made of 100% Cotton, for withstanding<br/>many training sessions.<br/><strong>Prevent injuries:</strong><br/>WBCM straps make your grip more easier and protect your wrists.<br/><strong>Confident grip:</strong><br/>For lifting will help you increase both your reps and weights.<br/><strong>Approved:</strong><br/>By the world-class athletes and champions<br/>for your training performance.</p>",
+            "image": "shopify://shop_images/Jump-Rope-Suits-for.jpg",
+            "title": "SUITS FOR:",
+            "desc": "<ul><li>Cross-training</li><li>Boxing</li><li>Functional fitness</li><li>General workouts</li></ul>",
             "horizontal_align": "left",
             "link_title": "",
             "link": "",
@@ -235,11 +235,11 @@
       "settings": {
         "container": "large",
         "block_spacing": 2,
-        "section-bottom-margin": true,
+        "section-bottom-margin": false,
         "image_ratio": "1:1",
         "block_layout": "1/2",
-        "block_align": "left",
-        "vertical_align": "top",
+        "block_align": "right",
+        "vertical_align": "middle",
         "heading_size": 3,
         "link_style": "hollow"
       }
@@ -250,9 +250,9 @@
         "template--17877542043912__d2d4f5b9-644a-4fe1-b9c4-4fe2459463bd-16887259068edd12c0-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/540d.png",
-            "title": "BEST STRAPS FOR:",
-            "desc": "<p>WEIGHTLIFTING<br/>POWERLIFTING<br/>BODYBUILDING<br/>KETTLEBELL<br/>DUMBBELL<br/>FUNCTIONAL FITNESS</p>",
+            "image": "shopify://shop_images/Jump-Rope-Summary.jpg",
+            "title": "",
+            "desc": "<p><strong>Tangle-Free Experience</strong></p><p>High-quality ball-bearing system ensures smooth, fast, and tangle-free rotations.</p><p><strong>Adjustable Length</strong></p><p>9.8ft (~3m) cable, easily adjustable to fit all sizes. Ideal for Cross Training, boxing, cardio, etc.</p><p><strong>Lightweight & Durable</strong></p><p>Made from strong cable and lightweight materials that withstand intense training.</p><p><strong>Portable & Convenient</strong></p><p>Compact and easy to carry, perfect for workouts at the gym, outdoors, or while traveling.</p><p><strong>Great for All Skill Levels</strong></p><p>Suitable for beginners, fitness enthusiasts, and professional athletes.</p>",
             "horizontal_align": "left",
             "link_title": "",
             "link": "",
@@ -269,35 +269,51 @@
       "settings": {
         "container": "large",
         "block_spacing": 2,
-        "section-bottom-margin": true,
+        "section-bottom-margin": false,
         "image_ratio": "1:1",
-        "block_layout": "2/3",
-        "block_align": "right",
+        "block_layout": "1/2",
+        "block_align": "left",
         "vertical_align": "middle",
         "heading_size": 2,
         "link_style": "hollow"
       }
     },
-    "3d13f6f8-1da6-434e-b931-c7cd6227574e": {
-      "type": "section-video",
+    "section_image_with_text_n3T6hx": {
+      "type": "section-image-with-text",
       "blocks": {
-        "template--17877542043912__3d13f6f8-1da6-434e-b931-c7cd6227574e-1688733442073661d6-0": {
-          "type": "video",
+        "image_NmDUnV": {
+          "type": "image",
           "settings": {
-            "video_url": "https://www.youtube.com/watch?v=E8bM3rGq_aQ&t=1s",
-            "video_title": ""
+            "image": "shopify://shop_images/Jump-Rope-Summary.jpg",
+            "title": "",
+            "desc": "",
+            "horizontal_align": "left",
+            "link_title": "",
+            "link": "",
+            "bg_color_block": "rgba(0,0,0,0)",
+            "bg_color_content": "#ffffff",
+            "color_text": "#212121",
+            "text_heading_color": false
           }
         }
       },
       "block_order": [
-        "template--17877542043912__3d13f6f8-1da6-434e-b931-c7cd6227574e-1688733442073661d6-0"
+        "image_NmDUnV"
+      ],
+      "custom_css": [
+        ".o-layout {justify-content: center;}",
+        ".o-layout .o-layout__item:last-of-type {display: none;}"
       ],
       "settings": {
-        "title": "",
-        "desc": "",
-        "link_title": "More videos",
-        "link": "",
-        "overlay_strength": 50
+        "container": "large",
+        "block_spacing": 2,
+        "section-bottom-margin": false,
+        "image_ratio": "1:1",
+        "block_layout": "2/3",
+        "block_align": "left",
+        "vertical_align": "middle",
+        "heading_size": 2,
+        "link_style": "hollow"
       }
     },
     "f47e7c52-8d76-4826-80a7-073e15a0842e": {
@@ -306,10 +322,10 @@
         "template--17877542043912__f47e7c52-8d76-4826-80a7-073e15a0842e-16887257524b3aa6cc-0": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/4_f7b3b73a-5777-4a37-950c-bfcce38ae8c4.png",
-            "title": "Step 1:",
+            "image": "shopify://shop_images/Jump-Rope-Step-1.jpg",
+            "title": "STEP 1",
             "sub_title": "",
-            "desc": "<p>Wrap the strap on any side<br/></p>",
+            "desc": "<p>Adjust the length</p>",
             "link_title": "",
             "link": ""
           }
@@ -317,10 +333,10 @@
         "template--17877542043912__f47e7c52-8d76-4826-80a7-073e15a0842e-16887257524b3aa6cc-1": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/4-2.png",
-            "title": "Step 2:",
+            "image": "shopify://shop_images/Jump-Rope-Step-2.jpg",
+            "title": "STEP 2",
             "sub_title": "",
-            "desc": "<p>Feed the end underneath the bar from back to front<br/><br/></p>",
+            "desc": "<p>Take off the screws</p>",
             "link_title": "",
             "link": ""
           }
@@ -328,10 +344,10 @@
         "template--17877542043912__f47e7c52-8d76-4826-80a7-073e15a0842e-16887257524b3aa6cc-2": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/4-3.png",
-            "title": "Step 3:",
+            "image": "shopify://shop_images/Jump-Rope-Step-3.jpg",
+            "title": "STEP 3",
             "sub_title": "",
-            "desc": "<p>Flip it over<br/>once</p>",
+            "desc": "<p>Cut extra cables</p>",
             "link_title": "",
             "link": ""
           }
@@ -339,10 +355,10 @@
         "e5411bbb-14f8-4f86-8156-1b0525ebbbf2": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/4-4.png",
-            "title": "Step 4:",
+            "image": "shopify://shop_images/Jump-Rope-Step-4.jpg",
+            "title": "STEP 4",
             "sub_title": "",
-            "desc": "<p>Grab the strap from another side with fingers</p>",
+            "desc": "<p>Tighten the screws and put on end cups</p>",
             "link_title": "",
             "link": ""
           }
@@ -356,7 +372,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "title": "HOW TO USE STRAP",
+        "title": "HOW TO INSTALL & ADJUST JUMP ROPE:",
         "container": "large",
         "link_title": "Learn more",
         "link": "",
@@ -371,76 +387,6 @@
         "image_size": 100,
         "image_padding": 0,
         "image_ratio": "natural",
-        "image_fit": false,
-        "bg_color": "rgba(0,0,0,0)",
-        "color_image": "rgba(0,0,0,0)",
-        "color_text": "#212121",
-        "text_heading_color": false,
-        "grid_mobile": "1",
-        "mobile_layout": "carousel"
-      }
-    },
-    "9c5582dd-a5de-49f8-8aed-a7448ecc3dcc": {
-      "type": "section-multi-column-images",
-      "blocks": {
-        "template--17877542043912__9c5582dd-a5de-49f8-8aed-a7448ecc3dcc-16887257524b3aa6cc-0": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/straps.jpg",
-            "title": "GRIP TYPES",
-            "sub_title": "",
-            "desc": "<ol><li>✔ Deadlift ✔ Weightlifting</li><li>✔ Deadlift <strong>X</strong> Weightlifting</li></ol>",
-            "link_title": "",
-            "link": ""
-          }
-        },
-        "template--17877542043912__9c5582dd-a5de-49f8-8aed-a7448ecc3dcc-16887257524b3aa6cc-1": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/2_3_774ba48a-92b3-478d-a10c-3606e1a5d187.png",
-            "title": "RIGHT SIZE - INCREASED WEIGHTS",
-            "sub_title": "",
-            "desc": "<p>One size fits all. Max test strength of the straps is rated at 300kg (over 660 pounds!). 2mm (0.08\") thick, 6.4cm (2.52\") wide, with a special type of dual stitching to prevent tearing.</p>",
-            "link_title": "",
-            "link": ""
-          }
-        },
-        "template--17877542043912__9c5582dd-a5de-49f8-8aed-a7448ecc3dcc-16887257524b3aa6cc-2": {
-          "type": "text",
-          "settings": {
-            "image": "shopify://shop_images/3_3_dad6f064-27ef-4a93-9ab4-ec2349d68bfb.png",
-            "title": "DESIGNED BY A CHAMPION",
-            "sub_title": "",
-            "desc": "<p>Completely designed by <a href=\"https://www.instagram.com/torokhtiy/\"><span style=\"text-decoration:underline\">Oleksiy Torokhtiy</span></a>, an Olympian 2008 & 2012, the Olympic Lifting Straps \"V1\" represents the essence of WARM BODY COLD MIND. Dive into a realm where elite sport meets a winning spirit.</p>",
-            "link_title": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17877542043912__9c5582dd-a5de-49f8-8aed-a7448ecc3dcc-16887257524b3aa6cc-0",
-        "template--17877542043912__9c5582dd-a5de-49f8-8aed-a7448ecc3dcc-16887257524b3aa6cc-1",
-        "template--17877542043912__9c5582dd-a5de-49f8-8aed-a7448ecc3dcc-16887257524b3aa6cc-2"
-      ],
-      "custom_css": [
-        "li {list-style-position: inside;}"
-      ],
-      "settings": {
-        "title": "",
-        "container": "large",
-        "link_title": "",
-        "link": "",
-        "divider": false,
-        "section-bottom-margin": false,
-        "grid": 3,
-        "spacing": 3,
-        "alignment": "center",
-        "link_style": "hollow",
-        "heading_size": 3,
-        "image_toggle": true,
-        "image_size": 100,
-        "image_padding": 0,
-        "image_ratio": "1:1",
         "image_fit": false,
         "bg_color": "rgba(0,0,0,0)",
         "color_image": "rgba(0,0,0,0)",
@@ -496,9 +442,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
+            "max_width": 1200,
             "show_shop_reviews": false,
-            "empty_state": "empty_widget",
-            "max_width": 1200
+            "empty_state": "empty_widget"
           }
         }
       },
@@ -528,9 +474,8 @@
     "87074456-7ab6-4b88-a550-43948518aedd",
     "a735ea2d-2943-4430-99e1-06e648e32a7c",
     "d2d4f5b9-644a-4fe1-b9c4-4fe2459463bd",
-    "3d13f6f8-1da6-434e-b931-c7cd6227574e",
+    "section_image_with_text_n3T6hx",
     "f47e7c52-8d76-4826-80a7-073e15a0842e",
-    "9c5582dd-a5de-49f8-8aed-a7448ecc3dcc",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
     "169047038881f6c5ad",
     "product-recommendations"
