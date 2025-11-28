@@ -12,22 +12,6 @@
     "section-slideshow": {
       "type": "section-slideshow",
       "blocks": {
-        "fde81176-0031-42f6-babd-05e0cfd2687c": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/Thanksgiving-Day-desktop-WBCM.jpg",
-            "image_mobile": "shopify://shop_images/Thanksgiving-Day-mobile-WBCM.jpg",
-            "alignment": "bottom-center",
-            "title": "",
-            "text": "",
-            "link_style": "c-btn c-btn--primary",
-            "link_title": "",
-            "link": "",
-            "link_style_2": "c-btn c-btn--primary",
-            "link_title_2": "SHOP NOW",
-            "link_2": "shopify://collections/sale"
-          }
-        },
         "image_99f3tF": {
           "type": "image",
           "settings": {
@@ -95,7 +79,6 @@
         }
       },
       "block_order": [
-        "fde81176-0031-42f6-babd-05e0cfd2687c",
         "image_99f3tF",
         "image_FRDE73",
         "9bf15e77-545b-4d61-8855-5dfad503a3f3",
