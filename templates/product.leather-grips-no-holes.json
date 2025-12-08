@@ -13,7 +13,7 @@
       "type": "apps",
       "blocks": {
         "8fc05f88-c519-431b-a59a-731407277b05": {
-          "type": "shopify://apps/schema-breadcrumbs/blocks/product-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/product-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
             "home_link": "/",
@@ -162,7 +162,8 @@
         "enable_product_image_rounded_corners": false,
         "thumbnails_position": "bottom",
         "thumbnails_ratio": "1:1",
-        "thumbnails_show_border": false
+        "thumbnails_show_border": false,
+        "amazon_url": ""
       }
     },
     "79259a9f-544b-4e90-9f81-a7edf27ea1b8": {
@@ -295,6 +296,29 @@
       ],
       "settings": {
         "section-bottom-margin": false
+      }
+    },
+    "section_video_CGHmkC": {
+      "type": "section-video",
+      "blocks": {
+        "video_Atpazh": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://www.youtube.com/watch?v=tdEHby_DDDE",
+            "video_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_Atpazh"
+      ],
+      "name": "Video",
+      "settings": {
+        "title": "",
+        "desc": "",
+        "link_title": "More videos",
+        "link": "",
+        "overlay_strength": 50
       }
     },
     "f47e7c52-8d76-4826-80a7-073e15a0842e": {
@@ -439,7 +463,12 @@
       "blocks": {
         "e356709e-30b0-4584-a768-d48e4a306dbb": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
         }
       },
       "block_order": [
@@ -468,6 +497,7 @@
     "d2d4f5b9-644a-4fe1-b9c4-4fe2459463bd",
     "a735ea2d-2943-4430-99e1-06e648e32a7c",
     "49e82ed2-9c5f-40d5-8288-2ecc87b5a3fb",
+    "section_video_CGHmkC",
     "f47e7c52-8d76-4826-80a7-073e15a0842e",
     "62d3d923-340c-4ea4-b243-83cd2c075df9",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
