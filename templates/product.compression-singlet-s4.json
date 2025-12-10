@@ -118,7 +118,7 @@
             "align": "left",
             "popup_heading": "label",
             "popup_content": "",
-            "image": "shopify://shop_images/singlet-sizes.jpg",
+            "image": "shopify://shop_images/WEIGHTLIFTINGCOMPRESSIONSINGLETS-4SizeChart.jpg",
             "text": "",
             "icon": "icon-clothes-design-tape-measure",
             "icon_size": 1,
@@ -147,7 +147,8 @@
         "enable_product_image_rounded_corners": false,
         "thumbnails_position": "bottom",
         "thumbnails_ratio": "1:1",
-        "thumbnails_show_border": false
+        "thumbnails_show_border": false,
+        "amazon_url": ""
       }
     },
     "product_accordion_7iGnky": {
@@ -332,7 +333,7 @@
         "image_TMjMzp": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/singlet-sizes.jpg",
+            "image": "shopify://shop_images/WEIGHTLIFTINGCOMPRESSIONSINGLETS-4SizeChart.jpg",
             "title": "",
             "desc": "",
             "horizontal_align": "left",
@@ -350,7 +351,8 @@
       ],
       "custom_css": [
         ".o-layout {justify-content: center;}",
-        ".o-layout .o-layout__item:last-of-type {display: none;}"
+        ".o-layout .o-layout__item:last-of-type {display: none;}",
+        ".image-with-text__media-img {-webkit-animation: none !important; animation: none !important;}"
       ],
       "settings": {
         "container": "large",
@@ -410,7 +412,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
-            "max_width": 1200
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
