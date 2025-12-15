@@ -171,7 +171,7 @@
           "type": "article",
           "settings": {
             "title": "Specs",
-            "text": "<ul><li><strong>Rope Length</strong> - 110” / 279 cm</li><li><strong>Handle Length</strong> - 5,1” / 23 cm</li><li><strong>Weight</strong> - 0,22 lb / 100 grams</li><li><strong>Material</strong> - steel cor with PVC coating</li><li><strong>Bearing</strong> - 360°</li><li><strong>Colors:</strong> pink, silver, black, blue</li></ul>"
+            "text": "<ul><li><strong>Rope Length</strong> - 110” / 279 cm</li><li><strong>Handle Length</strong> - 5,1” / 13 cm</li><li><strong>Weight</strong> - 0,22 lb / 100 grams</li><li><strong>Material</strong> - steel cor with PVC coating</li><li><strong>Bearing</strong> - 360°</li><li><strong>Colors:</strong> pink, silver, black, blue</li></ul>"
           }
         },
         "template--17877542043912__87074456-7ab6-4b88-a550-43948518aedd-article-2": {
@@ -216,7 +216,7 @@
         "template--17877542043912__a735ea2d-2943-4430-99e1-06e648e32a7c-16887259068edd12c0-0": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Jump-Rope-Suits-for.jpg",
+            "image": "shopify://shop_images/Adjustable-Lightweight-Jump-Rope-A-content-1.jpg",
             "title": "SUITS FOR:",
             "desc": "<ul><li>Cross-training</li><li>Boxing</li><li>Functional fitness</li><li>General workouts</li></ul>",
             "horizontal_align": "left",
@@ -250,7 +250,7 @@
         "template--17877542043912__d2d4f5b9-644a-4fe1-b9c4-4fe2459463bd-16887259068edd12c0-1": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Jump-Rope-Summary.jpg",
+            "image": "shopify://shop_images/Adjustable-Lightweight-Jump-Rope-A-content-2.jpg",
             "title": "",
             "desc": "<p><strong>Tangle-Free Experience</strong></p><p>High-quality ball-bearing system ensures smooth, fast, and tangle-free rotations.</p><p><strong>Adjustable Length</strong></p><p>9.8ft (~3m) cable, easily adjustable to fit all sizes. Ideal for Cross Training, boxing, cardio, etc.</p><p><strong>Lightweight & Durable</strong></p><p>Made from strong cable and lightweight materials that withstand intense training.</p><p><strong>Portable & Convenient</strong></p><p>Compact and easy to carry, perfect for workouts at the gym, outdoors, or while traveling.</p><p><strong>Great for All Skill Levels</strong></p><p>Suitable for beginners, fitness enthusiasts, and professional athletes.</p>",
             "horizontal_align": "left",
@@ -284,7 +284,7 @@
         "image_NmDUnV": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Jump-Rope-Summary.jpg",
+            "image": "shopify://shop_images/Adjustable-Lightweight-Jump-Rope-A-content-3.jpg",
             "title": "",
             "desc": "",
             "horizontal_align": "left",
