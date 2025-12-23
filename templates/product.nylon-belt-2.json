@@ -131,7 +131,8 @@
         "enable_product_image_rounded_corners": false,
         "thumbnails_position": "bottom",
         "thumbnails_ratio": "1:1",
-        "thumbnails_show_border": false
+        "thumbnails_show_border": false,
+        "amazon_url": ""
       }
     },
     "8230057a-53d1-4747-aa71-0ce2e7c66573": {
@@ -172,6 +173,7 @@
         "template--18065832640776__8230057a-53d1-4747-aa71-0ce2e7c66573-article-3",
         "template--18065832640776__8230057a-53d1-4747-aa71-0ce2e7c66573-article-4"
       ],
+      "disabled": true,
       "settings": {
         "enable_sidebar": false,
         "cta_link_title": "Contact us",
@@ -201,6 +203,7 @@
       "block_order": [
         "template--18065832640776__385a335e-b6df-4fc4-a557-1e66c9db995a-16897796097658d468-0"
       ],
+      "disabled": true,
       "settings": {
         "container": "large",
         "block_spacing": 2,
@@ -255,6 +258,7 @@
         "template--18065832640776__adc77034-1924-463a-89b8-f0bbbb85a6dc-text-2",
         "template--18065832640776__adc77034-1924-463a-89b8-f0bbbb85a6dc-text-3"
       ],
+      "disabled": true,
       "settings": {
         "title": "Details",
         "container": "large",
@@ -294,6 +298,7 @@
       "block_order": [
         "template--18065832640776__7faa200f-72b5-4fc4-9226-c406fac67896-168977956440e2e457-0"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "desc": "",
@@ -340,6 +345,7 @@
         "7154509e-7b3b-4916-b304-76253d354dad",
         "f98b44c3-aa32-4e6b-abc2-70b276fc400e"
       ],
+      "disabled": true,
       "settings": {
         "container": "large",
         "block_spacing": 2,
@@ -366,6 +372,7 @@
       "block_order": [
         "template--18065832640776__e8c19ee4-aafe-42ce-a89b-d47772a7fd74-image-1"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": true,
         "autoplay_speed": 8,
@@ -420,7 +427,12 @@
       "blocks": {
         "40570156-6217-4c1a-a077-8edbc7b49133": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
         }
       },
       "block_order": [
