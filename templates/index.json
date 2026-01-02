@@ -15,8 +15,8 @@
         "image_99f3tF": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/Christmas-Sale-desktop-banner-2025_5616887d-8c36-473c-bfd3-e909f1789138.jpg",
-            "image_mobile": "shopify://shop_images/Christmas-Sale-mob-banner-2025.jpg",
+            "image": "shopify://shop_images/BUY-2-GET-1-Banner-collection.jpg",
+            "image_mobile": "shopify://shop_images/BUY-2-GET-1-Banner-mobile.jpg",
             "alignment": "bottom-center",
             "title": "",
             "text": "",
@@ -25,7 +25,7 @@
             "link": "",
             "link_style_2": "c-btn c-btn--primary",
             "link_title_2": "SHOP NOW",
-            "link_2": "shopify://collections/sale"
+            "link_2": "shopify://collections/accessories"
           }
         },
         "image_FRDE73": {
