@@ -552,7 +552,7 @@
                                                 <p class="linked-products-swatches_title">Composition: {{ product.metafields.custom.product_composition }}</p>
                                               {% endif %}
                                               <div class="size-swatches_container">
-                                              {% for linked_product in product.metafields.product.custom.related_composition_swatch_products.value %}
+                                              {% for linked_product in product.metafields.custom.related_composition_swatch_products.value %}
                                                 <div class="product-size_item">
                                                   <a href="{{- linked_product.url -}}" title="{{- linked_product.metafields.custom.product_composition -}}">
                                                       <p class="linked-products-size-swatches_name">{{- linked_product.metafields.custom.product_composition -}}</p>
@@ -583,7 +583,7 @@
                                                   {%- endfor -%}
                                                 {%- assign has_composition_swatches = false -%}
                                                   {%- for block in section.blocks -%}
-                                                      {%- if block.type == "composition_swatches" and product.metafields.product.custom.related_composition_swatch_products != blank -%}
+                                                      {%- if block.type == "composition_swatches" and product.metafields.custom.related_composition_swatch_products != blank -%}
                                                           {%- assign has_composition_swatches = true -%}
                                                       {%- endif -%}
                                                   {%- endfor -%}
