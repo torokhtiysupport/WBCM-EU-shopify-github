@@ -9528,6 +9528,7 @@ div.image-swatches_container a img {
 
 .size-swatches_container {
   margin-top: 12px;
+  margin-bottom: 24px;
   display: inline-flex;
 }
 
