@@ -78,6 +78,10 @@
             "border": true
           }
         },
+        "composition_swatches_D3Wg43": {
+          "type": "composition_swatches",
+          "settings": {}
+        },
         "size_swatches_yPxAtV": {
           "type": "size_swatches",
           "settings": {}
@@ -120,6 +124,7 @@
         "9ccc968f-b49e-44b5-9415-0599527f423e",
         "price",
         "db48bf56-e904-4604-9f21-89d04e9bf249",
+        "composition_swatches_D3Wg43",
         "size_swatches_yPxAtV",
         "variant_picker",
         "quantity_selector",
