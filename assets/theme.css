@@ -9542,7 +9542,7 @@ div.image-swatches_container a img {
   transition: box-shadow ease-in-out .15s;
 }
 
-.size-swatches_container .product-size_item:not(:last-of-type) {
+.size-swatches_container .product-size_item:not(:last-of-type), .composition-swatches_container .product-size_item:not(:last-of-type) {
   margin-right: 6px;
 }
 
