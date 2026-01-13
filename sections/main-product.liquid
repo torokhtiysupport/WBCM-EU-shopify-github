@@ -533,8 +533,8 @@
                                               </div>
 
                                             {%- when 'size_swatches' -%}
+                                            <div>
                                               {% if product.metafields.custom.product_size %}
-                                              <div>
                                                 <p class="linked-products-swatches_title">Size: {{ product.metafields.custom.product_size }}</p>
                                               {% endif %}
                                               <div class="size-swatches_container">
@@ -547,8 +547,8 @@
                                               {% endfor %}
                                               </div>
                                             {%- when 'composition_swatches' -%}
+                                            <div>
                                               {% if product.metafields.custom.product_composition %}
-                                              <div>
                                                 <p class="linked-products-swatches_title">Composition: {{ product.metafields.custom.product_composition }}</p>
                                               {% endif %}
                                               <div class="size-swatches_container">
@@ -560,7 +560,6 @@
                                                 </div>
                                               {% endfor %}
                                               </div>
-                                            </div>
 
                                             {%- when 'variant_picker' -%}
                                                 {%- assign has_image_swatches = false -%}
