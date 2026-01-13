@@ -9528,11 +9528,15 @@ div.image-swatches_container a img {
 
 .size-swatches_container {
   margin-top: 12px;
+  display: inline-flex;
+}
+
+.composition-swatches_container {
   margin-bottom: 24px;
   display: inline-flex;
 }
 
-.size-swatches_container .product-size_item:first-of-type, .product-size_item:hover, .product-size_item:focus {
+.size-swatches_container .product-size_item:first-of-type, .product-size_item:hover, .product-size_item:focus, .composition-swatches_container .product-size_item:first-of-type {
   border: 1px solid var(--color--text);
   box-shadow: 0 0 3px 1px var(--color--text-lightest);
   transition: border-color .3s ease-out;
