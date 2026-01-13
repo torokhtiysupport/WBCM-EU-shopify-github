@@ -9526,14 +9526,13 @@ div.image-swatches_container a img {
 
 /* Size Swatches Styles */
 
-.size-swatches_container {
+.size-swatches_container, .composition-swatches_container {
   margin-top: 12px;
   display: inline-flex;
 }
 
 .composition-swatches_container {
   margin-bottom: 24px;
-  display: inline-flex;
 }
 
 .size-swatches_container .product-size_item:first-of-type, .product-size_item:hover, .product-size_item:focus, .composition-swatches_container .product-size_item:first-of-type {
