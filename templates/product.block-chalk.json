@@ -13,7 +13,7 @@
       "type": "apps",
       "blocks": {
         "85a8195a-bd18-4a62-b2ab-2f1e519d893e": {
-          "type": "shopify://apps/schema-breadcrumbs/blocks/product-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
+          "type": "shopify://apps/schema-breadcrumbs-by-bogdan/blocks/product-block/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
           "settings": {
             "home": "Home",
             "home_link": "/",
@@ -131,7 +131,8 @@
         "enable_product_image_rounded_corners": false,
         "thumbnails_position": "bottom",
         "thumbnails_ratio": "1:1",
-        "thumbnails_show_border": false
+        "thumbnails_show_border": false,
+        "amazon_url": ""
       }
     },
     "product_accordion_3HnJEX": {
@@ -294,7 +295,7 @@
         "link_title": "Learn more",
         "link": "",
         "divider": false,
-        "section-bottom-margin": true,
+        "section-bottom-margin": false,
         "grid": 3,
         "spacing": 3,
         "alignment": "center",
@@ -311,6 +312,29 @@
         "text_heading_color": false,
         "grid_mobile": "1",
         "mobile_layout": "carousel"
+      }
+    },
+    "section_video_Ynk368": {
+      "type": "section-video",
+      "blocks": {
+        "video_di9FB9": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://youtu.be/EjTxxEZPM6k",
+            "video_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_di9FB9"
+      ],
+      "name": "Video",
+      "settings": {
+        "title": "",
+        "desc": "",
+        "link_title": "",
+        "link": "",
+        "overlay_strength": 50
       }
     },
     "2d5bd59f-a78a-4717-af1f-2177417b93ca": {
@@ -357,7 +381,12 @@
       "blocks": {
         "9827f988-21c5-4ea8-b629-f84c75497d8d": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
         }
       },
       "block_order": [
@@ -386,6 +415,7 @@
     "section_image_slideshow_3PX8fq",
     "section_image_with_text_4bwCbU",
     "section_multi_column_images_hXBh64",
+    "section_video_Ynk368",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
     "1691087074b17a7ec7",
     "product-recommendations"
