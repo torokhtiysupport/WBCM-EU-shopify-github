@@ -131,7 +131,8 @@
         "enable_product_image_rounded_corners": false,
         "thumbnails_position": "bottom",
         "thumbnails_ratio": "1:1",
-        "thumbnails_show_border": false
+        "thumbnails_show_border": false,
+        "amazon_url": ""
       }
     },
     "277bfd26-cc13-43c0-914c-fd4433c42133": {
@@ -141,7 +142,7 @@
           "type": "article",
           "settings": {
             "title": "Specs",
-            "text": "<ul><li>Length: 6,3 meters (20,7 ft)</li><li>Width: 3,8 cm (1,5’’)</li><li>Material: cotton</li></ul>"
+            "text": "<ul><li><strong>Length:</strong> 20,7 ft (6,3 meters)</li><li><strong>Width:</strong> 1,5’’ (3,8 cm)</li><li><strong>Material:</strong> cotton</li></ul>"
           }
         },
         "template--17775597322504__277bfd26-cc13-43c0-914c-fd4433c42133-article-2": {
@@ -228,28 +229,6 @@
         "vertical_align": "middle",
         "heading_size": 3,
         "link_style": "hollow"
-      }
-    },
-    "e65ea801-a136-48f0-9c87-5ca23b3dcb4c": {
-      "type": "section-video",
-      "blocks": {
-        "template--17775597322504__e65ea801-a136-48f0-9c87-5ca23b3dcb4c-168899706167833dbd-0": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://youtu.be/7_jF0wbuUao",
-            "video_title": ""
-          }
-        }
-      },
-      "block_order": [
-        "template--17775597322504__e65ea801-a136-48f0-9c87-5ca23b3dcb4c-168899706167833dbd-0"
-      ],
-      "settings": {
-        "title": "Instruction",
-        "desc": "",
-        "link_title": "More videos",
-        "link": "",
-        "overlay_strength": 50
       }
     },
     "42f88667-a0c3-4042-96ca-5304ce4d9e0e": {
@@ -434,7 +413,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
-            "max_width": 1200
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
@@ -462,7 +443,6 @@
     "main",
     "277bfd26-cc13-43c0-914c-fd4433c42133",
     "3e499de0-72f4-43fc-a17f-bab246eab652",
-    "e65ea801-a136-48f0-9c87-5ca23b3dcb4c",
     "42f88667-a0c3-4042-96ca-5304ce4d9e0e",
     "eec5d8cd-5402-4236-ab9c-650e091330dd",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
