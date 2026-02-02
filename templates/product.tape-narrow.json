@@ -367,6 +367,29 @@
         "mobile_layout": "carousel"
       }
     },
+    "section_video_6DXn8P": {
+      "type": "section-video",
+      "blocks": {
+        "video_nm8Lbc": {
+          "type": "video",
+          "settings": {
+            "video_url": "https://youtu.be/PL4CljNGEUY",
+            "video_title": ""
+          }
+        }
+      },
+      "block_order": [
+        "video_nm8Lbc"
+      ],
+      "name": "Video",
+      "settings": {
+        "title": "",
+        "desc": "",
+        "link_title": "More videos",
+        "link": "",
+        "overlay_strength": 50
+      }
+    },
     "2d5bd59f-a78a-4717-af1f-2177417b93ca": {
       "type": "section-faq",
       "blocks": {
@@ -445,6 +468,7 @@
     "3e499de0-72f4-43fc-a17f-bab246eab652",
     "42f88667-a0c3-4042-96ca-5304ce4d9e0e",
     "eec5d8cd-5402-4236-ab9c-650e091330dd",
+    "section_video_6DXn8P",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
     "16896123585e336543",
     "product-recommendations"
