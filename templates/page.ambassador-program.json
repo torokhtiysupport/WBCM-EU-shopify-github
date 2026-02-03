@@ -109,7 +109,7 @@
             "image": "shopify://shop_images/WBCM-tier-3.jpg",
             "title": "Tier 3",
             "sub_title": "",
-            "desc": "<ul><li>Welcome pack (TIER 1 + TIER 2 + any chosen products)</li><li>Repost on <a href=\"https://www.instagram.com/warmbody_coldmind\" target=\"_blank\" title=\"https://www.instagram.com/warmbody_coldmind\">WBCM page</a></li><li>10% personal discount</li><li>10% subscriber discount</li><li>20% Affiliate commission</li><li><a href=\"https://store.torokhtiy.com/collections/training-programs\" target=\"_blank\" title=\"https://store.torokhtiy.com/collections/training-programs\">1 Free Torokhtiy Program</a> / month</li><li>100$ quarter store credit</li><li>featuring on website as our athlete</li><li>50$ fixed bonus for 10000 views </li><li>+50$ bonus for same video hits 50000 views</li><li>occasional paid UGC briefs (fixed fee) for ads</li><li>access to a creator community with best practices for increasing subscribers and video's views</li><li>monthly resupply of the consumable products (tape, chalk, straps)</li><li>early access to new products before official launch</li><li>Opportunity to make signature collections</li><li>Collaboration posts with <a href=\"https://www.instagram.com/torokhtiy\" target=\"_blank\" title=\"https://www.instagram.com/torokhtiy\">@torokhtiy</a></li><li>Access to WBCM Media team to help you create videos for your page </li><li>Access to a Torokhtiy and WBCM events (seminars, podcasts, youtube shows)</li></ul>",
+            "desc": "<ul><li><strong>Welcome pack (TIER 1 + TIER 2 + any chosen products)</strong></li><li>Repost on <a href=\"https://www.instagram.com/warmbody_coldmind\" target=\"_blank\" title=\"https://www.instagram.com/warmbody_coldmind\">WBCM page</a></li><li>10% personal discount</li><li>10% subscriber discount</li><li>20% Affiliate commission</li><li><a href=\"https://store.torokhtiy.com/collections/training-programs\" target=\"_blank\" title=\"https://store.torokhtiy.com/collections/training-programs\">1 Free Torokhtiy Program</a> / month</li><li>100$ quarter store credit</li><li>featuring on website as our athlete</li><li>50$ fixed bonus for 10000 views </li><li>+50$ bonus for same video hits 50000 views</li><li>occasional paid UGC briefs (fixed fee) for ads</li><li>access to a creator community with best practices for increasing subscribers and video's views</li><li>monthly resupply of the consumable products (tape, chalk, straps)</li><li>early access to new products before official launch</li><li>Opportunity to make signature collections</li><li>Collaboration posts with <a href=\"https://www.instagram.com/torokhtiy\" target=\"_blank\" title=\"https://www.instagram.com/torokhtiy\">@torokhtiy</a></li><li>Access to WBCM Media team to help you create videos for your page </li><li>Access to a Torokhtiy and WBCM events (seminars, podcasts, youtube shows)</li></ul>",
             "link_title": "",
             "link": ""
           }
@@ -121,7 +121,9 @@
         "text_ePgbBX"
       ],
       "custom_css": [
-        "ul li {text-align: left;}"
+        "ul li {text-align: left;}",
+        ".multi-column__item {border-radius: 12px; box-shadow: var(--color--drop-shadow) 0 3px 18px 0;}",
+        ".grid-layout {align-items: flex-start;}"
       ],
       "name": "Multicolumn with images",
       "settings": {
