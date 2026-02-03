@@ -57,6 +57,27 @@
         "section-bottom-margin": false
       }
     },
+    "section_custom_ayjTMG": {
+      "type": "section-custom",
+      "blocks": {
+        "button_eRJyVx": {
+          "type": "button",
+          "settings": {
+            "title": "Go to form now",
+            "link": "https://forms.gle/cJfGUkDQijpE29ca7",
+            "color": "primary",
+            "size": "big",
+            "width": "1/3"
+          }
+        }
+      },
+      "block_order": [
+        "button_eRJyVx"
+      ],
+      "settings": {
+        "section-bottom-margin": false
+      }
+    },
     "section_multi_column_images_BPabDT": {
       "type": "section-multi-column-images",
       "blocks": {
@@ -164,6 +185,7 @@
     "e43a4ac8-9da9-489b-bbb7-e8aa7df132cb",
     "7527dea2-dfd5-4743-a415-ef9deab2063b",
     "section_rich_text_c6UktH",
+    "section_custom_ayjTMG",
     "section_multi_column_images_BPabDT",
     "b58f81d4-68de-4ff6-8aa4-2c96528476c9",
     "a6c51a19-35df-48af-83de-450529132b44"
