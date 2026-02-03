@@ -126,8 +126,8 @@
         "ul li:not(:last-of-type) {border-bottom: 1px solid #000;}",
         ".multi-column__item {border-radius: 12px; box-shadow: var(--color--drop-shadow) 0 3px 18px 0;}",
         ".grid-layout {align-items: flex-start;}",
-        ".grid-layout .multi-column__item:first-of-type ul li:nth-child(n + 6),.grid-layout .multi-column__item:first-of-type ul li:nth-child(n + 6) a {color: #999999;}",
-        ".grid-layout > div:nth-of-type(2) ul li:nth-child(n + 13),.grid-layout > div:nth-of-type(2) ul li:nth-child(n + 13) a {color: #999999;}"
+        ".grid-layout .multi-column__item:first-of-type ul li:nth-child(n + 6),.grid-layout .multi-column__item:first-of-type ul li:nth-child(n + 6) a {color: #c4c4c4;}",
+        ".grid-layout > div:nth-of-type(2) ul li:nth-child(n + 13),.grid-layout > div:nth-of-type(2) ul li:nth-child(n + 13) a {color: #c4c4c4;}"
       ],
       "name": "Multicolumn with images",
       "settings": {
