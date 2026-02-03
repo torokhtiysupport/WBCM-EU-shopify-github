@@ -47,36 +47,6 @@
         "section-bottom-margin": true
       }
     },
-    "b58f81d4-68de-4ff6-8aa4-2c96528476c9": {
-      "type": "section-rich-text",
-      "settings": {
-        "full_width": false,
-        "section_title": "",
-        "text": "<p>You have a chance to become a <strong>\"Warm Body Cold Mind\"</strong> ambassador!</p><p>If you are active in sports, you like <strong>WBCM</strong> clothes and want to be a part of <strong>\"Warm Body Cold Mind\"</strong> gang - fill the form below.</p><p></p>",
-        "section-bottom-margin": true
-      }
-    },
-    "a6c51a19-35df-48af-83de-450529132b44": {
-      "type": "section-custom",
-      "blocks": {
-        "template--18075906375944__a6c51a19-35df-48af-83de-450529132b44-button-1": {
-          "type": "button",
-          "settings": {
-            "title": "Go to form now",
-            "link": "https://forms.gle/cJfGUkDQijpE29ca7",
-            "color": "primary",
-            "size": "big",
-            "width": "1/3"
-          }
-        }
-      },
-      "block_order": [
-        "template--18075906375944__a6c51a19-35df-48af-83de-450529132b44-button-1"
-      ],
-      "settings": {
-        "section-bottom-margin": false
-      }
-    },
     "section_rich_text_c6UktH": {
       "type": "section-rich-text",
       "name": "Rich text",
@@ -93,10 +63,10 @@
         "text_imPKQC": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/tier-1-ambassador-program.jpg",
+            "image": "shopify://shop_images/WBCM-tier-1.jpg",
             "title": "Tier 1",
             "sub_title": "",
-            "desc": "<ul><li>Welcome pack (tape, chalk, collars, straps)</li><li>Repost on <a href=\"https://www.instagram.com/warmbody_coldmind\" target=\"_blank\" title=\"https://www.instagram.com/warmbody_coldmind\">WBCM page</a></li><li>10% personal discount</li><li>5% subscriber discount</li><li>10% Affiliate commission</li></ul>",
+            "desc": "<ul><li><strong>Welcome pack (tape, chalk, collars, straps)</strong></li><li>Repost on <a href=\"https://www.instagram.com/warmbody_coldmind\" target=\"_blank\" title=\"https://www.instagram.com/warmbody_coldmind\">WBCM page</a></li><li>10% personal discount</li><li>5% subscriber discount</li><li>10% Affiliate commission</li></ul>",
             "link_title": "",
             "link": ""
           }
@@ -104,10 +74,10 @@
         "text_x8Dk6N": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/tier-2-ambassador-program.jpg",
+            "image": "shopify://shop_images/WBCM-tier-2.jpg",
             "title": "Tier 2",
             "sub_title": "",
-            "desc": "<ul><li>Welcome pack (TIER 1 + nylon belt, t-shirt)</li><li>Repost on <a href=\"https://www.instagram.com/warmbody_coldmind\" target=\"_blank\" title=\"https://www.instagram.com/warmbody_coldmind\">WBCM page</a></li><li>1 Free <a href=\"https://store.torokhtiy.com/collections/training-programs\" target=\"_blank\" title=\"https://store.torokhtiy.com/collections/training-programs\">Torokhtiy Program</a> / month</li><li>$100 quarter store credit</li><li>featuring on website as our athlete</li><li>10% personal discount</li><li>10% subscriber discount</li><li>15% Affiliate commission</li><li>$50 fixed bonus for 10000 views </li><li>+$50 bonus for same video hits 50000 views</li><li>occasional paid UGC briefs (fixed fee) for ads</li><li>access to a creator community with best practices for increasing subscribers and video's views</li></ul>",
+            "desc": "<ul><li><strong>Welcome pack (TIER 1 + nylon belt, t-shirt)</strong></li><li>Repost on <a href=\"https://www.instagram.com/warmbody_coldmind\" target=\"_blank\" title=\"https://www.instagram.com/warmbody_coldmind\">WBCM page</a></li><li>10% personal discount</li><li>10% subscriber discount</li><li>15% Affiliate commission</li><li><a href=\"https://store.torokhtiy.com/collections/training-programs\" target=\"_blank\" title=\"https://store.torokhtiy.com/collections/training-programs\">1 Free Torokhtiy Program</a> / month</li><li>100$ quarter store credit</li><li>featuring on website as our athlete</li><li>50$ fixed bonus for 10000 views</li><li>+50$ bonus for same video hits 50000 views</li><li>occasional paid UGC briefs (fixed fee) for ads</li><li>access to a creator community with best practices for increasing subscribers and video's views</li></ul>",
             "link_title": "",
             "link": ""
           }
@@ -115,10 +85,10 @@
         "text_ePgbBX": {
           "type": "text",
           "settings": {
-            "image": "shopify://shop_images/tier-3-ambassador-program.jpg",
+            "image": "shopify://shop_images/WBCM-tier-3.jpg",
             "title": "Tier 3",
             "sub_title": "",
-            "desc": "<ul><li>Welcome pack (TIER 1 + TIER 2 + any chosen products)</li><li>Repost on <a href=\"https://www.instagram.com/warmbody_coldmind\" target=\"_blank\" title=\"https://www.instagram.com/warmbody_coldmind\">WBCM page</a></li><li>1 Free <a href=\"https://store.torokhtiy.com/collections/training-programs\" target=\"_blank\" title=\"https://store.torokhtiy.com/collections/training-programs\">Torokhtiy Program</a> / month</li><li>$100 quarter store credit</li><li>featuring on website as our athlete</li><li>monthly resupply of the consumable products (tape, chalk, straps)</li><li>early access to new products before official launch</li><li>10% personal discount</li><li>10% subscriber discount</li><li>20% Affiliate commission<br/>$50 fixed bonus for 10000 views </li><li>+$50 bonus for same video hits 50000 views</li><li>occasional paid UGC briefs (fixed fee) for ads</li><li>access to a creator community with best practices for increasing subscribers and video's views</li><li>Opportunity to make signature collections</li><li>Collaboration posts with <a href=\"https://www.instagram.com/torokhtiy\" target=\"_blank\" title=\"https://www.instagram.com/torokhtiy\">@torokhtiy</a></li><li>Access to WBCM Media team to help you create videos for your page </li><li>Access to a Torokhtiy and WBCM events (seminars, podcasts, youtube shows)</li></ul>",
+            "desc": "<ul><li>Welcome pack (TIER 1 + TIER 2 + any chosen products)</li><li>Repost on <a href=\"https://www.instagram.com/warmbody_coldmind\" target=\"_blank\" title=\"https://www.instagram.com/warmbody_coldmind\">WBCM page</a></li><li>10% personal discount</li><li>10% subscriber discount</li><li>20% Affiliate commission</li><li><a href=\"https://store.torokhtiy.com/collections/training-programs\" target=\"_blank\" title=\"https://store.torokhtiy.com/collections/training-programs\">1 Free Torokhtiy Program</a> / month</li><li>100$ quarter store credit</li><li>featuring on website as our athlete</li><li>50$ fixed bonus for 10000 views </li><li>+50$ bonus for same video hits 50000 views</li><li>occasional paid UGC briefs (fixed fee) for ads</li><li>access to a creator community with best practices for increasing subscribers and video's views</li><li>monthly resupply of the consumable products (tape, chalk, straps)</li><li>early access to new products before official launch</li><li>Opportunity to make signature collections</li><li>Collaboration posts with <a href=\"https://www.instagram.com/torokhtiy\" target=\"_blank\" title=\"https://www.instagram.com/torokhtiy\">@torokhtiy</a></li><li>Access to WBCM Media team to help you create videos for your page </li><li>Access to a Torokhtiy and WBCM events (seminars, podcasts, youtube shows)</li></ul>",
             "link_title": "",
             "link": ""
           }
@@ -156,6 +126,36 @@
         "text_heading_color": false,
         "grid_mobile": "1",
         "mobile_layout": "carousel"
+      }
+    },
+    "b58f81d4-68de-4ff6-8aa4-2c96528476c9": {
+      "type": "section-rich-text",
+      "settings": {
+        "full_width": false,
+        "section_title": "",
+        "text": "<p>You have a chance to become a <strong>\"Warm Body Cold Mind\"</strong> ambassador!</p><p>If you are active in sports, you like <strong>WBCM</strong> clothes and want to be a part of <strong>\"Warm Body Cold Mind\"</strong> gang - fill the form below.</p><p></p>",
+        "section-bottom-margin": true
+      }
+    },
+    "a6c51a19-35df-48af-83de-450529132b44": {
+      "type": "section-custom",
+      "blocks": {
+        "template--18075906375944__a6c51a19-35df-48af-83de-450529132b44-button-1": {
+          "type": "button",
+          "settings": {
+            "title": "Go to form now",
+            "link": "https://forms.gle/cJfGUkDQijpE29ca7",
+            "color": "primary",
+            "size": "big",
+            "width": "1/3"
+          }
+        }
+      },
+      "block_order": [
+        "template--18075906375944__a6c51a19-35df-48af-83de-450529132b44-button-1"
+      ],
+      "settings": {
+        "section-bottom-margin": false
       }
     }
   },
