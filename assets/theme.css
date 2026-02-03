@@ -9821,3 +9821,13 @@ section.description .container--tiny {
   height: 14px;
   background: url("https://cdn.shopify.com/s/files/1/0061/2142/2937/files/icon-checked.png?v=1770115796") center/contain no-repeat;
 }
+.ambasador-tiers .multi-column__item:first-of-type ul li:nth-child(n + 6)::before, .ambasador-tiers > div:nth-of-type(2) ul li:nth-child(n + 13)::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.5em;
+  width: 14px;
+  height: 14px;
+  background: url("https://cdn.shopify.com/s/files/1/0061/2142/2937/files/icon-delete.png?v=1770115861") center/contain no-repeat;
+  filter: invert(78%) sepia(0%) saturate(0%) hue-rotate(0deg) brightness(92%) contrast(90%);
+}
