@@ -121,7 +121,6 @@
         "text_ePgbBX"
       ],
       "custom_css": [
-        "ul {margin-left: 0;}",
         "ul li {text-align: left; list-style: none;}",
         "ul li:not(:last-of-type) {border-bottom: 1px solid #000;}",
         ".multi-column__item {border-radius: 12px; box-shadow: var(--color--drop-shadow) 0 3px 18px 0;}",
