@@ -9811,3 +9811,16 @@ section.description .container--tiny {
 .ambasador-tiers > div:nth-of-type(2) ul li:nth-child(n + 13) a {
   color: #c4c4c4;
 }
+.ambasador-tiers .multi-column__desc ul li {
+  position: relative;
+  padding-left: 24px;
+}
+.ambasador-tiers .multi-column__desc ul li::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0.3em;
+  width: 14px;
+  height: 14px;
+  background: url("https://cdn.shopify.com/s/files/1/0061/2142/2937/files/icon-checked.png?v=1770115796") center/contain no-repeat;
+}
