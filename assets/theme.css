@@ -9816,7 +9816,7 @@ section.description .container--tiny {
   content: "";
   position: absolute;
   left: 0;
-  top: 0.3em;
+  top: 0.5em;
   width: 14px;
   height: 14px;
   background: url("https://cdn.shopify.com/s/files/1/0061/2142/2937/files/icon-checked.png?v=1770115796") center/contain no-repeat;
