@@ -9812,7 +9812,7 @@ section.description .container--tiny {
   position: relative;
   padding-left: 24px;
 }
-.ambasador-tiers .multi-column__item:first-of-type ul li:nth-child(-n + 5)::before, .ambasador-tiers > div:nth-of-type(2) ul li:nth-child(-n + 12)::before {
+.ambasador-tiers .multi-column__item:first-of-type ul li:nth-child(-n + 5)::before, .ambasador-tiers > div:nth-of-type(2) ul li:nth-child(-n + 12)::before, .ambasador-tiers > div:nth-of-type(3) ul li::before {
   content: "";
   position: absolute;
   left: 0;
