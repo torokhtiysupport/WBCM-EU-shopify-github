@@ -9835,3 +9835,9 @@ section.description .container--tiny {
 .ambasador-tiers .multi-column__text {
   margin: 0 20px;
 }
+
+@media screen and (max-width: 768px) {
+  .ambasador-tiers .multi-column__text {
+    margin: 0 10px;
+  }
+}
