@@ -118,7 +118,7 @@
             "align": "left",
             "popup_heading": "label",
             "popup_content": "",
-            "image": "shopify://shop_images/MENS-STRONG-OVERSIZE-T-SHIRT-SIZEGUIDE.jpg",
+            "image": "shopify://shop_images/oversized-t-shirt-strong-women.jpg",
             "text": "",
             "icon": "icon-clothes-design-tape-measure",
             "icon_size": 1,
@@ -205,7 +205,7 @@
         "image_G9hk9e": {
           "type": "image",
           "settings": {
-            "image": "shopify://shop_images/MENS-STRONG-OVERSIZE-T-SHIRT-SIZEGUIDE.jpg",
+            "image": "shopify://shop_images/oversized-t-shirt-strong-women.jpg",
             "title": "Product Information:",
             "desc": "<ul><li>100% Premium Cotton</li><li>Wash inside out with similar colors</li><li>Do not beach or tumble dry</li><li>Made in Ukraine</li></ul>",
             "horizontal_align": "left",
