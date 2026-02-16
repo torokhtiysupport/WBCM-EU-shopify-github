@@ -14,6 +14,7 @@
       "blocks": {
         "image_99f3tF": {
           "type": "image",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/St._Valentines_Sale_2000_x_610.jpg",
             "image_mobile": "shopify://shop_images/St._Valentines_Sale_Mob.jpg",
@@ -30,7 +31,6 @@
         },
         "image_FRDE73": {
           "type": "image",
-          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/BUY-2-GET-1-Banner-desktop-new.jpg",
             "image_mobile": "shopify://shop_images/BUY-2-GET-1-Banner-mobile-new.jpg",
