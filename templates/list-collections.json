@@ -1,1 +1,99 @@
-{"sections":{"main":{"type":"main-list-collections","settings":{}}},"order":["main"]}
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "collection_BJ8eKK": {
+          "type": "collection",
+          "settings": {
+            "collection": "wrist-wraps"
+          }
+        },
+        "collection_ybV9aP": {
+          "type": "collection",
+          "settings": {
+            "collection": "barbell-collars-clamps"
+          }
+        },
+        "collection_awB8Le": {
+          "type": "collection",
+          "settings": {
+            "collection": "lifting-grips"
+          }
+        },
+        "collection_GhbYCf": {
+          "type": "collection",
+          "settings": {
+            "collection": "knee-sleeves"
+          }
+        },
+        "collection_MLtXpH": {
+          "type": "collection",
+          "settings": {
+            "collection": "lifting-straps"
+          }
+        },
+        "collection_p78Y9Y": {
+          "type": "collection",
+          "settings": {
+            "collection": "weightlifting-singlets"
+          }
+        },
+        "collection_7pMGFx": {
+          "type": "collection",
+          "settings": {
+            "collection": "lifting-belts"
+          }
+        },
+        "collection_jUwH3Y": {
+          "type": "collection",
+          "settings": {
+            "collection": "gym-chalk"
+          }
+        },
+        "collection_JtexEm": {
+          "type": "collection",
+          "settings": {
+            "collection": "t-shirts"
+          }
+        },
+        "collection_er7Wrw": {
+          "type": "collection",
+          "settings": {
+            "collection": "weightlifting-socks"
+          }
+        }
+      },
+      "block_order": [
+        "collection_BJ8eKK",
+        "collection_ybV9aP",
+        "collection_awB8Le",
+        "collection_GhbYCf",
+        "collection_MLtXpH",
+        "collection_p78Y9Y",
+        "collection_7pMGFx",
+        "collection_jUwH3Y",
+        "collection_JtexEm",
+        "collection_er7Wrw"
+      ],
+      "settings": {
+        "display_type": "selected",
+        "sort": "alphabetical",
+        "grid": 2,
+        "overlay_strength": 30
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
