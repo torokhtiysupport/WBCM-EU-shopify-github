@@ -136,7 +136,8 @@
         "enable_product_image_rounded_corners": false,
         "thumbnails_position": "bottom",
         "thumbnails_ratio": "1:1",
-        "thumbnails_show_border": false
+        "thumbnails_show_border": false,
+        "amazon_url": ""
       }
     },
     "product_accordion_MD6j6x": {
@@ -146,28 +147,28 @@
           "type": "article",
           "settings": {
             "title": "Specs",
-            "text": "<p><strong>Sizing:</strong> S, M, L<br/><strong>Width:</strong> 1\"<br/><strong>Material:</strong> leather<br/><strong>Colors:</strong> salat, beige, brown, blue, aqua, yellow, red, pink</p>"
+            "text": "<ul><li><strong>Material:</strong> Neoprene, Cotton</li><li><strong>Breathable</strong> mesh lining</li><li><strong>Height:</strong> 10cm (3,94\")</li><li><strong>Thickness:</strong> 5mm (0,2\")</li><li><strong>D-ring:</strong> 5mm (0,2\")</li><li><strong>Adjusted velcro</strong> and safe stitching</li></ul>"
           }
         },
         "article_gDRxH3": {
           "type": "article",
           "settings": {
             "title": "Intended Use",
-            "text": "<p>Perfect for various fitness activities, i.e., Olympic weightlifting, Powerlifting, bodybuilding, Strongman training, functional fitness, and kettlebell workouts.</p>"
+            "text": "<p>WBCM Ankle Straps are designed for cable machines and resistance training to target glutes, legs, and hips during strength and functional workouts.</p>"
           }
         },
         "article_j3FeUE": {
           "type": "article",
           "settings": {
             "title": "Return Policy",
-            "text": "<p>We offer the return option for the item within 14 days after receiving it. Items must be unwashed and unworn with all barcodes intact. If you're not fully satisfied with the product, you can return it within 14 days of receipt. The same is for exchanging the items.</p>"
+            "text": "<p>We offer the return option for the item within 14 days after receiving it. Items must be unwashed and unworn with all barcodes intact.</p><p>In case you're not fully satisfied with the product, you can return it within 14 days of receipt. The same is for exchanging the items.</p>"
           }
         },
         "article_VCiaqD": {
           "type": "article",
           "settings": {
             "title": "Care",
-            "text": "<p>Wipe the wraps with a wet tissue. Not recommended for machine washing because it influences the lifetime and damages the fabric.</p>"
+            "text": "<p>Not recommended for machine washing, tumble drying, or bleaching. Hand wash it in cold water using a mild soap or cleaner, or wipe it with a wet tissue. Allow to air dry naturally in a well-ventilated area away from heat sources and sunlight. Always allow the straps to air dry completely before the next use.</p>"
           }
         }
       },
@@ -182,60 +183,6 @@
         "cta_link_title": "Contact us",
         "cta_link": "",
         "cta_style": "link"
-      }
-    },
-    "section_video_XRAKgP": {
-      "type": "section-video",
-      "blocks": {
-        "video_Yd9P4q": {
-          "type": "video",
-          "settings": {
-            "video_url": "https://youtu.be/d9qYbvUflI4",
-            "video_title": ""
-          }
-        }
-      },
-      "block_order": [
-        "video_Yd9P4q"
-      ],
-      "name": "Video",
-      "settings": {
-        "title": "",
-        "desc": "",
-        "link_title": "",
-        "link": "",
-        "overlay_strength": 50
-      }
-    },
-    "section_custom_cFp38f": {
-      "type": "section-custom",
-      "blocks": {
-        "text_xNqaRw": {
-          "type": "text",
-          "settings": {
-            "title": "THE RIGHT SIZE SELECTION",
-            "text": "",
-            "link_title": "Learn more",
-            "link": "",
-            "align": "center",
-            "width": "1/2"
-          }
-        },
-        "image_hpTRVp": {
-          "type": "image",
-          "settings": {
-            "image": "shopify://shop_images/leather-wrist-wraps-sizes.webp",
-            "link": "",
-            "width": "2/3"
-          }
-        }
-      },
-      "block_order": [
-        "text_xNqaRw",
-        "image_hpTRVp"
-      ],
-      "settings": {
-        "section-bottom-margin": false
       }
     },
     "2d5bd59f-a78a-4717-af1f-2177417b93ca": {
@@ -282,7 +229,12 @@
       "blocks": {
         "9827f988-21c5-4ea8-b629-f84c75497d8d": {
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
+          "settings": {
+            "review_data": "sample_data",
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
+          }
         }
       },
       "block_order": [
@@ -308,8 +260,6 @@
     "170056398848b74346",
     "main",
     "product_accordion_MD6j6x",
-    "section_video_XRAKgP",
-    "section_custom_cFp38f",
     "2d5bd59f-a78a-4717-af1f-2177417b93ca",
     "1691087074b17a7ec7",
     "product-recommendations"
