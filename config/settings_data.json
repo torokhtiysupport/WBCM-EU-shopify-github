@@ -129,7 +129,7 @@
           "message_show": true,
           "home_page_only": false,
           "message_text": "INDEPENDENCE DAY SALE!",
-          "message_link": "shopify://collections/accessories",
+          "message_link": "shopify://collections/sale",
           "message_color_bg": "#ffe500",
           "message_color_text": "#000000",
           "enable_timer": false,
