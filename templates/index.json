@@ -15,6 +15,23 @@
         "image_aprHB6": {
           "type": "image",
           "settings": {
+            "image": "shopify://shop_images/US-Independence-Day-Sale-WBCM-banner-desktop.jpg",
+            "image_mobile": "shopify://shop_images/US-Independence-Day-Sale-WBCM-banner-mobile.jpg",
+            "alignment": "bottom-center",
+            "title": "",
+            "text": "",
+            "link_style": "c-btn c-btn--primary",
+            "link_title": "",
+            "link": "",
+            "link_style_2": "c-btn c-btn--primary",
+            "link_title_2": "SHOP NOW",
+            "link_2": "shopify://collections/accessories"
+          }
+        },
+        "image_QXeLpf": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
             "image": "shopify://shop_images/BUY-2-GET-1-Banner-desktop-new.jpg",
             "image_mobile": "shopify://shop_images/BUY-2-GET-1-Banner-mobile-new.jpg",
             "alignment": "bottom-center",
@@ -63,6 +80,7 @@
       },
       "block_order": [
         "image_aprHB6",
+        "image_QXeLpf",
         "9bf15e77-545b-4d61-8855-5dfad503a3f3",
         "section-slideshow-0"
       ],
